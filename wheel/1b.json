@@ -312,6 +312,30 @@
       "1.1.0": {
         "abstra-1.1.0-py3-none-any.whl": "0.31.0@abstra-0.31.0-py3-none-any.whl"
       },
+      "1.10.0": {
+        "abstra-1.10.0-py3-none-any.whl": {
+          "requires_dist": [
+            "colorama ==0.4.6",
+            "colour ==0.1.5",
+            "fire ==0.5.0",
+            "Flask ==2.2.2",
+            "Flask-Cors ==4.0.0",
+            "flask-sock ==0.6.0",
+            "jedi ==0.19.0",
+            "multipart ==0.2.4",
+            "progress ==1.6",
+            "PyJWT ==2.8.0",
+            "requests ==2.31.0",
+            "simple-websocket ==0.10.1",
+            "simplejson ==3.19.1",
+            "validators ==0.20.0",
+            "Werkzeug ==2.2.3"
+          ]
+        }
+      },
+      "1.10.1": {
+        "abstra-1.10.1-py3-none-any.whl": "1.10.0@abstra-1.10.0-py3-none-any.whl"
+      },
       "1.2.0": {
         "abstra-1.2.0-py3-none-any.whl": "0.31.0@abstra-0.31.0-py3-none-any.whl"
       },
@@ -400,97 +424,79 @@
         "abstra-1.8.1-py3-none-any.whl": "1.5.0@abstra-1.5.0-py3-none-any.whl"
       },
       "1.8.10": {
-        "abstra-1.8.10-py3-none-any.whl": {
-          "requires_dist": [
-            "colorama ==0.4.6",
-            "colour ==0.1.5",
-            "fire ==0.5.0",
-            "Flask ==2.2.2",
-            "Flask-Cors ==4.0.0",
-            "flask-sock ==0.6.0",
-            "jedi ==0.19.0",
-            "multipart ==0.2.4",
-            "progress ==1.6",
-            "PyJWT ==2.8.0",
-            "requests ==2.31.0",
-            "simple-websocket ==0.10.1",
-            "simplejson ==3.19.1",
-            "validators ==0.20.0",
-            "Werkzeug ==2.2.3"
-          ]
-        }
+        "abstra-1.8.10-py3-none-any.whl": "1.10.0@abstra-1.10.0-py3-none-any.whl"
       },
       "1.8.11": {
-        "abstra-1.8.11-py3-none-any.whl": "1.8.10@abstra-1.8.10-py3-none-any.whl"
+        "abstra-1.8.11-py3-none-any.whl": "1.10.0@abstra-1.10.0-py3-none-any.whl"
       },
       "1.8.12": {
-        "abstra-1.8.12-py3-none-any.whl": "1.8.10@abstra-1.8.10-py3-none-any.whl"
+        "abstra-1.8.12-py3-none-any.whl": "1.10.0@abstra-1.10.0-py3-none-any.whl"
       },
       "1.8.13": {
-        "abstra-1.8.13-py3-none-any.whl": "1.8.10@abstra-1.8.10-py3-none-any.whl"
+        "abstra-1.8.13-py3-none-any.whl": "1.10.0@abstra-1.10.0-py3-none-any.whl"
       },
       "1.8.14": {
-        "abstra-1.8.14-py3-none-any.whl": "1.8.10@abstra-1.8.10-py3-none-any.whl"
+        "abstra-1.8.14-py3-none-any.whl": "1.10.0@abstra-1.10.0-py3-none-any.whl"
       },
       "1.8.15": {
-        "abstra-1.8.15-py3-none-any.whl": "1.8.10@abstra-1.8.10-py3-none-any.whl"
+        "abstra-1.8.15-py3-none-any.whl": "1.10.0@abstra-1.10.0-py3-none-any.whl"
       },
       "1.8.16": {
-        "abstra-1.8.16-py3-none-any.whl": "1.8.10@abstra-1.8.10-py3-none-any.whl"
+        "abstra-1.8.16-py3-none-any.whl": "1.10.0@abstra-1.10.0-py3-none-any.whl"
       },
       "1.8.18": {
-        "abstra-1.8.18-py3-none-any.whl": "1.8.10@abstra-1.8.10-py3-none-any.whl"
+        "abstra-1.8.18-py3-none-any.whl": "1.10.0@abstra-1.10.0-py3-none-any.whl"
       },
       "1.8.19": {
-        "abstra-1.8.19-py3-none-any.whl": "1.8.10@abstra-1.8.10-py3-none-any.whl"
+        "abstra-1.8.19-py3-none-any.whl": "1.10.0@abstra-1.10.0-py3-none-any.whl"
       },
       "1.8.2": {
         "abstra-1.8.2-py3-none-any.whl": "1.5.0@abstra-1.5.0-py3-none-any.whl"
       },
       "1.8.20": {
-        "abstra-1.8.20-py3-none-any.whl": "1.8.10@abstra-1.8.10-py3-none-any.whl"
+        "abstra-1.8.20-py3-none-any.whl": "1.10.0@abstra-1.10.0-py3-none-any.whl"
       },
       "1.8.21": {
-        "abstra-1.8.21-py3-none-any.whl": "1.8.10@abstra-1.8.10-py3-none-any.whl"
+        "abstra-1.8.21-py3-none-any.whl": "1.10.0@abstra-1.10.0-py3-none-any.whl"
       },
       "1.8.22": {
-        "abstra-1.8.22-py3-none-any.whl": "1.8.10@abstra-1.8.10-py3-none-any.whl"
+        "abstra-1.8.22-py3-none-any.whl": "1.10.0@abstra-1.10.0-py3-none-any.whl"
       },
       "1.8.23": {
-        "abstra-1.8.23-py3-none-any.whl": "1.8.10@abstra-1.8.10-py3-none-any.whl"
+        "abstra-1.8.23-py3-none-any.whl": "1.10.0@abstra-1.10.0-py3-none-any.whl"
       },
       "1.8.24": {
-        "abstra-1.8.24-py3-none-any.whl": "1.8.10@abstra-1.8.10-py3-none-any.whl"
+        "abstra-1.8.24-py3-none-any.whl": "1.10.0@abstra-1.10.0-py3-none-any.whl"
       },
       "1.8.25": {
-        "abstra-1.8.25-py3-none-any.whl": "1.8.10@abstra-1.8.10-py3-none-any.whl"
+        "abstra-1.8.25-py3-none-any.whl": "1.10.0@abstra-1.10.0-py3-none-any.whl"
       },
       "1.8.26": {
-        "abstra-1.8.26-py3-none-any.whl": "1.8.10@abstra-1.8.10-py3-none-any.whl"
+        "abstra-1.8.26-py3-none-any.whl": "1.10.0@abstra-1.10.0-py3-none-any.whl"
       },
       "1.8.27": {
-        "abstra-1.8.27-py3-none-any.whl": "1.8.10@abstra-1.8.10-py3-none-any.whl"
+        "abstra-1.8.27-py3-none-any.whl": "1.10.0@abstra-1.10.0-py3-none-any.whl"
       },
       "1.8.28": {
-        "abstra-1.8.28-py3-none-any.whl": "1.8.10@abstra-1.8.10-py3-none-any.whl"
+        "abstra-1.8.28-py3-none-any.whl": "1.10.0@abstra-1.10.0-py3-none-any.whl"
       },
       "1.8.29": {
-        "abstra-1.8.29-py3-none-any.whl": "1.8.10@abstra-1.8.10-py3-none-any.whl"
+        "abstra-1.8.29-py3-none-any.whl": "1.10.0@abstra-1.10.0-py3-none-any.whl"
       },
       "1.8.3": {
         "abstra-1.8.3-py3-none-any.whl": "1.5.0@abstra-1.5.0-py3-none-any.whl"
       },
       "1.8.30": {
-        "abstra-1.8.30-py3-none-any.whl": "1.8.10@abstra-1.8.10-py3-none-any.whl"
+        "abstra-1.8.30-py3-none-any.whl": "1.10.0@abstra-1.10.0-py3-none-any.whl"
       },
       "1.8.31": {
-        "abstra-1.8.31-py3-none-any.whl": "1.8.10@abstra-1.8.10-py3-none-any.whl"
+        "abstra-1.8.31-py3-none-any.whl": "1.10.0@abstra-1.10.0-py3-none-any.whl"
       },
       "1.8.32": {
-        "abstra-1.8.32-py3-none-any.whl": "1.8.10@abstra-1.8.10-py3-none-any.whl"
+        "abstra-1.8.32-py3-none-any.whl": "1.10.0@abstra-1.10.0-py3-none-any.whl"
       },
       "1.8.33": {
-        "abstra-1.8.33-py3-none-any.whl": "1.8.10@abstra-1.8.10-py3-none-any.whl"
+        "abstra-1.8.33-py3-none-any.whl": "1.10.0@abstra-1.10.0-py3-none-any.whl"
       },
       "1.8.4": {
         "abstra-1.8.4-py3-none-any.whl": "1.5.0@abstra-1.5.0-py3-none-any.whl"
@@ -505,61 +511,61 @@
         "abstra-1.8.7-py3-none-any.whl": "1.5.0@abstra-1.5.0-py3-none-any.whl"
       },
       "1.8.8": {
-        "abstra-1.8.8-py3-none-any.whl": "1.8.10@abstra-1.8.10-py3-none-any.whl"
+        "abstra-1.8.8-py3-none-any.whl": "1.10.0@abstra-1.10.0-py3-none-any.whl"
       },
       "1.8.9": {
-        "abstra-1.8.9-py3-none-any.whl": "1.8.10@abstra-1.8.10-py3-none-any.whl"
+        "abstra-1.8.9-py3-none-any.whl": "1.10.0@abstra-1.10.0-py3-none-any.whl"
       },
       "1.9.0": {
-        "abstra-1.9.0-py3-none-any.whl": "1.8.10@abstra-1.8.10-py3-none-any.whl"
+        "abstra-1.9.0-py3-none-any.whl": "1.10.0@abstra-1.10.0-py3-none-any.whl"
       },
       "1.9.1": {
-        "abstra-1.9.1-py3-none-any.whl": "1.8.10@abstra-1.8.10-py3-none-any.whl"
+        "abstra-1.9.1-py3-none-any.whl": "1.10.0@abstra-1.10.0-py3-none-any.whl"
       },
       "1.9.10": {
-        "abstra-1.9.10-py3-none-any.whl": "1.8.10@abstra-1.8.10-py3-none-any.whl"
+        "abstra-1.9.10-py3-none-any.whl": "1.10.0@abstra-1.10.0-py3-none-any.whl"
       },
       "1.9.11": {
-        "abstra-1.9.11-py3-none-any.whl": "1.8.10@abstra-1.8.10-py3-none-any.whl"
+        "abstra-1.9.11-py3-none-any.whl": "1.10.0@abstra-1.10.0-py3-none-any.whl"
       },
       "1.9.12": {
-        "abstra-1.9.12-py3-none-any.whl": "1.8.10@abstra-1.8.10-py3-none-any.whl"
+        "abstra-1.9.12-py3-none-any.whl": "1.10.0@abstra-1.10.0-py3-none-any.whl"
       },
       "1.9.13": {
-        "abstra-1.9.13-py3-none-any.whl": "1.8.10@abstra-1.8.10-py3-none-any.whl"
+        "abstra-1.9.13-py3-none-any.whl": "1.10.0@abstra-1.10.0-py3-none-any.whl"
       },
       "1.9.14": {
-        "abstra-1.9.14-py3-none-any.whl": "1.8.10@abstra-1.8.10-py3-none-any.whl"
+        "abstra-1.9.14-py3-none-any.whl": "1.10.0@abstra-1.10.0-py3-none-any.whl"
       },
       "1.9.15": {
-        "abstra-1.9.15-py3-none-any.whl": "1.8.10@abstra-1.8.10-py3-none-any.whl"
+        "abstra-1.9.15-py3-none-any.whl": "1.10.0@abstra-1.10.0-py3-none-any.whl"
       },
       "1.9.16": {
-        "abstra-1.9.16-py3-none-any.whl": "1.8.10@abstra-1.8.10-py3-none-any.whl"
+        "abstra-1.9.16-py3-none-any.whl": "1.10.0@abstra-1.10.0-py3-none-any.whl"
       },
       "1.9.2": {
-        "abstra-1.9.2-py3-none-any.whl": "1.8.10@abstra-1.8.10-py3-none-any.whl"
+        "abstra-1.9.2-py3-none-any.whl": "1.10.0@abstra-1.10.0-py3-none-any.whl"
       },
       "1.9.3": {
-        "abstra-1.9.3-py3-none-any.whl": "1.8.10@abstra-1.8.10-py3-none-any.whl"
+        "abstra-1.9.3-py3-none-any.whl": "1.10.0@abstra-1.10.0-py3-none-any.whl"
       },
       "1.9.4": {
-        "abstra-1.9.4-py3-none-any.whl": "1.8.10@abstra-1.8.10-py3-none-any.whl"
+        "abstra-1.9.4-py3-none-any.whl": "1.10.0@abstra-1.10.0-py3-none-any.whl"
       },
       "1.9.5": {
-        "abstra-1.9.5-py3-none-any.whl": "1.8.10@abstra-1.8.10-py3-none-any.whl"
+        "abstra-1.9.5-py3-none-any.whl": "1.10.0@abstra-1.10.0-py3-none-any.whl"
       },
       "1.9.6": {
-        "abstra-1.9.6-py3-none-any.whl": "1.8.10@abstra-1.8.10-py3-none-any.whl"
+        "abstra-1.9.6-py3-none-any.whl": "1.10.0@abstra-1.10.0-py3-none-any.whl"
       },
       "1.9.7": {
-        "abstra-1.9.7-py3-none-any.whl": "1.8.10@abstra-1.8.10-py3-none-any.whl"
+        "abstra-1.9.7-py3-none-any.whl": "1.10.0@abstra-1.10.0-py3-none-any.whl"
       },
       "1.9.8": {
-        "abstra-1.9.8-py3-none-any.whl": "1.8.10@abstra-1.8.10-py3-none-any.whl"
+        "abstra-1.9.8-py3-none-any.whl": "1.10.0@abstra-1.10.0-py3-none-any.whl"
       },
       "1.9.9": {
-        "abstra-1.9.9-py3-none-any.whl": "1.8.10@abstra-1.8.10-py3-none-any.whl"
+        "abstra-1.9.9-py3-none-any.whl": "1.10.0@abstra-1.10.0-py3-none-any.whl"
       }
     }
   },
@@ -11598,6 +11604,9 @@
       "1.31.41": {
         "botocore_a_la_carte_lex_models-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_lex_models-1.29.100-py3-none-any.whl"
       },
+      "1.31.42": {
+        "botocore_a_la_carte_lex_models-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_lex_models-1.29.100-py3-none-any.whl"
+      },
       "1.31.5": {
         "botocore_a_la_carte_lex_models-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_lex_models-1.29.100-py3-none-any.whl"
       },
@@ -12098,6 +12107,9 @@
       },
       "1.31.41": {
         "botocore_a_la_carte_textract-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_textract-1.29.100-py3-none-any.whl"
+      },
+      "1.31.42": {
+        "botocore_a_la_carte_textract-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_textract-1.29.100-py3-none-any.whl"
       },
       "1.31.5": {
         "botocore_a_la_carte_textract-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_textract-1.29.100-py3-none-any.whl"
@@ -14072,6 +14084,9 @@
       },
       "0.0.202": {
         "cdklabs.appsync_utils-0.0.202-py3-none-any.whl": "0.0.191@cdklabs.appsync_utils-0.0.191-py3-none-any.whl"
+      },
+      "0.0.203": {
+        "cdklabs.appsync_utils-0.0.203-py3-none-any.whl": "0.0.191@cdklabs.appsync_utils-0.0.191-py3-none-any.whl"
       },
       "0.0.21": {
         "cdklabs.appsync_utils-0.0.21-py3-none-any.whl": {
@@ -30575,6 +30590,9 @@
       },
       "19.3.1": {
         "Faker-19.3.1-py3-none-any.whl": "19.0.0@Faker-19.0.0-py3-none-any.whl"
+      },
+      "19.4.0": {
+        "Faker-19.4.0-py3-none-any.whl": "19.0.0@Faker-19.0.0-py3-none-any.whl"
       },
       "4.0.0": {
         "Faker-4.0.0-py3-none-any.whl": {
@@ -57468,6 +57486,21 @@
       "0.0.13": {
         "margsoft-0.0.13-py3-none-any.whl": "0.0.1@margsoft-0.0.1-py3-none-any.whl"
       },
+      "0.0.14": {
+        "margsoft-0.0.14-py3-none-any.whl": "0.0.1@margsoft-0.0.1-py3-none-any.whl"
+      },
+      "0.0.15": {
+        "margsoft-0.0.15-py3-none-any.whl": "0.0.1@margsoft-0.0.1-py3-none-any.whl"
+      },
+      "0.0.16": {
+        "margsoft-0.0.16-py3-none-any.whl": "0.0.1@margsoft-0.0.1-py3-none-any.whl"
+      },
+      "0.0.17": {
+        "margsoft-0.0.17-py3-none-any.whl": "0.0.1@margsoft-0.0.1-py3-none-any.whl"
+      },
+      "0.0.18": {
+        "margsoft-0.0.18-py3-none-any.whl": "0.0.1@margsoft-0.0.1-py3-none-any.whl"
+      },
       "0.0.3": {
         "margsoft-0.0.3-py3-none-any.whl": "0.0.1@margsoft-0.0.1-py3-none-any.whl"
       },
@@ -58859,6 +58892,36 @@
             "mergedeep",
             "mkdocs-literate-nav",
             "mkdocs>=1.5",
+            "pyyaml-env-tag",
+            "pyyaml>=5.1",
+            "spdx-lookup",
+            "tomli-w"
+          ],
+          "requires_python": ">=3.11"
+        }
+      },
+      "0.34.2": {
+        "mknodes-0.34.2-py3-none-any.whl": "0.34.1@mknodes-0.34.1-py3-none-any.whl"
+      },
+      "0.34.3": {
+        "mknodes-0.34.3-py3-none-any.whl": "0.34.1@mknodes-0.34.1-py3-none-any.whl"
+      },
+      "0.34.4": {
+        "mknodes-0.34.4-py3-none-any.whl": {
+          "requires_dist": [
+            "anybadge",
+            "click",
+            "coloraide",
+            "cssutils",
+            "fsspec",
+            "git-changelog",
+            "gitpython",
+            "mergedeep",
+            "mkdocs-literate-nav",
+            "mkdocs-material",
+            "mkdocs-section-index",
+            "mkdocs>=1.5",
+            "mkdocstrings[python]",
             "pyyaml-env-tag",
             "pyyaml>=5.1",
             "spdx-lookup",
@@ -100183,6 +100246,9 @@
       "0.1.2": {
         "streamlit_antd_components-0.1.2-py3-none-any.whl": "0.0.1@streamlit_antd_components-0.0.1-py3-none-any.whl"
       },
+      "0.1.20": {
+        "streamlit_antd_components-0.1.20-py3-none-any.whl": "0.1.10@streamlit_antd_components-0.1.10-py3-none-any.whl"
+      },
       "0.1.3": {
         "streamlit_antd_components-0.1.3-py3-none-any.whl": "0.0.1@streamlit_antd_components-0.0.1-py3-none-any.whl"
       },
@@ -114315,6 +114381,9 @@
       },
       "68.1.0.1": {
         "types_setuptools-68.1.0.1-py3-none-any.whl": "57.0.0@types_setuptools-57.0.0-py3-none-any.whl"
+      },
+      "68.2.0.0": {
+        "types_setuptools-68.2.0.0-py3-none-any.whl": "57.0.0@types_setuptools-57.0.0-py3-none-any.whl"
       }
     }
   },

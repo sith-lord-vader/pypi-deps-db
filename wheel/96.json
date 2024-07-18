@@ -8635,6 +8635,9 @@
       "1.31.41": {
         "botocore_a_la_carte_apprunner-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_apprunner-1.29.100-py3-none-any.whl"
       },
+      "1.31.42": {
+        "botocore_a_la_carte_apprunner-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_apprunner-1.29.100-py3-none-any.whl"
+      },
       "1.31.5": {
         "botocore_a_la_carte_apprunner-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_apprunner-1.29.100-py3-none-any.whl"
       },
@@ -29229,6 +29232,26 @@
       },
       "2.0.1": {
         "dfipy-2.0.1-py3-none-any.whl": "2.0.0@dfipy-2.0.0-py3-none-any.whl"
+      },
+      "3.0.0": {
+        "dfipy-3.0.0-py3-none-any.whl": {
+          "provides_extras": [
+            "analyse",
+            "complete",
+            "show"
+          ],
+          "requires_dist": [
+            "geopandas (>=0.13.2,<0.14.0) ; extra == \"analyse\" or extra == \"complete\"",
+            "h3 (>=3.7.6,<4.0.0) ; extra == \"analyse\" or extra == \"complete\"",
+            "keplergl (>=0.3.2,<0.4.0) ; extra == \"show\" or extra == \"complete\"",
+            "pandas (>=2.0.1,<3.0.0)",
+            "requests (>=2.30.0,<3.0.0)",
+            "setuptools (>=67.8.0,<68.0.0)",
+            "sseclient-py (>=1.7.2,<2.0.0)",
+            "tqdm (>=4.65.0,<5.0.0)"
+          ],
+          "requires_python": ">=3.8.1,<4.0.0"
+        }
       }
     }
   },
@@ -36674,6 +36697,9 @@
       },
       "0.2.4": {
         "fps_retrolab-0.2.4-py3-none-any.whl": "0.1.10@fps_retrolab-0.1.10-py3-none-any.whl"
+      },
+      "0.2.5": {
+        "fps_retrolab-0.2.5-py3-none-any.whl": "0.1.10@fps_retrolab-0.1.10-py3-none-any.whl"
       }
     }
   },
@@ -39136,6 +39162,9 @@
           ],
           "requires_python": ">=3.9"
         }
+      },
+      "1.12.0": {
+        "gitutils-1.12.0-py3-none-any.whl": "1.11.0@gitutils-1.11.0-py3-none-any.whl"
       }
     }
   },
@@ -57772,6 +57801,9 @@
       "0.0.3": {
         "openAIInsight-0.0.3-py3-none-any.whl": "0.0.10@openAIInsight-0.0.10-py3-none-any.whl"
       },
+      "0.0.30": {
+        "openAIInsight-0.0.30-py3-none-any.whl": "0.0.18@openAIInsight-0.0.18-py3-none-any.whl"
+      },
       "0.0.4": {
         "openAIInsight-0.0.4-py3-none-any.whl": "0.0.10@openAIInsight-0.0.10-py3-none-any.whl"
       },
@@ -61056,6 +61088,26 @@
             "retrying (!=1.3.0,>=1.2.3)",
             "six (>=1.9.0)",
             "sushy (>=4.4.0)"
+          ],
+          "requires_python": ">=3.6"
+        }
+      },
+      "2.16.0": {
+        "proliantutils-2.16.0-py3-none-any.whl": {
+          "requires_dist": [
+            "jsonschema (>=2.6.0)",
+            "oslo.concurrency (>=3.8.0)",
+            "oslo.serialization (>=1.10.0)",
+            "oslo.utils (>=3.20.0)",
+            "pbr (>=2.0.0)",
+            "pyOpenSSL (>=19.1.0)",
+            "pyasn1-lextudio (>=1.1.0)",
+            "pyasn1-modules-lextudio (>=0.2.0)",
+            "pysnmp-lextudio (>=5.0.0)",
+            "requests (!=2.12.2,!=2.13.0,>=2.10.0)",
+            "retrying (!=1.3.0,>=1.2.3)",
+            "six (>=1.9.0)",
+            "sushy (>=4.5.0)"
           ],
           "requires_python": ">=3.6"
         }
@@ -74966,6 +75018,15 @@
       }
     }
   },
+  "romahelper-algorithm": {
+    "py3": {
+      "0.0.1rc1": {
+        "romahelper_algorithm-0.0.1rc1-py3-none-any.whl": {
+          "requires_python": ">=3.6,<4.0"
+        }
+      }
+    }
+  },
   "rootsuja": {
     "py3": {
       "1.0.0": {
@@ -82556,6 +82617,77 @@
           ],
           "requires_python": ">=3.8"
         }
+      },
+      "1.3.0": {
+        "spatiafi-1.3.0-py3-none-any.whl": {
+          "provides_extras": [
+            "dev"
+          ],
+          "requires_dist": [
+            "authlib",
+            "click",
+            "google-auth",
+            "google-auth-oauthlib",
+            "httpx",
+            "platformdirs",
+            "requests",
+            "google-api-core",
+            "autoflake ; extra == 'dev'",
+            "black ; extra == 'dev'",
+            "build ; extra == 'dev'",
+            "flake8 ; extra == 'dev'",
+            "flake8-pyproject ; extra == 'dev'",
+            "isort ; extra == 'dev'",
+            "keyring ; extra == 'dev'",
+            "keyrings.google-artifactregistry-auth ; extra == 'dev'",
+            "mypy ; extra == 'dev'",
+            "pip-tools ; extra == 'dev'",
+            "pre-commit ; extra == 'dev'",
+            "pytest ; extra == 'dev'",
+            "pytest-cov ; extra == 'dev'",
+            "setuptools-scm[toml] >=7.0.0 ; extra == 'dev'",
+            "tox ; extra == 'dev'",
+            "twine ; extra == 'dev'",
+            "wheel ; extra == 'dev'"
+          ],
+          "requires_python": ">=3.8"
+        }
+      },
+      "1.3.1": {
+        "spatiafi-1.3.1-py3-none-any.whl": {
+          "provides_extras": [
+            "dev"
+          ],
+          "requires_dist": [
+            "authlib",
+            "click",
+            "google-api-core",
+            "google-auth",
+            "google-auth-oauthlib",
+            "httpx",
+            "platformdirs",
+            "requests",
+            "autoflake ; extra == 'dev'",
+            "black ; extra == 'dev'",
+            "build ; extra == 'dev'",
+            "flake8 ; extra == 'dev'",
+            "flake8-pyproject ; extra == 'dev'",
+            "isort ; extra == 'dev'",
+            "keyring ; extra == 'dev'",
+            "keyrings.google-artifactregistry-auth ; extra == 'dev'",
+            "mypy ; extra == 'dev'",
+            "pandas ; extra == 'dev'",
+            "pip-tools ; extra == 'dev'",
+            "pre-commit ; extra == 'dev'",
+            "pytest ; extra == 'dev'",
+            "pytest-cov ; extra == 'dev'",
+            "setuptools-scm[toml] >=7.0.0 ; extra == 'dev'",
+            "tox ; extra == 'dev'",
+            "twine ; extra == 'dev'",
+            "wheel ; extra == 'dev'"
+          ],
+          "requires_python": ">=3.8"
+        }
       }
     }
   },
@@ -87464,6 +87596,20 @@
         "tencentcloud_sdk_python_tcex-3.0.974-py2.py3-none-any.whl": {
           "requires_dist": [
             "tencentcloud-sdk-python-common (==3.0.974)"
+          ]
+        }
+      },
+      "3.0.975": {
+        "tencentcloud_sdk_python_tcex-3.0.975-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.975)"
+          ]
+        }
+      },
+      "3.0.976": {
+        "tencentcloud_sdk_python_tcex-3.0.976-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.976)"
           ]
         }
       }

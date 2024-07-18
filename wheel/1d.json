@@ -385,6 +385,38 @@
           ],
           "requires_python": ">=3.8"
         }
+      },
+      "0.0.2": {
+        "AFTSA-0.0.2-py3-none-any.whl": {
+          "requires_dist": [
+            "datetime >=5.2",
+            "rfc3339-validator ==0.1.4",
+            "rfc3986-validator ==0.1.1",
+            "python-dateutil ==2.8.2"
+          ],
+          "requires_python": ">=3.11"
+        }
+      },
+      "0.0.3": {
+        "AFTSA-0.0.3-py3-none-any.whl": "0.0.2@AFTSA-0.0.2-py3-none-any.whl"
+      },
+      "1.0.4": {
+        "AFTSA-1.0.4-py3-none-any.whl": "0.0.2@AFTSA-0.0.2-py3-none-any.whl"
+      },
+      "1.0.5": {
+        "AFTSA-1.0.5-py3-none-any.whl": "0.0.2@AFTSA-0.0.2-py3-none-any.whl"
+      },
+      "1.0.6": {
+        "AFTSA-1.0.6-py3-none-any.whl": "0.0.2@AFTSA-0.0.2-py3-none-any.whl"
+      },
+      "1.0.7": {
+        "AFTSA-1.0.7-py3-none-any.whl": "0.0.2@AFTSA-0.0.2-py3-none-any.whl"
+      },
+      "1.0.8": {
+        "AFTSA-1.0.8-py3-none-any.whl": "0.0.2@AFTSA-0.0.2-py3-none-any.whl"
+      },
+      "1.0.9": {
+        "AFTSA-1.0.9-py3-none-any.whl": "0.0.2@AFTSA-0.0.2-py3-none-any.whl"
       }
     }
   },
@@ -7463,6 +7495,9 @@
       "1.31.41": {
         "botocore_a_la_carte_config-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_config-1.29.100-py3-none-any.whl"
       },
+      "1.31.42": {
+        "botocore_a_la_carte_config-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_config-1.29.100-py3-none-any.whl"
+      },
       "1.31.5": {
         "botocore_a_la_carte_config-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_config-1.29.100-py3-none-any.whl"
       },
@@ -7964,6 +7999,9 @@
       "1.31.41": {
         "botocore_a_la_carte_cur-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_cur-1.29.100-py3-none-any.whl"
       },
+      "1.31.42": {
+        "botocore_a_la_carte_cur-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_cur-1.29.100-py3-none-any.whl"
+      },
       "1.31.5": {
         "botocore_a_la_carte_cur-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_cur-1.29.100-py3-none-any.whl"
       },
@@ -8464,6 +8502,9 @@
       },
       "1.31.41": {
         "botocore_a_la_carte_keyspaces-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_keyspaces-1.29.100-py3-none-any.whl"
+      },
+      "1.31.42": {
+        "botocore_a_la_carte_keyspaces-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_keyspaces-1.29.100-py3-none-any.whl"
       },
       "1.31.5": {
         "botocore_a_la_carte_keyspaces-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_keyspaces-1.29.100-py3-none-any.whl"
@@ -14372,6 +14413,9 @@
       "0.23.3rc1": {
         "craft_ai_sdk-0.23.3rc1-py3-none-any.whl": "0.13.1@craft_ai_sdk-0.13.1-py3-none-any.whl"
       },
+      "0.24.0rc1": {
+        "craft_ai_sdk-0.24.0rc1-py3-none-any.whl": "0.13.1@craft_ai_sdk-0.13.1-py3-none-any.whl"
+      },
       "0.3.0": {
         "craft_ai_sdk-0.3.0-py3-none-any.whl": "0.0.0@craft_ai_sdk-0.0.0-py3-none-any.whl"
       },
@@ -15903,6 +15947,9 @@
       },
       "0.47.2": {
         "dataclasses_avroschema-0.47.2-py3-none-any.whl": "0.47.0@dataclasses_avroschema-0.47.0-py3-none-any.whl"
+      },
+      "0.47.3": {
+        "dataclasses_avroschema-0.47.3-py3-none-any.whl": "0.47.0@dataclasses_avroschema-0.47.0-py3-none-any.whl"
       }
     }
   },
@@ -16295,6 +16342,12 @@
           ],
           "requires_python": ">=3.10,<4.0"
         }
+      },
+      "0.4.1": {
+        "decodex-0.4.1-py3-none-any.whl": "0.4.0@decodex-0.4.0-py3-none-any.whl"
+      },
+      "0.4.2": {
+        "decodex-0.4.2-py3-none-any.whl": "0.4.0@decodex-0.4.0-py3-none-any.whl"
       }
     }
   },
@@ -16402,6 +16455,26 @@
         "degirum-0.9.1-cp310-cp310-manylinux_2_31_aarch64.whl": "0.7.0@degirum-0.7.0-cp310-cp310-manylinux_2_31_aarch64.whl",
         "degirum-0.9.1-cp310-cp310-manylinux_2_31_x86_64.whl": "0.7.0@degirum-0.7.0-cp310-cp310-manylinux_2_31_aarch64.whl",
         "degirum-0.9.1-cp310-cp310-win_amd64.whl": "0.7.0@degirum-0.7.0-cp310-cp310-manylinux_2_31_aarch64.whl"
+      },
+      "0.9.2": {
+        "degirum-0.9.2-cp310-cp310-manylinux_2_31_aarch64.whl": {
+          "requires_dist": [
+            "requests >=2.30.0",
+            "pyyaml >=6.0",
+            "numpy >=1.22",
+            "pillow >=9.2",
+            "opencv-python >=4.6",
+            "python-socketio[client] >=5.7",
+            "websocket-client >=1.5.1",
+            "python-dotenv >=0.20",
+            "msgpack >=1.0.4",
+            "msgpack-numpy ==0.4.7.1",
+            "pyaudio >=0.2 ; sys_platform == \"win32\""
+          ],
+          "requires_python": ">=3.8"
+        },
+        "degirum-0.9.2-cp310-cp310-manylinux_2_31_x86_64.whl": "0.9.2@degirum-0.9.2-cp310-cp310-manylinux_2_31_aarch64.whl",
+        "degirum-0.9.2-cp310-cp310-win_amd64.whl": "0.9.2@degirum-0.9.2-cp310-cp310-manylinux_2_31_aarch64.whl"
       }
     },
     "cp311": {
@@ -16459,6 +16532,26 @@
         "degirum-0.9.1-cp311-cp311-manylinux_2_31_aarch64.whl": "0.7.0@degirum-0.7.0-cp311-cp311-manylinux_2_31_aarch64.whl",
         "degirum-0.9.1-cp311-cp311-manylinux_2_31_x86_64.whl": "0.7.0@degirum-0.7.0-cp311-cp311-manylinux_2_31_aarch64.whl",
         "degirum-0.9.1-cp311-cp311-win_amd64.whl": "0.7.0@degirum-0.7.0-cp311-cp311-manylinux_2_31_aarch64.whl"
+      },
+      "0.9.2": {
+        "degirum-0.9.2-cp311-cp311-manylinux_2_31_aarch64.whl": {
+          "requires_dist": [
+            "requests >=2.30.0",
+            "pyyaml >=6.0",
+            "numpy >=1.22",
+            "pillow >=9.2",
+            "opencv-python >=4.6",
+            "python-socketio[client] >=5.7",
+            "websocket-client >=1.5.1",
+            "python-dotenv >=0.20",
+            "msgpack >=1.0.4",
+            "msgpack-numpy ==0.4.7.1",
+            "pyaudio >=0.2 ; sys_platform == \"win32\""
+          ],
+          "requires_python": ">=3.8"
+        },
+        "degirum-0.9.2-cp311-cp311-manylinux_2_31_x86_64.whl": "0.9.2@degirum-0.9.2-cp311-cp311-manylinux_2_31_aarch64.whl",
+        "degirum-0.9.2-cp311-cp311-win_amd64.whl": "0.9.2@degirum-0.9.2-cp311-cp311-manylinux_2_31_aarch64.whl"
       }
     },
     "cp38": {
@@ -16516,6 +16609,26 @@
         "degirum-0.9.1-cp38-cp38-manylinux_2_31_aarch64.whl": "0.7.0@degirum-0.7.0-cp38-cp38-manylinux_2_31_aarch64.whl",
         "degirum-0.9.1-cp38-cp38-manylinux_2_31_x86_64.whl": "0.7.0@degirum-0.7.0-cp38-cp38-manylinux_2_31_aarch64.whl",
         "degirum-0.9.1-cp38-cp38-win_amd64.whl": "0.7.0@degirum-0.7.0-cp38-cp38-manylinux_2_31_aarch64.whl"
+      },
+      "0.9.2": {
+        "degirum-0.9.2-cp38-cp38-manylinux_2_31_aarch64.whl": {
+          "requires_dist": [
+            "requests >=2.30.0",
+            "pyyaml >=6.0",
+            "numpy >=1.22",
+            "pillow >=9.2",
+            "opencv-python >=4.6",
+            "python-socketio[client] >=5.7",
+            "websocket-client >=1.5.1",
+            "python-dotenv >=0.20",
+            "msgpack >=1.0.4",
+            "msgpack-numpy ==0.4.7.1",
+            "pyaudio >=0.2 ; sys_platform == \"win32\""
+          ],
+          "requires_python": ">=3.8"
+        },
+        "degirum-0.9.2-cp38-cp38-manylinux_2_31_x86_64.whl": "0.9.2@degirum-0.9.2-cp38-cp38-manylinux_2_31_aarch64.whl",
+        "degirum-0.9.2-cp38-cp38-win_amd64.whl": "0.9.2@degirum-0.9.2-cp38-cp38-manylinux_2_31_aarch64.whl"
       }
     },
     "cp39": {
@@ -16589,6 +16702,28 @@
         "degirum-0.9.1-cp39-cp39-manylinux_2_31_aarch64.whl": "0.7.0@degirum-0.7.0-cp39-cp39-macosx_12_0_arm64.whl",
         "degirum-0.9.1-cp39-cp39-manylinux_2_31_x86_64.whl": "0.7.0@degirum-0.7.0-cp39-cp39-macosx_12_0_arm64.whl",
         "degirum-0.9.1-cp39-cp39-win_amd64.whl": "0.7.0@degirum-0.7.0-cp39-cp39-macosx_12_0_arm64.whl"
+      },
+      "0.9.2": {
+        "degirum-0.9.2-cp39-cp39-macosx_12_0_arm64.whl": {
+          "requires_dist": [
+            "requests >=2.30.0",
+            "pyyaml >=6.0",
+            "numpy >=1.22",
+            "pillow >=9.2",
+            "opencv-python >=4.6",
+            "python-socketio[client] >=5.7",
+            "websocket-client >=1.5.1",
+            "python-dotenv >=0.20",
+            "msgpack >=1.0.4",
+            "msgpack-numpy ==0.4.7.1",
+            "pyaudio >=0.2 ; sys_platform == \"win32\""
+          ],
+          "requires_python": ">=3.8"
+        },
+        "degirum-0.9.2-cp39-cp39-macosx_12_0_x86_64.whl": "0.9.2@degirum-0.9.2-cp39-cp39-macosx_12_0_arm64.whl",
+        "degirum-0.9.2-cp39-cp39-manylinux_2_31_aarch64.whl": "0.9.2@degirum-0.9.2-cp39-cp39-macosx_12_0_arm64.whl",
+        "degirum-0.9.2-cp39-cp39-manylinux_2_31_x86_64.whl": "0.9.2@degirum-0.9.2-cp39-cp39-macosx_12_0_arm64.whl",
+        "degirum-0.9.2-cp39-cp39-win_amd64.whl": "0.9.2@degirum-0.9.2-cp39-cp39-macosx_12_0_arm64.whl"
       }
     }
   },
@@ -24043,6 +24178,14 @@
           ]
         }
       },
+      "1.41.55": {
+        "dragonfly_core-1.41.55-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "honeybee-core (==1.56.28)",
+            "dragonfly-schema (==1.9.4) ; python_version >= \"3.7\""
+          ]
+        }
+      },
       "1.41.6": {
         "dragonfly_core-1.41.6-py2.py3-none-any.whl": {
           "requires_dist": [
@@ -24702,6 +24845,31 @@
       },
       "1.1.2": {
         "edvart-1.1.2-py3-none-any.whl": "0.0.0@edvart-0.0.0-py3-none-any.whl"
+      },
+      "2.0.0": {
+        "edvart-2.0.0-py3-none-any.whl": {
+          "provides_extras": [
+            "all",
+            "umap"
+          ],
+          "requires_dist": [
+            "colorlover",
+            "ipykernel",
+            "ipywidgets (>=7.5,<8.0)",
+            "matplotlib",
+            "nbconvert (>=7.0.0,<8.0.0)",
+            "nbformat",
+            "numba (>=0.57,<0.58) ; extra == \"umap\" or extra == \"all\"",
+            "numpy",
+            "pandas (>=1.5,<2.0)",
+            "plotly (>=4.0.0,<6)",
+            "scikit-learn (>=0.22.1)",
+            "seaborn (>=0.12,<0.13)",
+            "statsmodels (>0.10.2)",
+            "umap-learn (>=0.5.0,<0.6.0) ; extra == \"umap\" or extra == \"all\""
+          ],
+          "requires_python": ">=3.8,<3.12"
+        }
       }
     }
   },
@@ -39585,6 +39753,314 @@
           ],
           "requires_python": ">=3.8.0"
         }
+      },
+      "0.34.0": {
+        "feast-0.34.0-py2.py3-none-any.whl": {
+          "provides_extras": [
+            "aws",
+            "azure",
+            "bytewax",
+            "cassandra",
+            "ci",
+            "dev",
+            "docs",
+            "gcp",
+            "ge",
+            "hazelcast",
+            "hbase",
+            "mysql",
+            "postgres",
+            "redis",
+            "rockset",
+            "snowflake",
+            "spark",
+            "trino"
+          ],
+          "requires_dist": [
+            "click <9.0.0,>=7.0.0",
+            "colorama <1,>=0.3.9",
+            "dill ~=0.3.0",
+            "fastavro <2,>=1.1.0",
+            "grpcio <2,>=1.56.2",
+            "grpcio-tools <2,>=1.56.2",
+            "grpcio-reflection <2,>=1.56.2",
+            "grpcio-health-checking <2,>=1.56.2",
+            "mypy-protobuf ==3.1",
+            "Jinja2 <4,>=2",
+            "jsonschema",
+            "mmh3",
+            "numpy <3,>=1.22",
+            "pandas <2,>=1.4.3",
+            "pandavro ~=1.5.0",
+            "protobuf <4.23.4,>3.20",
+            "proto-plus <2,>=1.20.0",
+            "pyarrow <12,>=4",
+            "pydantic <2,>=1",
+            "pygments <3,>=2.12.0",
+            "PyYAML <7,>=5.4.0",
+            "requests",
+            "SQLAlchemy[mypy] <2,>1",
+            "tabulate <1,>=0.8.0",
+            "tenacity <9,>=7",
+            "toml <1,>=0.10.0",
+            "tqdm <5,>=4",
+            "typeguard ==2.13.3",
+            "fastapi <0.100,>=0.68.0",
+            "uvicorn[standard] <1,>=0.14.0",
+            "gunicorn",
+            "dask >=2021.1.0",
+            "bowler",
+            "httpx >=0.23.3",
+            "boto3 <2,>=1.17.0 ; extra == 'aws'",
+            "docker >=5.0.2 ; extra == 'aws'",
+            "azure-storage-blob >=0.37.0 ; extra == 'azure'",
+            "azure-identity >=1.6.1 ; extra == 'azure'",
+            "SQLAlchemy >=1.4.19 ; extra == 'azure'",
+            "pyodbc >=4.0.30 ; extra == 'azure'",
+            "pymssql ; extra == 'azure'",
+            "bytewax ==0.15.1 ; extra == 'bytewax'",
+            "docker >=5.0.2 ; extra == 'bytewax'",
+            "kubernetes <=20.13.0 ; extra == 'bytewax'",
+            "cassandra-driver <4,>=3.24.0 ; extra == 'cassandra'",
+            "build ; extra == 'ci'",
+            "virtualenv ==20.23.0 ; extra == 'ci'",
+            "cryptography <42,>=35.0 ; extra == 'ci'",
+            "flake8 <6.1.0,>=6.0.0 ; extra == 'ci'",
+            "black <23,>=22.6.0 ; extra == 'ci'",
+            "isort <6,>=5 ; extra == 'ci'",
+            "grpcio-testing <2,>=1.56.2 ; extra == 'ci'",
+            "minio ==7.1.0 ; extra == 'ci'",
+            "mock ==2.0.0 ; extra == 'ci'",
+            "moto ; extra == 'ci'",
+            "mypy <0.990,>=0.981 ; extra == 'ci'",
+            "avro ==1.10.0 ; extra == 'ci'",
+            "gcsfs <=2022.01.0,>=0.4.0 ; extra == 'ci'",
+            "urllib3 <2,>=1.25.4 ; extra == 'ci'",
+            "psutil ==5.9.0 ; extra == 'ci'",
+            "py >=1.11.0 ; extra == 'ci'",
+            "pytest <8,>=6.0.0 ; extra == 'ci'",
+            "pytest-cov ; extra == 'ci'",
+            "pytest-xdist ; extra == 'ci'",
+            "pytest-benchmark <4,>=3.4.1 ; extra == 'ci'",
+            "pytest-lazy-fixture ==0.6.3 ; extra == 'ci'",
+            "pytest-timeout ==1.4.2 ; extra == 'ci'",
+            "pytest-ordering ~=0.6.0 ; extra == 'ci'",
+            "pytest-mock ==1.10.4 ; extra == 'ci'",
+            "Sphinx <7,>4.0.0 ; extra == 'ci'",
+            "testcontainers <4,>=3.5 ; extra == 'ci'",
+            "adlfs ==0.5.9 ; extra == 'ci'",
+            "firebase-admin <6,>=5.2.0 ; extra == 'ci'",
+            "pre-commit <3.3.2 ; extra == 'ci'",
+            "assertpy ==1.1 ; extra == 'ci'",
+            "pip-tools ; extra == 'ci'",
+            "pybindgen ; extra == 'ci'",
+            "types-protobuf ~=3.19.22 ; extra == 'ci'",
+            "types-python-dateutil ; extra == 'ci'",
+            "types-pytz ; extra == 'ci'",
+            "types-PyYAML ; extra == 'ci'",
+            "types-redis ; extra == 'ci'",
+            "types-requests ; extra == 'ci'",
+            "types-setuptools ; extra == 'ci'",
+            "types-tabulate ; extra == 'ci'",
+            "virtualenv <20.24.2 ; extra == 'ci'",
+            "google-api-core <3,>=1.23.0 ; extra == 'ci'",
+            "googleapis-common-protos <2,>=1.52.0 ; extra == 'ci'",
+            "google-cloud-bigquery[pandas] <4,>=2 ; extra == 'ci'",
+            "google-cloud-bigquery-storage <3,>=2.0.0 ; extra == 'ci'",
+            "google-cloud-datastore <3,>=2.1.0 ; extra == 'ci'",
+            "google-cloud-storage <3,>=1.34.0 ; extra == 'ci'",
+            "google-cloud-bigtable <3,>=2.11.0 ; extra == 'ci'",
+            "redis <5,>=4.2.2 ; extra == 'ci'",
+            "hiredis <3,>=2.0.0 ; extra == 'ci'",
+            "boto3 <2,>=1.17.0 ; extra == 'ci'",
+            "docker >=5.0.2 ; extra == 'ci'",
+            "bytewax ==0.15.1 ; extra == 'ci'",
+            "kubernetes <=20.13.0 ; extra == 'ci'",
+            "snowflake-connector-python[pandas] <4,>=3 ; extra == 'ci'",
+            "pyspark <4,>=3.0.0 ; extra == 'ci'",
+            "psycopg2-binary <3,>=2.8.3 ; extra == 'ci'",
+            "mysqlclient ; extra == 'ci'",
+            "pymysql ; extra == 'ci'",
+            "types-PyMySQL ; extra == 'ci'",
+            "trino <0.400.0,>=0.305.0 ; extra == 'ci'",
+            "regex ; extra == 'ci'",
+            "great-expectations <0.16.0,>=0.15.41 ; extra == 'ci'",
+            "happybase <3,>=1.2.0 ; extra == 'ci'",
+            "cassandra-driver <4,>=3.24.0 ; extra == 'ci'",
+            "azure-storage-blob >=0.37.0 ; extra == 'ci'",
+            "azure-identity >=1.6.1 ; extra == 'ci'",
+            "SQLAlchemy >=1.4.19 ; extra == 'ci'",
+            "pyodbc >=4.0.30 ; extra == 'ci'",
+            "pymssql ; extra == 'ci'",
+            "rockset >=1.0.3 ; extra == 'ci'",
+            "hazelcast-python-client >=5.1 ; extra == 'ci'",
+            "mypy-protobuf ==3.1 ; extra == 'dev'",
+            "grpcio-testing ~=1.0 ; extra == 'dev'",
+            "build ; extra == 'dev'",
+            "virtualenv ==20.23.0 ; extra == 'dev'",
+            "cryptography <42,>=35.0 ; extra == 'dev'",
+            "flake8 <6.1.0,>=6.0.0 ; extra == 'dev'",
+            "black <23,>=22.6.0 ; extra == 'dev'",
+            "isort <6,>=5 ; extra == 'dev'",
+            "grpcio-testing <2,>=1.56.2 ; extra == 'dev'",
+            "minio ==7.1.0 ; extra == 'dev'",
+            "mock ==2.0.0 ; extra == 'dev'",
+            "moto ; extra == 'dev'",
+            "mypy <0.990,>=0.981 ; extra == 'dev'",
+            "avro ==1.10.0 ; extra == 'dev'",
+            "gcsfs <=2022.01.0,>=0.4.0 ; extra == 'dev'",
+            "urllib3 <2,>=1.25.4 ; extra == 'dev'",
+            "psutil ==5.9.0 ; extra == 'dev'",
+            "py >=1.11.0 ; extra == 'dev'",
+            "pytest <8,>=6.0.0 ; extra == 'dev'",
+            "pytest-cov ; extra == 'dev'",
+            "pytest-xdist ; extra == 'dev'",
+            "pytest-benchmark <4,>=3.4.1 ; extra == 'dev'",
+            "pytest-lazy-fixture ==0.6.3 ; extra == 'dev'",
+            "pytest-timeout ==1.4.2 ; extra == 'dev'",
+            "pytest-ordering ~=0.6.0 ; extra == 'dev'",
+            "pytest-mock ==1.10.4 ; extra == 'dev'",
+            "Sphinx <7,>4.0.0 ; extra == 'dev'",
+            "testcontainers <4,>=3.5 ; extra == 'dev'",
+            "adlfs ==0.5.9 ; extra == 'dev'",
+            "firebase-admin <6,>=5.2.0 ; extra == 'dev'",
+            "pre-commit <3.3.2 ; extra == 'dev'",
+            "assertpy ==1.1 ; extra == 'dev'",
+            "pip-tools ; extra == 'dev'",
+            "pybindgen ; extra == 'dev'",
+            "types-protobuf ~=3.19.22 ; extra == 'dev'",
+            "types-python-dateutil ; extra == 'dev'",
+            "types-pytz ; extra == 'dev'",
+            "types-PyYAML ; extra == 'dev'",
+            "types-redis ; extra == 'dev'",
+            "types-requests ; extra == 'dev'",
+            "types-setuptools ; extra == 'dev'",
+            "types-tabulate ; extra == 'dev'",
+            "virtualenv <20.24.2 ; extra == 'dev'",
+            "google-api-core <3,>=1.23.0 ; extra == 'dev'",
+            "googleapis-common-protos <2,>=1.52.0 ; extra == 'dev'",
+            "google-cloud-bigquery[pandas] <4,>=2 ; extra == 'dev'",
+            "google-cloud-bigquery-storage <3,>=2.0.0 ; extra == 'dev'",
+            "google-cloud-datastore <3,>=2.1.0 ; extra == 'dev'",
+            "google-cloud-storage <3,>=1.34.0 ; extra == 'dev'",
+            "google-cloud-bigtable <3,>=2.11.0 ; extra == 'dev'",
+            "redis <5,>=4.2.2 ; extra == 'dev'",
+            "hiredis <3,>=2.0.0 ; extra == 'dev'",
+            "boto3 <2,>=1.17.0 ; extra == 'dev'",
+            "docker >=5.0.2 ; extra == 'dev'",
+            "bytewax ==0.15.1 ; extra == 'dev'",
+            "kubernetes <=20.13.0 ; extra == 'dev'",
+            "snowflake-connector-python[pandas] <4,>=3 ; extra == 'dev'",
+            "pyspark <4,>=3.0.0 ; extra == 'dev'",
+            "psycopg2-binary <3,>=2.8.3 ; extra == 'dev'",
+            "mysqlclient ; extra == 'dev'",
+            "pymysql ; extra == 'dev'",
+            "types-PyMySQL ; extra == 'dev'",
+            "trino <0.400.0,>=0.305.0 ; extra == 'dev'",
+            "regex ; extra == 'dev'",
+            "great-expectations <0.16.0,>=0.15.41 ; extra == 'dev'",
+            "happybase <3,>=1.2.0 ; extra == 'dev'",
+            "cassandra-driver <4,>=3.24.0 ; extra == 'dev'",
+            "azure-storage-blob >=0.37.0 ; extra == 'dev'",
+            "azure-identity >=1.6.1 ; extra == 'dev'",
+            "SQLAlchemy >=1.4.19 ; extra == 'dev'",
+            "pyodbc >=4.0.30 ; extra == 'dev'",
+            "pymssql ; extra == 'dev'",
+            "rockset >=1.0.3 ; extra == 'dev'",
+            "hazelcast-python-client >=5.1 ; extra == 'dev'",
+            "build ; extra == 'docs'",
+            "virtualenv ==20.23.0 ; extra == 'docs'",
+            "cryptography <42,>=35.0 ; extra == 'docs'",
+            "flake8 <6.1.0,>=6.0.0 ; extra == 'docs'",
+            "black <23,>=22.6.0 ; extra == 'docs'",
+            "isort <6,>=5 ; extra == 'docs'",
+            "grpcio-testing <2,>=1.56.2 ; extra == 'docs'",
+            "minio ==7.1.0 ; extra == 'docs'",
+            "mock ==2.0.0 ; extra == 'docs'",
+            "moto ; extra == 'docs'",
+            "mypy <0.990,>=0.981 ; extra == 'docs'",
+            "avro ==1.10.0 ; extra == 'docs'",
+            "gcsfs <=2022.01.0,>=0.4.0 ; extra == 'docs'",
+            "urllib3 <2,>=1.25.4 ; extra == 'docs'",
+            "psutil ==5.9.0 ; extra == 'docs'",
+            "py >=1.11.0 ; extra == 'docs'",
+            "pytest <8,>=6.0.0 ; extra == 'docs'",
+            "pytest-cov ; extra == 'docs'",
+            "pytest-xdist ; extra == 'docs'",
+            "pytest-benchmark <4,>=3.4.1 ; extra == 'docs'",
+            "pytest-lazy-fixture ==0.6.3 ; extra == 'docs'",
+            "pytest-timeout ==1.4.2 ; extra == 'docs'",
+            "pytest-ordering ~=0.6.0 ; extra == 'docs'",
+            "pytest-mock ==1.10.4 ; extra == 'docs'",
+            "Sphinx <7,>4.0.0 ; extra == 'docs'",
+            "testcontainers <4,>=3.5 ; extra == 'docs'",
+            "adlfs ==0.5.9 ; extra == 'docs'",
+            "firebase-admin <6,>=5.2.0 ; extra == 'docs'",
+            "pre-commit <3.3.2 ; extra == 'docs'",
+            "assertpy ==1.1 ; extra == 'docs'",
+            "pip-tools ; extra == 'docs'",
+            "pybindgen ; extra == 'docs'",
+            "types-protobuf ~=3.19.22 ; extra == 'docs'",
+            "types-python-dateutil ; extra == 'docs'",
+            "types-pytz ; extra == 'docs'",
+            "types-PyYAML ; extra == 'docs'",
+            "types-redis ; extra == 'docs'",
+            "types-requests ; extra == 'docs'",
+            "types-setuptools ; extra == 'docs'",
+            "types-tabulate ; extra == 'docs'",
+            "virtualenv <20.24.2 ; extra == 'docs'",
+            "google-api-core <3,>=1.23.0 ; extra == 'docs'",
+            "googleapis-common-protos <2,>=1.52.0 ; extra == 'docs'",
+            "google-cloud-bigquery[pandas] <4,>=2 ; extra == 'docs'",
+            "google-cloud-bigquery-storage <3,>=2.0.0 ; extra == 'docs'",
+            "google-cloud-datastore <3,>=2.1.0 ; extra == 'docs'",
+            "google-cloud-storage <3,>=1.34.0 ; extra == 'docs'",
+            "google-cloud-bigtable <3,>=2.11.0 ; extra == 'docs'",
+            "redis <5,>=4.2.2 ; extra == 'docs'",
+            "hiredis <3,>=2.0.0 ; extra == 'docs'",
+            "boto3 <2,>=1.17.0 ; extra == 'docs'",
+            "docker >=5.0.2 ; extra == 'docs'",
+            "bytewax ==0.15.1 ; extra == 'docs'",
+            "kubernetes <=20.13.0 ; extra == 'docs'",
+            "snowflake-connector-python[pandas] <4,>=3 ; extra == 'docs'",
+            "pyspark <4,>=3.0.0 ; extra == 'docs'",
+            "psycopg2-binary <3,>=2.8.3 ; extra == 'docs'",
+            "trino <0.400.0,>=0.305.0 ; extra == 'docs'",
+            "regex ; extra == 'docs'",
+            "great-expectations <0.16.0,>=0.15.41 ; extra == 'docs'",
+            "happybase <3,>=1.2.0 ; extra == 'docs'",
+            "cassandra-driver <4,>=3.24.0 ; extra == 'docs'",
+            "azure-storage-blob >=0.37.0 ; extra == 'docs'",
+            "azure-identity >=1.6.1 ; extra == 'docs'",
+            "SQLAlchemy >=1.4.19 ; extra == 'docs'",
+            "pyodbc >=4.0.30 ; extra == 'docs'",
+            "pymssql ; extra == 'docs'",
+            "rockset >=1.0.3 ; extra == 'docs'",
+            "hazelcast-python-client >=5.1 ; extra == 'docs'",
+            "google-api-core <3,>=1.23.0 ; extra == 'gcp'",
+            "googleapis-common-protos <2,>=1.52.0 ; extra == 'gcp'",
+            "google-cloud-bigquery[pandas] <4,>=2 ; extra == 'gcp'",
+            "google-cloud-bigquery-storage <3,>=2.0.0 ; extra == 'gcp'",
+            "google-cloud-datastore <3,>=2.1.0 ; extra == 'gcp'",
+            "google-cloud-storage <3,>=1.34.0 ; extra == 'gcp'",
+            "google-cloud-bigtable <3,>=2.11.0 ; extra == 'gcp'",
+            "great-expectations <0.16.0,>=0.15.41 ; extra == 'ge'",
+            "hazelcast-python-client >=5.1 ; extra == 'hazelcast'",
+            "happybase <3,>=1.2.0 ; extra == 'hbase'",
+            "mysqlclient ; extra == 'mysql'",
+            "pymysql ; extra == 'mysql'",
+            "types-PyMySQL ; extra == 'mysql'",
+            "psycopg2-binary <3,>=2.8.3 ; extra == 'postgres'",
+            "redis <5,>=4.2.2 ; extra == 'redis'",
+            "hiredis <3,>=2.0.0 ; extra == 'redis'",
+            "rockset >=1.0.3 ; extra == 'rockset'",
+            "snowflake-connector-python[pandas] <4,>=3 ; extra == 'snowflake'",
+            "pyspark <4,>=3.0.0 ; extra == 'spark'",
+            "trino <0.400.0,>=0.305.0 ; extra == 'trino'",
+            "regex ; extra == 'trino'"
+          ],
+          "requires_python": ">=3.8.0"
+        }
       }
     },
     "py3": {
@@ -44550,6 +45026,50 @@
           ],
           "requires_python": ">=3.8"
         }
+      }
+    }
+  },
+  "frequenz-api-dispatch": {
+    "py3": {
+      "0.8.0": {
+        "frequenz_api_dispatch-0.8.0-py3-none-any.whl": {
+          "provides_extras": [
+            "dev",
+            "dev-docstrings",
+            "dev-formatting",
+            "dev-mypy",
+            "dev-noxfile",
+            "dev-pylint",
+            "dev-pytest"
+          ],
+          "requires_dist": [
+            "frequenz-api-common (<0.3,>=0.2.0)",
+            "googleapis-common-protos (<2,>=1.56.2)",
+            "grpcio (<2,>=1.51.1)",
+            "frequenz-api-dispatch[dev-docstrings,dev-formatting,dev-mypy,dev-noxfile,dev-pylint,dev-pytest] ; extra == 'dev'",
+            "pydocstyle (==6.3.0) ; extra == 'dev-docstrings'",
+            "darglint (==1.8.1) ; extra == 'dev-docstrings'",
+            "black (==23.3.0) ; extra == 'dev-formatting'",
+            "isort (==5.12.0) ; extra == 'dev-formatting'",
+            "mypy (==1.1.1) ; extra == 'dev-mypy'",
+            "frequenz-api-dispatch[dev-noxfile,dev-pytest] ; extra == 'dev-mypy'",
+            "nox (==2022.11.21) ; extra == 'dev-noxfile'",
+            "frequenz-repo-config[api] (==0.2.0) ; extra == 'dev-noxfile'",
+            "pylint (==2.17.1) ; extra == 'dev-pylint'",
+            "frequenz-api-dispatch[dev-noxfile,dev-pytest] ; extra == 'dev-pylint'",
+            "pytest (==7.2.2) ; extra == 'dev-pytest'"
+          ],
+          "requires_python": "<4,>=3.11"
+        }
+      },
+      "0.8.1": {
+        "frequenz_api_dispatch-0.8.1-py3-none-any.whl": "0.8.0@frequenz_api_dispatch-0.8.0-py3-none-any.whl"
+      },
+      "0.8.2": {
+        "frequenz_api_dispatch-0.8.2-py3-none-any.whl": "0.8.0@frequenz_api_dispatch-0.8.0-py3-none-any.whl"
+      },
+      "0.9.0": {
+        "frequenz_api_dispatch-0.9.0-py3-none-any.whl": "0.8.0@frequenz_api_dispatch-0.8.0-py3-none-any.whl"
       }
     }
   },
@@ -52561,6 +53081,12 @@
       },
       "0.1.222": {
         "jlogr-0.1.222-cp39-abi3-manylinux_2_34_x86_64.whl": "0.1.0@jlogr-0.1.0-cp39-abi3-macosx_11_0_arm64.whl"
+      },
+      "0.1.223": {
+        "jlogr-0.1.223-cp39-abi3-manylinux_2_34_x86_64.whl": "0.1.0@jlogr-0.1.0-cp39-abi3-macosx_11_0_arm64.whl"
+      },
+      "0.1.224": {
+        "jlogr-0.1.224-cp39-abi3-manylinux_2_34_x86_64.whl": "0.1.0@jlogr-0.1.0-cp39-abi3-macosx_11_0_arm64.whl"
       }
     }
   },
@@ -57495,6 +58021,9 @@
       },
       "25.2023.3500": {
         "lsst_pex_config-25.2023.3500-py3-none-any.whl": "25.2023.3200@lsst_pex_config-25.2023.3200-py3-none-any.whl"
+      },
+      "25.2023.3600": {
+        "lsst_pex_config-25.2023.3600-py3-none-any.whl": "25.2023.3200@lsst_pex_config-25.2023.3200-py3-none-any.whl"
       },
       "25.2023.600": {
         "lsst_pex_config-25.2023.600-py3-none-any.whl": "24.0.0a20222900@lsst_pex_config-24.0.0a20222900-py3-none-any.whl"
@@ -80965,6 +81494,54 @@
           ],
           "requires_python": ">=3.8"
         }
+      },
+      "0.2.1": {
+        "pyconverter_xml2py-0.2.1-py3-none-any.whl": {
+          "provides_extras": [
+            "doc",
+            "tests"
+          ],
+          "requires_dist": [
+            "click>=7.0,<9.0.0",
+            "importlib-metadata>=4.0",
+            "pygithub>=1.59.1",
+            "lxml>=4.9.3",
+            "numpy>=1.14.0,<1.25.0; python_version<'3.9'",
+            "numpy>=1.14.0; python_version>='3.9'",
+            "py-asciimath==0.3.0",
+            "pylatexenc==2.10",
+            "tqdm>=4.64.1",
+            "Sphinx==7.2.5 ; extra == \"doc\"",
+            "ansys-sphinx-theme==0.10.6 ; extra == \"doc\"",
+            "build>= 0.10.0 ; extra == \"doc\"",
+            "flit>=3.8.0 ; extra == \"doc\"",
+            "jupyter_sphinx==0.4.0 ; extra == \"doc\"",
+            "numpy==1.25.2 ; extra == \"doc\"",
+            "numpydoc==1.5.0 ; extra == \"doc\"",
+            "pandas==2.1.0 ; extra == \"doc\"",
+            "parse==1.19.1 ; extra == \"doc\"",
+            "pypandoc==1.11 ; extra == \"doc\"",
+            "pytest-sphinx==0.5.0 ; extra == \"doc\"",
+            "sphinx-autobuild==2021.3.14 ; extra == \"doc\"",
+            "sphinx-autodoc-typehints==1.23.0 ; extra == \"doc\"",
+            "sphinx-copybutton==0.5.2 ; extra == \"doc\"",
+            "sphinx-notfound-page==1.0.0 ; extra == \"doc\"",
+            "sphinx-gallery==0.14.0 ; extra == \"doc\"",
+            "sphinx-design==0.5.0 ; extra == \"doc\"",
+            "click==8.1.7 ; extra == \"tests\"",
+            "pygithub==1.59.1 ; extra == \"tests\"",
+            "lxml==4.9.3 ; extra == \"tests\"",
+            "numpy==1.25.2 ; extra == \"tests\"",
+            "parse==1.19.1 ; extra == \"tests\"",
+            "pytest==7.4.1 ; extra == \"tests\"",
+            "pytest-cov==4.1.0 ; extra == \"tests\"",
+            "pytest-rerunfailures==12.0 ; extra == \"tests\""
+          ],
+          "requires_python": ">=3.8"
+        }
+      },
+      "0.2.2": {
+        "pyconverter_xml2py-0.2.2-py3-none-any.whl": "0.2.1@pyconverter_xml2py-0.2.1-py3-none-any.whl"
       }
     }
   },
@@ -106447,6 +107024,16 @@
         "tensordict_nightly-2023.9.5-cp310-cp310-macosx_10_15_x86_64.whl": "2023.8.10@tensordict_nightly-2023.8.10-cp310-cp310-macosx_10_15_x86_64.whl",
         "tensordict_nightly-2023.9.5-cp310-cp310-manylinux1_x86_64.whl": "2023.6.14@tensordict_nightly-2023.6.14-cp310-cp310-macosx_10_15_x86_64.whl",
         "tensordict_nightly-2023.9.5-cp310-cp310-win_amd64.whl": "2023.8.10@tensordict_nightly-2023.8.10-cp310-cp310-macosx_10_15_x86_64.whl"
+      },
+      "2023.9.6": {
+        "tensordict_nightly-2023.9.6-cp310-cp310-macosx_10_15_x86_64.whl": "2023.8.10@tensordict_nightly-2023.8.10-cp310-cp310-macosx_10_15_x86_64.whl",
+        "tensordict_nightly-2023.9.6-cp310-cp310-manylinux1_x86_64.whl": "2023.6.14@tensordict_nightly-2023.6.14-cp310-cp310-macosx_10_15_x86_64.whl",
+        "tensordict_nightly-2023.9.6-cp310-cp310-win_amd64.whl": "2023.8.10@tensordict_nightly-2023.8.10-cp310-cp310-macosx_10_15_x86_64.whl"
+      },
+      "2023.9.7": {
+        "tensordict_nightly-2023.9.7-cp310-cp310-macosx_10_15_x86_64.whl": "2023.8.10@tensordict_nightly-2023.8.10-cp310-cp310-macosx_10_15_x86_64.whl",
+        "tensordict_nightly-2023.9.7-cp310-cp310-manylinux1_x86_64.whl": "2023.6.14@tensordict_nightly-2023.6.14-cp310-cp310-macosx_10_15_x86_64.whl",
+        "tensordict_nightly-2023.9.7-cp310-cp310-win_amd64.whl": "2023.8.10@tensordict_nightly-2023.8.10-cp310-cp310-macosx_10_15_x86_64.whl"
       }
     },
     "cp311": {
@@ -106515,6 +107102,16 @@
         "tensordict_nightly-2023.9.5-cp311-cp311-macosx_10_9_universal2.whl": "2023.8.31@tensordict_nightly-2023.8.31-cp311-cp311-macosx_10_9_universal2.whl",
         "tensordict_nightly-2023.9.5-cp311-cp311-manylinux1_x86_64.whl": "2023.8.31@tensordict_nightly-2023.8.31-cp311-cp311-manylinux1_x86_64.whl",
         "tensordict_nightly-2023.9.5-cp311-cp311-win_amd64.whl": "2023.8.31@tensordict_nightly-2023.8.31-cp311-cp311-macosx_10_9_universal2.whl"
+      },
+      "2023.9.6": {
+        "tensordict_nightly-2023.9.6-cp311-cp311-macosx_10_9_universal2.whl": "2023.8.31@tensordict_nightly-2023.8.31-cp311-cp311-macosx_10_9_universal2.whl",
+        "tensordict_nightly-2023.9.6-cp311-cp311-manylinux1_x86_64.whl": "2023.8.31@tensordict_nightly-2023.8.31-cp311-cp311-manylinux1_x86_64.whl",
+        "tensordict_nightly-2023.9.6-cp311-cp311-win_amd64.whl": "2023.8.31@tensordict_nightly-2023.8.31-cp311-cp311-macosx_10_9_universal2.whl"
+      },
+      "2023.9.7": {
+        "tensordict_nightly-2023.9.7-cp311-cp311-macosx_10_9_universal2.whl": "2023.8.31@tensordict_nightly-2023.8.31-cp311-cp311-macosx_10_9_universal2.whl",
+        "tensordict_nightly-2023.9.7-cp311-cp311-manylinux1_x86_64.whl": "2023.8.31@tensordict_nightly-2023.8.31-cp311-cp311-manylinux1_x86_64.whl",
+        "tensordict_nightly-2023.9.7-cp311-cp311-win_amd64.whl": "2023.8.31@tensordict_nightly-2023.8.31-cp311-cp311-macosx_10_9_universal2.whl"
       }
     },
     "cp38": {
@@ -106973,6 +107570,16 @@
         "tensordict_nightly-2023.9.5-cp38-cp38-macosx_11_0_x86_64.whl": "2023.8.10@tensordict_nightly-2023.8.10-cp38-cp38-macosx_11_0_x86_64.whl",
         "tensordict_nightly-2023.9.5-cp38-cp38-manylinux1_x86_64.whl": "2023.6.14@tensordict_nightly-2023.6.14-cp38-cp38-macosx_10_15_x86_64.whl",
         "tensordict_nightly-2023.9.5-cp38-cp38-win_amd64.whl": "2023.8.10@tensordict_nightly-2023.8.10-cp38-cp38-macosx_11_0_x86_64.whl"
+      },
+      "2023.9.6": {
+        "tensordict_nightly-2023.9.6-cp38-cp38-macosx_11_0_x86_64.whl": "2023.8.10@tensordict_nightly-2023.8.10-cp38-cp38-macosx_11_0_x86_64.whl",
+        "tensordict_nightly-2023.9.6-cp38-cp38-manylinux1_x86_64.whl": "2023.6.14@tensordict_nightly-2023.6.14-cp38-cp38-macosx_10_15_x86_64.whl",
+        "tensordict_nightly-2023.9.6-cp38-cp38-win_amd64.whl": "2023.8.10@tensordict_nightly-2023.8.10-cp38-cp38-macosx_11_0_x86_64.whl"
+      },
+      "2023.9.7": {
+        "tensordict_nightly-2023.9.7-cp38-cp38-macosx_11_0_x86_64.whl": "2023.8.10@tensordict_nightly-2023.8.10-cp38-cp38-macosx_11_0_x86_64.whl",
+        "tensordict_nightly-2023.9.7-cp38-cp38-manylinux1_x86_64.whl": "2023.6.14@tensordict_nightly-2023.6.14-cp38-cp38-macosx_10_15_x86_64.whl",
+        "tensordict_nightly-2023.9.7-cp38-cp38-win_amd64.whl": "2023.8.10@tensordict_nightly-2023.8.10-cp38-cp38-macosx_11_0_x86_64.whl"
       }
     },
     "cp39": {
@@ -107431,6 +108038,16 @@
         "tensordict_nightly-2023.9.5-cp39-cp39-macosx_11_0_x86_64.whl": "2023.8.10@tensordict_nightly-2023.8.10-cp39-cp39-macosx_11_0_x86_64.whl",
         "tensordict_nightly-2023.9.5-cp39-cp39-manylinux1_x86_64.whl": "2023.6.14@tensordict_nightly-2023.6.14-cp39-cp39-macosx_11_0_x86_64.whl",
         "tensordict_nightly-2023.9.5-cp39-cp39-win_amd64.whl": "2023.8.10@tensordict_nightly-2023.8.10-cp39-cp39-macosx_11_0_x86_64.whl"
+      },
+      "2023.9.6": {
+        "tensordict_nightly-2023.9.6-cp39-cp39-macosx_11_0_x86_64.whl": "2023.8.10@tensordict_nightly-2023.8.10-cp39-cp39-macosx_11_0_x86_64.whl",
+        "tensordict_nightly-2023.9.6-cp39-cp39-manylinux1_x86_64.whl": "2023.6.14@tensordict_nightly-2023.6.14-cp39-cp39-macosx_11_0_x86_64.whl",
+        "tensordict_nightly-2023.9.6-cp39-cp39-win_amd64.whl": "2023.8.10@tensordict_nightly-2023.8.10-cp39-cp39-macosx_11_0_x86_64.whl"
+      },
+      "2023.9.7": {
+        "tensordict_nightly-2023.9.7-cp39-cp39-macosx_11_0_x86_64.whl": "2023.8.10@tensordict_nightly-2023.8.10-cp39-cp39-macosx_11_0_x86_64.whl",
+        "tensordict_nightly-2023.9.7-cp39-cp39-manylinux1_x86_64.whl": "2023.6.14@tensordict_nightly-2023.6.14-cp39-cp39-macosx_11_0_x86_64.whl",
+        "tensordict_nightly-2023.9.7-cp39-cp39-win_amd64.whl": "2023.8.10@tensordict_nightly-2023.8.10-cp39-cp39-macosx_11_0_x86_64.whl"
       }
     },
     "py310": {

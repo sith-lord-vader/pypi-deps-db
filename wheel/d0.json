@@ -843,6 +843,9 @@
           ],
           "requires_python": ">=3.8"
         }
+      },
+      "0.8.1": {
+        "ahead-0.8.1-py2.py3-none-any.whl": "0.6.2@ahead-0.6.2-py2.py3-none-any.whl"
       }
     }
   },
@@ -3454,6 +3457,23 @@
         "apngasm_python-1.0.3-cp310-cp310-win32.whl": "1.0.0@apngasm_python-1.0.0-cp310-cp310-macosx_10_15_arm64.whl",
         "apngasm_python-1.0.3-cp310-cp310-win_amd64.whl": "1.0.0@apngasm_python-1.0.0-cp310-cp310-macosx_10_15_arm64.whl",
         "apngasm_python-1.0.3-cp310-cp310-win_arm64.whl": "1.0.0@apngasm_python-1.0.0-cp310-cp310-macosx_10_15_arm64.whl"
+      },
+      "1.0.4": {
+        "apngasm_python-1.0.4-cp310-cp310-macosx_10_15_x86_64.whl": "1.0.0@apngasm_python-1.0.0-cp310-cp310-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp310-cp310-macosx_11_0_arm64.whl": "1.0.0@apngasm_python-1.0.0-cp310-cp310-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "1.0.0@apngasm_python-1.0.0-cp310-cp310-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp310-cp310-manylinux_2_17_i686.manylinux2014_i686.whl": "1.0.0@apngasm_python-1.0.0-cp310-cp310-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp310-cp310-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl": "1.0.0@apngasm_python-1.0.0-cp310-cp310-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp310-cp310-manylinux_2_17_s390x.manylinux2014_s390x.whl": "1.0.0@apngasm_python-1.0.0-cp310-cp310-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "1.0.0@apngasm_python-1.0.0-cp310-cp310-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp310-cp310-musllinux_1_1_aarch64.whl": "1.0.0@apngasm_python-1.0.0-cp310-cp310-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp310-cp310-musllinux_1_1_i686.whl": "1.0.0@apngasm_python-1.0.0-cp310-cp310-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp310-cp310-musllinux_1_1_ppc64le.whl": "1.0.0@apngasm_python-1.0.0-cp310-cp310-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp310-cp310-musllinux_1_1_s390x.whl": "1.0.0@apngasm_python-1.0.0-cp310-cp310-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp310-cp310-musllinux_1_1_x86_64.whl": "1.0.0@apngasm_python-1.0.0-cp310-cp310-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp310-cp310-win32.whl": "1.0.0@apngasm_python-1.0.0-cp310-cp310-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp310-cp310-win_amd64.whl": "1.0.0@apngasm_python-1.0.0-cp310-cp310-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp310-cp310-win_arm64.whl": "1.0.0@apngasm_python-1.0.0-cp310-cp310-macosx_10_15_arm64.whl"
       }
     },
     "cp311": {
@@ -3513,6 +3533,23 @@
         "apngasm_python-1.0.3-cp311-cp311-win32.whl": "1.0.0@apngasm_python-1.0.0-cp311-cp311-macosx_10_15_arm64.whl",
         "apngasm_python-1.0.3-cp311-cp311-win_amd64.whl": "1.0.0@apngasm_python-1.0.0-cp311-cp311-macosx_10_15_arm64.whl",
         "apngasm_python-1.0.3-cp311-cp311-win_arm64.whl": "1.0.0@apngasm_python-1.0.0-cp311-cp311-macosx_10_15_arm64.whl"
+      },
+      "1.0.4": {
+        "apngasm_python-1.0.4-cp311-cp311-macosx_10_15_x86_64.whl": "1.0.0@apngasm_python-1.0.0-cp311-cp311-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp311-cp311-macosx_11_0_arm64.whl": "1.0.0@apngasm_python-1.0.0-cp311-cp311-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "1.0.0@apngasm_python-1.0.0-cp311-cp311-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp311-cp311-manylinux_2_17_i686.manylinux2014_i686.whl": "1.0.0@apngasm_python-1.0.0-cp311-cp311-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp311-cp311-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl": "1.0.0@apngasm_python-1.0.0-cp311-cp311-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp311-cp311-manylinux_2_17_s390x.manylinux2014_s390x.whl": "1.0.0@apngasm_python-1.0.0-cp311-cp311-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "1.0.0@apngasm_python-1.0.0-cp311-cp311-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp311-cp311-musllinux_1_1_aarch64.whl": "1.0.0@apngasm_python-1.0.0-cp311-cp311-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp311-cp311-musllinux_1_1_i686.whl": "1.0.0@apngasm_python-1.0.0-cp311-cp311-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp311-cp311-musllinux_1_1_ppc64le.whl": "1.0.0@apngasm_python-1.0.0-cp311-cp311-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp311-cp311-musllinux_1_1_s390x.whl": "1.0.0@apngasm_python-1.0.0-cp311-cp311-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp311-cp311-musllinux_1_1_x86_64.whl": "1.0.0@apngasm_python-1.0.0-cp311-cp311-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp311-cp311-win32.whl": "1.0.0@apngasm_python-1.0.0-cp311-cp311-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp311-cp311-win_amd64.whl": "1.0.0@apngasm_python-1.0.0-cp311-cp311-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp311-cp311-win_arm64.whl": "1.0.0@apngasm_python-1.0.0-cp311-cp311-macosx_10_15_arm64.whl"
       }
     },
     "cp312": {
@@ -3538,6 +3575,23 @@
         "apngasm_python-1.0.3-cp312-cp312-win32.whl": "1.0.3@apngasm_python-1.0.3-cp312-cp312-macosx_10_15_x86_64.whl",
         "apngasm_python-1.0.3-cp312-cp312-win_amd64.whl": "1.0.3@apngasm_python-1.0.3-cp312-cp312-macosx_10_15_x86_64.whl",
         "apngasm_python-1.0.3-cp312-cp312-win_arm64.whl": "1.0.3@apngasm_python-1.0.3-cp312-cp312-macosx_10_15_x86_64.whl"
+      },
+      "1.0.4": {
+        "apngasm_python-1.0.4-cp312-cp312-macosx_10_15_x86_64.whl": "1.0.3@apngasm_python-1.0.3-cp312-cp312-macosx_10_15_x86_64.whl",
+        "apngasm_python-1.0.4-cp312-cp312-macosx_11_0_arm64.whl": "1.0.3@apngasm_python-1.0.3-cp312-cp312-macosx_10_15_x86_64.whl",
+        "apngasm_python-1.0.4-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "1.0.3@apngasm_python-1.0.3-cp312-cp312-macosx_10_15_x86_64.whl",
+        "apngasm_python-1.0.4-cp312-cp312-manylinux_2_17_i686.manylinux2014_i686.whl": "1.0.3@apngasm_python-1.0.3-cp312-cp312-macosx_10_15_x86_64.whl",
+        "apngasm_python-1.0.4-cp312-cp312-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl": "1.0.3@apngasm_python-1.0.3-cp312-cp312-macosx_10_15_x86_64.whl",
+        "apngasm_python-1.0.4-cp312-cp312-manylinux_2_17_s390x.manylinux2014_s390x.whl": "1.0.3@apngasm_python-1.0.3-cp312-cp312-macosx_10_15_x86_64.whl",
+        "apngasm_python-1.0.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "1.0.3@apngasm_python-1.0.3-cp312-cp312-macosx_10_15_x86_64.whl",
+        "apngasm_python-1.0.4-cp312-cp312-musllinux_1_1_aarch64.whl": "1.0.3@apngasm_python-1.0.3-cp312-cp312-macosx_10_15_x86_64.whl",
+        "apngasm_python-1.0.4-cp312-cp312-musllinux_1_1_i686.whl": "1.0.3@apngasm_python-1.0.3-cp312-cp312-macosx_10_15_x86_64.whl",
+        "apngasm_python-1.0.4-cp312-cp312-musllinux_1_1_ppc64le.whl": "1.0.3@apngasm_python-1.0.3-cp312-cp312-macosx_10_15_x86_64.whl",
+        "apngasm_python-1.0.4-cp312-cp312-musllinux_1_1_s390x.whl": "1.0.3@apngasm_python-1.0.3-cp312-cp312-macosx_10_15_x86_64.whl",
+        "apngasm_python-1.0.4-cp312-cp312-musllinux_1_1_x86_64.whl": "1.0.3@apngasm_python-1.0.3-cp312-cp312-macosx_10_15_x86_64.whl",
+        "apngasm_python-1.0.4-cp312-cp312-win32.whl": "1.0.3@apngasm_python-1.0.3-cp312-cp312-macosx_10_15_x86_64.whl",
+        "apngasm_python-1.0.4-cp312-cp312-win_amd64.whl": "1.0.3@apngasm_python-1.0.3-cp312-cp312-macosx_10_15_x86_64.whl",
+        "apngasm_python-1.0.4-cp312-cp312-win_arm64.whl": "1.0.3@apngasm_python-1.0.3-cp312-cp312-macosx_10_15_x86_64.whl"
       }
     },
     "cp38": {
@@ -3594,6 +3648,22 @@
         "apngasm_python-1.0.3-cp38-cp38-musllinux_1_1_x86_64.whl": "1.0.0@apngasm_python-1.0.0-cp38-cp38-macosx_10_15_arm64.whl",
         "apngasm_python-1.0.3-cp38-cp38-win32.whl": "1.0.0@apngasm_python-1.0.0-cp38-cp38-macosx_10_15_arm64.whl",
         "apngasm_python-1.0.3-cp38-cp38-win_amd64.whl": "1.0.0@apngasm_python-1.0.0-cp38-cp38-macosx_10_15_arm64.whl"
+      },
+      "1.0.4": {
+        "apngasm_python-1.0.4-cp38-cp38-macosx_10_15_x86_64.whl": "1.0.0@apngasm_python-1.0.0-cp38-cp38-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp38-cp38-macosx_11_0_arm64.whl": "1.0.0@apngasm_python-1.0.0-cp38-cp38-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "1.0.0@apngasm_python-1.0.0-cp38-cp38-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp38-cp38-manylinux_2_17_i686.manylinux2014_i686.whl": "1.0.0@apngasm_python-1.0.0-cp38-cp38-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp38-cp38-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl": "1.0.0@apngasm_python-1.0.0-cp38-cp38-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp38-cp38-manylinux_2_17_s390x.manylinux2014_s390x.whl": "1.0.0@apngasm_python-1.0.0-cp38-cp38-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "1.0.0@apngasm_python-1.0.0-cp38-cp38-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp38-cp38-musllinux_1_1_aarch64.whl": "1.0.0@apngasm_python-1.0.0-cp38-cp38-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp38-cp38-musllinux_1_1_i686.whl": "1.0.0@apngasm_python-1.0.0-cp38-cp38-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp38-cp38-musllinux_1_1_ppc64le.whl": "1.0.0@apngasm_python-1.0.0-cp38-cp38-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp38-cp38-musllinux_1_1_s390x.whl": "1.0.0@apngasm_python-1.0.0-cp38-cp38-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp38-cp38-musllinux_1_1_x86_64.whl": "1.0.0@apngasm_python-1.0.0-cp38-cp38-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp38-cp38-win32.whl": "1.0.0@apngasm_python-1.0.0-cp38-cp38-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp38-cp38-win_amd64.whl": "1.0.0@apngasm_python-1.0.0-cp38-cp38-macosx_10_15_arm64.whl"
       }
     },
     "cp39": {
@@ -3653,6 +3723,23 @@
         "apngasm_python-1.0.3-cp39-cp39-win32.whl": "1.0.0@apngasm_python-1.0.0-cp39-cp39-macosx_10_15_arm64.whl",
         "apngasm_python-1.0.3-cp39-cp39-win_amd64.whl": "1.0.0@apngasm_python-1.0.0-cp39-cp39-macosx_10_15_arm64.whl",
         "apngasm_python-1.0.3-cp39-cp39-win_arm64.whl": "1.0.0@apngasm_python-1.0.0-cp39-cp39-macosx_10_15_arm64.whl"
+      },
+      "1.0.4": {
+        "apngasm_python-1.0.4-cp39-cp39-macosx_10_15_x86_64.whl": "1.0.0@apngasm_python-1.0.0-cp39-cp39-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp39-cp39-macosx_11_0_arm64.whl": "1.0.0@apngasm_python-1.0.0-cp39-cp39-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "1.0.0@apngasm_python-1.0.0-cp39-cp39-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp39-cp39-manylinux_2_17_i686.manylinux2014_i686.whl": "1.0.0@apngasm_python-1.0.0-cp39-cp39-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp39-cp39-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl": "1.0.0@apngasm_python-1.0.0-cp39-cp39-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp39-cp39-manylinux_2_17_s390x.manylinux2014_s390x.whl": "1.0.0@apngasm_python-1.0.0-cp39-cp39-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "1.0.0@apngasm_python-1.0.0-cp39-cp39-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp39-cp39-musllinux_1_1_aarch64.whl": "1.0.0@apngasm_python-1.0.0-cp39-cp39-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp39-cp39-musllinux_1_1_i686.whl": "1.0.0@apngasm_python-1.0.0-cp39-cp39-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp39-cp39-musllinux_1_1_ppc64le.whl": "1.0.0@apngasm_python-1.0.0-cp39-cp39-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp39-cp39-musllinux_1_1_s390x.whl": "1.0.0@apngasm_python-1.0.0-cp39-cp39-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp39-cp39-musllinux_1_1_x86_64.whl": "1.0.0@apngasm_python-1.0.0-cp39-cp39-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp39-cp39-win32.whl": "1.0.0@apngasm_python-1.0.0-cp39-cp39-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp39-cp39-win_amd64.whl": "1.0.0@apngasm_python-1.0.0-cp39-cp39-macosx_10_15_arm64.whl",
+        "apngasm_python-1.0.4-cp39-cp39-win_arm64.whl": "1.0.0@apngasm_python-1.0.0-cp39-cp39-macosx_10_15_arm64.whl"
       }
     },
     "pp310": {
@@ -3682,6 +3769,13 @@
         "apngasm_python-1.0.3-pp310-pypy310_pp73-manylinux_2_17_i686.manylinux2014_i686.whl": "1.0.0@apngasm_python-1.0.0-pp310-pypy310_pp73-macosx_10_15_x86_64.whl",
         "apngasm_python-1.0.3-pp310-pypy310_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "1.0.0@apngasm_python-1.0.0-pp310-pypy310_pp73-macosx_10_15_x86_64.whl",
         "apngasm_python-1.0.3-pp310-pypy310_pp73-win_amd64.whl": "1.0.0@apngasm_python-1.0.0-pp310-pypy310_pp73-macosx_10_15_x86_64.whl"
+      },
+      "1.0.4": {
+        "apngasm_python-1.0.4-pp310-pypy310_pp73-macosx_10_15_x86_64.whl": "1.0.0@apngasm_python-1.0.0-pp310-pypy310_pp73-macosx_10_15_x86_64.whl",
+        "apngasm_python-1.0.4-pp310-pypy310_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "1.0.0@apngasm_python-1.0.0-pp310-pypy310_pp73-macosx_10_15_x86_64.whl",
+        "apngasm_python-1.0.4-pp310-pypy310_pp73-manylinux_2_17_i686.manylinux2014_i686.whl": "1.0.0@apngasm_python-1.0.0-pp310-pypy310_pp73-macosx_10_15_x86_64.whl",
+        "apngasm_python-1.0.4-pp310-pypy310_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "1.0.0@apngasm_python-1.0.0-pp310-pypy310_pp73-macosx_10_15_x86_64.whl",
+        "apngasm_python-1.0.4-pp310-pypy310_pp73-win_amd64.whl": "1.0.0@apngasm_python-1.0.0-pp310-pypy310_pp73-macosx_10_15_x86_64.whl"
       }
     },
     "pp38": {
@@ -3711,6 +3805,13 @@
         "apngasm_python-1.0.3-pp38-pypy38_pp73-manylinux_2_17_i686.manylinux2014_i686.whl": "1.0.0@apngasm_python-1.0.0-pp38-pypy38_pp73-macosx_10_15_x86_64.whl",
         "apngasm_python-1.0.3-pp38-pypy38_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "1.0.0@apngasm_python-1.0.0-pp38-pypy38_pp73-macosx_10_15_x86_64.whl",
         "apngasm_python-1.0.3-pp38-pypy38_pp73-win_amd64.whl": "1.0.0@apngasm_python-1.0.0-pp38-pypy38_pp73-macosx_10_15_x86_64.whl"
+      },
+      "1.0.4": {
+        "apngasm_python-1.0.4-pp38-pypy38_pp73-macosx_10_15_x86_64.whl": "1.0.0@apngasm_python-1.0.0-pp38-pypy38_pp73-macosx_10_15_x86_64.whl",
+        "apngasm_python-1.0.4-pp38-pypy38_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "1.0.0@apngasm_python-1.0.0-pp38-pypy38_pp73-macosx_10_15_x86_64.whl",
+        "apngasm_python-1.0.4-pp38-pypy38_pp73-manylinux_2_17_i686.manylinux2014_i686.whl": "1.0.0@apngasm_python-1.0.0-pp38-pypy38_pp73-macosx_10_15_x86_64.whl",
+        "apngasm_python-1.0.4-pp38-pypy38_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "1.0.0@apngasm_python-1.0.0-pp38-pypy38_pp73-macosx_10_15_x86_64.whl",
+        "apngasm_python-1.0.4-pp38-pypy38_pp73-win_amd64.whl": "1.0.0@apngasm_python-1.0.0-pp38-pypy38_pp73-macosx_10_15_x86_64.whl"
       }
     },
     "pp39": {
@@ -3740,6 +3841,13 @@
         "apngasm_python-1.0.3-pp39-pypy39_pp73-manylinux_2_17_i686.manylinux2014_i686.whl": "1.0.0@apngasm_python-1.0.0-pp39-pypy39_pp73-macosx_10_15_x86_64.whl",
         "apngasm_python-1.0.3-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "1.0.0@apngasm_python-1.0.0-pp39-pypy39_pp73-macosx_10_15_x86_64.whl",
         "apngasm_python-1.0.3-pp39-pypy39_pp73-win_amd64.whl": "1.0.0@apngasm_python-1.0.0-pp39-pypy39_pp73-macosx_10_15_x86_64.whl"
+      },
+      "1.0.4": {
+        "apngasm_python-1.0.4-pp39-pypy39_pp73-macosx_10_15_x86_64.whl": "1.0.0@apngasm_python-1.0.0-pp39-pypy39_pp73-macosx_10_15_x86_64.whl",
+        "apngasm_python-1.0.4-pp39-pypy39_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "1.0.0@apngasm_python-1.0.0-pp39-pypy39_pp73-macosx_10_15_x86_64.whl",
+        "apngasm_python-1.0.4-pp39-pypy39_pp73-manylinux_2_17_i686.manylinux2014_i686.whl": "1.0.0@apngasm_python-1.0.0-pp39-pypy39_pp73-macosx_10_15_x86_64.whl",
+        "apngasm_python-1.0.4-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "1.0.0@apngasm_python-1.0.0-pp39-pypy39_pp73-macosx_10_15_x86_64.whl",
+        "apngasm_python-1.0.4-pp39-pypy39_pp73-win_amd64.whl": "1.0.0@apngasm_python-1.0.0-pp39-pypy39_pp73-macosx_10_15_x86_64.whl"
       }
     }
   },
@@ -4977,6 +5085,18 @@
       },
       "0.0.4.6": {
         "autodox-0.0.4.6-py3-none-any.whl": "0.0.2@autodox-0.0.2-py3-none-any.whl"
+      },
+      "0.1.0": {
+        "autodox-0.1.0-py3-none-any.whl": "0.0.2@autodox-0.0.2-py3-none-any.whl"
+      },
+      "0.1.1": {
+        "autodox-0.1.1-py3-none-any.whl": "0.0.2@autodox-0.0.2-py3-none-any.whl"
+      },
+      "0.1.2": {
+        "autodox-0.1.2-py3-none-any.whl": "0.0.2@autodox-0.0.2-py3-none-any.whl"
+      },
+      "0.1.3": {
+        "autodox-0.1.3-py3-none-any.whl": "0.0.2@autodox-0.0.2-py3-none-any.whl"
       }
     }
   },
@@ -12868,6 +12988,18 @@
       },
       "8.20.7": {
         "boris_behav_obs-8.20.7-py2.py3-none-any.whl": "8.20.5@boris_behav_obs-8.20.5-py2.py3-none-any.whl"
+      },
+      "8.21": {
+        "boris_behav_obs-8.21-py2.py3-none-any.whl": "8.20.5@boris_behav_obs-8.20.5-py2.py3-none-any.whl"
+      },
+      "8.21.1": {
+        "boris_behav_obs-8.21.1-py2.py3-none-any.whl": "8.20.5@boris_behav_obs-8.20.5-py2.py3-none-any.whl"
+      },
+      "8.21.2": {
+        "boris_behav_obs-8.21.2-py2.py3-none-any.whl": "8.20.5@boris_behav_obs-8.20.5-py2.py3-none-any.whl"
+      },
+      "8.21.3": {
+        "boris_behav_obs-8.21.3-py2.py3-none-any.whl": "8.20.5@boris_behav_obs-8.20.5-py2.py3-none-any.whl"
       }
     },
     "py3": {
@@ -13730,6 +13862,9 @@
       "1.31.41": {
         "botocore_a_la_carte_chime_sdk_voice-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_chime_sdk_voice-1.29.100-py3-none-any.whl"
       },
+      "1.31.42": {
+        "botocore_a_la_carte_chime_sdk_voice-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_chime_sdk_voice-1.29.100-py3-none-any.whl"
+      },
       "1.31.5": {
         "botocore_a_la_carte_chime_sdk_voice-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_chime_sdk_voice-1.29.100-py3-none-any.whl"
       },
@@ -14230,6 +14365,9 @@
       },
       "1.31.41": {
         "botocore_a_la_carte_mwaa-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_mwaa-1.29.100-py3-none-any.whl"
+      },
+      "1.31.42": {
+        "botocore_a_la_carte_mwaa-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_mwaa-1.29.100-py3-none-any.whl"
       },
       "1.31.5": {
         "botocore_a_la_carte_mwaa-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_mwaa-1.29.100-py3-none-any.whl"
@@ -23912,6 +24050,12 @@
           "requires_python": ">=3.8"
         }
       },
+      "0.2.17": {
+        "ex4nicegui-0.2.17-py3-none-any.whl": "0.2.16@ex4nicegui-0.2.16-py3-none-any.whl"
+      },
+      "0.2.18": {
+        "ex4nicegui-0.2.18-py3-none-any.whl": "0.2.16@ex4nicegui-0.2.16-py3-none-any.whl"
+      },
       "0.2.2": {
         "ex4nicegui-0.2.2-py3-none-any.whl": "0.2.0@ex4nicegui-0.2.0-py3-none-any.whl"
       },
@@ -24740,6 +24884,20 @@
             "era-5g-client (>=0.4.1)",
             "era-5g-interface (>=0.4.1)",
             "fcw-core-utils (>=0.4.3)",
+            "opencv-python (>=4.6)",
+            "pyyaml (>=6.0)",
+            "simple-websocket (>=0.9.0)",
+            "websocket-client (>=1.5.1)"
+          ],
+          "requires_python": ">=3.8"
+        }
+      },
+      "0.5.0": {
+        "fcw_client-0.5.0-py3-none-any.whl": {
+          "requires_dist": [
+            "era-5g-client (>=0.5.1)",
+            "era-5g-interface (>=0.6.0)",
+            "fcw-core-utils (>=0.5.0)",
             "opencv-python (>=4.6)",
             "pyyaml (>=6.0)",
             "simple-websocket (>=0.9.0)",
@@ -29888,6 +30046,14 @@
         "huaweicloudsdkdwr-3.1.57-py2.py3-none-any.whl": {
           "requires_dist": [
             "huaweicloudsdkcore >=3.1.57"
+          ],
+          "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
+        }
+      },
+      "3.1.58": {
+        "huaweicloudsdkdwr-3.1.58-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "huaweicloudsdkcore >=3.1.58"
           ],
           "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
         }
@@ -55874,6 +56040,9 @@
       },
       "0.2.1": {
         "pyfreshintellivent-0.2.1-py3-none-any.whl": "0.1.4@pyfreshintellivent-0.1.4-py3-none-any.whl"
+      },
+      "0.3.0": {
+        "pyfreshintellivent-0.3.0-py3-none-any.whl": "0.1.4@pyfreshintellivent-0.1.4-py3-none-any.whl"
       }
     }
   },
@@ -66640,6 +66809,9 @@
           "requires_python": ">=3.9"
         }
       },
+      "0.0.44": {
+        "ssb_altinn3_util-0.0.44-py3-none-any.whl": "0.0.43@ssb_altinn3_util-0.0.43-py3-none-any.whl"
+      },
       "0.0.5": {
         "ssb_altinn3_util-0.0.5-py3-none-any.whl": "0.0.3@ssb_altinn3_util-0.0.3-py3-none-any.whl"
       },
@@ -69644,6 +69816,9 @@
       "1.16.0": {
         "swh.storage-1.16.0-py3-none-any.whl": "1.15.3@swh.storage-1.15.3-py3-none-any.whl"
       },
+      "1.17.0": {
+        "swh.storage-1.17.0-py3-none-any.whl": "1.15.3@swh.storage-1.15.3-py3-none-any.whl"
+      },
       "1.2.0": {
         "swh.storage-1.2.0-py3-none-any.whl": {
           "provides_extras": [
@@ -70219,6 +70394,16 @@
         "tableauhyperapi-0.0.17537-py3-none-macosx_10_11_x86_64.whl": "0.0.11556@tableauhyperapi-0.0.11556-py3-none-macosx_10_11_x86_64.whl",
         "tableauhyperapi-0.0.17537-py3-none-manylinux2014_x86_64.whl": "0.0.11556@tableauhyperapi-0.0.11556-py3-none-macosx_10_11_x86_64.whl",
         "tableauhyperapi-0.0.17537-py3-none-win_amd64.whl": "0.0.11556@tableauhyperapi-0.0.11556-py3-none-macosx_10_11_x86_64.whl"
+      },
+      "0.0.17782": {
+        "tableauhyperapi-0.0.17782-py3-none-macosx_10_11_x86_64.whl": {
+          "requires_dist": [
+            "cffi !=1.14.3,<2,>=1.12.2"
+          ],
+          "requires_python": ">=3.6"
+        },
+        "tableauhyperapi-0.0.17782-py3-none-manylinux2014_x86_64.whl": "0.0.17782@tableauhyperapi-0.0.17782-py3-none-macosx_10_11_x86_64.whl",
+        "tableauhyperapi-0.0.17782-py3-none-win_amd64.whl": "0.0.17782@tableauhyperapi-0.0.17782-py3-none-macosx_10_11_x86_64.whl"
       },
       "0.0.9746": {
         "tableauhyperapi-0.0.9746-py3-none-macosx_10_11_x86_64.whl": "0.0.10002@tableauhyperapi-0.0.10002-py3-none-macosx_10_11_x86_64.whl",
@@ -71464,6 +71649,20 @@
         "tencentcloud_sdk_python_dasb-3.0.974-py2.py3-none-any.whl": {
           "requires_dist": [
             "tencentcloud-sdk-python-common (==3.0.974)"
+          ]
+        }
+      },
+      "3.0.975": {
+        "tencentcloud_sdk_python_dasb-3.0.975-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.975)"
+          ]
+        }
+      },
+      "3.0.976": {
+        "tencentcloud_sdk_python_dasb-3.0.976-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.976)"
           ]
         }
       }
@@ -74181,6 +74380,12 @@
       },
       "2.15.0.dev2023090408": {
         "tf_estimator_nightly-2.15.0.dev2023090408-py2.py3-none-any.whl": "2.10.0.dev2022040108@tf_estimator_nightly-2.10.0.dev2022040108-py2.py3-none-any.whl"
+      },
+      "2.15.0.dev2023090608": {
+        "tf_estimator_nightly-2.15.0.dev2023090608-py2.py3-none-any.whl": "2.10.0.dev2022040108@tf_estimator_nightly-2.10.0.dev2022040108-py2.py3-none-any.whl"
+      },
+      "2.15.0.dev2023090708": {
+        "tf_estimator_nightly-2.15.0.dev2023090708-py2.py3-none-any.whl": "2.10.0.dev2022040108@tf_estimator_nightly-2.10.0.dev2022040108-py2.py3-none-any.whl"
       },
       "2.3.0.dev2020031201": {
         "tf_estimator_nightly-2.3.0.dev2020031201-py2.py3-none-any.whl": "1.13.0.dev2019011813@tf_estimator_nightly-1.13.0.dev2019011813-py2.py3-none-any.whl"

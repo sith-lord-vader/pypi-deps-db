@@ -11192,6 +11192,9 @@
       "1.31.41": {
         "botocore_a_la_carte_fms-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_fms-1.29.100-py3-none-any.whl"
       },
+      "1.31.42": {
+        "botocore_a_la_carte_fms-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_fms-1.29.100-py3-none-any.whl"
+      },
       "1.31.5": {
         "botocore_a_la_carte_fms-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_fms-1.29.100-py3-none-any.whl"
       },
@@ -11693,6 +11696,9 @@
       "1.31.41": {
         "botocore_a_la_carte_rds_data-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_rds_data-1.29.100-py3-none-any.whl"
       },
+      "1.31.42": {
+        "botocore_a_la_carte_rds_data-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_rds_data-1.29.100-py3-none-any.whl"
+      },
       "1.31.5": {
         "botocore_a_la_carte_rds_data-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_rds_data-1.29.100-py3-none-any.whl"
       },
@@ -12193,6 +12199,9 @@
       },
       "1.31.41": {
         "botocore_a_la_carte_rum-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_rum-1.29.100-py3-none-any.whl"
+      },
+      "1.31.42": {
+        "botocore_a_la_carte_rum-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_rum-1.29.100-py3-none-any.whl"
       },
       "1.31.5": {
         "botocore_a_la_carte_rum-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_rum-1.29.100-py3-none-any.whl"
@@ -23704,6 +23713,39 @@
           ],
           "requires_python": ">=3.7"
         }
+      },
+      "0.6a0": {
+        "datasette_edit_schema-0.6a0-py3-none-any.whl": {
+          "provides_extras": [
+            "test"
+          ],
+          "requires_dist": [
+            "datasette >=0.63",
+            "sqlite-utils >=3.35",
+            "pytest ; extra == 'test'",
+            "pytest-asyncio ; extra == 'test'"
+          ],
+          "requires_python": ">=3.7"
+        }
+      },
+      "0.6a1": {
+        "datasette_edit_schema-0.6a1-py3-none-any.whl": "0.6a0@datasette_edit_schema-0.6a0-py3-none-any.whl"
+      },
+      "0.6a2": {
+        "datasette_edit_schema-0.6a2-py3-none-any.whl": {
+          "provides_extras": [
+            "test"
+          ],
+          "requires_dist": [
+            "datasette >=0.63",
+            "sqlite-utils >=3.35",
+            "pytest ; extra == 'test'",
+            "pytest-asyncio ; extra == 'test'",
+            "beautifulsoup4 ; extra == 'test'",
+            "html5lib ; extra == 'test'"
+          ],
+          "requires_python": ">=3.7"
+        }
       }
     }
   },
@@ -32613,6 +32655,18 @@
       }
     }
   },
+  "famqy": {
+    "py3": {
+      "0.1.1": {
+        "famqy-0.1.1-py3-none-any.whl": {
+          "requires_dist": [
+            "fastapi"
+          ],
+          "requires_python": ">=3.11"
+        }
+      }
+    }
+  },
   "fastapi": {
     "py3": {
       "0.1.0": {
@@ -38259,6 +38313,18 @@
       }
     }
   },
+  "foreqast-client": {
+    "py3": {
+      "0.1.0": {
+        "foreqast_client-0.1.0-py3-none-any.whl": {
+          "requires_dist": [
+            "pandas",
+            "requests"
+          ]
+        }
+      }
+    }
+  },
   "formgram": {
     "py3": {
       "0.0.1": {
@@ -42798,6 +42864,9 @@
       },
       "0.0.21": {
         "graphing-0.0.21-py3-none-any.whl": "0.0.0@graphing-0.0.0-py3-none-any.whl"
+      },
+      "0.0.22": {
+        "graphing-0.0.22-py3-none-any.whl": "0.0.0@graphing-0.0.0-py3-none-any.whl"
       },
       "0.0.3": {
         "graphing-0.0.3-py3-none-any.whl": "0.0.0@graphing-0.0.0-py3-none-any.whl"
@@ -60170,6 +60239,9 @@
       },
       "1.0.2": {
         "mkdocs_static_i18n-1.0.2-py3-none-any.whl": "1.0.0@mkdocs_static_i18n-1.0.0-py3-none-any.whl"
+      },
+      "1.0.3": {
+        "mkdocs_static_i18n-1.0.3-py3-none-any.whl": "1.0.0@mkdocs_static_i18n-1.0.0-py3-none-any.whl"
       }
     }
   },
@@ -63036,6 +63108,9 @@
           ],
           "requires_python": ">=3.8"
         }
+      },
+      "0.0.3": {
+        "napari_bfio-0.0.3-py3-none-any.whl": "0.0.1@napari_bfio-0.0.1-py3-none-any.whl"
       }
     }
   },
@@ -72906,6 +72981,14 @@
       },
       "0.1.3": {
         "prestashop-0.1.3-py3-none-any.whl": "0.1.0@prestashop-0.1.0-py3-none-any.whl"
+      },
+      "0.1.4": {
+        "prestashop-0.1.4-py3-none-any.whl": {
+          "requires_dist": [
+            "requests",
+            "future"
+          ]
+        }
       }
     }
   },
@@ -74894,6 +74977,23 @@
       },
       "0.0.4": {
         "pyerp-0.0.4-py3-none-any.whl": "0.0.1@pyerp-0.0.1-py3-none-any.whl"
+      }
+    }
+  },
+  "pyesios": {
+    "py3": {
+      "0.1.1": {
+        "pyesios-0.1.1-py3-none-any.whl": {
+          "provides_extras": [
+            "graphs"
+          ],
+          "requires_dist": [
+            "matplotlib ; extra == \"graphs\"",
+            "numpy",
+            "pandas"
+          ],
+          "requires_python": ">=3.9,<4.0"
+        }
       }
     }
   },
@@ -80874,6 +80974,9 @@
         "python_logdog-0.0.1.dev4-py3-none-any.whl": {
           "requires_python": ">=3.10"
         }
+      },
+      "0.1.0": {
+        "python_logdog-0.1.0-py3-none-any.whl": "0.0.1.dev4@python_logdog-0.0.1.dev4-py3-none-any.whl"
       }
     }
   },
@@ -90641,6 +90744,9 @@
       },
       "6.2.0.dev122": {
         "stix_shifter_modules_mysql-6.2.0.dev122-py2.py3-none-any.whl": "1.0.0.dev782@stix_shifter_modules_mysql-1.0.0.dev782-py2.py3-none-any.whl"
+      },
+      "6.2.1": {
+        "stix_shifter_modules_mysql-6.2.1-py2.py3-none-any.whl": "5.3.1.dev107@stix_shifter_modules_mysql-5.3.1.dev107-py2.py3-none-any.whl"
       }
     }
   },
@@ -95905,6 +96011,20 @@
         "tencentcloud_sdk_python_tcr-3.0.974-py2.py3-none-any.whl": {
           "requires_dist": [
             "tencentcloud-sdk-python-common (==3.0.974)"
+          ]
+        }
+      },
+      "3.0.975": {
+        "tencentcloud_sdk_python_tcr-3.0.975-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.975)"
+          ]
+        }
+      },
+      "3.0.976": {
+        "tencentcloud_sdk_python_tcr-3.0.976-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.976)"
           ]
         }
       }
@@ -102543,6 +102663,18 @@
       },
       "1.167.0": {
         "windmill_api-1.167.0-py3-none-any.whl": "1.166.0@windmill_api-1.166.0-py3-none-any.whl"
+      },
+      "1.168.0": {
+        "windmill_api-1.168.0-py3-none-any.whl": "1.166.0@windmill_api-1.166.0-py3-none-any.whl"
+      },
+      "1.168.1": {
+        "windmill_api-1.168.1-py3-none-any.whl": "1.166.0@windmill_api-1.166.0-py3-none-any.whl"
+      },
+      "1.168.2": {
+        "windmill_api-1.168.2-py3-none-any.whl": "1.166.0@windmill_api-1.166.0-py3-none-any.whl"
+      },
+      "1.168.3": {
+        "windmill_api-1.168.3-py3-none-any.whl": "1.166.0@windmill_api-1.166.0-py3-none-any.whl"
       },
       "1.17.0": {
         "windmill_api-1.17.0-py3-none-any.whl": "1.10.0@windmill_api-1.10.0-py3-none-any.whl"

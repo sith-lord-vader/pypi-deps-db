@@ -337,6 +337,9 @@
             "types-PyYAML"
           ]
         }
+      },
+      "0.0.3": {
+        "aigc_evals-0.0.3-py3-none-any.whl": "0.0.2@aigc_evals-0.0.2-py3-none-any.whl"
       }
     }
   },
@@ -20008,6 +20011,12 @@
       },
       "1.1.4": {
         "django_bunny-1.1.4-py3-none-any.whl": "1.0.0@django_bunny-1.0.0-py3-none-any.whl"
+      },
+      "1.1.5": {
+        "django_bunny-1.1.5-py3-none-any.whl": "1.0.0@django_bunny-1.0.0-py3-none-any.whl"
+      },
+      "1.1.6": {
+        "django_bunny-1.1.6-py3-none-any.whl": "1.0.0@django_bunny-1.0.0-py3-none-any.whl"
       }
     }
   },
@@ -24929,6 +24938,60 @@
       },
       "0.4.4": {
         "featurebyte-0.4.4-py3-none-any.whl": "0.4.0@featurebyte-0.4.0-py3-none-any.whl"
+      },
+      "0.5.0": {
+        "featurebyte-0.5.0-py3-none-any.whl": {
+          "provides_extras": [
+            "server"
+          ],
+          "requires_dist": [
+            "PyYAML (>=6.0,<7.0)",
+            "aiobotocore[boto3] (>=2.4.0,<3.0.0)",
+            "aiofiles (>=22.1.0,<23.0.0)",
+            "aioredis (>=2.0.1,<3.0.0) ; extra == \"server\"",
+            "alive-progress (>=3.1.1,<4.0.0)",
+            "asyncache (>=0.3.1,<0.4.0)",
+            "black (>=23.3.0,<24.0.0)",
+            "cachetools (>=5.2.0,<6.0.0) ; extra == \"server\"",
+            "celery[redis] (>=5.2.6,<6.0.0) ; extra == \"server\"",
+            "celerybeat-mongo (>=0.2.0,<0.3.0) ; extra == \"server\"",
+            "databricks-cli (>=0.17.3,<0.18.0) ; extra == \"server\"",
+            "databricks-sql-connector (==2.8.0) ; extra == \"server\"",
+            "fastapi (>=0.95.1,<0.96.0) ; extra == \"server\"",
+            "featurebyte-freeware (>=0.2.15,<0.3.0) ; extra == \"server\"",
+            "gevent (>=22.10.2,<23.0.0) ; extra == \"server\"",
+            "humanize (>=4.4.0,<5.0.0)",
+            "importlib_metadata ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "jinja2 (>=3.1.2,<4.0.0)",
+            "lazy-object-proxy (>=1.7.1,<2.0.0)",
+            "motor (>=3.0.0,<4.0.0) ; extra == \"server\"",
+            "orjson (>=3.8.3,<4.0.0)",
+            "pandas (>=1.5.3,<2.0.0)",
+            "pdfkit (>=1.0.0,<2.0.0) ; extra == \"server\"",
+            "pyarrow (>=10,<11)",
+            "pydantic (>=1.9.6,<2.0.0)",
+            "pyhive (>=0.6.5,<0.7.0) ; extra == \"server\"",
+            "pymongo (>=4.1.1,<5.0.0)",
+            "python-multipart (>=0.0.6,<0.0.7)",
+            "python-on-whales (>=0.60.0,<0.61.0)",
+            "redis (>=5.0.0b1,<6.0.0) ; extra == \"server\"",
+            "requests (>=2.27.1,<3.0.0)",
+            "requests-kerberos (>=0.14.0,<0.15.0) ; extra == \"server\"",
+            "rich (>=13.3.4,<14.0.0)",
+            "sasl (>=0.3.1,<0.4.0) ; extra == \"server\"",
+            "smart-open[azure,gcs] (>=6.3.0,<7.0.0) ; extra == \"server\"",
+            "snowflake-connector-python (>=3.0.4,<4.0.0) ; extra == \"server\"",
+            "sqlglot (>=10.1.3,<10.4)",
+            "thrift-sasl (>=0.4.3,<0.5.0) ; extra == \"server\"",
+            "typeguard (>=2.13.3,<3.0.0)",
+            "typer (>=0.7.0,<0.8.0)",
+            "typing-extensions (==4.5.0)",
+            "uvicorn[standard] (>=0.21.1,<0.22.0) ; extra == \"server\"",
+            "websocket-client (>=1.5.1,<2.0.0)",
+            "wheel (==0.40.0)"
+          ],
+          "requires_python": ">=3.8,<3.12"
+        }
       }
     }
   },
@@ -39707,6 +39770,18 @@
       },
       "1.1.2": {
         "mkdocs_git_committers_plugin_2-1.1.2-py3-none-any.whl": "1.0.1@mkdocs_git_committers_plugin_2-1.0.1-py3-none-any.whl"
+      },
+      "1.2.0": {
+        "mkdocs_git_committers_plugin_2-1.2.0-py3-none-any.whl": {
+          "requires_dist": [
+            "beautifulsoup4",
+            "gitpython",
+            "lxml (>=4.9)",
+            "mkdocs (>=1.0.3)",
+            "requests"
+          ],
+          "requires_python": ">=3.8,<4"
+        }
       }
     }
   },
@@ -49562,6 +49637,29 @@
       },
       "0.4.0": {
         "octoai_sdk-0.4.0-py3-none-any.whl": "0.2.1@octoai_sdk-0.2.1-py3-none-any.whl"
+      },
+      "0.5.0": {
+        "octoai_sdk-0.5.0-py3-none-any.whl": {
+          "provides_extras": [
+            "docs"
+          ],
+          "requires_dist": [
+            "av (>=10.0.0,<11.0.0)",
+            "click (>=8.1.3,<9.0.0)",
+            "fastapi (>=0.100.0,<0.101.0)",
+            "httpx (>=0.24.0,<0.25.0)",
+            "imageio (>=2.31.1,<3.0.0)",
+            "numpy (>=1.24.3,<2.0.0)",
+            "pillow (>=9.5.0,<10.0.0)",
+            "pydantic (>=2.1.1,<3.0.0)",
+            "pyyaml (>=6.0,<7.0)",
+            "soundfile (>=0.12.1,<0.13.0)",
+            "types-pyyaml (>=6.0.12.10,<7.0.0.0)",
+            "types-requests (>=2.31.0.2,<3.0.0.0)",
+            "uvicorn (>=0.22.0,<0.23.0)"
+          ],
+          "requires_python": ">=3.8.1,<4.0.0"
+        }
       }
     }
   },
@@ -71393,6 +71491,15 @@
           ],
           "requires_python": ">=3.10,<4.0"
         }
+      },
+      "0.1.2": {
+        "polywrap_manifest-0.1.2-py3-none-any.whl": {
+          "requires_dist": [
+            "polywrap-msgpack (==0.1.2)",
+            "pydantic (>=1.10.2,<2.0.0)"
+          ],
+          "requires_python": ">=3.10,<4.0"
+        }
       }
     }
   },
@@ -78987,6 +79094,31 @@
       },
       "2.2.1": {
         "QWeb-2.2.1-py3-none-any.whl": "2.2.0@QWeb-2.2.0-py3-none-any.whl"
+      },
+      "2.2.2": {
+        "QWeb-2.2.2-py3-none-any.whl": {
+          "requires_dist": [
+            "setuptools >=65.5.1",
+            "pyscreeze ==0.1.28",
+            "pyautogui >=0.9.53",
+            "pynput >=1.7.6",
+            "requests >=2.31.0",
+            "robotframework <7,>=3.2.2",
+            "robotframework-debuglibrary ==2.3.0",
+            "selenium ==4.9.0",
+            "Pillow ==9.5.0",
+            "scipy >=1.7.3",
+            "ply",
+            "opencv-python ==4.8.0.74",
+            "slate3k >=0.5.3",
+            "pyobjc-core ==9.2 ; \"darwin\" in sys_platform",
+            "pyobjc ==9.2 ; \"darwin\" in sys_platform",
+            "xlib ; \"linux\" in sys_platform",
+            "scikit-image ==0.19.1 ; python_version == \"3.7\"",
+            "scikit-image ==0.21 ; python_version > \"3.7\""
+          ],
+          "requires_python": ">3.6,<4.0"
+        }
       }
     }
   },
@@ -86713,6 +86845,15 @@
       },
       "0.2.4.dev0": {
         "singularitytechnologies.singularitytechnologiesapi-0.2.4.dev0-py3-none-any.whl": "0.2.1.dev0@singularitytechnologies.singularitytechnologiesapi-0.2.1.dev0-py3-none-any.whl"
+      }
+    }
+  },
+  "sinj": {
+    "py3": {
+      "0.0.1": {
+        "sinj-0.0.1-py3-none-any.whl": {
+          "requires_python": ">=3.7"
+        }
       }
     }
   },

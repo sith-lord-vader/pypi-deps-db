@@ -6627,6 +6627,74 @@
       "5.14.1": {
         "amsterdam_schema_tools-5.14.1-py3-none-any.whl": "5.13.3@amsterdam_schema_tools-5.13.3-py3-none-any.whl"
       },
+      "5.14.2": {
+        "amsterdam_schema_tools-5.14.2-py3-none-any.whl": {
+          "provides_extras": [
+            "dev",
+            "django",
+            "kafka",
+            "tests"
+          ],
+          "requires_dist": [
+            "sqlalchemy <2.0,>=1.4",
+            "geoalchemy2",
+            "psycopg2",
+            "pg-grant",
+            "click",
+            "deepdiff",
+            "jsonlines",
+            "jsonschema[format] >=3.2.0",
+            "shapely >=1.8.0",
+            "python-string-utils",
+            "python-dateutil",
+            "requests",
+            "jinja2",
+            "mappyfile",
+            "methodtools",
+            "jsonpath-rw",
+            "orjson",
+            "more-ds",
+            "factory-boy",
+            "remote-pdb",
+            "build ; extra == 'dev'",
+            "twine ; extra == 'dev'",
+            "python-environ ; extra == 'dev'",
+            "django <4.2,>=3.0 ; extra == 'django'",
+            "django-gisserver >=1.2.3 ; extra == 'django'",
+            "django-environ ; extra == 'django'",
+            "django-db-comments ; extra == 'django'",
+            "factory-boy ; extra == 'django'",
+            "confluent-kafka ; extra == 'kafka'",
+            "types-requests ; extra == 'tests'",
+            "types-click ; extra == 'tests'",
+            "types-python-dateutil ; extra == 'tests'",
+            "flake8 ; extra == 'tests'",
+            "flake8-colors ; extra == 'tests'",
+            "flake8-raise ; extra == 'tests'",
+            "flake8-bandit ; extra == 'tests'",
+            "flake8-bugbear ; extra == 'tests'",
+            "flake8-builtins ; extra == 'tests'",
+            "flake8-comprehensions ; extra == 'tests'",
+            "flake8-docstrings ; extra == 'tests'",
+            "flake8-implicit-str-concat ; extra == 'tests'",
+            "flake8-print ; extra == 'tests'",
+            "flake8-rst ; extra == 'tests'",
+            "flake8-string-format ; extra == 'tests'",
+            "flake8-logging-format ; extra == 'tests'",
+            "pytest ; extra == 'tests'",
+            "pytest-cov ; extra == 'tests'",
+            "pytest-django ; extra == 'tests'",
+            "pytest-sqlalchemy ; extra == 'tests'"
+          ],
+          "requires_python": ">=3.9"
+        }
+      },
+      "5.15.0": {
+        "amsterdam_schema_tools-5.15.0-py3-none-any.whl": "5.14.2@amsterdam_schema_tools-5.14.2-py3-none-any.whl"
+      },
+      "5.15.1": {
+        "amsterdam_schema_tools-5.15.1-py3-none-any.whl": "5.14.2@amsterdam_schema_tools-5.14.2-py3-none-any.whl"
+      },
       "5.2.0": {
         "amsterdam_schema_tools-5.2.0-py3-none-any.whl": "5.1@amsterdam_schema_tools-5.1-py3-none-any.whl"
       },
@@ -54081,6 +54149,112 @@
           ],
           "requires_python": ">=3.8, <3.11"
         }
+      },
+      "0.8.3b20230906": {
+        "autogluon.tabular-0.8.3b20230906-py3-none-any.whl": {
+          "provides_extras": [
+            "all",
+            "catboost",
+            "fastai",
+            "imodels",
+            "lightgbm",
+            "ray",
+            "skex",
+            "skl2onnx",
+            "tabpfn",
+            "tests",
+            "vowpalwabbit",
+            "xgboost"
+          ],
+          "requires_dist": [
+            "numpy <1.27,>=1.21",
+            "scipy <1.12,>=1.5.4",
+            "pandas <1.6,>=1.4.1",
+            "scikit-learn <1.3,>=1.0",
+            "networkx <4,>=3.0",
+            "autogluon.core ==0.8.3b20230906",
+            "autogluon.features ==0.8.3b20230906",
+            "catboost <1.3,>=1.1 ; extra == 'all'",
+            "xgboost <1.8,>=1.6 ; extra == 'all'",
+            "fastai <2.8,>=2.3.1 ; extra == 'all'",
+            "autogluon.core[all] ==0.8.3b20230906 ; extra == 'all'",
+            "lightgbm <3.4,>=3.3 ; extra == 'all'",
+            "torch <2.1,>=1.13 ; extra == 'all'",
+            "catboost <1.2,>=1.1 ; (sys_platform == \"darwin\") and extra == 'all'",
+            "catboost <1.3,>=1.1 ; extra == 'catboost'",
+            "catboost <1.2,>=1.1 ; (sys_platform == \"darwin\") and extra == 'catboost'",
+            "torch <2.1,>=1.13 ; extra == 'fastai'",
+            "fastai <2.8,>=2.3.1 ; extra == 'fastai'",
+            "imodels <1.4.0,>=1.3.10 ; extra == 'imodels'",
+            "lightgbm <3.4,>=3.3 ; extra == 'lightgbm'",
+            "autogluon.core[all] ==0.8.3b20230906 ; extra == 'ray'",
+            "scikit-learn-intelex <2023.2,>=2021.7 ; extra == 'skex'",
+            "skl2onnx <1.14.0,>=1.13.0 ; extra == 'skl2onnx'",
+            "onnxruntime-gpu <1.14.0,>=1.13.0 ; extra == 'skl2onnx'",
+            "tabpfn <0.2,>=0.1 ; extra == 'tabpfn'",
+            "tabpfn <0.2,>=0.1 ; extra == 'tests'",
+            "imodels <1.4.0,>=1.3.10 ; extra == 'tests'",
+            "vowpalwabbit <9.9,>=9 ; extra == 'tests'",
+            "skl2onnx <1.14.0,>=1.13.0 ; extra == 'tests'",
+            "onnxruntime-gpu <1.14.0,>=1.13.0 ; extra == 'tests'",
+            "vowpalwabbit <9.9,>=9 ; extra == 'vowpalwabbit'",
+            "xgboost <1.8,>=1.6 ; extra == 'xgboost'"
+          ],
+          "requires_python": ">=3.8, <3.11"
+        }
+      },
+      "0.8.3b20230907": {
+        "autogluon.tabular-0.8.3b20230907-py3-none-any.whl": {
+          "provides_extras": [
+            "all",
+            "catboost",
+            "fastai",
+            "imodels",
+            "lightgbm",
+            "ray",
+            "skex",
+            "skl2onnx",
+            "tabpfn",
+            "tests",
+            "vowpalwabbit",
+            "xgboost"
+          ],
+          "requires_dist": [
+            "numpy <1.27,>=1.21",
+            "scipy <1.12,>=1.5.4",
+            "pandas <1.6,>=1.4.1",
+            "scikit-learn <1.3,>=1.0",
+            "networkx <4,>=3.0",
+            "autogluon.core ==0.8.3b20230907",
+            "autogluon.features ==0.8.3b20230907",
+            "lightgbm <3.4,>=3.3 ; extra == 'all'",
+            "autogluon.core[all] ==0.8.3b20230907 ; extra == 'all'",
+            "catboost <1.3,>=1.1 ; extra == 'all'",
+            "torch <2.1,>=1.13 ; extra == 'all'",
+            "xgboost <1.8,>=1.6 ; extra == 'all'",
+            "fastai <2.8,>=2.3.1 ; extra == 'all'",
+            "catboost <1.2,>=1.1 ; (sys_platform == \"darwin\") and extra == 'all'",
+            "catboost <1.3,>=1.1 ; extra == 'catboost'",
+            "catboost <1.2,>=1.1 ; (sys_platform == \"darwin\") and extra == 'catboost'",
+            "torch <2.1,>=1.13 ; extra == 'fastai'",
+            "fastai <2.8,>=2.3.1 ; extra == 'fastai'",
+            "imodels <1.4.0,>=1.3.10 ; extra == 'imodels'",
+            "lightgbm <3.4,>=3.3 ; extra == 'lightgbm'",
+            "autogluon.core[all] ==0.8.3b20230907 ; extra == 'ray'",
+            "scikit-learn-intelex <2023.2,>=2021.7 ; extra == 'skex'",
+            "skl2onnx <1.14.0,>=1.13.0 ; extra == 'skl2onnx'",
+            "onnxruntime-gpu <1.14.0,>=1.13.0 ; extra == 'skl2onnx'",
+            "tabpfn <0.2,>=0.1 ; extra == 'tabpfn'",
+            "tabpfn <0.2,>=0.1 ; extra == 'tests'",
+            "imodels <1.4.0,>=1.3.10 ; extra == 'tests'",
+            "vowpalwabbit <9.9,>=9 ; extra == 'tests'",
+            "skl2onnx <1.14.0,>=1.13.0 ; extra == 'tests'",
+            "onnxruntime-gpu <1.14.0,>=1.13.0 ; extra == 'tests'",
+            "vowpalwabbit <9.9,>=9 ; extra == 'vowpalwabbit'",
+            "xgboost <1.8,>=1.6 ; extra == 'xgboost'"
+          ],
+          "requires_python": ">=3.8, <3.11"
+        }
       }
     }
   },
@@ -72833,6 +73007,98 @@
           ],
           "requires_python": ">=3.11,<3.12"
         }
+      },
+      "23.9.0a2": {
+        "backend.ai_agent-23.9.0a2-py3-none-any.whl": {
+          "requires_dist": [
+            "PyYAML (~=6.0)",
+            "aiodocker (~=0.21.0)",
+            "aiofiles (~=0.8.0)",
+            "aiohttp (~=3.8.1)",
+            "aiomonitor (~=0.6.0)",
+            "aiotools (~=1.7.0)",
+            "async-timeout (~=4.0)",
+            "attrs (>=20.3)",
+            "backend.ai-cli (==23.09.0a2)",
+            "backend.ai-common (==23.09.0a2)",
+            "backend.ai-kernel-binary (==23.09.0a2)",
+            "backend.ai-kernel-helper (==23.09.0a2)",
+            "backend.ai-kernel (==23.09.0a2)",
+            "backend.ai-krunner-static-gnu (==4.1.0)",
+            "backend.ai-plugin (==23.09.0a2)",
+            "cachetools (~=5.2.0)",
+            "callosum (~=0.9.10)",
+            "cattrs (~=22.2.0)",
+            "click (>=7.1.2)",
+            "etcetra (==0.1.17)",
+            "janus (~=1.0.0)",
+            "kubernetes-asyncio (~=9.1.0)",
+            "more-itertools (~=8.13.0)",
+            "networkx (~=2.8.7)",
+            "psutil (~=5.9.1)",
+            "pyzmq (~=24.0.1)",
+            "redis[hiredis] (~=4.6.0)",
+            "setproctitle (~=1.3.2)",
+            "tenacity (>=8.0)",
+            "tomlkit (~=0.11.1)",
+            "trafaret (~=2.1)",
+            "types-PyYAML",
+            "types-aiofiles",
+            "types-cachetools",
+            "types-click",
+            "types-redis",
+            "types-setuptools",
+            "typing-extensions (~=4.3)",
+            "uvloop (>=0.17) ; sys_platform != \"Windows\""
+          ],
+          "requires_python": ">=3.11,<3.12"
+        }
+      },
+      "23.9.0a3": {
+        "backend.ai_agent-23.9.0a3-py3-none-any.whl": {
+          "requires_dist": [
+            "PyYAML (~=6.0)",
+            "aiodocker (~=0.21.0)",
+            "aiofiles (~=0.8.0)",
+            "aiohttp (~=3.8.1)",
+            "aiomonitor (~=0.6.0)",
+            "aiotools (~=1.7.0)",
+            "async-timeout (~=4.0)",
+            "attrs (>=20.3)",
+            "backend.ai-cli (==23.09.0a3)",
+            "backend.ai-common (==23.09.0a3)",
+            "backend.ai-kernel-binary (==23.09.0a3)",
+            "backend.ai-kernel-helper (==23.09.0a3)",
+            "backend.ai-kernel (==23.09.0a3)",
+            "backend.ai-krunner-static-gnu (==4.1.0)",
+            "backend.ai-plugin (==23.09.0a3)",
+            "cachetools (~=5.2.0)",
+            "callosum (~=0.9.10)",
+            "cattrs (~=22.2.0)",
+            "click (>=7.1.2)",
+            "etcetra (==0.1.17)",
+            "janus (~=1.0.0)",
+            "kubernetes-asyncio (~=9.1.0)",
+            "more-itertools (~=8.13.0)",
+            "networkx (~=2.8.7)",
+            "psutil (~=5.9.1)",
+            "pyzmq (~=24.0.1)",
+            "redis[hiredis] (~=4.6.0)",
+            "setproctitle (~=1.3.2)",
+            "tenacity (>=8.0)",
+            "tomlkit (~=0.11.1)",
+            "trafaret (~=2.1)",
+            "types-PyYAML",
+            "types-aiofiles",
+            "types-cachetools",
+            "types-click",
+            "types-redis",
+            "types-setuptools",
+            "typing-extensions (~=4.3)",
+            "uvloop (>=0.17) ; sys_platform != \"Windows\""
+          ],
+          "requires_python": ">=3.11,<3.12"
+        }
       }
     },
     "py36": {
@@ -73595,6 +73861,14 @@
       "23.9.0a1": {
         "backend.ai_kernel_binary-23.9.0a1-py3-none-manylinux2014_aarch64.macosx_11_0_arm64.whl": "23.3.0@backend.ai_kernel_binary-23.3.0-py3-none-manylinux2014_aarch64.macosx_11_0_arm64.whl",
         "backend.ai_kernel_binary-23.9.0a1-py3-none-manylinux2014_x86_64.macosx_11_0_x86_64.whl": "23.3.0@backend.ai_kernel_binary-23.3.0-py3-none-manylinux2014_aarch64.macosx_11_0_arm64.whl"
+      },
+      "23.9.0a2": {
+        "backend.ai_kernel_binary-23.9.0a2-py3-none-manylinux2014_aarch64.macosx_11_0_arm64.whl": "23.3.0@backend.ai_kernel_binary-23.3.0-py3-none-manylinux2014_aarch64.macosx_11_0_arm64.whl",
+        "backend.ai_kernel_binary-23.9.0a2-py3-none-manylinux2014_x86_64.macosx_11_0_x86_64.whl": "23.3.0@backend.ai_kernel_binary-23.3.0-py3-none-manylinux2014_aarch64.macosx_11_0_arm64.whl"
+      },
+      "23.9.0a3": {
+        "backend.ai_kernel_binary-23.9.0a3-py3-none-manylinux2014_aarch64.macosx_11_0_arm64.whl": "23.3.0@backend.ai_kernel_binary-23.3.0-py3-none-manylinux2014_aarch64.macosx_11_0_arm64.whl",
+        "backend.ai_kernel_binary-23.9.0a3-py3-none-manylinux2014_x86_64.macosx_11_0_x86_64.whl": "23.3.0@backend.ai_kernel_binary-23.3.0-py3-none-manylinux2014_aarch64.macosx_11_0_arm64.whl"
       }
     }
   },
@@ -74957,6 +75231,14 @@
           ],
           "requires_python": ">=3.7,<3.10"
         }
+      },
+      "4.1.0": {
+        "biobb_cp2k-4.1.0-py3-none-any.whl": {
+          "requires_dist": [
+            "biobb-common (==4.1.0)"
+          ],
+          "requires_python": ">=3.8"
+        }
       }
     }
   },
@@ -75980,6 +76262,9 @@
       "1.31.41": {
         "botocore_a_la_carte_appmesh-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_appmesh-1.29.100-py3-none-any.whl"
       },
+      "1.31.42": {
+        "botocore_a_la_carte_appmesh-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_appmesh-1.29.100-py3-none-any.whl"
+      },
       "1.31.5": {
         "botocore_a_la_carte_appmesh-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_appmesh-1.29.100-py3-none-any.whl"
       },
@@ -76480,6 +76765,9 @@
       },
       "1.31.41": {
         "botocore_a_la_carte_detective-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_detective-1.29.100-py3-none-any.whl"
+      },
+      "1.31.42": {
+        "botocore_a_la_carte_detective-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_detective-1.29.100-py3-none-any.whl"
       },
       "1.31.5": {
         "botocore_a_la_carte_detective-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_detective-1.29.100-py3-none-any.whl"
@@ -81058,6 +81346,14 @@
       },
       "1.2.1": {
         "cubicweb_web-1.2.1-py3-none-any.whl": "1.2.0@cubicweb_web-1.2.0-py3-none-any.whl"
+      },
+      "1.2.2": {
+        "cubicweb_web-1.2.2-py3-none-any.whl": {
+          "requires_dist": [
+            "cubicweb <5.0.0,>=4.1.0",
+            "yams >=0.48"
+          ]
+        }
       }
     }
   },
@@ -88991,6 +89287,9 @@
       "1.48.0": {
         "dragonfly_grasshopper-1.48.0-py2.py3-none-any.whl": "1.0.0@dragonfly_grasshopper-1.0.0-py2.py3-none-any.whl"
       },
+      "1.48.1": {
+        "dragonfly_grasshopper-1.48.1-py2.py3-none-any.whl": "1.0.0@dragonfly_grasshopper-1.0.0-py2.py3-none-any.whl"
+      },
       "1.5.0": {
         "dragonfly_grasshopper-1.5.0-py2.py3-none-any.whl": "1.0.0@dragonfly_grasshopper-1.0.0-py2.py3-none-any.whl"
       },
@@ -93359,6 +93658,14 @@
       },
       "1.3.2": {
         "fyntex_drf_pagination_utils-1.3.2-py3-none-any.whl": "1.3.1@fyntex_drf_pagination_utils-1.3.1-py3-none-any.whl"
+      },
+      "1.3.3": {
+        "fyntex_drf_pagination_utils-1.3.3-py3-none-any.whl": {
+          "requires_dist": [
+            "djangorestframework >=3.10.3"
+          ],
+          "requires_python": ">=3.8"
+        }
       }
     }
   },
@@ -97432,6 +97739,14 @@
           "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
         }
       },
+      "3.1.58": {
+        "huaweicloudsdkcbh-3.1.58-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "huaweicloudsdkcore >=3.1.58"
+          ],
+          "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
+        }
+      },
       "3.1.6": {
         "huaweicloudsdkcbh-3.1.6-py2.py3-none-any.whl": {
           "requires_dist": [
@@ -97848,6 +98163,14 @@
         "huaweicloudsdkdevsecurity-3.1.57-py2.py3-none-any.whl": {
           "requires_dist": [
             "huaweicloudsdkcore >=3.1.57"
+          ],
+          "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
+        }
+      },
+      "3.1.58": {
+        "huaweicloudsdkdevsecurity-3.1.58-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "huaweicloudsdkcore >=3.1.58"
           ],
           "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
         }
@@ -104366,6 +104689,21 @@
       }
     }
   },
+  "langroom": {
+    "py3": {
+      "0.1.0": {
+        "langroom-0.1.0-py3-none-any.whl": {
+          "requires_dist": [
+            "Pillow",
+            "imageio",
+            "numpy",
+            "pygame"
+          ],
+          "requires_python": ">=3.8,<4.0"
+        }
+      }
+    }
+  },
   "lavaplayer": {
     "py3": {
       "1.0.10a0": {
@@ -104942,6 +105280,9 @@
       },
       "0.0.6": {
         "locklib-0.0.6-py3-none-any.whl": "0.0.1@locklib-0.0.1-py3-none-any.whl"
+      },
+      "0.0.7": {
+        "locklib-0.0.7-py3-none-any.whl": "0.0.1@locklib-0.0.1-py3-none-any.whl"
       }
     }
   },
@@ -114356,6 +114697,9 @@
           ],
           "requires_python": ">=3.8"
         }
+      },
+      "0.1.7": {
+        "noise2read-0.1.7-py3-none-any.whl": "0.1.6@noise2read-0.1.6-py3-none-any.whl"
       }
     }
   },
@@ -115273,6 +115617,9 @@
       },
       "8.1": {
         "nutils-8.1-py3-none-any.whl": "8.0@nutils-8.0-py3-none-any.whl"
+      },
+      "8.3": {
+        "nutils-8.3-py3-none-any.whl": "8.0@nutils-8.0-py3-none-any.whl"
       }
     }
   },
@@ -122978,6 +123325,95 @@
             "optimum>=1.12.0; extra == 'gptq'",
             "openllm-client[grpc]; extra == 'grpc'",
             "fairscale; extra == 'llama'",
+            "sentencepiece; extra == 'llama'",
+            "einops; extra == 'mpt'",
+            "triton; extra == 'mpt'",
+            "openai; extra == 'openai'",
+            "tiktoken; extra == 'openai'",
+            "flax>=0.7; extra == 'opt'",
+            "jax; extra == 'opt'",
+            "jaxlib; extra == 'opt'",
+            "keras; extra == 'opt'",
+            "tensorflow; extra == 'opt'",
+            "ipython; extra == 'playground'",
+            "jupyter; extra == 'playground'",
+            "jupytext; extra == 'playground'",
+            "nbformat; extra == 'playground'",
+            "notebook; extra == 'playground'",
+            "bitsandbytes; extra == 'starcoder'",
+            "ray; extra == 'vllm'",
+            "vllm>=0.1.4; extra == 'vllm'"
+          ],
+          "requires_python": ">=3.8"
+        }
+      },
+      "0.3.1": {
+        "openllm-0.3.1-py3-none-any.whl": "0.3.0@openllm-0.3.0-py3-none-any.whl"
+      },
+      "0.3.2": {
+        "openllm-0.3.2-py3-none-any.whl": "0.3.0@openllm-0.3.0-py3-none-any.whl"
+      },
+      "0.3.3": {
+        "openllm-0.3.3-py3-none-any.whl": {
+          "provides_extras": [
+            "agents",
+            "all",
+            "baichuan",
+            "chatglm",
+            "falcon",
+            "fine-tune",
+            "flan-t5",
+            "full",
+            "ggml",
+            "gptq",
+            "grpc",
+            "llama",
+            "mpt",
+            "openai",
+            "opt",
+            "playground",
+            "starcoder",
+            "vllm"
+          ],
+          "requires_dist": [
+            "accelerate",
+            "bentoml[io]>=1.1.2",
+            "bitsandbytes<0.42",
+            "click>=8.1.3",
+            "cuda-python; platform_system != 'Darwin'",
+            "ghapi",
+            "openllm-client",
+            "optimum>=1.12.0",
+            "safetensors",
+            "tabulate[widechars]>=0.9.0",
+            "transformers[accelerate,tokenizers,torch]>=4.32.1",
+            "diffusers; extra == 'agents'",
+            "soundfile; extra == 'agents'",
+            "transformers[agents]>=4.30; extra == 'agents'",
+            "openllm[full]; extra == 'all'",
+            "cpm-kernels; extra == 'baichuan'",
+            "sentencepiece; extra == 'baichuan'",
+            "cpm-kernels; extra == 'chatglm'",
+            "sentencepiece; extra == 'chatglm'",
+            "einops; extra == 'falcon'",
+            "xformers; extra == 'falcon'",
+            "accelerate; extra == 'fine-tune'",
+            "bitsandbytes; extra == 'fine-tune'",
+            "datasets; extra == 'fine-tune'",
+            "peft>=0.5.0; extra == 'fine-tune'",
+            "trl; extra == 'fine-tune'",
+            "flax>=0.7; extra == 'flan-t5'",
+            "jax; extra == 'flan-t5'",
+            "jaxlib; extra == 'flan-t5'",
+            "keras; extra == 'flan-t5'",
+            "tensorflow; extra == 'flan-t5'",
+            "openllm[agents,baichuan,chatglm,falcon,fine-tune,flan-t5,ggml,gptq,grpc,llama,mpt,openai,opt,playground,starcoder,vllm]; extra == 'full'",
+            "ctransformers; extra == 'ggml'",
+            "auto-gptq[triton]>=0.4.2; extra == 'gptq'",
+            "optimum>=1.12.0; extra == 'gptq'",
+            "openllm-client[grpc]; extra == 'grpc'",
+            "fairscale; extra == 'llama'",
+            "scipy; extra == 'llama'",
             "sentencepiece; extra == 'llama'",
             "einops; extra == 'mpt'",
             "triton; extra == 'mpt'",
@@ -143856,8 +144292,8 @@
       "2.3.0rc1": {
         "steampunk_spotter-2.3.0rc1-py3-none-any.whl": "2.1.1a1@steampunk_spotter-2.1.1a1-py3-none-any.whl"
       },
-      "2.4.0a1": {
-        "steampunk_spotter-2.4.0a1-py3-none-any.whl": {
+      "2.4.0": {
+        "steampunk_spotter-2.4.0-py3-none-any.whl": {
           "requires_dist": [
             "ruamel.yaml <0.18,>=0.17.22",
             "requests",
@@ -143867,6 +144303,12 @@
             "rich"
           ]
         }
+      },
+      "2.4.0a1": {
+        "steampunk_spotter-2.4.0a1-py3-none-any.whl": "2.4.0@steampunk_spotter-2.4.0-py3-none-any.whl"
+      },
+      "2.4.0rc1": {
+        "steampunk_spotter-2.4.0rc1-py3-none-any.whl": "2.4.0@steampunk_spotter-2.4.0-py3-none-any.whl"
       }
     }
   },
@@ -147380,6 +147822,20 @@
             "tencentcloud-sdk-python-common (==3.0.974)"
           ]
         }
+      },
+      "3.0.975": {
+        "tencentcloud_sdk_python_tse-3.0.975-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.975)"
+          ]
+        }
+      },
+      "3.0.976": {
+        "tencentcloud_sdk_python_tse-3.0.976-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.976)"
+          ]
+        }
       }
     }
   },
@@ -148383,6 +148839,24 @@
           ],
           "requires_python": ">=3.9"
         }
+      },
+      "0.2.93": {
+        "textweaver-0.2.93-py3-none-any.whl": "0.2.92@textweaver-0.2.92-py3-none-any.whl"
+      },
+      "0.2.94": {
+        "textweaver-0.2.94-py3-none-any.whl": "0.2.92@textweaver-0.2.92-py3-none-any.whl"
+      },
+      "0.2.95": {
+        "textweaver-0.2.95-py3-none-any.whl": "0.2.92@textweaver-0.2.92-py3-none-any.whl"
+      },
+      "0.2.96": {
+        "textweaver-0.2.96-py3-none-any.whl": "0.2.92@textweaver-0.2.92-py3-none-any.whl"
+      },
+      "0.2.97": {
+        "textweaver-0.2.97-py3-none-any.whl": "0.2.92@textweaver-0.2.92-py3-none-any.whl"
+      },
+      "0.2.98": {
+        "textweaver-0.2.98-py3-none-any.whl": "0.2.92@textweaver-0.2.92-py3-none-any.whl"
       }
     }
   },
@@ -154334,6 +154808,26 @@
             "pymysql[rsa]<2.0.0,>=1.0.2",
             "sqlalchemy<3.0.0,>=2.0.19",
             "strawberry-graphql<0.203.0,>=0.168.1",
+            "alembic<2.0.0,>=1.10.3; extra == 'all'",
+            "yappi<2.0.0,>=1.4.0; extra == 'all'"
+          ],
+          "requires_python": ">=3.7"
+        }
+      },
+      "0.34.0": {
+        "yak_server-0.34.0-py3-none-any.whl": {
+          "provides_extras": [
+            "all"
+          ],
+          "requires_dist": [
+            "argon2-cffi<24.0.0,>=21.3.0",
+            "click<9.0.0,>=8.0.0",
+            "fastapi<0.104.0,>=0.95.1",
+            "pydantic-settings==2.0.3",
+            "pyjwt<3.0.0,>=2.6.0",
+            "pymysql[rsa]<2.0.0,>=1.0.2",
+            "sqlalchemy<3.0.0,>=2.0.19",
+            "strawberry-graphql<0.206.0,>=0.168.1",
             "alembic<2.0.0,>=1.10.3; extra == 'all'",
             "yappi<2.0.0,>=1.4.0; extra == 'all'"
           ],

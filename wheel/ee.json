@@ -1524,6 +1524,16 @@
       },
       "1.1.8": {
         "alibabacloud_ocr_api20210707_py2-1.1.8-py3-none-any.whl": "1.1.10@alibabacloud_ocr_api20210707_py2-1.1.10-py3-none-any.whl"
+      },
+      "1.2.0": {
+        "alibabacloud_ocr_api20210707_py2-1.2.0-py3-none-any.whl": {
+          "requires_dist": [
+            "alibabacloud-tea-util-py2 (<1.0.0,>=0.0.9)",
+            "alibabacloud-tea-openapi-py2 (<1.0.0,>=0.1.6)",
+            "alibabacloud-openapi-util-py2 (<1.0.0,>=0.1.1)",
+            "alibabacloud-endpoint-util-py2 (<1.0.0,>=0.0.2)"
+          ]
+        }
       }
     }
   },
@@ -3374,6 +3384,9 @@
       "0.14.dev163": {
         "apache_tvm-0.14.dev163-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.14.dev10@apache_tvm-0.14.dev10-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
       },
+      "0.14.dev170": {
+        "apache_tvm-0.14.dev170-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.14.dev10@apache_tvm-0.14.dev10-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+      },
       "0.14.dev36": {
         "apache_tvm-0.14.dev36-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.14.dev10@apache_tvm-0.14.dev10-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
       },
@@ -4117,6 +4130,9 @@
       },
       "0.14.dev163": {
         "apache_tvm-0.14.dev163-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.14.dev10@apache_tvm-0.14.dev10-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+      },
+      "0.14.dev170": {
+        "apache_tvm-0.14.dev170-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.14.dev10@apache_tvm-0.14.dev10-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
       },
       "0.14.dev36": {
         "apache_tvm-0.14.dev36-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.14.dev10@apache_tvm-0.14.dev10-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
@@ -4862,6 +4878,9 @@
       },
       "0.14.dev163": {
         "apache_tvm-0.14.dev163-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.14.dev10@apache_tvm-0.14.dev10-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+      },
+      "0.14.dev170": {
+        "apache_tvm-0.14.dev170-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.14.dev10@apache_tvm-0.14.dev10-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
       },
       "0.14.dev36": {
         "apache_tvm-0.14.dev36-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.14.dev10@apache_tvm-0.14.dev10-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
@@ -5725,6 +5744,9 @@
       "0.14.dev163": {
         "apache_tvm-0.14.dev163-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.14.dev10@apache_tvm-0.14.dev10-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
       },
+      "0.14.dev170": {
+        "apache_tvm-0.14.dev170-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.14.dev10@apache_tvm-0.14.dev10-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+      },
       "0.14.dev36": {
         "apache_tvm-0.14.dev36-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.14.dev10@apache_tvm-0.14.dev10-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
       },
@@ -6586,6 +6608,9 @@
       },
       "0.14.dev163": {
         "apache_tvm-0.14.dev163-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.14.dev10@apache_tvm-0.14.dev10-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+      },
+      "0.14.dev170": {
+        "apache_tvm-0.14.dev170-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.14.dev10@apache_tvm-0.14.dev10-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
       },
       "0.14.dev36": {
         "apache_tvm-0.14.dev36-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.14.dev10@apache_tvm-0.14.dev10-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
@@ -12193,6 +12218,47 @@
       }
     }
   },
+  "betiq": {
+    "py3": {
+      "0.0.0": {
+        "betiq-0.0.0-py3-none-any.whl": {
+          "requires_dist": [
+            "furo (>=2023.8.19,<2024.0.0)",
+            "requests (>=2.31.0,<3.0.0)",
+            "sphinx (>=7.2.5,<8.0.0)"
+          ],
+          "requires_python": ">=3.11,<4.0"
+        }
+      },
+      "0.0.10": {
+        "betiq-0.0.10-py3-none-any.whl": "0.0.0@betiq-0.0.0-py3-none-any.whl"
+      },
+      "0.0.11": {
+        "betiq-0.0.11-py3-none-any.whl": "0.0.0@betiq-0.0.0-py3-none-any.whl"
+      },
+      "0.0.12": {
+        "betiq-0.0.12-py3-none-any.whl": "0.0.0@betiq-0.0.0-py3-none-any.whl"
+      },
+      "0.0.13": {
+        "betiq-0.0.13-py3-none-any.whl": "0.0.0@betiq-0.0.0-py3-none-any.whl"
+      },
+      "0.0.14": {
+        "betiq-0.0.14-py3-none-any.whl": "0.0.0@betiq-0.0.0-py3-none-any.whl"
+      },
+      "0.0.15": {
+        "betiq-0.0.15-py3-none-any.whl": "0.0.0@betiq-0.0.0-py3-none-any.whl"
+      },
+      "0.0.16": {
+        "betiq-0.0.16-py3-none-any.whl": "0.0.0@betiq-0.0.0-py3-none-any.whl"
+      },
+      "0.0.17": {
+        "betiq-0.0.17-py3-none-any.whl": "0.0.0@betiq-0.0.0-py3-none-any.whl"
+      },
+      "0.0.18": {
+        "betiq-0.0.18-py3-none-any.whl": "0.0.0@betiq-0.0.0-py3-none-any.whl"
+      }
+    }
+  },
   "bgtools": {
     "py2.py3": {
       "0.0.1": {
@@ -13203,6 +13269,9 @@
       },
       "1.31.41": {
         "botocore_a_la_carte_payment_cryptography_data-1.31.41-py3-none-any.whl": "1.29.150@botocore_a_la_carte_payment_cryptography_data-1.29.150-py3-none-any.whl"
+      },
+      "1.31.42": {
+        "botocore_a_la_carte_payment_cryptography_data-1.31.42-py3-none-any.whl": "1.29.150@botocore_a_la_carte_payment_cryptography_data-1.29.150-py3-none-any.whl"
       },
       "1.31.5": {
         "botocore_a_la_carte_payment_cryptography_data-1.31.5-py3-none-any.whl": "1.29.150@botocore_a_la_carte_payment_cryptography_data-1.29.150-py3-none-any.whl"
@@ -41750,6 +41819,9 @@
       },
       "0.0.0.dev5": {
         "markitup-0.0.0.dev5-py3-none-any.whl": "0.0.0.dev0@markitup-0.0.0.dev0-py3-none-any.whl"
+      },
+      "0.0.0.dev6": {
+        "markitup-0.0.0.dev6-py3-none-any.whl": "0.0.0.dev0@markitup-0.0.0.dev0-py3-none-any.whl"
       }
     }
   },
@@ -43750,6 +43822,9 @@
           ],
           "requires_python": ">=3.9"
         }
+      },
+      "0.0.2": {
+        "mkdocs_toggle_sidebar_plugin-0.0.2-py3-none-any.whl": "0.0.1@mkdocs_toggle_sidebar_plugin-0.0.1-py3-none-any.whl"
       }
     }
   },
@@ -59685,6 +59760,246 @@
           "requires_python": ">=3.8"
         }
       },
+      "2.24.0.post630": {
+        "nucliadb_dataset-2.24.0.post630-py3-none-any.whl": {
+          "requires_dist": [
+            "protobuf",
+            "types-protobuf",
+            "grpcio",
+            "requests",
+            "aiohttp",
+            "pydantic-argparse",
+            "pyarrow",
+            "boto3",
+            "google-auth",
+            "google-cloud-storage",
+            "boto3-stubs",
+            "google-auth-stubs",
+            "types-google-cloud-ndb",
+            "types-boto3",
+            "nucliadb-protos ==2.24.0-post630",
+            "nucliadb-sdk ==2.24.0-post630",
+            "urllib3 <1.27,>=1.21.1"
+          ],
+          "requires_python": ">=3.8"
+        }
+      },
+      "2.24.0.post631": {
+        "nucliadb_dataset-2.24.0.post631-py3-none-any.whl": {
+          "requires_dist": [
+            "protobuf",
+            "types-protobuf",
+            "grpcio",
+            "requests",
+            "aiohttp",
+            "pydantic-argparse",
+            "pyarrow",
+            "boto3",
+            "google-auth",
+            "google-cloud-storage",
+            "boto3-stubs",
+            "google-auth-stubs",
+            "types-google-cloud-ndb",
+            "types-boto3",
+            "nucliadb-protos ==2.24.0-post631",
+            "nucliadb-sdk ==2.24.0-post631",
+            "urllib3 <1.27,>=1.21.1"
+          ],
+          "requires_python": ">=3.8"
+        }
+      },
+      "2.24.0.post632": {
+        "nucliadb_dataset-2.24.0.post632-py3-none-any.whl": {
+          "requires_dist": [
+            "protobuf",
+            "types-protobuf",
+            "grpcio",
+            "requests",
+            "aiohttp",
+            "pydantic-argparse",
+            "pyarrow",
+            "boto3",
+            "google-auth",
+            "google-cloud-storage",
+            "boto3-stubs",
+            "google-auth-stubs",
+            "types-google-cloud-ndb",
+            "types-boto3",
+            "nucliadb-protos ==2.24.0-post632",
+            "nucliadb-sdk ==2.24.0-post632",
+            "urllib3 <1.27,>=1.21.1"
+          ],
+          "requires_python": ">=3.8"
+        }
+      },
+      "2.24.0.post633": {
+        "nucliadb_dataset-2.24.0.post633-py3-none-any.whl": {
+          "requires_dist": [
+            "protobuf",
+            "types-protobuf",
+            "grpcio",
+            "requests",
+            "aiohttp",
+            "pydantic-argparse",
+            "pyarrow",
+            "boto3",
+            "google-auth",
+            "google-cloud-storage",
+            "boto3-stubs",
+            "google-auth-stubs",
+            "types-google-cloud-ndb",
+            "types-boto3",
+            "nucliadb-protos ==2.24.0-post633",
+            "nucliadb-sdk ==2.24.0-post633",
+            "urllib3 <1.27,>=1.21.1"
+          ],
+          "requires_python": ">=3.8"
+        }
+      },
+      "2.24.0.post634": {
+        "nucliadb_dataset-2.24.0.post634-py3-none-any.whl": {
+          "requires_dist": [
+            "protobuf",
+            "types-protobuf",
+            "grpcio",
+            "requests",
+            "aiohttp",
+            "pydantic-argparse",
+            "pyarrow",
+            "boto3",
+            "google-auth",
+            "google-cloud-storage",
+            "boto3-stubs",
+            "google-auth-stubs",
+            "types-google-cloud-ndb",
+            "types-boto3",
+            "nucliadb-protos ==2.24.0-post634",
+            "nucliadb-sdk ==2.24.0-post634",
+            "urllib3 <1.27,>=1.21.1"
+          ],
+          "requires_python": ">=3.8"
+        }
+      },
+      "2.24.0.post635": {
+        "nucliadb_dataset-2.24.0.post635-py3-none-any.whl": {
+          "requires_dist": [
+            "protobuf",
+            "types-protobuf",
+            "grpcio",
+            "requests",
+            "aiohttp",
+            "pydantic-argparse",
+            "pyarrow",
+            "boto3",
+            "google-auth",
+            "google-cloud-storage",
+            "boto3-stubs",
+            "google-auth-stubs",
+            "types-google-cloud-ndb",
+            "types-boto3",
+            "nucliadb-protos ==2.24.0-post635",
+            "nucliadb-sdk ==2.24.0-post635",
+            "urllib3 <1.27,>=1.21.1"
+          ],
+          "requires_python": ">=3.8"
+        }
+      },
+      "2.24.0.post636": {
+        "nucliadb_dataset-2.24.0.post636-py3-none-any.whl": {
+          "requires_dist": [
+            "protobuf",
+            "types-protobuf",
+            "grpcio",
+            "requests",
+            "aiohttp",
+            "pydantic-argparse",
+            "pyarrow",
+            "boto3",
+            "google-auth",
+            "google-cloud-storage",
+            "boto3-stubs",
+            "google-auth-stubs",
+            "types-google-cloud-ndb",
+            "types-boto3",
+            "nucliadb-protos ==2.24.0-post636",
+            "nucliadb-sdk ==2.24.0-post636",
+            "urllib3 <1.27,>=1.21.1"
+          ],
+          "requires_python": ">=3.8"
+        }
+      },
+      "2.24.0.post637": {
+        "nucliadb_dataset-2.24.0.post637-py3-none-any.whl": {
+          "requires_dist": [
+            "protobuf",
+            "types-protobuf",
+            "grpcio",
+            "requests",
+            "aiohttp",
+            "pydantic-argparse",
+            "pyarrow",
+            "boto3",
+            "google-auth",
+            "google-cloud-storage",
+            "boto3-stubs",
+            "google-auth-stubs",
+            "types-google-cloud-ndb",
+            "types-boto3",
+            "nucliadb-protos ==2.24.0-post637",
+            "nucliadb-sdk ==2.24.0-post637",
+            "urllib3 <1.27,>=1.21.1"
+          ],
+          "requires_python": ">=3.8"
+        }
+      },
+      "2.24.0.post638": {
+        "nucliadb_dataset-2.24.0.post638-py3-none-any.whl": {
+          "requires_dist": [
+            "protobuf",
+            "types-protobuf",
+            "grpcio",
+            "requests",
+            "aiohttp",
+            "pydantic-argparse",
+            "pyarrow",
+            "boto3",
+            "google-auth",
+            "google-cloud-storage",
+            "boto3-stubs",
+            "google-auth-stubs",
+            "types-google-cloud-ndb",
+            "types-boto3",
+            "nucliadb-protos ==2.24.0-post638",
+            "nucliadb-sdk ==2.24.0-post638",
+            "urllib3 <1.27,>=1.21.1"
+          ],
+          "requires_python": ">=3.8"
+        }
+      },
+      "2.24.0.post639": {
+        "nucliadb_dataset-2.24.0.post639-py3-none-any.whl": {
+          "requires_dist": [
+            "protobuf",
+            "types-protobuf",
+            "grpcio",
+            "requests",
+            "aiohttp",
+            "pydantic-argparse",
+            "pyarrow",
+            "boto3",
+            "google-auth",
+            "google-cloud-storage",
+            "boto3-stubs",
+            "google-auth-stubs",
+            "types-google-cloud-ndb",
+            "types-boto3",
+            "nucliadb-protos ==2.24.0-post639",
+            "nucliadb-sdk ==2.24.0-post639",
+            "urllib3 <1.27,>=1.21.1"
+          ],
+          "requires_python": ">=3.8"
+        }
+      },
       "2.3.0.post10": {
         "nucliadb_dataset-2.3.0.post10-py3-none-any.whl": {
           "requires_dist": [
@@ -73520,6 +73835,9 @@
           ],
           "requires_python": ">=3.7"
         }
+      },
+      "3.0.0b2": {
+        "predicthq-3.0.0b2-py2.py3-none-any.whl": "3.0.0b1@predicthq-3.0.0b1-py2.py3-none-any.whl"
       }
     }
   },
@@ -79933,6 +80251,18 @@
       },
       "1.1.1264": {
         "pybiolib-1.1.1264-py3-none-any.whl": "1.1.1205@pybiolib-1.1.1205-py3-none-any.whl"
+      },
+      "1.1.1269": {
+        "pybiolib-1.1.1269-py3-none-any.whl": "1.1.1205@pybiolib-1.1.1205-py3-none-any.whl"
+      },
+      "1.1.1272": {
+        "pybiolib-1.1.1272-py3-none-any.whl": "1.1.1205@pybiolib-1.1.1205-py3-none-any.whl"
+      },
+      "1.1.1274": {
+        "pybiolib-1.1.1274-py3-none-any.whl": "1.1.1205@pybiolib-1.1.1205-py3-none-any.whl"
+      },
+      "1.1.1277": {
+        "pybiolib-1.1.1277-py3-none-any.whl": "1.1.1205@pybiolib-1.1.1205-py3-none-any.whl"
       },
       "1.1.128": {
         "pybiolib-1.1.128-py3-none-any.whl": "1.1.103@pybiolib-1.1.103-py3-none-any.whl"
@@ -93306,6 +93636,12 @@
       },
       "2023.8.8.149": {
         "sapiopylib-2023.8.8.149-py3-none-any.whl": "2023.4.26.133@sapiopylib-2023.4.26.133-py3-none-any.whl"
+      },
+      "2023.9.6.150": {
+        "sapiopylib-2023.9.6.150-py3-none-any.whl": "2023.4.26.133@sapiopylib-2023.4.26.133-py3-none-any.whl"
+      },
+      "2023.9.7.151": {
+        "sapiopylib-2023.9.7.151-py3-none-any.whl": "2023.4.26.133@sapiopylib-2023.4.26.133-py3-none-any.whl"
       }
     }
   },
@@ -93651,6 +93987,38 @@
     "py3": {
       "0.0.1": {
         "scattr-0.0.1-py3-none-any.whl": {}
+      }
+    }
+  },
+  "scegot": {
+    "py3": {
+      "0.1.0": {
+        "scegot-0.1.0-py3-none-any.whl": {
+          "requires_dist": [
+            "POT (>=0.9.0,<0.10.0)",
+            "anndata (==0.8)",
+            "cellmap (>=1.0.2,<2.0.0)",
+            "graphviz (>=0.20.1,<0.21.0)",
+            "ipython (>=8.14.0,<9.0.0)",
+            "jupyterlab (>=4.0.4,<5.0.0)",
+            "kaleido (==0.2.1)",
+            "llvmlite (>=0.40.1,<0.41.0)",
+            "matplotlib (>=3.7.2,<4.0.0)",
+            "natsort (>=8.4.0,<9.0.0)",
+            "networkx (>=3.1,<4.0)",
+            "pandas (>=2.0.3,<3.0.0)",
+            "plotly (>=5.15.0,<6.0.0)",
+            "pydotplus (>=2.0.2,<3.0.0)",
+            "scikit-learn (>=1.3.0,<2.0.0)",
+            "scipy (>=1.11.1,<2.0.0)",
+            "screcode (==0.2.2)",
+            "scvelo (>=0.2.5,<0.3.0)",
+            "seaborn (>=0.12.2,<0.13.0)",
+            "tqdm (>=4.65.0,<5.0.0)",
+            "umap-learn (>=0.5.3,<0.6.0)"
+          ],
+          "requires_python": ">=3.9,<3.12"
+        }
       }
     }
   },
@@ -104639,6 +105007,20 @@
             "tencentcloud-sdk-python-common (==3.0.974)"
           ]
         }
+      },
+      "3.0.975": {
+        "tencentcloud_sdk_python_ticm-3.0.975-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.975)"
+          ]
+        }
+      },
+      "3.0.976": {
+        "tencentcloud_sdk_python_ticm-3.0.976-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.976)"
+          ]
+        }
       }
     }
   },
@@ -107549,6 +107931,13 @@
       },
       "0.4.3": {
         "tmlt.core-0.4.3-py3-none-any.whl": "0.3.0@tmlt.core-0.3.0-py3-none-any.whl"
+      }
+    }
+  },
+  "tnsacal": {
+    "py3": {
+      "0.1.0": {
+        "TNSACal-0.1.0-py3-none-any.whl": {}
       }
     }
   },

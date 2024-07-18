@@ -13867,6 +13867,56 @@
           "requires_python": ">=3.8,<4.0"
         }
       },
+      "0.1.21": {
+        "c7n_openstack-0.1.21-py3-none-any.whl": {
+          "requires_dist": [
+            "c7n (==0.9.31) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "openstacksdk (==0.52.0) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "argcomplete (==3.1.1) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "boto3 (==1.28.41) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "docutils (==0.18.1) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "importlib-metadata (==5.2.0) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "jsonschema (==4.19.0) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "python-dateutil (==2.8.2) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "pyyaml (==6.0.1) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "tabulate (==0.9.0) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "urllib3 (==1.26.16) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "appdirs (==1.4.4) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "cryptography (==41.0.3) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "decorator (==5.1.1) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "dogpile-cache (==1.2.2) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "iso8601 (==2.0.0) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "jmespath (==1.0.1) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "jsonpatch (==1.33) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "keystoneauth1 (==5.3.0) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "munch (==4.0.0) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "netifaces (==0.11.0) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "os-service-types (==1.7.0) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "pbr (==5.11.1) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "requestsexceptions (==1.4.0) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "botocore (==1.31.41) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "s3transfer (==0.6.2) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "zipp (==3.16.2) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "attrs (==23.1.0) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "importlib-resources (==6.0.1) ; python_version >= \"3.8\" and python_version < \"3.9\"",
+            "jsonschema-specifications (==2023.7.1) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "pkgutil-resolve-name (==1.3.10) ; python_version >= \"3.8\" and python_version < \"3.9\"",
+            "referencing (==0.30.2) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "rpds-py (==0.10.2) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "six (==1.16.0) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "cffi (==1.15.1) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "stevedore (==5.1.0) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "typing-extensions (==4.7.1) ; python_version >= \"3.8\" and python_version < \"3.11\"",
+            "jsonpointer (==2.4) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "requests (==2.31.0) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "pycparser (==2.21) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "certifi (==2023.7.22) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "charset-normalizer (==3.2.0) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "idna (==3.4) ; python_version >= \"3.8\" and python_version < \"4.0\""
+          ],
+          "requires_python": ">=3.8,<4.0"
+        }
+      },
       "0.1.3": {
         "c7n_openstack-0.1.3-py3-none-any.whl": {
           "requires_dist": [
@@ -20920,6 +20970,12 @@
       },
       "1.3.0.dev20230906020857": {
         "cirq_core-1.3.0.dev20230906020857-py3-none-any.whl": "1.3.0.dev20230807212704@cirq_core-1.3.0.dev20230807212704-py3-none-any.whl"
+      },
+      "1.3.0.dev20230906203935": {
+        "cirq_core-1.3.0.dev20230906203935-py3-none-any.whl": "1.3.0.dev20230807212704@cirq_core-1.3.0.dev20230807212704-py3-none-any.whl"
+      },
+      "1.3.0.dev20230906215446": {
+        "cirq_core-1.3.0.dev20230906215446-py3-none-any.whl": "1.3.0.dev20230807212704@cirq_core-1.3.0.dev20230807212704-py3-none-any.whl"
       }
     }
   },
@@ -35014,6 +35070,9 @@
           ],
           "requires_python": "<3.12,>=3.11"
         }
+      },
+      "7.0.0rc5": {
+        "dipdup-7.0.0rc5-py3-none-any.whl": "7.0.0rc4@dipdup-7.0.0rc4-py3-none-any.whl"
       }
     }
   },
@@ -36682,6 +36741,9 @@
       },
       "1.0.3": {
         "easy_excel_tool-1.0.3-py3-none-any.whl": "1.0.1@easy_excel_tool-1.0.1-py3-none-any.whl"
+      },
+      "1.0.4": {
+        "easy_excel_tool-1.0.4-py3-none-any.whl": "1.0.1@easy_excel_tool-1.0.1-py3-none-any.whl"
       }
     }
   },
@@ -44423,6 +44485,20 @@
       },
       "0.13.6": {
         "gammarer.aws_daily_cloud_watch_logs_archiver-0.13.6-py3-none-any.whl": "0.13.2@gammarer.aws_daily_cloud_watch_logs_archiver-0.13.2-py3-none-any.whl"
+      },
+      "0.13.7": {
+        "gammarer.aws_daily_cloud_watch_logs_archiver-0.13.7-py3-none-any.whl": {
+          "requires_dist": [
+            "aws-cdk-lib <3.0.0,>=2.80.0",
+            "constructs <11.0.0,>=10.0.5",
+            "gammarer.aws-secure-bucket <0.13.0,>=0.12.4",
+            "gammarer.aws-secure-log-bucket <0.13.0,>=0.12.6",
+            "jsii <2.0.0,>=1.88.0",
+            "publication >=0.0.3",
+            "typeguard ~=2.13.3"
+          ],
+          "requires_python": "~=3.7"
+        }
       }
     }
   },
@@ -47853,6 +47929,12 @@
       },
       "0.1.0": {
         "grass_gis_helpers-0.1.0-py3-none-any.whl": "0.0.0@grass_gis_helpers-0.0.0-py3-none-any.whl"
+      },
+      "0.1.1": {
+        "grass_gis_helpers-0.1.1-py3-none-any.whl": "0.0.0@grass_gis_helpers-0.0.0-py3-none-any.whl"
+      },
+      "0.1.2": {
+        "grass_gis_helpers-0.1.2-py3-none-any.whl": "0.0.0@grass_gis_helpers-0.0.0-py3-none-any.whl"
       }
     }
   },
@@ -49825,6 +49907,14 @@
           ],
           "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
         }
+      },
+      "3.1.58": {
+        "huaweicloudsdkidentitycenter-3.1.58-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "huaweicloudsdkcore >=3.1.58"
+          ],
+          "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
+        }
       }
     }
   },
@@ -50522,6 +50612,14 @@
         "huaweicloudsdkiec-3.1.57-py2.py3-none-any.whl": {
           "requires_dist": [
             "huaweicloudsdkcore >=3.1.57"
+          ],
+          "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
+        }
+      },
+      "3.1.58": {
+        "huaweicloudsdkiec-3.1.58-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "huaweicloudsdkcore >=3.1.58"
           ],
           "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
         }
@@ -51249,6 +51347,14 @@
         "huaweicloudsdklts-3.1.57-py2.py3-none-any.whl": {
           "requires_dist": [
             "huaweicloudsdkcore >=3.1.57"
+          ],
+          "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
+        }
+      },
+      "3.1.58": {
+        "huaweicloudsdklts-3.1.58-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "huaweicloudsdkcore >=3.1.58"
           ],
           "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
         }
@@ -56231,6 +56337,23 @@
       }
     }
   },
+  "llqqntinstaller-py": {
+    "py3": {
+      "0.2.1": {
+        "llqqntinstaller_py-0.2.1-py3-none-any.whl": {
+          "requires_dist": [
+            "loguru (>=0.7.1,<0.8.0)",
+            "lxml (>=4.9.3,<5.0.0)",
+            "pygit2 (>=1.12.2,<2.0.0)",
+            "pysocks (>=1.7.1,<2.0.0)",
+            "requests (>=2.31.0,<3.0.0)",
+            "rich (>=13.5.2,<14.0.0)"
+          ],
+          "requires_python": ">=3.11,<4.0"
+        }
+      }
+    }
+  },
   "locate-system-path": {
     "py3": {
       "0.0.0": {
@@ -57824,6 +57947,26 @@
       },
       "0.13.4.1": {
         "meile_gui-0.13.4.1-py3-none-any.whl": "0.13.3.0@meile_gui-0.13.3.0-py3-none-any.whl"
+      },
+      "0.14.0.0": {
+        "meile_gui-0.14.0.0-py3-none-any.whl": {
+          "requires_dist": [
+            "kivymd",
+            "pydash",
+            "treelib",
+            "kivyoav",
+            "pexpect",
+            "qrcode",
+            "save-thread-result",
+            "screeninfo",
+            "mapview",
+            "psutil",
+            "unidecode",
+            "dnspython",
+            "cosmpy ==0.8.0",
+            "sentinel-protobuf >=0.3.1"
+          ]
+        }
       },
       "0.9.3a1": {
         "meile_gui-0.9.3a1-py3-none-any.whl": {
@@ -61370,8 +61513,17 @@
       "0.0.1018": {
         "nbdev_django-0.0.1018-py3-none-any.whl": "0.0.100@nbdev_django-0.0.100-py3-none-any.whl"
       },
+      "0.0.1019": {
+        "nbdev_django-0.0.1019-py3-none-any.whl": "0.0.100@nbdev_django-0.0.100-py3-none-any.whl"
+      },
       "0.0.102": {
         "nbdev_django-0.0.102-py3-none-any.whl": "0.0.100@nbdev_django-0.0.100-py3-none-any.whl"
+      },
+      "0.0.1020": {
+        "nbdev_django-0.0.1020-py3-none-any.whl": "0.0.100@nbdev_django-0.0.100-py3-none-any.whl"
+      },
+      "0.0.1021": {
+        "nbdev_django-0.0.1021-py3-none-any.whl": "0.0.100@nbdev_django-0.0.100-py3-none-any.whl"
       },
       "0.0.103": {
         "nbdev_django-0.0.103-py3-none-any.whl": "0.0.100@nbdev_django-0.0.100-py3-none-any.whl"
@@ -70386,6 +70538,12 @@
       },
       "16.0.1.0.0.5": {
         "odoo_addon_rma-16.0.1.0.0.5-py3-none-any.whl": "16.0.1.0.0.3@odoo_addon_rma-16.0.1.0.0.3-py3-none-any.whl"
+      },
+      "16.0.1.0.1": {
+        "odoo_addon_rma-16.0.1.0.1-py3-none-any.whl": "16.0.1.0.0.3@odoo_addon_rma-16.0.1.0.0.3-py3-none-any.whl"
+      },
+      "16.0.1.0.1.1": {
+        "odoo_addon_rma-16.0.1.0.1.1-py3-none-any.whl": "16.0.1.0.0.3@odoo_addon_rma-16.0.1.0.0.3-py3-none-any.whl"
       }
     }
   },
@@ -84968,6 +85126,9 @@
           "requires_python": ">=3.7.1,<4.0"
         }
       },
+      "0.15.2": {
+        "qualang_tools-0.15.2-py3-none-any.whl": "0.15.1@qualang_tools-0.15.1-py3-none-any.whl"
+      },
       "0.2.0": {
         "qualang_tools-0.2.0-py3-none-any.whl": "0.1.1@qualang_tools-0.1.1-py3-none-any.whl"
       },
@@ -85410,6 +85571,9 @@
       },
       "0.11.0": {
         "randog-0.11.0-py3-none-any.whl": "0.1.0.0@randog-0.1.0.0-py3-none-any.whl"
+      },
+      "0.12.0": {
+        "randog-0.12.0-py3-none-any.whl": "0.1.0.0@randog-0.1.0.0-py3-none-any.whl"
       },
       "0.2.0.0": {
         "randog-0.2.0.0-py3-none-any.whl": "0.1.0.0@randog-0.1.0.0-py3-none-any.whl"
@@ -88659,6 +88823,9 @@
       },
       "0.2.12": {
         "seavoice_sdk-0.2.12-py3-none-any.whl": "0.2.0@seavoice_sdk-0.2.0-py3-none-any.whl"
+      },
+      "0.2.13": {
+        "seavoice_sdk-0.2.13-py3-none-any.whl": "0.2.0@seavoice_sdk-0.2.0-py3-none-any.whl"
       },
       "0.2.2": {
         "seavoice_sdk-0.2.2-py3-none-any.whl": "0.2.0@seavoice_sdk-0.2.0-py3-none-any.whl"
@@ -97379,6 +97546,33 @@
             "stix2-matcher (==3.0.0)"
           ]
         }
+      },
+      "6.2.1": {
+        "stix_shifter-6.2.1-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "aioboto3 ==11.2.0",
+            "asynctest ==0.13.0",
+            "aiohttp-retry ==2.8.3",
+            "azure-identity ==1.12.0",
+            "regex ==2023.8.8",
+            "urllib3 ==1.26.15",
+            "flask ==2.3.3",
+            "aiomysql ==0.1.1",
+            "asyncio ==3.4.3",
+            "python-dateutil ==2.8.2",
+            "antlr4-python3-runtime ==4.8",
+            "xmltodict ==0.13.0",
+            "stix2-matcher ==3.0.0",
+            "requests-toolbelt ==0.10.1",
+            "jsonmerge ==1.9.2",
+            "flatten-json ==0.1.13",
+            "colorlog ==6.7.0",
+            "stix2-patterns ==1.3.2",
+            "pyOpenSSL ==23.2.0",
+            "json-fix ==0.5.2",
+            "attrs ==22.2.0"
+          ]
+        }
       }
     }
   },
@@ -102961,6 +103155,104 @@
             "tflite-support (<0.4.3,>=0.4.2) ; extra == 'tflite-support'"
           ],
           "requires_python": ">=3.8,<3.10"
+        }
+      },
+      "1.14.0": {
+        "tfx-1.14.0-py3-none-any.whl": {
+          "provides_extras": [
+            "airflow",
+            "all",
+            "docker-image",
+            "examples",
+            "flax",
+            "kfp",
+            "test",
+            "tf-ranking",
+            "tfdf",
+            "tfjs",
+            "tflite-support"
+          ],
+          "requires_dist": [
+            "ml-pipelines-sdk ==1.14.0",
+            "absl-py <2.0.0,>=0.9",
+            "ml-metadata <1.15.0,>=1.14.0",
+            "packaging <21,>=20",
+            "portpicker <2,>=1.3.1",
+            "protobuf <5,>=3.20.3",
+            "docker <5,>=4.1",
+            "google-apitools <1,>=0.5",
+            "google-api-python-client <2,>=1.8",
+            "jinja2 <4,>=2.7.3",
+            "typing-extensions <5,>=3.10.0.2",
+            "apache-beam[gcp] <3,>=2.47",
+            "attrs <22,>=19.3.0",
+            "click <9,>=7",
+            "google-api-core <3",
+            "google-cloud-aiplatform <2,>=1.6.2",
+            "google-cloud-bigquery <3,>=2.26.0",
+            "grpcio <2,>=1.28.1",
+            "keras-tuner <2,>=1.0.4",
+            "kubernetes <13,>=10.0.1",
+            "numpy <2,>=1.16",
+            "pyarrow <11,>=10",
+            "pyyaml <7,>=6",
+            "tensorflow <2.14,>=2.13.0",
+            "tensorflow-hub <0.14,>=0.9.0",
+            "tensorflow-data-validation <1.15.0,>=1.14.0",
+            "tensorflow-model-analysis <0.46.0,>=0.45.0",
+            "tensorflow-serving-api !=2.0.*,!=2.1.*,!=2.2.*,!=2.3.*,!=2.4.*,!=2.5.*,!=2.6.*,!=2.7.*,!=2.8.*,<3,>=1.15",
+            "tensorflow-transform <1.15.0,>=1.14.0",
+            "tfx-bsl <1.15.0,>=1.14.0",
+            "apache-airflow[mysql] <3,>=1.10.14 ; extra == 'airflow'",
+            "apache-airflow[mysql] <3,>=1.10.14 ; extra == 'all'",
+            "kfp <2,>=1.8.14 ; extra == 'all'",
+            "kfp-pipeline-spec <0.2,>=0.1.10 ; extra == 'all'",
+            "pytest <7,>=5 ; extra == 'all'",
+            "tensorflowjs <5,>=4.5 ; extra == 'all'",
+            "flatbuffers >=1.12 ; extra == 'all'",
+            "tflite-support <0.4.5,>=0.4.3 ; extra == 'all'",
+            "tensorflow-ranking <0.6,>=0.5 ; extra == 'all'",
+            "struct2tensor <0.46,>=0.45 ; extra == 'all'",
+            "tensorflow-decision-forests <2,>=1.0.1 ; extra == 'all'",
+            "jax <1 ; extra == 'all'",
+            "jaxlib <1 ; extra == 'all'",
+            "flax <1 ; extra == 'all'",
+            "optax <1 ; extra == 'all'",
+            "presto-python-client <0.8,>=0.7 ; extra == 'all'",
+            "slackclient <3,>=2.8.2 ; extra == 'all'",
+            "websocket-client <1,>=0.57 ; extra == 'all'",
+            "tensorflow-text <3,>=1.15.1 ; extra == 'all'",
+            "scikit-learn <2,>=1.0 ; extra == 'all'",
+            "tensorflow-cloud <0.2,>=0.1 ; extra == 'all'",
+            "kfp-pipeline-spec <0.2,>=0.1.10 ; extra == 'docker-image'",
+            "mmh <3,>=2.2 ; extra == 'docker-image'",
+            "python-snappy <0.6,>=0.5 ; extra == 'docker-image'",
+            "tensorflow-cloud <0.2,>=0.1 ; extra == 'docker-image'",
+            "tensorflow-io <=0.24.0,>=0.9.0 ; extra == 'docker-image'",
+            "presto-python-client <0.8,>=0.7 ; extra == 'examples'",
+            "slackclient <3,>=2.8.2 ; extra == 'examples'",
+            "websocket-client <1,>=0.57 ; extra == 'examples'",
+            "tensorflow-text <3,>=1.15.1 ; extra == 'examples'",
+            "scikit-learn <2,>=1.0 ; extra == 'examples'",
+            "tensorflow-cloud <0.2,>=0.1 ; extra == 'examples'",
+            "jax <1 ; extra == 'flax'",
+            "jaxlib <1 ; extra == 'flax'",
+            "flax <1 ; extra == 'flax'",
+            "optax <1 ; extra == 'flax'",
+            "kfp <2,>=1.8.14 ; extra == 'kfp'",
+            "kfp-pipeline-spec <0.2,>=0.1.10 ; extra == 'kfp'",
+            "apache-airflow[mysql] <3,>=1.10.14 ; extra == 'test'",
+            "kfp <2,>=1.8.14 ; extra == 'test'",
+            "kfp-pipeline-spec <0.2,>=0.1.10 ; extra == 'test'",
+            "pytest <7,>=5 ; extra == 'test'",
+            "tensorflow-ranking <0.6,>=0.5 ; extra == 'tf-ranking'",
+            "struct2tensor <0.46,>=0.45 ; extra == 'tf-ranking'",
+            "tensorflow-decision-forests <2,>=1.0.1 ; extra == 'tfdf'",
+            "tensorflowjs <5,>=4.5 ; extra == 'tfjs'",
+            "flatbuffers >=1.12 ; extra == 'tflite-support'",
+            "tflite-support <0.4.5,>=0.4.3 ; extra == 'tflite-support'"
+          ],
+          "requires_python": ">=3.8,<3.11"
         }
       },
       "1.14.0rc0": {

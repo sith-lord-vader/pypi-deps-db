@@ -1486,6 +1486,17 @@
       },
       "1.1.8": {
         "alibabacloud_ocr_api20210707-1.1.8-py3-none-any.whl": "1.1.10@alibabacloud_ocr_api20210707-1.1.10-py3-none-any.whl"
+      },
+      "1.2.0": {
+        "alibabacloud_ocr_api20210707-1.2.0-py3-none-any.whl": {
+          "requires_dist": [
+            "alibabacloud-tea-util (<1.0.0,>=0.3.11)",
+            "alibabacloud-tea-openapi (<1.0.0,>=0.3.6)",
+            "alibabacloud-openapi-util (<1.0.0,>=0.2.1)",
+            "alibabacloud-endpoint-util (<1.0.0,>=0.0.3)"
+          ],
+          "requires_python": ">=3.6"
+        }
       }
     }
   },
@@ -7692,6 +7703,9 @@
       },
       "1.31.41": {
         "botocore_a_la_carte_memorydb-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_memorydb-1.29.100-py3-none-any.whl"
+      },
+      "1.31.42": {
+        "botocore_a_la_carte_memorydb-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_memorydb-1.29.100-py3-none-any.whl"
       },
       "1.31.5": {
         "botocore_a_la_carte_memorydb-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_memorydb-1.29.100-py3-none-any.whl"
@@ -34372,6 +34386,9 @@
       },
       "0.2.4": {
         "fps_webdav-0.2.4-py3-none-any.whl": "0.1.10@fps_webdav-0.1.10-py3-none-any.whl"
+      },
+      "0.2.5": {
+        "fps_webdav-0.2.5-py3-none-any.whl": "0.1.10@fps_webdav-0.1.10-py3-none-any.whl"
       }
     }
   },
@@ -40885,6 +40902,14 @@
         "huaweicloudsdkmetastudio-3.1.57-py2.py3-none-any.whl": {
           "requires_dist": [
             "huaweicloudsdkcore >=3.1.57"
+          ],
+          "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
+        }
+      },
+      "3.1.58": {
+        "huaweicloudsdkmetastudio-3.1.58-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "huaweicloudsdkcore >=3.1.58"
           ],
           "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
         }
@@ -54914,6 +54939,12 @@
           ],
           "requires_python": ">=3.6"
         }
+      },
+      "14.0.4.1.0": {
+        "odoo14_addon_l10n_br_account_payment_brcobranca-14.0.4.1.0-py3-none-any.whl": "14.0.4.0.1.dev4@odoo14_addon_l10n_br_account_payment_brcobranca-14.0.4.0.1.dev4-py3-none-any.whl"
+      },
+      "14.0.4.1.1.dev1": {
+        "odoo14_addon_l10n_br_account_payment_brcobranca-14.0.4.1.1.dev1-py3-none-any.whl": "14.0.4.0.1.dev4@odoo14_addon_l10n_br_account_payment_brcobranca-14.0.4.0.1.dev4-py3-none-any.whl"
       }
     }
   },
@@ -57155,6 +57186,35 @@
       },
       "1.5.2b1": {
         "panda_utils-1.5.2b1-py3-none-any.whl": "1.5@panda_utils-1.5-py3-none-any.whl"
+      },
+      "1.5.3": {
+        "panda_utils-1.5.3-py3-none-any.whl": {
+          "provides_extras": [
+            "autopath",
+            "composer",
+            "everything",
+            "imagery",
+            "pipeline",
+            "runnable"
+          ],
+          "requires_dist": [
+            "panda3d !=1.10.13.*,~=1.10 ; extra == 'autopath'",
+            "panda-utils[pipeline] ; extra == 'composer'",
+            "doit ; extra == 'composer'",
+            "pydantic ; extra == 'composer'",
+            "panda-utils[imagery] ; extra == 'everything'",
+            "panda-utils[autopath] ; extra == 'everything'",
+            "panda-utils[runnable] ; extra == 'everything'",
+            "panda-utils[composer] ; extra == 'everything'",
+            "Pillow ~=9.0 ; extra == 'imagery'",
+            "pyyaml ~=6.0 ; extra == 'pipeline'",
+            "numpy ~=1.24.0 ; extra == 'pipeline'",
+            "panda3d-blend2bam !=1.0.0 ; extra == 'pipeline'",
+            "panda3d !=1.10.13.*,~=1.10 ; extra == 'pipeline'",
+            "platformdirs ~=3.5 ; extra == 'runnable'"
+          ],
+          "requires_python": ">=3.9"
+        }
       },
       "1.5b1": {
         "panda_utils-1.5b1-py3-none-any.whl": "1.1.0a1@panda_utils-1.1.0a1-py3-none-any.whl"
@@ -61846,6 +61906,9 @@
       },
       "0.7.67": {
         "pepperize.cdk_organizations-0.7.67-py3-none-any.whl": "0.7.57@pepperize.cdk_organizations-0.7.57-py3-none-any.whl"
+      },
+      "0.7.670": {
+        "pepperize.cdk_organizations-0.7.670-py3-none-any.whl": "0.7.657@pepperize.cdk_organizations-0.7.657-py3-none-any.whl"
       },
       "0.7.68": {
         "pepperize.cdk_organizations-0.7.68-py3-none-any.whl": "0.7.57@pepperize.cdk_organizations-0.7.57-py3-none-any.whl"
@@ -84748,6 +84811,12 @@
       },
       "2023.9.4": {
         "torch_workflow_archiver_nightly-2023.9.4-py3-none-any.whl": "2022.10.1@torch_workflow_archiver_nightly-2022.10.1-py3-none-any.whl"
+      },
+      "2023.9.6": {
+        "torch_workflow_archiver_nightly-2023.9.6-py3-none-any.whl": "2022.10.1@torch_workflow_archiver_nightly-2022.10.1-py3-none-any.whl"
+      },
+      "2023.9.7": {
+        "torch_workflow_archiver_nightly-2023.9.7-py3-none-any.whl": "2022.10.1@torch_workflow_archiver_nightly-2022.10.1-py3-none-any.whl"
       }
     }
   },
@@ -124167,6 +124236,9 @@
       },
       "2.4.8": {
         "voicemeeter_api-2.4.8-py3-none-any.whl": "2.1.1@voicemeeter_api-2.1.1-py3-none-any.whl"
+      },
+      "2.4.9": {
+        "voicemeeter_api-2.4.9-py3-none-any.whl": "2.1.1@voicemeeter_api-2.1.1-py3-none-any.whl"
       }
     }
   },
@@ -125047,6 +125119,140 @@
             "hypothesis[lark] (<6.0,>=5.37.1) ; extra == 'test'"
           ],
           "requires_python": ">=3.7,<3.10"
+        }
+      },
+      "0.3.10rc1": {
+        "vyper-0.3.10rc1-py3-none-any.whl": {
+          "provides_extras": [
+            "dev",
+            "docs",
+            "lint",
+            "test"
+          ],
+          "requires_dist": [
+            "cbor2 <6,>=5.4.6",
+            "asttokens <3,>=2.0.5",
+            "pycryptodome <4,>=3.5.1",
+            "semantic-version <3,>=2.10",
+            "importlib-metadata",
+            "wheel",
+            "pytest <7.0,>=6.2.5 ; extra == 'dev'",
+            "pytest-cov <3.0,>=2.10 ; extra == 'dev'",
+            "pytest-instafail <1.0,>=0.4 ; extra == 'dev'",
+            "pytest-xdist <3.0,>=2.5 ; extra == 'dev'",
+            "pytest-split <1.0,>=0.7.0 ; extra == 'dev'",
+            "pytest-rerunfailures <11,>=10.2 ; extra == 'dev'",
+            "eth-tester[py-evm] <0.10,>=0.9.0b1 ; extra == 'dev'",
+            "py-evm <0.8,>=0.7.0a1 ; extra == 'dev'",
+            "web3 ==6.0.0 ; extra == 'dev'",
+            "tox <4.0,>=3.15 ; extra == 'dev'",
+            "lark ==1.1.2 ; extra == 'dev'",
+            "hypothesis[lark] <6.0,>=5.37.1 ; extra == 'dev'",
+            "eth-stdlib ==0.2.6 ; extra == 'dev'",
+            "black ==23.3.0 ; extra == 'dev'",
+            "flake8 ==3.9.2 ; extra == 'dev'",
+            "flake8-bugbear ==20.1.4 ; extra == 'dev'",
+            "flake8-use-fstring ==1.1 ; extra == 'dev'",
+            "isort ==5.9.3 ; extra == 'dev'",
+            "mypy ==0.982 ; extra == 'dev'",
+            "recommonmark ; extra == 'dev'",
+            "sphinx <7.0,>=6.0 ; extra == 'dev'",
+            "sphinx-rtd-theme <1.3,>=1.2 ; extra == 'dev'",
+            "ipython ; extra == 'dev'",
+            "pre-commit ; extra == 'dev'",
+            "pyinstaller ; extra == 'dev'",
+            "twine ; extra == 'dev'",
+            "recommonmark ; extra == 'docs'",
+            "sphinx <7.0,>=6.0 ; extra == 'docs'",
+            "sphinx-rtd-theme <1.3,>=1.2 ; extra == 'docs'",
+            "black ==23.3.0 ; extra == 'lint'",
+            "flake8 ==3.9.2 ; extra == 'lint'",
+            "flake8-bugbear ==20.1.4 ; extra == 'lint'",
+            "flake8-use-fstring ==1.1 ; extra == 'lint'",
+            "isort ==5.9.3 ; extra == 'lint'",
+            "mypy ==0.982 ; extra == 'lint'",
+            "pytest <7.0,>=6.2.5 ; extra == 'test'",
+            "pytest-cov <3.0,>=2.10 ; extra == 'test'",
+            "pytest-instafail <1.0,>=0.4 ; extra == 'test'",
+            "pytest-xdist <3.0,>=2.5 ; extra == 'test'",
+            "pytest-split <1.0,>=0.7.0 ; extra == 'test'",
+            "pytest-rerunfailures <11,>=10.2 ; extra == 'test'",
+            "eth-tester[py-evm] <0.10,>=0.9.0b1 ; extra == 'test'",
+            "py-evm <0.8,>=0.7.0a1 ; extra == 'test'",
+            "web3 ==6.0.0 ; extra == 'test'",
+            "tox <4.0,>=3.15 ; extra == 'test'",
+            "lark ==1.1.2 ; extra == 'test'",
+            "hypothesis[lark] <6.0,>=5.37.1 ; extra == 'test'",
+            "eth-stdlib ==0.2.6 ; extra == 'test'"
+          ],
+          "requires_python": ">=3.10,<4"
+        }
+      },
+      "0.3.10rc2": {
+        "vyper-0.3.10rc2-py3-none-any.whl": {
+          "provides_extras": [
+            "dev",
+            "docs",
+            "lint",
+            "test"
+          ],
+          "requires_dist": [
+            "cbor2 <6,>=5.4.6",
+            "asttokens <3,>=2.0.5",
+            "pycryptodome <4,>=3.5.1",
+            "packaging <24,>=23.1",
+            "importlib-metadata",
+            "wheel",
+            "pytest <7.0,>=6.2.5 ; extra == 'dev'",
+            "pytest-cov <3.0,>=2.10 ; extra == 'dev'",
+            "pytest-instafail <1.0,>=0.4 ; extra == 'dev'",
+            "pytest-xdist <3.0,>=2.5 ; extra == 'dev'",
+            "pytest-split <1.0,>=0.7.0 ; extra == 'dev'",
+            "pytest-rerunfailures <11,>=10.2 ; extra == 'dev'",
+            "eth-tester[py-evm] <0.10,>=0.9.0b1 ; extra == 'dev'",
+            "py-evm <0.8,>=0.7.0a1 ; extra == 'dev'",
+            "web3 ==6.0.0 ; extra == 'dev'",
+            "tox <4.0,>=3.15 ; extra == 'dev'",
+            "lark ==1.1.2 ; extra == 'dev'",
+            "hypothesis[lark] <6.0,>=5.37.1 ; extra == 'dev'",
+            "eth-stdlib ==0.2.6 ; extra == 'dev'",
+            "black ==23.3.0 ; extra == 'dev'",
+            "flake8 ==3.9.2 ; extra == 'dev'",
+            "flake8-bugbear ==20.1.4 ; extra == 'dev'",
+            "flake8-use-fstring ==1.1 ; extra == 'dev'",
+            "isort ==5.9.3 ; extra == 'dev'",
+            "mypy ==0.982 ; extra == 'dev'",
+            "recommonmark ; extra == 'dev'",
+            "sphinx <7.0,>=6.0 ; extra == 'dev'",
+            "sphinx-rtd-theme <1.3,>=1.2 ; extra == 'dev'",
+            "ipython ; extra == 'dev'",
+            "pre-commit ; extra == 'dev'",
+            "pyinstaller ; extra == 'dev'",
+            "twine ; extra == 'dev'",
+            "recommonmark ; extra == 'docs'",
+            "sphinx <7.0,>=6.0 ; extra == 'docs'",
+            "sphinx-rtd-theme <1.3,>=1.2 ; extra == 'docs'",
+            "black ==23.3.0 ; extra == 'lint'",
+            "flake8 ==3.9.2 ; extra == 'lint'",
+            "flake8-bugbear ==20.1.4 ; extra == 'lint'",
+            "flake8-use-fstring ==1.1 ; extra == 'lint'",
+            "isort ==5.9.3 ; extra == 'lint'",
+            "mypy ==0.982 ; extra == 'lint'",
+            "pytest <7.0,>=6.2.5 ; extra == 'test'",
+            "pytest-cov <3.0,>=2.10 ; extra == 'test'",
+            "pytest-instafail <1.0,>=0.4 ; extra == 'test'",
+            "pytest-xdist <3.0,>=2.5 ; extra == 'test'",
+            "pytest-split <1.0,>=0.7.0 ; extra == 'test'",
+            "pytest-rerunfailures <11,>=10.2 ; extra == 'test'",
+            "eth-tester[py-evm] <0.10,>=0.9.0b1 ; extra == 'test'",
+            "py-evm <0.8,>=0.7.0a1 ; extra == 'test'",
+            "web3 ==6.0.0 ; extra == 'test'",
+            "tox <4.0,>=3.15 ; extra == 'test'",
+            "lark ==1.1.2 ; extra == 'test'",
+            "hypothesis[lark] <6.0,>=5.37.1 ; extra == 'test'",
+            "eth-stdlib ==0.2.6 ; extra == 'test'"
+          ],
+          "requires_python": ">=3.10,<4"
         }
       },
       "0.3.2": {
@@ -137363,6 +137569,22 @@
       },
       "0.0.9": {
         "zh_rasa-0.0.9-py3-none-any.whl": "0.0.10@zh_rasa-0.0.10-py3-none-any.whl"
+      }
+    }
+  },
+  "ziggy-pydust-template": {
+    "cp311": {
+      "0.0.1": {
+        "ziggy_pydust_template-0.0.1-cp311-cp311-manylinux_2_35_x86_64.whl": {
+          "requires_python": ">=3.11,<4.0"
+        }
+      }
+    },
+    "py3": {
+      "0.1.0": {
+        "ziggy_pydust_template-0.1.0-py3-none-any.whl": {
+          "requires_python": ">=3.9,<4.0"
+        }
       }
     }
   },

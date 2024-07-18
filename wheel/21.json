@@ -18306,6 +18306,16 @@
       },
       "1.1.0": {
         "django_clickhouse_backend-1.1.0-py3-none-any.whl": "1.0.3@django_clickhouse_backend-1.0.3-py3-none-any.whl"
+      },
+      "1.1.1": {
+        "django_clickhouse_backend-1.1.1-py3-none-any.whl": {
+          "requires_dist": [
+            "django >=3.2",
+            "clickhouse-driver ==0.2.6",
+            "clickhouse-pool ==0.5.3"
+          ],
+          "requires_python": "<4,>=3.7"
+        }
       }
     }
   },
@@ -32365,6 +32375,9 @@
       },
       "2.0.0": {
         "in_toto-2.0.0-py3-none-any.whl": "1.4.0@in_toto-1.4.0-py3-none-any.whl"
+      },
+      "2.1.0": {
+        "in_toto-2.1.0-py3-none-any.whl": "1.4.0@in_toto-1.4.0-py3-none-any.whl"
       }
     }
   },
@@ -51981,6 +51994,20 @@
             "tox ; extra == 'test-runner'"
           ],
           "requires_python": ">=3.9"
+        }
+      }
+    }
+  },
+  "phytreeviz": {
+    "py3": {
+      "0.1.0": {
+        "phytreeviz-0.1.0-py3-none-any.whl": {
+          "requires_dist": [
+            "biopython (>=1.7.9)",
+            "matplotlib (>=3.5.3)",
+            "numpy (>=1.21.1)"
+          ],
+          "requires_python": ">=3.8,<4.0"
         }
       }
     }
@@ -88027,6 +88054,9 @@
       },
       "6.2.0.dev122": {
         "stix_shifter_modules_onelogin-6.2.0.dev122-py2.py3-none-any.whl": "4.6.10@stix_shifter_modules_onelogin-4.6.10-py2.py3-none-any.whl"
+      },
+      "6.2.1": {
+        "stix_shifter_modules_onelogin-6.2.1-py2.py3-none-any.whl": "5.3.2@stix_shifter_modules_onelogin-5.3.2-py2.py3-none-any.whl"
       }
     }
   },
@@ -101990,6 +102020,31 @@
       },
       "1.0.3": {
         "Xplique-1.0.3-py3-none-any.whl": "0.3.1@Xplique-0.3.1-py3-none-any.whl"
+      },
+      "1.1.0": {
+        "Xplique-1.1.0-py3-none-any.whl": {
+          "provides_extras": [
+            "docs",
+            "pytorch",
+            "tests"
+          ],
+          "requires_dist": [
+            "tensorflow >=2.1.0",
+            "numpy",
+            "scikit-learn",
+            "scikit-image",
+            "matplotlib",
+            "scipy",
+            "opencv-python",
+            "mkdocs ; extra == 'docs'",
+            "mkdocs-material ; extra == 'docs'",
+            "numkdoc ; extra == 'docs'",
+            "torch ; extra == 'pytorch'",
+            "pytest ; extra == 'tests'",
+            "pylint ; extra == 'tests'"
+          ],
+          "requires_python": ">=3.6"
+        }
       }
     }
   },

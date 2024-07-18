@@ -5330,6 +5330,9 @@
       "1.31.41": {
         "botocore_a_la_carte_savingsplans-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_savingsplans-1.29.100-py3-none-any.whl"
       },
+      "1.31.42": {
+        "botocore_a_la_carte_savingsplans-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_savingsplans-1.29.100-py3-none-any.whl"
+      },
       "1.31.5": {
         "botocore_a_la_carte_savingsplans-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_savingsplans-1.29.100-py3-none-any.whl"
       },
@@ -5830,6 +5833,9 @@
       },
       "1.31.41": {
         "botocore_a_la_carte_sso_admin-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_sso_admin-1.29.100-py3-none-any.whl"
+      },
+      "1.31.42": {
+        "botocore_a_la_carte_sso_admin-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_sso_admin-1.29.100-py3-none-any.whl"
       },
       "1.31.5": {
         "botocore_a_la_carte_sso_admin-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_sso_admin-1.29.100-py3-none-any.whl"
@@ -7923,6 +7929,12 @@
         "chdb-0.14.1-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "0.10.3@chdb-0.10.3-cp310-cp310-macosx_10_15_x86_64.whl",
         "chdb-0.14.1-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.10.3@chdb-0.10.3-cp310-cp310-macosx_10_15_x86_64.whl"
       },
+      "0.14.2": {
+        "chdb-0.14.2-cp310-cp310-macosx_10_15_x86_64.whl": "0.10.3@chdb-0.10.3-cp310-cp310-macosx_10_15_x86_64.whl",
+        "chdb-0.14.2-cp310-cp310-macosx_11_0_arm64.whl": "0.10.3@chdb-0.10.3-cp310-cp310-macosx_10_15_x86_64.whl",
+        "chdb-0.14.2-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "0.10.3@chdb-0.10.3-cp310-cp310-macosx_10_15_x86_64.whl",
+        "chdb-0.14.2-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.10.3@chdb-0.10.3-cp310-cp310-macosx_10_15_x86_64.whl"
+      },
       "0.2.2": {
         "chdb-0.2.2-cp310-cp310-macosx_10_15_x86_64.whl": "0.1.60@chdb-0.1.60-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
         "chdb-0.2.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.1.60@chdb-0.1.60-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
@@ -7985,6 +7997,12 @@
       "0.14.1": {
         "chdb-0.14.1-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "0.10.3@chdb-0.10.3-cp311-cp311-macosx_10_15_x86_64.whl",
         "chdb-0.14.1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.10.3@chdb-0.10.3-cp311-cp311-macosx_10_15_x86_64.whl"
+      },
+      "0.14.2": {
+        "chdb-0.14.2-cp311-cp311-macosx_10_15_x86_64.whl": "0.10.3@chdb-0.10.3-cp311-cp311-macosx_10_15_x86_64.whl",
+        "chdb-0.14.2-cp311-cp311-macosx_11_0_arm64.whl": "0.10.3@chdb-0.10.3-cp311-cp311-macosx_10_15_x86_64.whl",
+        "chdb-0.14.2-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "0.10.3@chdb-0.10.3-cp311-cp311-macosx_10_15_x86_64.whl",
+        "chdb-0.14.2-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.10.3@chdb-0.10.3-cp311-cp311-macosx_10_15_x86_64.whl"
       },
       "0.2.2": {
         "chdb-0.2.2-cp311-cp311-macosx_10_15_universal2.whl": "0.1.60@chdb-0.1.60-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
@@ -8082,6 +8100,11 @@
         "chdb-0.14.1-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "0.10.3@chdb-0.10.3-cp38-cp38-macosx_10_15_x86_64.whl",
         "chdb-0.14.1-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.10.3@chdb-0.10.3-cp38-cp38-macosx_10_15_x86_64.whl"
       },
+      "0.14.2": {
+        "chdb-0.14.2-cp38-cp38-macosx_10_15_x86_64.whl": "0.10.3@chdb-0.10.3-cp38-cp38-macosx_10_15_x86_64.whl",
+        "chdb-0.14.2-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "0.10.3@chdb-0.10.3-cp38-cp38-macosx_10_15_x86_64.whl",
+        "chdb-0.14.2-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.10.3@chdb-0.10.3-cp38-cp38-macosx_10_15_x86_64.whl"
+      },
       "0.2.2": {
         "chdb-0.2.2-cp38-cp38-macosx_10_15_x86_64.whl": "0.1.60@chdb-0.1.60-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
         "chdb-0.2.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.1.60@chdb-0.1.60-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
@@ -8141,6 +8164,12 @@
       "0.14.1": {
         "chdb-0.14.1-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "0.10.3@chdb-0.10.3-cp39-cp39-macosx_10_15_x86_64.whl",
         "chdb-0.14.1-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.10.3@chdb-0.10.3-cp39-cp39-macosx_10_15_x86_64.whl"
+      },
+      "0.14.2": {
+        "chdb-0.14.2-cp39-cp39-macosx_10_15_x86_64.whl": "0.10.3@chdb-0.10.3-cp39-cp39-macosx_10_15_x86_64.whl",
+        "chdb-0.14.2-cp39-cp39-macosx_11_0_arm64.whl": "0.10.3@chdb-0.10.3-cp39-cp39-macosx_10_15_x86_64.whl",
+        "chdb-0.14.2-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "0.10.3@chdb-0.10.3-cp39-cp39-macosx_10_15_x86_64.whl",
+        "chdb-0.14.2-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.10.3@chdb-0.10.3-cp39-cp39-macosx_10_15_x86_64.whl"
       },
       "0.2.2": {
         "chdb-0.2.2-cp39-cp39-macosx_10_15_x86_64.whl": "0.1.60@chdb-0.1.60-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
@@ -13360,6 +13389,15 @@
           ],
           "requires_python": ">=3.10"
         }
+      },
+      "0.1.4": {
+        "discord_ext_prometheus-0.1.4-py3-none-any.whl": {
+          "requires_dist": [
+            "discord-py==2.2.*",
+            "prometheus-client==0.16.*"
+          ],
+          "requires_python": ">=3.8"
+        }
       }
     }
   },
@@ -17275,6 +17313,18 @@
           ],
           "requires_python": ">=3.5"
         }
+      },
+      "3.1.1": {
+        "djangocms_snippet-3.1.1-py3-none-any.whl": {
+          "provides_extras": [
+            "static-ace"
+          ],
+          "requires_dist": [
+            "django-cms >=3.7",
+            "djangocms-static-ace ; extra == 'static-ace'"
+          ],
+          "requires_python": ">=3.5"
+        }
       }
     }
   },
@@ -17759,6 +17809,15 @@
             "omitempty"
           ],
           "requires_python": ">=3.8"
+        }
+      },
+      "2.11.0": {
+        "dnsimple-2.11.0-py3-none-any.whl": {
+          "requires_dist": [
+            "omitempty (>=0.1.1,<0.2.0)",
+            "requests (>=2.28.2,<3.0.0)"
+          ],
+          "requires_python": ">=3.8,<4.0"
         }
       },
       "2.2.0": {
@@ -24781,6 +24840,67 @@
           ],
           "requires_dist": [
             "nb-log (>=9.2)",
+            "eventlet (==0.33.3)",
+            "gevent (==22.10.2)",
+            "pymongo (==4.3.3)",
+            "AMQPStorm (==2.10.6)",
+            "rabbitpy (==2.0.1)",
+            "decorator (==4.4.0)",
+            "Flask",
+            "flask-bootstrap",
+            "flask-wtf",
+            "wtforms",
+            "flask-login",
+            "tomorrow3 (==1.1.0)",
+            "persist-queue (>=0.4.2)",
+            "elasticsearch",
+            "kafka-python (==2.0.2)",
+            "requests",
+            "gnsq (==1.0.1)",
+            "psutil",
+            "peewee (==3.15.1)",
+            "apscheduler (==3.10.1)",
+            "pikav0",
+            "pikav1",
+            "redis2",
+            "redis3",
+            "redis5",
+            "redis",
+            "rocketmq",
+            "zmq",
+            "pyzmq",
+            "paho-mqtt",
+            "setuptools-rust",
+            "fabric2 (==2.6.0)",
+            "nats-python",
+            "nb-filelock",
+            "aiohttp (==3.8.3)",
+            "pysnooper",
+            "deprecated",
+            "cryptography",
+            "auto-run-on-remote",
+            "frozenlist",
+            "confluent-kafka (==1.7.0) ; extra == 'extra_brokers'",
+            "celery ; extra == 'extra_brokers'",
+            "flower ; extra == 'extra_brokers'",
+            "nameko (==2.14.1) ; extra == 'extra_brokers'",
+            "sqlalchemy (==1.4.8) ; extra == 'extra_brokers'",
+            "sqlalchemy-utils (==0.36.1) ; extra == 'extra_brokers'",
+            "dramatiq (==1.14.2) ; extra == 'extra_brokers'",
+            "huey (==2.4.5) ; extra == 'extra_brokers'",
+            "rq (==1.15.0) ; extra == 'extra_brokers'",
+            "kombu ; extra == 'extra_brokers'",
+            "pulsar-client (==3.1.0) ; (python_version >= \"3.7\") and extra == 'extra_brokers'"
+          ]
+        }
+      },
+      "24.4": {
+        "funboost-24.4-py3-none-any.whl": {
+          "provides_extras": [
+            "extra_brokers"
+          ],
+          "requires_dist": [
+            "nb-log (>=10.2)",
             "eventlet (==0.33.3)",
             "gevent (==22.10.2)",
             "pymongo (==4.3.3)",
@@ -67757,6 +67877,21 @@
       },
       "5.6.0": {
         "robodk-5.6.0-py2.py3-none-any.whl": "5.5.5@robodk-5.5.5-py2.py3-none-any.whl"
+      },
+      "5.6.3": {
+        "robodk-5.6.3-py2.py3-none-any.whl": {
+          "provides_extras": [
+            "apps",
+            "cv",
+            "lint"
+          ],
+          "requires_dist": [
+            "PySide2 ==5.15.* ; extra == 'apps'",
+            "opencv-contrib-python ; extra == 'cv'",
+            "numpy ; extra == 'cv'",
+            "astroid ; extra == 'lint'"
+          ]
+        }
       }
     }
   },
@@ -67923,6 +68058,9 @@
       },
       "0.55.0": {
         "robotcode_modifiers-0.55.0-py3-none-any.whl": "0.26.2@robotcode_modifiers-0.26.2-py3-none-any.whl"
+      },
+      "0.55.1": {
+        "robotcode_modifiers-0.55.1-py3-none-any.whl": "0.26.2@robotcode_modifiers-0.26.2-py3-none-any.whl"
       }
     }
   },
@@ -90128,6 +90266,9 @@
       },
       "0.2.2": {
         "tungstenkit-0.2.2-py3-none-any.whl": "0.1.20@tungstenkit-0.1.20-py3-none-any.whl"
+      },
+      "0.2.3": {
+        "tungstenkit-0.2.3-py3-none-any.whl": "0.1.20@tungstenkit-0.1.20-py3-none-any.whl"
       }
     }
   },

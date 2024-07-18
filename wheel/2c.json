@@ -6724,6 +6724,9 @@
       "1.31.41": {
         "botocore_a_la_carte_iotfleethub-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_iotfleethub-1.29.100-py3-none-any.whl"
       },
+      "1.31.42": {
+        "botocore_a_la_carte_iotfleethub-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_iotfleethub-1.29.100-py3-none-any.whl"
+      },
       "1.31.5": {
         "botocore_a_la_carte_iotfleethub-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_iotfleethub-1.29.100-py3-none-any.whl"
       },
@@ -7225,6 +7228,9 @@
       "1.31.41": {
         "botocore_a_la_carte_iottwinmaker-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_iottwinmaker-1.29.100-py3-none-any.whl"
       },
+      "1.31.42": {
+        "botocore_a_la_carte_iottwinmaker-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_iottwinmaker-1.29.100-py3-none-any.whl"
+      },
       "1.31.5": {
         "botocore_a_la_carte_iottwinmaker-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_iottwinmaker-1.29.100-py3-none-any.whl"
       },
@@ -7725,6 +7731,9 @@
       },
       "1.31.41": {
         "botocore_a_la_carte_logs-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_logs-1.29.100-py3-none-any.whl"
+      },
+      "1.31.42": {
+        "botocore_a_la_carte_logs-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_logs-1.29.100-py3-none-any.whl"
       },
       "1.31.5": {
         "botocore_a_la_carte_logs-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_logs-1.29.100-py3-none-any.whl"
@@ -9472,6 +9481,35 @@
       },
       "0.12.1": {
         "cenfind-0.12.1-py3-none-any.whl": "0.12.0@cenfind-0.12.0-py3-none-any.whl"
+      },
+      "0.13.0": {
+        "cenfind-0.13.0-py3-none-any.whl": {
+          "requires_dist": [
+            "albumentations (>=1.3.0,<2.0.0)",
+            "attrs (>=22.2.0,<23.0.0)",
+            "csbdeep (>=0.7.3,<0.8.0)",
+            "labelbox[data] (>=3.46.0,<4.0.0)",
+            "llvmlite (==0.39.1)",
+            "numba (==0.56.4)",
+            "numpy (>=1.23.5,<2.0.0)",
+            "opencv-python (>=4.7.0.72,<5.0.0.0)",
+            "ortools (==9.4.1874)",
+            "pandas (>=1.4.1,<2.0.0)",
+            "protobuf (==3.19.6)",
+            "python-dotenv (>=0.21.1,<0.22.0)",
+            "pytomlpp (>=1.0.10,<2.0.0)",
+            "scikit-image (>=0.19.2,<0.20.0)",
+            "scikit-learn (>=1.2.1,<2.0.0)",
+            "scipy (>=1.7.1,<2.0.0)",
+            "spotipy-detector (>=0.1.0,<0.2.0)",
+            "stardist (>=0.8.3,<0.9.0)",
+            "tensorflow (==2.9.0) ; sys_platform == \"win32\" or sys_platform == \"linux\"",
+            "tensorflow-macos (==2.9.0) ; sys_platform == \"darwin\"",
+            "tifffile (>=2022.5.4,<2023.0.0)",
+            "tqdm (>=4.62.3,<5.0.0)"
+          ],
+          "requires_python": ">=3.8,<3.11"
+        }
       },
       "0.9.0": {
         "cenfind-0.9.0-py3-none-any.whl": {
@@ -62804,6 +62842,18 @@
       }
     }
   },
+  "et-api": {
+    "py3": {
+      "1.0.0": {
+        "et_api-1.0.0-py3-none-any.whl": {
+          "requires_dist": [
+            "requests"
+          ],
+          "requires_python": ">3.9"
+        }
+      }
+    }
+  },
   "etlaas-stream": {
     "py3": {
       "20.7.0": {
@@ -68295,6 +68345,9 @@
       },
       "0.4.1": {
         "gammarer.aws_rds_database_running_scheduler-0.4.1-py3-none-any.whl": "0.4.0@gammarer.aws_rds_database_running_scheduler-0.4.0-py3-none-any.whl"
+      },
+      "0.4.2": {
+        "gammarer.aws_rds_database_running_scheduler-0.4.2-py3-none-any.whl": "0.4.0@gammarer.aws_rds_database_running_scheduler-0.4.0-py3-none-any.whl"
       }
     }
   },
@@ -74950,6 +75003,9 @@
       },
       "0.0.5": {
         "ispec-0.0.5-py3-none-any.whl": "0.0.1@ispec-0.0.1-py3-none-any.whl"
+      },
+      "0.0.6": {
+        "ispec-0.0.6-py3-none-any.whl": "0.0.1@ispec-0.0.1-py3-none-any.whl"
       }
     }
   },
@@ -76092,6 +76148,19 @@
             "pytest-tornasync; extra == 'test'"
           ],
           "requires_python": ">=3.9"
+        }
+      }
+    }
+  },
+  "jupyter-swi-prolog": {
+    "py3": {
+      "1.0.2.1": {
+        "jupyter_swi_prolog-1.0.2.1-py3-none-any.whl": {
+          "requires_dist": [
+            "jupyter",
+            "swiplserver ~=1.0.2"
+          ],
+          "requires_python": ">=3.7"
         }
       }
     }
@@ -79963,6 +80032,9 @@
       },
       "0.3.61": {
         "lesscode_py-0.3.61-py3-none-any.whl": "0.3.17@lesscode_py-0.3.17-py3-none-any.whl"
+      },
+      "0.3.62": {
+        "lesscode_py-0.3.62-py3-none-any.whl": "0.3.17@lesscode_py-0.3.17-py3-none-any.whl"
       },
       "0.3.7": {
         "lesscode_py-0.3.7-py3-none-any.whl": "0.2.100@lesscode_py-0.2.100-py3-none-any.whl"
@@ -88561,6 +88633,9 @@
           ],
           "requires_python": ">=3.8"
         }
+      },
+      "15.0.1.2.0.9": {
+        "odoo_addon_hr_attendance_reason-15.0.1.2.0.9-py3-none-any.whl": "15.0.1.2.0.6@odoo_addon_hr_attendance_reason-15.0.1.2.0.6-py3-none-any.whl"
       }
     }
   },
@@ -100982,6 +101057,15 @@
           ],
           "requires_python": ">=3.8,<4.0"
         }
+      },
+      "1.1.0": {
+        "poetry_monorepo_dependency_plugin-1.1.0-py3-none-any.whl": {
+          "requires_dist": [
+            "cleo (>=2.0.1)",
+            "poetry (>=1.6)"
+          ],
+          "requires_python": ">=3.8,<4.0"
+        }
       }
     }
   },
@@ -111995,6 +112079,17 @@
       }
     }
   },
+  "pythondatasdk": {
+    "py3": {
+      "0.0.1": {
+        "pythondatasdk-0.0.1-py3-none-any.whl": {
+          "requires_dist": [
+            "pymongo"
+          ]
+        }
+      }
+    }
+  },
   "pythumb": {
     "py3": {
       "0.1.0": {
@@ -112372,6 +112467,15 @@
   },
   "q1simulator": {
     "py2.py3": {
+      "0.11.0": {
+        "q1simulator-0.11.0-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "qcodes",
+            "qblox-instruments"
+          ],
+          "requires_python": ">=3.7"
+        }
+      },
       "0.3.1": {
         "q1simulator-0.3.1-py2.py3-none-any.whl": {
           "requires_dist": [
@@ -112381,55 +112485,49 @@
         }
       },
       "0.4.0": {
-        "q1simulator-0.4.0-py2.py3-none-any.whl": {
-          "requires_dist": [
-            "qcodes",
-            "qblox-instruments"
-          ],
-          "requires_python": ">=3.7"
-        }
+        "q1simulator-0.4.0-py2.py3-none-any.whl": "0.11.0@q1simulator-0.11.0-py2.py3-none-any.whl"
       },
       "0.4.1": {
-        "q1simulator-0.4.1-py2.py3-none-any.whl": "0.4.0@q1simulator-0.4.0-py2.py3-none-any.whl"
+        "q1simulator-0.4.1-py2.py3-none-any.whl": "0.11.0@q1simulator-0.11.0-py2.py3-none-any.whl"
       },
       "0.4.2": {
-        "q1simulator-0.4.2-py2.py3-none-any.whl": "0.4.0@q1simulator-0.4.0-py2.py3-none-any.whl"
+        "q1simulator-0.4.2-py2.py3-none-any.whl": "0.11.0@q1simulator-0.11.0-py2.py3-none-any.whl"
       },
       "0.4.3": {
-        "q1simulator-0.4.3-py2.py3-none-any.whl": "0.4.0@q1simulator-0.4.0-py2.py3-none-any.whl"
+        "q1simulator-0.4.3-py2.py3-none-any.whl": "0.11.0@q1simulator-0.11.0-py2.py3-none-any.whl"
       },
       "0.4.5": {
-        "q1simulator-0.4.5-py2.py3-none-any.whl": "0.4.0@q1simulator-0.4.0-py2.py3-none-any.whl"
+        "q1simulator-0.4.5-py2.py3-none-any.whl": "0.11.0@q1simulator-0.11.0-py2.py3-none-any.whl"
       },
       "0.4.6": {
-        "q1simulator-0.4.6-py2.py3-none-any.whl": "0.4.0@q1simulator-0.4.0-py2.py3-none-any.whl"
+        "q1simulator-0.4.6-py2.py3-none-any.whl": "0.11.0@q1simulator-0.11.0-py2.py3-none-any.whl"
       },
       "0.7.0": {
-        "q1simulator-0.7.0-py2.py3-none-any.whl": "0.4.0@q1simulator-0.4.0-py2.py3-none-any.whl"
+        "q1simulator-0.7.0-py2.py3-none-any.whl": "0.11.0@q1simulator-0.11.0-py2.py3-none-any.whl"
       },
       "0.7.1": {
-        "q1simulator-0.7.1-py2.py3-none-any.whl": "0.4.0@q1simulator-0.4.0-py2.py3-none-any.whl"
+        "q1simulator-0.7.1-py2.py3-none-any.whl": "0.11.0@q1simulator-0.11.0-py2.py3-none-any.whl"
       },
       "0.8.0": {
-        "q1simulator-0.8.0-py2.py3-none-any.whl": "0.4.0@q1simulator-0.4.0-py2.py3-none-any.whl"
+        "q1simulator-0.8.0-py2.py3-none-any.whl": "0.11.0@q1simulator-0.11.0-py2.py3-none-any.whl"
       },
       "0.8.1": {
-        "q1simulator-0.8.1-py2.py3-none-any.whl": "0.4.0@q1simulator-0.4.0-py2.py3-none-any.whl"
+        "q1simulator-0.8.1-py2.py3-none-any.whl": "0.11.0@q1simulator-0.11.0-py2.py3-none-any.whl"
       },
       "0.8.2": {
-        "q1simulator-0.8.2-py2.py3-none-any.whl": "0.4.0@q1simulator-0.4.0-py2.py3-none-any.whl"
+        "q1simulator-0.8.2-py2.py3-none-any.whl": "0.11.0@q1simulator-0.11.0-py2.py3-none-any.whl"
       },
       "0.8.3": {
-        "q1simulator-0.8.3-py2.py3-none-any.whl": "0.4.0@q1simulator-0.4.0-py2.py3-none-any.whl"
+        "q1simulator-0.8.3-py2.py3-none-any.whl": "0.11.0@q1simulator-0.11.0-py2.py3-none-any.whl"
       },
       "0.9.0": {
-        "q1simulator-0.9.0-py2.py3-none-any.whl": "0.4.0@q1simulator-0.4.0-py2.py3-none-any.whl"
+        "q1simulator-0.9.0-py2.py3-none-any.whl": "0.11.0@q1simulator-0.11.0-py2.py3-none-any.whl"
       },
       "0.9.1": {
-        "q1simulator-0.9.1-py2.py3-none-any.whl": "0.4.0@q1simulator-0.4.0-py2.py3-none-any.whl"
+        "q1simulator-0.9.1-py2.py3-none-any.whl": "0.11.0@q1simulator-0.11.0-py2.py3-none-any.whl"
       },
       "0.9.4": {
-        "q1simulator-0.9.4-py2.py3-none-any.whl": "0.4.0@q1simulator-0.4.0-py2.py3-none-any.whl"
+        "q1simulator-0.9.4-py2.py3-none-any.whl": "0.11.0@q1simulator-0.11.0-py2.py3-none-any.whl"
       }
     }
   },
@@ -113353,6 +113451,9 @@
           ],
           "requires_python": ">=3.6"
         }
+      },
+      "1.4.3": {
+        "raster_basics-1.4.3-py3-none-any.whl": "1.4.2@raster_basics-1.4.2-py3-none-any.whl"
       }
     }
   },
@@ -133546,6 +133647,20 @@
             "tencentcloud-sdk-python-common (==3.0.974)"
           ]
         }
+      },
+      "3.0.975": {
+        "tencentcloud_sdk_python_ic-3.0.975-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.975)"
+          ]
+        }
+      },
+      "3.0.976": {
+        "tencentcloud_sdk_python_ic-3.0.976-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.976)"
+          ]
+        }
       }
     }
   },
@@ -142529,6 +142644,9 @@
           ],
           "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
         }
+      },
+      "1.11.0": {
+        "zhmcclient-1.11.0-py2.py3-none-any.whl": "1.10.1@zhmcclient-1.10.1-py2.py3-none-any.whl"
       },
       "1.2.0": {
         "zhmcclient-1.2.0-py2.py3-none-any.whl": {

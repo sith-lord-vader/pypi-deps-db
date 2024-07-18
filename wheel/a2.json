@@ -47304,6 +47304,27 @@
           "requires_python": ">=3.7"
         }
       },
+      "1.12.2": {
+        "asari_metabolomics-1.12.2-py3-none-any.whl": {
+          "requires_dist": [
+            "metDatamodel",
+            "mass2chem",
+            "khipu-metabolomics >=0.7.0",
+            "jms-metabolite-services >=0.5.7",
+            "pymzml",
+            "numpy",
+            "scipy",
+            "statsmodels",
+            "pyyaml",
+            "panel >=0.13.0",
+            "holoviews",
+            "hvplot",
+            "seaborn",
+            "matplotlib"
+          ],
+          "requires_python": ">=3.7"
+        }
+      },
       "1.2.5": {
         "asari_metabolomics-1.2.5-py3-none-any.whl": {
           "requires_dist": [
@@ -52906,6 +52927,9 @@
       },
       "4.4.1.dev213": {
         "assemblyline_ui-4.4.1.dev213-py3-none-any.whl": "4.4.1.dev189@assemblyline_ui-4.4.1.dev189-py3-none-any.whl"
+      },
+      "4.4.1.dev214": {
+        "assemblyline_ui-4.4.1.dev214-py3-none-any.whl": "4.4.1.dev189@assemblyline_ui-4.4.1.dev189-py3-none-any.whl"
       },
       "4.4.1.dev27": {
         "assemblyline_ui-4.4.1.dev27-py3-none-any.whl": {
@@ -64931,6 +64955,9 @@
       "1.31.41": {
         "botocore_a_la_carte_codestar-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_codestar-1.29.100-py3-none-any.whl"
       },
+      "1.31.42": {
+        "botocore_a_la_carte_codestar-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_codestar-1.29.100-py3-none-any.whl"
+      },
       "1.31.5": {
         "botocore_a_la_carte_codestar-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_codestar-1.29.100-py3-none-any.whl"
       },
@@ -65431,6 +65458,9 @@
       },
       "1.31.41": {
         "botocore_a_la_carte_iotwireless-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_iotwireless-1.29.100-py3-none-any.whl"
+      },
+      "1.31.42": {
+        "botocore_a_la_carte_iotwireless-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_iotwireless-1.29.100-py3-none-any.whl"
       },
       "1.31.5": {
         "botocore_a_la_carte_iotwireless-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_iotwireless-1.29.100-py3-none-any.whl"
@@ -73135,6 +73165,9 @@
       },
       "4.2.0": {
         "django_tidb-4.2.0-py3-none-any.whl": "4.1.0@django_tidb-4.1.0-py3-none-any.whl"
+      },
+      "4.2.1": {
+        "django_tidb-4.2.1-py3-none-any.whl": "4.1.0@django_tidb-4.1.0-py3-none-any.whl"
       }
     }
   },
@@ -111860,16 +111893,19 @@
       "13.0.1.0.2.dev4": {
         "odoo13_addon_base_custom_info-13.0.1.0.2.dev4-py3-none-any.whl": "13.0.1.0.1@odoo13_addon_base_custom_info-13.0.1.0.1-py3-none-any.whl"
       },
-      "13.0.1.0.3.dev1": {
-        "odoo13_addon_base_custom_info-13.0.1.0.3.dev1-py3-none-any.whl": "13.0.1.0.1@odoo13_addon_base_custom_info-13.0.1.0.1-py3-none-any.whl"
-      },
-      "13.0.1.0.3.dev2": {
-        "odoo13_addon_base_custom_info-13.0.1.0.3.dev2-py3-none-any.whl": {
+      "13.0.1.0.3": {
+        "odoo13_addon_base_custom_info-13.0.1.0.3-py3-none-any.whl": {
           "requires_dist": [
             "odoo <13.1dev,>=13.0a"
           ],
           "requires_python": ">=3.5"
         }
+      },
+      "13.0.1.0.3.dev1": {
+        "odoo13_addon_base_custom_info-13.0.1.0.3.dev1-py3-none-any.whl": "13.0.1.0.1@odoo13_addon_base_custom_info-13.0.1.0.1-py3-none-any.whl"
+      },
+      "13.0.1.0.3.dev2": {
+        "odoo13_addon_base_custom_info-13.0.1.0.3.dev2-py3-none-any.whl": "13.0.1.0.3@odoo13_addon_base_custom_info-13.0.1.0.3-py3-none-any.whl"
       }
     }
   },
@@ -113964,6 +114000,12 @@
       },
       "12.1.5rc3": {
         "openmodule_commands-12.1.5rc3-py2.py3-none-any.whl": "11.0.0@openmodule_commands-11.0.0-py2.py3-none-any.whl"
+      },
+      "12.1.5rc4": {
+        "openmodule_commands-12.1.5rc4-py2.py3-none-any.whl": "11.0.0@openmodule_commands-11.0.0-py2.py3-none-any.whl"
+      },
+      "12.1.5rc5": {
+        "openmodule_commands-12.1.5rc5-py2.py3-none-any.whl": "11.0.0@openmodule_commands-11.0.0-py2.py3-none-any.whl"
       }
     }
   },
@@ -118131,6 +118173,9 @@
       },
       "0.5.0": {
         "py3seed-0.5.0-py3-none-any.whl": "0.3.6@py3seed-0.3.6-py3-none-any.whl"
+      },
+      "0.5.1": {
+        "py3seed-0.5.1-py3-none-any.whl": "0.3.6@py3seed-0.3.6-py3-none-any.whl"
       }
     }
   },
@@ -121263,6 +121308,35 @@
       },
       "1.13.2": {
         "pylzy-1.13.2-py2.py3-none-any.whl": "1.13.0@pylzy-1.13.0-py2.py3-none-any.whl"
+      },
+      "1.15.0rc0": {
+        "pylzy-1.15.0rc0-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "aioboto3 (>=9.6.0)",
+            "appdirs (<2.0.0,>=1.4.4)",
+            "azure-storage-blob (<13.0.0,>=12.9.0)",
+            "beartype (<1.0.0,>=0.10.0)",
+            "botocore (>=1.27.59)",
+            "cloudpickle (<3.0.0,>=2.1.0)",
+            "grpcio (>=1.46.0)",
+            "googleapis-common-protos (>=1.56.3)",
+            "importlib-metadata (>=4.8.1)",
+            "packaging (>=21.3.0)",
+            "pip (>=10.0)",
+            "protobuf (>=4.21.1)",
+            "pycryptodome (<4.0.0,>=3.15.0)",
+            "pyjwt[crypto] (<3.0.0,>=2.4.0)",
+            "pypi-simple (<2.0.0,>=1.1.0)",
+            "pyyaml (<7.0.0,>=6.0.0)",
+            "requests (<3.0.0,>=2.26.0)",
+            "serialzy (<2.0.0,>=1.2.0)",
+            "tqdm (<5.0.0,>=4.64.0)",
+            "typing-extensions (>=4.4.0)",
+            "stdlib-list (<1.0.0,>=0.8.0) ; python_version < \"3.10\"",
+            "cached-property (<2.0.0,>=1.5.1) ; python_version < \"3.8\""
+          ],
+          "requires_python": ">=3.7"
+        }
       },
       "1.2.0": {
         "pylzy-1.2-py2.py3-none-any.whl": {
@@ -129909,6 +129983,9 @@
       },
       "0.4": {
         "PyWinBox-0.4-py3-none-any.whl": "0.0.5@PyWinBox-0.0.5-py3-none-any.whl"
+      },
+      "0.5": {
+        "PyWinBox-0.5-py3-none-any.whl": "0.0.5@PyWinBox-0.0.5-py3-none-any.whl"
       }
     }
   },
@@ -130078,6 +130155,25 @@
           "requires_dist": [
             "pywinbox (>=0.4)",
             "pymonctl (>=0.1)",
+            "pyobjc (>=8.1) ; sys_platform == \"darwin\"",
+            "python-xlib (>=0.21) ; sys_platform == \"linux\"",
+            "pywin32 (>=302) ; sys_platform == \"win32\"",
+            "types-setuptools (>=65.5) ; extra == 'dev'",
+            "mypy (>=0.990) ; extra == 'dev'",
+            "typing-extensions (>=4.4.0) ; extra == 'dev'",
+            "types-pywin32 (>=305.0.0.3) ; extra == 'dev'",
+            "types-python-xlib (>=0.32) ; extra == 'dev'"
+          ]
+        }
+      },
+      "0.1": {
+        "PyWinCtl-0.1-py3-none-any.whl": {
+          "provides_extras": [
+            "dev"
+          ],
+          "requires_dist": [
+            "pywinbox (>=0.5)",
+            "pymonctl (>=0.5)",
             "pyobjc (>=8.1) ; sys_platform == \"darwin\"",
             "python-xlib (>=0.21) ; sys_platform == \"linux\"",
             "pywin32 (>=302) ; sys_platform == \"win32\"",
@@ -139197,6 +139293,12 @@
       },
       "0.2.0": {
         "starpoint-0.2.0-py3-none-any.whl": "0.1.2@starpoint-0.1.2-py3-none-any.whl"
+      },
+      "0.3.0": {
+        "starpoint-0.3.0-py3-none-any.whl": "0.1.2@starpoint-0.1.2-py3-none-any.whl"
+      },
+      "0.3.1": {
+        "starpoint-0.3.1-py3-none-any.whl": "0.1.2@starpoint-0.1.2-py3-none-any.whl"
       }
     }
   },
@@ -139902,6 +140004,9 @@
       },
       "6.2.0.dev122": {
         "stix_shifter_modules_reaqta-6.2.0.dev122-py2.py3-none-any.whl": "1.0.0.dev782@stix_shifter_modules_reaqta-1.0.0.dev782-py2.py3-none-any.whl"
+      },
+      "6.2.1": {
+        "stix_shifter_modules_reaqta-6.2.1-py2.py3-none-any.whl": "1.0.0.dev782@stix_shifter_modules_reaqta-1.0.0.dev782-py2.py3-none-any.whl"
       }
     }
   },
@@ -143728,6 +143833,20 @@
             "tencentcloud-sdk-python-common (==3.0.974)"
           ]
         }
+      },
+      "3.0.975": {
+        "tencentcloud_sdk_python_vod-3.0.975-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.975)"
+          ]
+        }
+      },
+      "3.0.976": {
+        "tencentcloud_sdk_python_vod-3.0.976-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.976)"
+          ]
+        }
       }
     }
   },
@@ -146066,6 +146185,20 @@
       "5.0.5": {
         "trytond_sale_promotion-5.0.5-py3-none-any.whl": "5.0.3@trytond_sale_promotion-5.0.3-py3-none-any.whl"
       },
+      "5.0.6": {
+        "trytond_sale_promotion-5.0.6-py3-none-any.whl": {
+          "requires_dist": [
+            "simpleeval",
+            "trytond-company <5.1,>=5.0",
+            "trytond-product <5.1,>=5.0",
+            "trytond-product-price-list <5.1,>=5.0",
+            "trytond-sale <5.1,>=5.0",
+            "trytond-sale-price-list <5.1,>=5.0",
+            "trytond <5.1,>=5.0"
+          ],
+          "requires_python": ">=3.4"
+        }
+      },
       "5.2.0": {
         "trytond_sale_promotion-5.2.0-py3-none-any.whl": {
           "requires_dist": [
@@ -146182,6 +146315,20 @@
       "6.0.2": {
         "trytond_sale_promotion-6.0.2-py3-none-any.whl": "6.0.0@trytond_sale_promotion-6.0.0-py3-none-any.whl"
       },
+      "6.0.3": {
+        "trytond_sale_promotion-6.0.3-py3-none-any.whl": {
+          "requires_dist": [
+            "simpleeval",
+            "trytond-company <6.1,>=6.0",
+            "trytond-product <6.1,>=6.0",
+            "trytond-product-price-list <6.1,>=6.0",
+            "trytond-sale <6.1,>=6.0",
+            "trytond-sale-price-list <6.1,>=6.0",
+            "trytond <6.1,>=6.0"
+          ],
+          "requires_python": ">=3.6"
+        }
+      },
       "6.2.0": {
         "trytond_sale_promotion-6.2.0-py3-none-any.whl": {
           "requires_dist": [
@@ -146238,6 +146385,25 @@
           "requires_python": ">=3.7"
         }
       },
+      "6.6.1": {
+        "trytond_sale_promotion-6.6.1-py3-none-any.whl": {
+          "provides_extras": [
+            "test"
+          ],
+          "requires_dist": [
+            "simpleeval",
+            "trytond-company <6.7,>=6.6",
+            "trytond-currency <6.7,>=6.6",
+            "trytond-product <6.7,>=6.6",
+            "trytond-product-price-list <6.7,>=6.6",
+            "trytond-sale <6.7,>=6.6",
+            "trytond-sale-price-list <6.7,>=6.6",
+            "trytond <6.7,>=6.6",
+            "proteus <6.7,>=6.6 ; extra == 'test'"
+          ],
+          "requires_python": ">=3.7"
+        }
+      },
       "6.8.0": {
         "trytond_sale_promotion-6.8.0-py3-none-any.whl": {
           "provides_extras": [
@@ -146253,6 +146419,25 @@
             "trytond-sale-price-list (<6.9,>=6.8)",
             "trytond (<6.9,>=6.8)",
             "proteus (<6.9,>=6.8) ; extra == 'test'"
+          ],
+          "requires_python": ">=3.8"
+        }
+      },
+      "6.8.1": {
+        "trytond_sale_promotion-6.8.1-py3-none-any.whl": {
+          "provides_extras": [
+            "test"
+          ],
+          "requires_dist": [
+            "simpleeval",
+            "trytond-company <6.9,>=6.8",
+            "trytond-currency <6.9,>=6.8",
+            "trytond-product <6.9,>=6.8",
+            "trytond-product-price-list <6.9,>=6.8",
+            "trytond-sale <6.9,>=6.8",
+            "trytond-sale-price-list <6.9,>=6.8",
+            "trytond <6.9,>=6.8",
+            "proteus <6.9,>=6.8 ; extra == 'test'"
           ],
           "requires_python": ">=3.8"
         }
@@ -151053,6 +151238,105 @@
     }
   },
   "xformers": {
+    "cp310": {
+      "0.0.16": {
+        "xformers-0.0.16-cp310-cp310-manylinux2014_x86_64.whl": {
+          "requires_dist": [
+            "numpy",
+            "pyre-extensions (==0.0.23)",
+            "torch (==1.13.1)"
+          ],
+          "requires_python": ">=3.7"
+        },
+        "xformers-0.0.16-cp310-cp310-win_amd64.whl": "0.0.16@xformers-0.0.16-cp310-cp310-manylinux2014_x86_64.whl"
+      },
+      "0.0.16rc424": {
+        "xformers-0.0.16rc424-cp310-cp310-manylinux2014_x86_64.whl": "0.0.16@xformers-0.0.16-cp310-cp310-manylinux2014_x86_64.whl",
+        "xformers-0.0.16rc424-cp310-cp310-win_amd64.whl": "0.0.16@xformers-0.0.16-cp310-cp310-manylinux2014_x86_64.whl"
+      },
+      "0.0.16rc425": {
+        "xformers-0.0.16rc425-cp310-cp310-manylinux2014_x86_64.whl": "0.0.16@xformers-0.0.16-cp310-cp310-manylinux2014_x86_64.whl",
+        "xformers-0.0.16rc425-cp310-cp310-win_amd64.whl": "0.0.16@xformers-0.0.16-cp310-cp310-manylinux2014_x86_64.whl"
+      },
+      "0.0.17": {
+        "xformers-0.0.17-cp310-cp310-manylinux2014_x86_64.whl": {
+          "requires_dist": [
+            "numpy",
+            "pyre-extensions (==0.0.23)",
+            "torch (==2.0.0)"
+          ],
+          "requires_python": ">=3.7"
+        },
+        "xformers-0.0.17-cp310-cp310-win_amd64.whl": "0.0.17@xformers-0.0.17-cp310-cp310-manylinux2014_x86_64.whl"
+      },
+      "0.0.17rc481": {
+        "xformers-0.0.17rc481-cp310-cp310-manylinux2014_x86_64.whl": "0.0.17@xformers-0.0.17-cp310-cp310-manylinux2014_x86_64.whl",
+        "xformers-0.0.17rc481-cp310-cp310-win_amd64.whl": "0.0.17@xformers-0.0.17-cp310-cp310-manylinux2014_x86_64.whl"
+      },
+      "0.0.17rc482": {
+        "xformers-0.0.17rc482-cp310-cp310-manylinux2014_x86_64.whl": "0.0.17@xformers-0.0.17-cp310-cp310-manylinux2014_x86_64.whl",
+        "xformers-0.0.17rc482-cp310-cp310-win_amd64.whl": "0.0.17@xformers-0.0.17-cp310-cp310-manylinux2014_x86_64.whl"
+      },
+      "0.0.18": {
+        "xformers-0.0.18-cp310-cp310-manylinux2014_x86_64.whl": "0.0.17@xformers-0.0.17-cp310-cp310-manylinux2014_x86_64.whl",
+        "xformers-0.0.18-cp310-cp310-win_amd64.whl": "0.0.17@xformers-0.0.17-cp310-cp310-manylinux2014_x86_64.whl"
+      },
+      "0.0.19": {
+        "xformers-0.0.19-cp310-cp310-manylinux2014_x86_64.whl": {
+          "requires_dist": [
+            "numpy",
+            "pyre-extensions (==0.0.29)",
+            "torch (==2.0.0)"
+          ],
+          "requires_python": ">=3.7"
+        },
+        "xformers-0.0.19-cp310-cp310-win_amd64.whl": "0.0.19@xformers-0.0.19-cp310-cp310-manylinux2014_x86_64.whl"
+      },
+      "0.0.20": {
+        "xformers-0.0.20-cp310-cp310-manylinux2014_x86_64.whl": {
+          "requires_dist": [
+            "numpy",
+            "pyre-extensions (==0.0.29)",
+            "torch (==2.0.1)"
+          ],
+          "requires_python": ">=3.7"
+        },
+        "xformers-0.0.20-cp310-cp310-win_amd64.whl": "0.0.20@xformers-0.0.20-cp310-cp310-manylinux2014_x86_64.whl"
+      },
+      "0.0.21": {
+        "xformers-0.0.21-cp310-cp310-manylinux2014_x86_64.whl": {
+          "requires_dist": [
+            "numpy",
+            "torch ==2.0.1"
+          ],
+          "requires_python": ">=3.7"
+        },
+        "xformers-0.0.21-cp310-cp310-win_amd64.whl": "0.0.21@xformers-0.0.21-cp310-cp310-manylinux2014_x86_64.whl"
+      }
+    },
+    "cp311": {
+      "0.0.20": {
+        "xformers-0.0.20-cp311-cp311-manylinux2014_x86_64.whl": {
+          "requires_dist": [
+            "numpy",
+            "pyre-extensions (==0.0.29)",
+            "torch (==2.0.1)"
+          ],
+          "requires_python": ">=3.7"
+        },
+        "xformers-0.0.20-cp311-cp311-win_amd64.whl": "0.0.20@xformers-0.0.20-cp311-cp311-manylinux2014_x86_64.whl"
+      },
+      "0.0.21": {
+        "xformers-0.0.21-cp311-cp311-manylinux2014_x86_64.whl": {
+          "requires_dist": [
+            "numpy",
+            "torch ==2.0.1"
+          ],
+          "requires_python": ">=3.7"
+        },
+        "xformers-0.0.21-cp311-cp311-win_amd64.whl": "0.0.21@xformers-0.0.21-cp311-cp311-manylinux2014_x86_64.whl"
+      }
+    },
     "cp37": {
       "0.0.16": {
         "xformers-0.0.16-cp37-cp37m-manylinux2014_x86_64.whl": {
@@ -151072,6 +151356,168 @@
       "0.0.16rc425": {
         "xformers-0.0.16rc425-cp37-cp37m-manylinux2014_x86_64.whl": "0.0.16@xformers-0.0.16-cp37-cp37m-manylinux2014_x86_64.whl",
         "xformers-0.0.16rc425-cp37-cp37m-win_amd64.whl": "0.0.16@xformers-0.0.16-cp37-cp37m-manylinux2014_x86_64.whl"
+      }
+    },
+    "cp38": {
+      "0.0.13": {
+        "xformers-0.0.13-cp38-cp38-manylinux_2_17_x86_64.whl": {
+          "requires_dist": [
+            "torch (>=1.12)",
+            "numpy",
+            "pyre-extensions (==0.0.23)"
+          ],
+          "requires_python": ">=3.6"
+        }
+      },
+      "0.0.16": {
+        "xformers-0.0.16-cp38-cp38-manylinux2014_x86_64.whl": {
+          "requires_dist": [
+            "numpy",
+            "pyre-extensions (==0.0.23)",
+            "torch (==1.13.1)"
+          ],
+          "requires_python": ">=3.7"
+        },
+        "xformers-0.0.16-cp38-cp38-win_amd64.whl": "0.0.16@xformers-0.0.16-cp38-cp38-manylinux2014_x86_64.whl"
+      },
+      "0.0.16rc424": {
+        "xformers-0.0.16rc424-cp38-cp38-manylinux2014_x86_64.whl": "0.0.16@xformers-0.0.16-cp38-cp38-manylinux2014_x86_64.whl",
+        "xformers-0.0.16rc424-cp38-cp38-win_amd64.whl": "0.0.16@xformers-0.0.16-cp38-cp38-manylinux2014_x86_64.whl"
+      },
+      "0.0.16rc425": {
+        "xformers-0.0.16rc425-cp38-cp38-manylinux2014_x86_64.whl": "0.0.16@xformers-0.0.16-cp38-cp38-manylinux2014_x86_64.whl",
+        "xformers-0.0.16rc425-cp38-cp38-win_amd64.whl": "0.0.16@xformers-0.0.16-cp38-cp38-manylinux2014_x86_64.whl"
+      },
+      "0.0.17": {
+        "xformers-0.0.17-cp38-cp38-manylinux2014_x86_64.whl": {
+          "requires_dist": [
+            "numpy",
+            "pyre-extensions (==0.0.23)",
+            "torch (==2.0.0)"
+          ],
+          "requires_python": ">=3.7"
+        },
+        "xformers-0.0.17-cp38-cp38-win_amd64.whl": "0.0.17@xformers-0.0.17-cp38-cp38-manylinux2014_x86_64.whl"
+      },
+      "0.0.17rc481": {
+        "xformers-0.0.17rc481-cp38-cp38-manylinux2014_x86_64.whl": "0.0.17@xformers-0.0.17-cp38-cp38-manylinux2014_x86_64.whl",
+        "xformers-0.0.17rc481-cp38-cp38-win_amd64.whl": "0.0.17@xformers-0.0.17-cp38-cp38-manylinux2014_x86_64.whl"
+      },
+      "0.0.17rc482": {
+        "xformers-0.0.17rc482-cp38-cp38-manylinux2014_x86_64.whl": "0.0.17@xformers-0.0.17-cp38-cp38-manylinux2014_x86_64.whl",
+        "xformers-0.0.17rc482-cp38-cp38-win_amd64.whl": "0.0.17@xformers-0.0.17-cp38-cp38-manylinux2014_x86_64.whl"
+      },
+      "0.0.18": {
+        "xformers-0.0.18-cp38-cp38-manylinux2014_x86_64.whl": "0.0.17@xformers-0.0.17-cp38-cp38-manylinux2014_x86_64.whl",
+        "xformers-0.0.18-cp38-cp38-win_amd64.whl": "0.0.17@xformers-0.0.17-cp38-cp38-manylinux2014_x86_64.whl"
+      },
+      "0.0.19": {
+        "xformers-0.0.19-cp38-cp38-manylinux2014_x86_64.whl": {
+          "requires_dist": [
+            "numpy",
+            "pyre-extensions (==0.0.29)",
+            "torch (==2.0.0)"
+          ],
+          "requires_python": ">=3.7"
+        },
+        "xformers-0.0.19-cp38-cp38-win_amd64.whl": "0.0.19@xformers-0.0.19-cp38-cp38-manylinux2014_x86_64.whl"
+      },
+      "0.0.20": {
+        "xformers-0.0.20-cp38-cp38-manylinux2014_x86_64.whl": {
+          "requires_dist": [
+            "numpy",
+            "pyre-extensions (==0.0.29)",
+            "torch (==2.0.1)"
+          ],
+          "requires_python": ">=3.7"
+        },
+        "xformers-0.0.20-cp38-cp38-win_amd64.whl": "0.0.20@xformers-0.0.20-cp38-cp38-manylinux2014_x86_64.whl"
+      },
+      "0.0.21": {
+        "xformers-0.0.21-cp38-cp38-manylinux2014_x86_64.whl": {
+          "requires_dist": [
+            "numpy",
+            "torch ==2.0.1"
+          ],
+          "requires_python": ">=3.7"
+        },
+        "xformers-0.0.21-cp38-cp38-win_amd64.whl": "0.0.21@xformers-0.0.21-cp38-cp38-manylinux2014_x86_64.whl"
+      }
+    },
+    "cp39": {
+      "0.0.16": {
+        "xformers-0.0.16-cp39-cp39-manylinux2014_x86_64.whl": {
+          "requires_dist": [
+            "numpy",
+            "pyre-extensions (==0.0.23)",
+            "torch (==1.13.1)"
+          ],
+          "requires_python": ">=3.7"
+        },
+        "xformers-0.0.16-cp39-cp39-win_amd64.whl": "0.0.16@xformers-0.0.16-cp39-cp39-manylinux2014_x86_64.whl"
+      },
+      "0.0.16rc424": {
+        "xformers-0.0.16rc424-cp39-cp39-manylinux2014_x86_64.whl": "0.0.16@xformers-0.0.16-cp39-cp39-manylinux2014_x86_64.whl",
+        "xformers-0.0.16rc424-cp39-cp39-win_amd64.whl": "0.0.16@xformers-0.0.16-cp39-cp39-manylinux2014_x86_64.whl"
+      },
+      "0.0.16rc425": {
+        "xformers-0.0.16rc425-cp39-cp39-manylinux2014_x86_64.whl": "0.0.16@xformers-0.0.16-cp39-cp39-manylinux2014_x86_64.whl",
+        "xformers-0.0.16rc425-cp39-cp39-win_amd64.whl": "0.0.16@xformers-0.0.16-cp39-cp39-manylinux2014_x86_64.whl"
+      },
+      "0.0.17": {
+        "xformers-0.0.17-cp39-cp39-manylinux2014_x86_64.whl": {
+          "requires_dist": [
+            "numpy",
+            "pyre-extensions (==0.0.23)",
+            "torch (==2.0.0)"
+          ],
+          "requires_python": ">=3.7"
+        },
+        "xformers-0.0.17-cp39-cp39-win_amd64.whl": "0.0.17@xformers-0.0.17-cp39-cp39-manylinux2014_x86_64.whl"
+      },
+      "0.0.17rc481": {
+        "xformers-0.0.17rc481-cp39-cp39-manylinux2014_x86_64.whl": "0.0.17@xformers-0.0.17-cp39-cp39-manylinux2014_x86_64.whl",
+        "xformers-0.0.17rc481-cp39-cp39-win_amd64.whl": "0.0.17@xformers-0.0.17-cp39-cp39-manylinux2014_x86_64.whl"
+      },
+      "0.0.17rc482": {
+        "xformers-0.0.17rc482-cp39-cp39-manylinux2014_x86_64.whl": "0.0.17@xformers-0.0.17-cp39-cp39-manylinux2014_x86_64.whl",
+        "xformers-0.0.17rc482-cp39-cp39-win_amd64.whl": "0.0.17@xformers-0.0.17-cp39-cp39-manylinux2014_x86_64.whl"
+      },
+      "0.0.18": {
+        "xformers-0.0.18-cp39-cp39-manylinux2014_x86_64.whl": "0.0.17@xformers-0.0.17-cp39-cp39-manylinux2014_x86_64.whl",
+        "xformers-0.0.18-cp39-cp39-win_amd64.whl": "0.0.17@xformers-0.0.17-cp39-cp39-manylinux2014_x86_64.whl"
+      },
+      "0.0.19": {
+        "xformers-0.0.19-cp39-cp39-manylinux2014_x86_64.whl": {
+          "requires_dist": [
+            "numpy",
+            "pyre-extensions (==0.0.29)",
+            "torch (==2.0.0)"
+          ],
+          "requires_python": ">=3.7"
+        },
+        "xformers-0.0.19-cp39-cp39-win_amd64.whl": "0.0.19@xformers-0.0.19-cp39-cp39-manylinux2014_x86_64.whl"
+      },
+      "0.0.20": {
+        "xformers-0.0.20-cp39-cp39-manylinux2014_x86_64.whl": {
+          "requires_dist": [
+            "numpy",
+            "pyre-extensions (==0.0.29)",
+            "torch (==2.0.1)"
+          ],
+          "requires_python": ">=3.7"
+        },
+        "xformers-0.0.20-cp39-cp39-win_amd64.whl": "0.0.20@xformers-0.0.20-cp39-cp39-manylinux2014_x86_64.whl"
+      },
+      "0.0.21": {
+        "xformers-0.0.21-cp39-cp39-manylinux2014_x86_64.whl": {
+          "requires_dist": [
+            "numpy",
+            "torch ==2.0.1"
+          ],
+          "requires_python": ">=3.7"
+        },
+        "xformers-0.0.21-cp39-cp39-win_amd64.whl": "0.0.21@xformers-0.0.21-cp39-cp39-manylinux2014_x86_64.whl"
       }
     }
   },

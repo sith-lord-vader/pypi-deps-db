@@ -3628,6 +3628,55 @@
       "1.3.13": {
         "agixt-1.3.13-py3-none-any.whl": "1.3.12@agixt-1.3.12-py3-none-any.whl"
       },
+      "1.3.130": {
+        "agixt-1.3.130-py3-none-any.whl": {
+          "requires_dist": [
+            "agixtsdk ==0.0.26",
+            "chromadb ==0.4.6",
+            "beautifulsoup4 ==4.12.2",
+            "docker ==6.1.2",
+            "docx2txt ==0.8",
+            "fastapi ==0.95.2",
+            "GitPython ==3.1.34",
+            "pdfplumber ==0.9.0",
+            "playwright ==1.37.0",
+            "pandas ==2.0.1",
+            "PyYAML ==6.0",
+            "PyGithub ==1.58.2",
+            "requests ==2.31.0",
+            "protobuf ==3.20.*",
+            "uvicorn ==0.22.0",
+            "python-dotenv ==1.0.0",
+            "ffmpeg ==1.4",
+            "cryptography ==41.0.3",
+            "pillow ==9.5.0",
+            "SQLAlchemy ==2.0.17",
+            "psycopg2-binary ==2.9.6",
+            "openai ==0.27.8",
+            "gTTS ==2.3.2",
+            "tiktoken ==0.4.0",
+            "playsound",
+            "websocket-client",
+            "lxml",
+            "discord",
+            "tweepy",
+            "sendgrid",
+            "whispercpp",
+            "httpx",
+            "g4f ==0.0.2.6"
+          ],
+          "requires_python": ">=3.10"
+        }
+      },
+      "1.3.131": {
+        "agixt-1.3.131-py3-none-any.whl": "1.3.130@agixt-1.3.130-py3-none-any.whl"
+      },
+      "1.3.132": {
+        "agixt-1.3.132-py3-none-any.whl": "1.3.130@agixt-1.3.130-py3-none-any.whl"
+      },
+      "1.3.133": {
+        "agixt-1.3.133-py3-none-any.whl": "1.3.130@agixt-1.3.130-py3-none-any.whl"
+      },
       "1.3.14": {
         "agixt-1.3.14-py3-none-any.whl": {
           "requires_dist": [
@@ -8021,6 +8070,19 @@
       },
       "0.0.2": {
         "argify-0.0.2-py3-none-any.whl": "0.0.1@argify-0.0.1-py3-none-any.whl"
+      }
+    }
+  },
+  "argscalculator": {
+    "py3": {
+      "0.0.1": {
+        "argscalculator-0.0.1-py3-none-any.whl": {
+          "requires_dist": [
+            "Django >=3.8",
+            "virtualenv >=20"
+          ],
+          "requires_python": ">=3.6"
+        }
       }
     }
   },
@@ -22819,6 +22881,9 @@
       "1.31.41": {
         "botocore_a_la_carte_arc_zonal_shift-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_arc_zonal_shift-1.29.100-py3-none-any.whl"
       },
+      "1.31.42": {
+        "botocore_a_la_carte_arc_zonal_shift-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_arc_zonal_shift-1.29.100-py3-none-any.whl"
+      },
       "1.31.5": {
         "botocore_a_la_carte_arc_zonal_shift-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_arc_zonal_shift-1.29.100-py3-none-any.whl"
       },
@@ -23320,6 +23385,9 @@
       "1.31.41": {
         "botocore_a_la_carte_docdb-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_docdb-1.29.100-py3-none-any.whl"
       },
+      "1.31.42": {
+        "botocore_a_la_carte_docdb-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_docdb-1.29.100-py3-none-any.whl"
+      },
       "1.31.5": {
         "botocore_a_la_carte_docdb-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_docdb-1.29.100-py3-none-any.whl"
       },
@@ -23820,6 +23888,9 @@
       },
       "1.31.41": {
         "botocore_a_la_carte_glacier-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_glacier-1.29.100-py3-none-any.whl"
+      },
+      "1.31.42": {
+        "botocore_a_la_carte_glacier-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_glacier-1.29.100-py3-none-any.whl"
       },
       "1.31.5": {
         "botocore_a_la_carte_glacier-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_glacier-1.29.100-py3-none-any.whl"
@@ -31387,6 +31458,9 @@
       },
       "3.0.17": {
         "datatransport-3.0.17-py3-none-any.whl": "3.0.10@datatransport-3.0.10-py3-none-any.whl"
+      },
+      "3.0.18": {
+        "datatransport-3.0.18-py3-none-any.whl": "3.0.10@datatransport-3.0.10-py3-none-any.whl"
       },
       "3.0.5": {
         "datatransport-3.0.5-py3-none-any.whl": {
@@ -64460,6 +64534,9 @@
       },
       "4.0.38": {
         "oarepo_model_builder-4.0.38-py3-none-any.whl": "4.0.36@oarepo_model_builder-4.0.36-py3-none-any.whl"
+      },
+      "4.0.39": {
+        "oarepo_model_builder-4.0.39-py3-none-any.whl": "4.0.36@oarepo_model_builder-4.0.36-py3-none-any.whl"
       },
       "4.0.4": {
         "oarepo_model_builder-4.0.4-py3-none-any.whl": "4.0.0@oarepo_model_builder-4.0.0-py3-none-any.whl"
@@ -97537,6 +97614,9 @@
       "0.17.0": {
         "reliably_cli-0.17.0-py3-none-any.whl": "0.10.0@reliably_cli-0.10.0-py3-none-any.whl"
       },
+      "0.18.0": {
+        "reliably_cli-0.18.0-py3-none-any.whl": "0.10.0@reliably_cli-0.10.0-py3-none-any.whl"
+      },
       "0.2.0": {
         "reliably_cli-0.2.0-py3-none-any.whl": {
           "provides_extras": [
@@ -108180,6 +108260,9 @@
       "0.2.21": {
         "stashapp_tools-0.2.21-py3-none-any.whl": "0.1.1@stashapp_tools-0.1.1-py3-none-any.whl"
       },
+      "0.2.22": {
+        "stashapp_tools-0.2.22-py3-none-any.whl": "0.1.1@stashapp_tools-0.1.1-py3-none-any.whl"
+      },
       "0.2.3": {
         "stashapp_tools-0.2.3-py3-none-any.whl": "0.1.1@stashapp_tools-0.1.1-py3-none-any.whl"
       },
@@ -111446,6 +111529,20 @@
             "tencentcloud-sdk-python-common (==3.0.974)"
           ]
         }
+      },
+      "3.0.975": {
+        "tencentcloud_sdk_python_chdfs-3.0.975-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.975)"
+          ]
+        }
+      },
+      "3.0.976": {
+        "tencentcloud_sdk_python_chdfs-3.0.976-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.976)"
+          ]
+        }
       }
     }
   },
@@ -112333,6 +112430,20 @@
         "tencentcloud_sdk_python_region-3.0.974-py2.py3-none-any.whl": {
           "requires_dist": [
             "tencentcloud-sdk-python-common (==3.0.974)"
+          ]
+        }
+      },
+      "3.0.975": {
+        "tencentcloud_sdk_python_region-3.0.975-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.975)"
+          ]
+        }
+      },
+      "3.0.976": {
+        "tencentcloud_sdk_python_region-3.0.976-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.976)"
           ]
         }
       }
@@ -113411,6 +113522,13 @@
     "py2": {
       "0.1": {
         "tkns-0.1-py2-none-any.whl": {}
+      }
+    }
+  },
+  "tnsa-ns": {
+    "py3": {
+      "0.1.0": {
+        "TNSA_NS-0.1.0-py3-none-any.whl": {}
       }
     }
   },

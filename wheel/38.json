@@ -14679,6 +14679,9 @@
       "1.31.41": {
         "botocore_a_la_carte_elasticbeanstalk-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_elasticbeanstalk-1.29.100-py3-none-any.whl"
       },
+      "1.31.42": {
+        "botocore_a_la_carte_elasticbeanstalk-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_elasticbeanstalk-1.29.100-py3-none-any.whl"
+      },
       "1.31.5": {
         "botocore_a_la_carte_elasticbeanstalk-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_elasticbeanstalk-1.29.100-py3-none-any.whl"
       },
@@ -15077,6 +15080,9 @@
       },
       "1.31.41": {
         "botocore_a_la_carte_tnb-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_tnb-1.29.100-py3-none-any.whl"
+      },
+      "1.31.42": {
+        "botocore_a_la_carte_tnb-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_tnb-1.29.100-py3-none-any.whl"
       },
       "1.31.5": {
         "botocore_a_la_carte_tnb-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_tnb-1.29.100-py3-none-any.whl"
@@ -15578,6 +15584,9 @@
       },
       "1.31.41": {
         "botocore_a_la_carte_workmailmessageflow-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_workmailmessageflow-1.29.100-py3-none-any.whl"
+      },
+      "1.31.42": {
+        "botocore_a_la_carte_workmailmessageflow-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_workmailmessageflow-1.29.100-py3-none-any.whl"
       },
       "1.31.5": {
         "botocore_a_la_carte_workmailmessageflow-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_workmailmessageflow-1.29.100-py3-none-any.whl"
@@ -16975,6 +16984,54 @@
             "humanize >=4.6.0 ; platform_system != \"Emscripten\"",
             "libusb1 >=2.0.1 ; platform_system != \"Emscripten\"",
             "libusb-package ==1.0.26.1 ; platform_system != \"Emscripten\"",
+            "prompt-toolkit >=3.0.16 ; platform_system != \"Emscripten\"",
+            "prettytable >=3.6.0 ; platform_system != \"Emscripten\"",
+            "protobuf >=3.12.4 ; platform_system != \"Emscripten\"",
+            "pyserial-asyncio >=0.5 ; platform_system != \"Emscripten\"",
+            "pyserial >=3.5 ; platform_system != \"Emscripten\"",
+            "pyusb >=1.2 ; platform_system != \"Emscripten\"",
+            "websockets >=8.1 ; platform_system != \"Emscripten\"",
+            "build >=0.7 ; extra == 'build'",
+            "black ==22.10 ; extra == 'development'",
+            "grpcio-tools >=1.57.0 ; extra == 'development'",
+            "invoke >=1.7.3 ; extra == 'development'",
+            "mypy ==1.2.0 ; extra == 'development'",
+            "nox >=2022 ; extra == 'development'",
+            "pylint ==2.15.8 ; extra == 'development'",
+            "types-appdirs >=1.4.3 ; extra == 'development'",
+            "types-invoke >=1.7.3 ; extra == 'development'",
+            "types-protobuf >=4.21.0 ; extra == 'development'",
+            "mkdocs >=1.4.0 ; extra == 'documentation'",
+            "mkdocs-material >=8.5.6 ; extra == 'documentation'",
+            "mkdocstrings[python] >=0.19.0 ; extra == 'documentation'",
+            "pytest >=6.2 ; extra == 'test'",
+            "pytest-asyncio >=0.17 ; extra == 'test'",
+            "pytest-html >=3.2.0 ; extra == 'test'",
+            "coverage >=6.4 ; extra == 'test'"
+          ],
+          "requires_python": ">=3.8"
+        }
+      },
+      "0.0.166": {
+        "bumble-0.0.166-py3-none-any.whl": {
+          "provides_extras": [
+            "build",
+            "development",
+            "documentation",
+            "test"
+          ],
+          "requires_dist": [
+            "pyee >=8.2.2",
+            "aiohttp ~=3.8 ; platform_system != \"Emscripten\"",
+            "appdirs >=1.4 ; platform_system != \"Emscripten\"",
+            "bt-test-interfaces >=0.0.2 ; platform_system != \"Emscripten\"",
+            "click ==8.1.3 ; platform_system != \"Emscripten\"",
+            "cryptography ==39 ; platform_system != \"Emscripten\"",
+            "grpcio ==1.57.0 ; platform_system != \"Emscripten\"",
+            "humanize >=4.6.0 ; platform_system != \"Emscripten\"",
+            "libusb1 >=2.0.1 ; platform_system != \"Emscripten\"",
+            "libusb-package ==1.0.26.1 ; platform_system != \"Emscripten\"",
+            "platformdirs ==3.10.0 ; platform_system != \"Emscripten\"",
             "prompt-toolkit >=3.0.16 ; platform_system != \"Emscripten\"",
             "prettytable >=3.6.0 ; platform_system != \"Emscripten\"",
             "protobuf >=3.12.4 ; platform_system != \"Emscripten\"",
@@ -58148,6 +58205,15 @@
       },
       "0.0.0.8.31": {
         "hivecode-0.0.0.8.31-py3-none-any.whl": "0.0.0.8.27@hivecode-0.0.0.8.27-py3-none-any.whl"
+      },
+      "0.0.0.8.32": {
+        "hivecode-0.0.0.8.32-py3-none-any.whl": "0.0.0.8.27@hivecode-0.0.0.8.27-py3-none-any.whl"
+      },
+      "0.0.0.8.33": {
+        "hivecode-0.0.0.8.33-py3-none-any.whl": "0.0.0.8.27@hivecode-0.0.0.8.27-py3-none-any.whl"
+      },
+      "0.0.0.8.34": {
+        "hivecode-0.0.0.8.34-py3-none-any.whl": "0.0.0.8.27@hivecode-0.0.0.8.27-py3-none-any.whl"
       }
     }
   },
@@ -59139,6 +59205,9 @@
       },
       "0.1.1": {
         "hyperleaup-0.1.1-py3-none-any.whl": "0.1.0@hyperleaup-0.1.0-py3-none-any.whl"
+      },
+      "0.1.2": {
+        "hyperleaup-0.1.2-py3-none-any.whl": "0.1.0@hyperleaup-0.1.0-py3-none-any.whl"
       }
     }
   },
@@ -62779,6 +62848,11 @@
         },
         "kedm-0.6.3-cp310-cp310-macosx_11_0_arm64.whl": "0.6.3@kedm-0.6.3-cp310-cp310-macosx_10_9_x86_64.whl",
         "kedm-0.6.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.6.3@kedm-0.6.3-cp310-cp310-macosx_10_9_x86_64.whl"
+      },
+      "0.6.5": {
+        "kedm-0.6.5-cp310-cp310-macosx_10_9_x86_64.whl": "0.6.3@kedm-0.6.3-cp310-cp310-macosx_10_9_x86_64.whl",
+        "kedm-0.6.5-cp310-cp310-macosx_11_0_arm64.whl": "0.6.3@kedm-0.6.3-cp310-cp310-macosx_10_9_x86_64.whl",
+        "kedm-0.6.5-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.6.3@kedm-0.6.3-cp310-cp310-macosx_10_9_x86_64.whl"
       }
     },
     "cp311": {
@@ -62836,6 +62910,11 @@
         },
         "kedm-0.6.3-cp311-cp311-macosx_11_0_arm64.whl": "0.6.3@kedm-0.6.3-cp311-cp311-macosx_10_9_x86_64.whl",
         "kedm-0.6.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.6.3@kedm-0.6.3-cp311-cp311-macosx_10_9_x86_64.whl"
+      },
+      "0.6.5": {
+        "kedm-0.6.5-cp311-cp311-macosx_10_9_x86_64.whl": "0.6.3@kedm-0.6.3-cp311-cp311-macosx_10_9_x86_64.whl",
+        "kedm-0.6.5-cp311-cp311-macosx_11_0_arm64.whl": "0.6.3@kedm-0.6.3-cp311-cp311-macosx_10_9_x86_64.whl",
+        "kedm-0.6.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.6.3@kedm-0.6.3-cp311-cp311-macosx_10_9_x86_64.whl"
       }
     },
     "cp36": {
@@ -62886,6 +62965,10 @@
       "0.6.3": {
         "kedm-0.6.3-cp36-cp36m-macosx_10_9_x86_64.whl": "0.3.0@kedm-0.3.0-cp36-cp36m-macosx_10_9_x86_64.whl",
         "kedm-0.6.3-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.3.0@kedm-0.3.0-cp36-cp36m-macosx_10_9_x86_64.whl"
+      },
+      "0.6.5": {
+        "kedm-0.6.5-cp36-cp36m-macosx_10_9_x86_64.whl": "0.3.0@kedm-0.3.0-cp36-cp36m-macosx_10_9_x86_64.whl",
+        "kedm-0.6.5-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.3.0@kedm-0.3.0-cp36-cp36m-macosx_10_9_x86_64.whl"
       }
     },
     "cp37": {
@@ -62944,6 +63027,10 @@
           ]
         },
         "kedm-0.6.3-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.6.3@kedm-0.6.3-cp37-cp37m-macosx_10_9_x86_64.whl"
+      },
+      "0.6.5": {
+        "kedm-0.6.5-cp37-cp37m-macosx_10_9_x86_64.whl": "0.6.3@kedm-0.6.3-cp37-cp37m-macosx_10_9_x86_64.whl",
+        "kedm-0.6.5-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.6.3@kedm-0.6.3-cp37-cp37m-macosx_10_9_x86_64.whl"
       }
     },
     "cp38": {
@@ -63009,6 +63096,11 @@
         },
         "kedm-0.6.3-cp38-cp38-macosx_11_0_arm64.whl": "0.6.3@kedm-0.6.3-cp38-cp38-macosx_10_9_x86_64.whl",
         "kedm-0.6.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.6.3@kedm-0.6.3-cp38-cp38-macosx_10_9_x86_64.whl"
+      },
+      "0.6.5": {
+        "kedm-0.6.5-cp38-cp38-macosx_10_9_x86_64.whl": "0.6.3@kedm-0.6.3-cp38-cp38-macosx_10_9_x86_64.whl",
+        "kedm-0.6.5-cp38-cp38-macosx_11_0_arm64.whl": "0.6.3@kedm-0.6.3-cp38-cp38-macosx_10_9_x86_64.whl",
+        "kedm-0.6.5-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.6.3@kedm-0.6.3-cp38-cp38-macosx_10_9_x86_64.whl"
       }
     },
     "cp39": {
@@ -63074,6 +63166,11 @@
         },
         "kedm-0.6.3-cp39-cp39-macosx_11_0_arm64.whl": "0.6.3@kedm-0.6.3-cp39-cp39-macosx_10_9_x86_64.whl",
         "kedm-0.6.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.6.3@kedm-0.6.3-cp39-cp39-macosx_10_9_x86_64.whl"
+      },
+      "0.6.5": {
+        "kedm-0.6.5-cp39-cp39-macosx_10_9_x86_64.whl": "0.6.3@kedm-0.6.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "kedm-0.6.5-cp39-cp39-macosx_11_0_arm64.whl": "0.6.3@kedm-0.6.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "kedm-0.6.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.6.3@kedm-0.6.3-cp39-cp39-macosx_10_9_x86_64.whl"
       }
     }
   },
@@ -84452,6 +84549,15 @@
           "requires_dist": [
             "polywrap-manifest (>=0.1.0b8,<0.2.0)",
             "polywrap-msgpack (>=0.1.0b8,<0.2.0)"
+          ],
+          "requires_python": ">=3.10,<4.0"
+        }
+      },
+      "0.1.2": {
+        "polywrap_core-0.1.2-py3-none-any.whl": {
+          "requires_dist": [
+            "polywrap-manifest (==0.1.2)",
+            "polywrap-msgpack (==0.1.2)"
           ],
           "requires_python": ">=3.10,<4.0"
         }
@@ -117244,6 +117350,9 @@
       },
       "0.4.0": {
         "riva_asrlib_decoder-0.4.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.3.0@riva_asrlib_decoder-0.3.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+      },
+      "0.4.1": {
+        "riva_asrlib_decoder-0.4.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.3.0@riva_asrlib_decoder-0.3.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
       }
     },
     "cp311": {
@@ -117300,6 +117409,9 @@
       },
       "0.4.0": {
         "riva_asrlib_decoder-0.4.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.3.0@riva_asrlib_decoder-0.3.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+      },
+      "0.4.1": {
+        "riva_asrlib_decoder-0.4.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.3.0@riva_asrlib_decoder-0.3.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
       }
     },
     "cp37": {
@@ -117387,6 +117499,9 @@
       },
       "0.4.0": {
         "riva_asrlib_decoder-0.4.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.3.0@riva_asrlib_decoder-0.3.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+      },
+      "0.4.1": {
+        "riva_asrlib_decoder-0.4.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.3.0@riva_asrlib_decoder-0.3.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
       }
     },
     "cp39": {
@@ -117443,6 +117558,9 @@
       },
       "0.4.0": {
         "riva_asrlib_decoder-0.4.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.3.0@riva_asrlib_decoder-0.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+      },
+      "0.4.1": {
+        "riva_asrlib_decoder-0.4.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.3.0@riva_asrlib_decoder-0.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
       }
     }
   },
@@ -120515,6 +120633,13 @@
         "splinepy-0.0.40-cp310-cp310-win32.whl": "0.0.35@splinepy-0.0.35-cp310-cp310-macosx_10_9_x86_64.whl",
         "splinepy-0.0.40-cp310-cp310-win_amd64.whl": "0.0.35@splinepy-0.0.35-cp310-cp310-macosx_10_9_x86_64.whl"
       },
+      "0.0.41": {
+        "splinepy-0.0.41-cp310-cp310-macosx_10_9_x86_64.whl": "0.0.35@splinepy-0.0.35-cp310-cp310-macosx_10_9_x86_64.whl",
+        "splinepy-0.0.41-cp310-cp310-macosx_11_0_arm64.whl": "0.0.35@splinepy-0.0.35-cp310-cp310-macosx_10_9_x86_64.whl",
+        "splinepy-0.0.41-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.0.35@splinepy-0.0.35-cp310-cp310-macosx_10_9_x86_64.whl",
+        "splinepy-0.0.41-cp310-cp310-win32.whl": "0.0.35@splinepy-0.0.35-cp310-cp310-macosx_10_9_x86_64.whl",
+        "splinepy-0.0.41-cp310-cp310-win_amd64.whl": "0.0.35@splinepy-0.0.35-cp310-cp310-macosx_10_9_x86_64.whl"
+      },
       "0.0.5": {
         "splinepy-0.0.5-cp310-cp310-macosx_10_9_x86_64.whl": "0.0.10@splinepy-0.0.10-cp310-cp310-macosx_10_9_x86_64.whl",
         "splinepy-0.0.5-cp310-cp310-macosx_11_0_arm64.whl": "0.0.10@splinepy-0.0.10-cp310-cp310-macosx_10_9_x86_64.whl",
@@ -120828,6 +120953,13 @@
         "splinepy-0.0.40-cp311-cp311-win32.whl": "0.0.35@splinepy-0.0.35-cp311-cp311-macosx_10_9_x86_64.whl",
         "splinepy-0.0.40-cp311-cp311-win_amd64.whl": "0.0.35@splinepy-0.0.35-cp311-cp311-macosx_10_9_x86_64.whl"
       },
+      "0.0.41": {
+        "splinepy-0.0.41-cp311-cp311-macosx_10_9_x86_64.whl": "0.0.35@splinepy-0.0.35-cp311-cp311-macosx_10_9_x86_64.whl",
+        "splinepy-0.0.41-cp311-cp311-macosx_11_0_arm64.whl": "0.0.35@splinepy-0.0.35-cp311-cp311-macosx_10_9_x86_64.whl",
+        "splinepy-0.0.41-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.0.35@splinepy-0.0.35-cp311-cp311-macosx_10_9_x86_64.whl",
+        "splinepy-0.0.41-cp311-cp311-win32.whl": "0.0.35@splinepy-0.0.35-cp311-cp311-macosx_10_9_x86_64.whl",
+        "splinepy-0.0.41-cp311-cp311-win_amd64.whl": "0.0.35@splinepy-0.0.35-cp311-cp311-macosx_10_9_x86_64.whl"
+      },
       "0.0.5": {
         "splinepy-0.0.5-cp311-cp311-macosx_10_9_x86_64.whl": "0.0.10@splinepy-0.0.10-cp311-cp311-macosx_10_9_x86_64.whl",
         "splinepy-0.0.5-cp311-cp311-macosx_11_0_arm64.whl": "0.0.10@splinepy-0.0.10-cp311-cp311-macosx_10_9_x86_64.whl",
@@ -121110,6 +121242,12 @@
         "splinepy-0.0.40-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.0.34@splinepy-0.0.34-cp36-cp36m-macosx_10_9_x86_64.whl",
         "splinepy-0.0.40-cp36-cp36m-win32.whl": "0.0.34@splinepy-0.0.34-cp36-cp36m-macosx_10_9_x86_64.whl",
         "splinepy-0.0.40-cp36-cp36m-win_amd64.whl": "0.0.34@splinepy-0.0.34-cp36-cp36m-macosx_10_9_x86_64.whl"
+      },
+      "0.0.41": {
+        "splinepy-0.0.41-cp36-cp36m-macosx_10_9_x86_64.whl": "0.0.34@splinepy-0.0.34-cp36-cp36m-macosx_10_9_x86_64.whl",
+        "splinepy-0.0.41-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.0.34@splinepy-0.0.34-cp36-cp36m-macosx_10_9_x86_64.whl",
+        "splinepy-0.0.41-cp36-cp36m-win32.whl": "0.0.34@splinepy-0.0.34-cp36-cp36m-macosx_10_9_x86_64.whl",
+        "splinepy-0.0.41-cp36-cp36m-win_amd64.whl": "0.0.34@splinepy-0.0.34-cp36-cp36m-macosx_10_9_x86_64.whl"
       },
       "0.0.5": {
         "splinepy-0.0.5-cp36-cp36m-macosx_10_9_x86_64.whl": "0.0.10@splinepy-0.0.10-cp36-cp36m-macosx_10_9_x86_64.whl",
@@ -121400,6 +121538,12 @@
         "splinepy-0.0.40-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.0.35@splinepy-0.0.35-cp37-cp37m-macosx_10_9_x86_64.whl",
         "splinepy-0.0.40-cp37-cp37m-win32.whl": "0.0.35@splinepy-0.0.35-cp37-cp37m-macosx_10_9_x86_64.whl",
         "splinepy-0.0.40-cp37-cp37m-win_amd64.whl": "0.0.35@splinepy-0.0.35-cp37-cp37m-macosx_10_9_x86_64.whl"
+      },
+      "0.0.41": {
+        "splinepy-0.0.41-cp37-cp37m-macosx_10_9_x86_64.whl": "0.0.35@splinepy-0.0.35-cp37-cp37m-macosx_10_9_x86_64.whl",
+        "splinepy-0.0.41-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.0.35@splinepy-0.0.35-cp37-cp37m-macosx_10_9_x86_64.whl",
+        "splinepy-0.0.41-cp37-cp37m-win32.whl": "0.0.35@splinepy-0.0.35-cp37-cp37m-macosx_10_9_x86_64.whl",
+        "splinepy-0.0.41-cp37-cp37m-win_amd64.whl": "0.0.35@splinepy-0.0.35-cp37-cp37m-macosx_10_9_x86_64.whl"
       },
       "0.0.5": {
         "splinepy-0.0.5-cp37-cp37m-macosx_10_9_x86_64.whl": "0.0.10@splinepy-0.0.10-cp37-cp37m-macosx_10_9_x86_64.whl",
@@ -121723,6 +121867,13 @@
         "splinepy-0.0.40-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.0.35@splinepy-0.0.35-cp38-cp38-macosx_10_9_x86_64.whl",
         "splinepy-0.0.40-cp38-cp38-win32.whl": "0.0.35@splinepy-0.0.35-cp38-cp38-macosx_10_9_x86_64.whl",
         "splinepy-0.0.40-cp38-cp38-win_amd64.whl": "0.0.35@splinepy-0.0.35-cp38-cp38-macosx_10_9_x86_64.whl"
+      },
+      "0.0.41": {
+        "splinepy-0.0.41-cp38-cp38-macosx_10_9_x86_64.whl": "0.0.35@splinepy-0.0.35-cp38-cp38-macosx_10_9_x86_64.whl",
+        "splinepy-0.0.41-cp38-cp38-macosx_11_0_arm64.whl": "0.0.35@splinepy-0.0.35-cp38-cp38-macosx_10_9_x86_64.whl",
+        "splinepy-0.0.41-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.0.35@splinepy-0.0.35-cp38-cp38-macosx_10_9_x86_64.whl",
+        "splinepy-0.0.41-cp38-cp38-win32.whl": "0.0.35@splinepy-0.0.35-cp38-cp38-macosx_10_9_x86_64.whl",
+        "splinepy-0.0.41-cp38-cp38-win_amd64.whl": "0.0.35@splinepy-0.0.35-cp38-cp38-macosx_10_9_x86_64.whl"
       },
       "0.0.5": {
         "splinepy-0.0.5-cp38-cp38-macosx_10_9_x86_64.whl": "0.0.10@splinepy-0.0.10-cp38-cp38-macosx_10_9_x86_64.whl",
@@ -122051,6 +122202,13 @@
         "splinepy-0.0.40-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.0.35@splinepy-0.0.35-cp39-cp39-macosx_10_9_x86_64.whl",
         "splinepy-0.0.40-cp39-cp39-win32.whl": "0.0.35@splinepy-0.0.35-cp39-cp39-macosx_10_9_x86_64.whl",
         "splinepy-0.0.40-cp39-cp39-win_amd64.whl": "0.0.35@splinepy-0.0.35-cp39-cp39-macosx_10_9_x86_64.whl"
+      },
+      "0.0.41": {
+        "splinepy-0.0.41-cp39-cp39-macosx_10_9_x86_64.whl": "0.0.35@splinepy-0.0.35-cp39-cp39-macosx_10_9_x86_64.whl",
+        "splinepy-0.0.41-cp39-cp39-macosx_11_0_arm64.whl": "0.0.35@splinepy-0.0.35-cp39-cp39-macosx_10_9_x86_64.whl",
+        "splinepy-0.0.41-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.0.35@splinepy-0.0.35-cp39-cp39-macosx_10_9_x86_64.whl",
+        "splinepy-0.0.41-cp39-cp39-win32.whl": "0.0.35@splinepy-0.0.35-cp39-cp39-macosx_10_9_x86_64.whl",
+        "splinepy-0.0.41-cp39-cp39-win_amd64.whl": "0.0.35@splinepy-0.0.35-cp39-cp39-macosx_10_9_x86_64.whl"
       },
       "0.0.5": {
         "splinepy-0.0.5-cp39-cp39-macosx_10_9_x86_64.whl": "0.0.10@splinepy-0.0.10-cp39-cp39-macosx_10_9_x86_64.whl",
@@ -126897,6 +127055,20 @@
             "tencentcloud-sdk-python-common (==3.0.974)"
           ]
         }
+      },
+      "3.0.975": {
+        "tencentcloud_sdk_python_car-3.0.975-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.975)"
+          ]
+        }
+      },
+      "3.0.976": {
+        "tencentcloud_sdk_python_car-3.0.976-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.976)"
+          ]
+        }
       }
     }
   },
@@ -129098,6 +129270,20 @@
         "tencentcloud_sdk_python_mongodb-3.0.974-py2.py3-none-any.whl": {
           "requires_dist": [
             "tencentcloud-sdk-python-common (==3.0.974)"
+          ]
+        }
+      },
+      "3.0.975": {
+        "tencentcloud_sdk_python_mongodb-3.0.975-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.975)"
+          ]
+        }
+      },
+      "3.0.976": {
+        "tencentcloud_sdk_python_mongodb-3.0.976-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.976)"
           ]
         }
       }

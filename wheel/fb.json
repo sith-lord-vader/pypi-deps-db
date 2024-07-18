@@ -6841,8 +6841,8 @@
       "3.2.1a5": {
         "akerbp.mlops-3.2.1a5-py3-none-any.whl": "3.1.1@akerbp.mlops-3.1.1-py3-none-any.whl"
       },
-      "3.3.0a0": {
-        "akerbp.mlops-3.3.0a0-py3-none-any.whl": {
+      "3.3.0": {
+        "akerbp.mlops-3.3.0-py3-none-any.whl": {
           "provides_extras": [
             "cdf",
             "dev",
@@ -6867,14 +6867,17 @@
           "requires_python": ">=3.8"
         }
       },
+      "3.3.0a0": {
+        "akerbp.mlops-3.3.0a0-py3-none-any.whl": "3.3.0@akerbp.mlops-3.3.0-py3-none-any.whl"
+      },
       "3.3.0a1": {
-        "akerbp.mlops-3.3.0a1-py3-none-any.whl": "3.3.0a0@akerbp.mlops-3.3.0a0-py3-none-any.whl"
+        "akerbp.mlops-3.3.0a1-py3-none-any.whl": "3.3.0@akerbp.mlops-3.3.0-py3-none-any.whl"
       },
       "3.3.0a2": {
-        "akerbp.mlops-3.3.0a2-py3-none-any.whl": "3.3.0a0@akerbp.mlops-3.3.0a0-py3-none-any.whl"
+        "akerbp.mlops-3.3.0a2-py3-none-any.whl": "3.3.0@akerbp.mlops-3.3.0-py3-none-any.whl"
       },
       "3.3.0a3": {
-        "akerbp.mlops-3.3.0a3-py3-none-any.whl": "3.3.0a0@akerbp.mlops-3.3.0a0-py3-none-any.whl"
+        "akerbp.mlops-3.3.0a3-py3-none-any.whl": "3.3.0@akerbp.mlops-3.3.0-py3-none-any.whl"
       }
     }
   },
@@ -14522,6 +14525,12 @@
       },
       "0.21.4": {
         "aws_pdk-0.21.4-py3-none-any.whl": "0.19.70@aws_pdk-0.19.70-py3-none-any.whl"
+      },
+      "0.21.5": {
+        "aws_pdk-0.21.5-py3-none-any.whl": "0.19.70@aws_pdk-0.19.70-py3-none-any.whl"
+      },
+      "0.21.6": {
+        "aws_pdk-0.21.6-py3-none-any.whl": "0.19.70@aws_pdk-0.19.70-py3-none-any.whl"
       }
     }
   },
@@ -17047,6 +17056,13 @@
       }
     }
   },
+  "blackfalcon": {
+    "py3": {
+      "0.1": {
+        "blackfalcon-0.1-py3-none-any.whl": {}
+      }
+    }
+  },
   "blackt": {
     "py3": {
       "2021": {
@@ -18212,6 +18228,9 @@
       },
       "1.31.41": {
         "botocore_a_la_carte_servicecatalog-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_servicecatalog-1.29.100-py3-none-any.whl"
+      },
+      "1.31.42": {
+        "botocore_a_la_carte_servicecatalog-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_servicecatalog-1.29.100-py3-none-any.whl"
       },
       "1.31.5": {
         "botocore_a_la_carte_servicecatalog-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_servicecatalog-1.29.100-py3-none-any.whl"
@@ -20424,6 +20443,18 @@
             "cdktf <0.19.0,>=0.18.0",
             "constructs <11.0.0,>=10.0.0",
             "jsii <2.0.0,>=1.87.0",
+            "publication >=0.0.3",
+            "typeguard ~=2.13.3"
+          ],
+          "requires_python": "~=3.7"
+        }
+      },
+      "5.0.1": {
+        "cdktf_cdktf_provider_mongodbatlas-5.0.1-py3-none-any.whl": {
+          "requires_dist": [
+            "cdktf <0.19.0,>=0.18.0",
+            "constructs <11.0.0,>=10.0.0",
+            "jsii <2.0.0,>=1.88.0",
             "publication >=0.0.3",
             "typeguard ~=2.13.3"
           ],
@@ -23033,6 +23064,27 @@
       },
       "1.5.0b0.post1": {
         "crystal_web-1.5.0b0.post1-py3-none-any.whl": "1.5.0b0@crystal_web-1.5.0b0-py3-none-any.whl"
+      },
+      "1.6.0b0": {
+        "crystal_web-1.6.0b0-py3-none-any.whl": {
+          "requires_dist": [
+            "appdirs (>=1.4.4,<2.0.0)",
+            "beautifulsoup4 (>=4.9.3,<5.0.0)",
+            "certifi",
+            "colorama (>=0.4.4,<0.5.0)",
+            "guppy3 (>=3.1.3,<4.0.0)",
+            "lxml (>=4.9.2,<5.0.0)",
+            "overrides (>=3.1.0,<4.0.0)",
+            "py2app (>=0.23,<0.24) ; sys_platform == \"darwin\"",
+            "py2exe (>=0.13.0.0,<0.14.0.0) ; sys_platform == \"win32\"",
+            "sortedcontainers (>=2.4.0,<3.0.0)",
+            "tinycss2 (>=1.1.0,<2.0.0)",
+            "tqdm (>=4.65.0,<5.0.0)",
+            "tzlocal (>=4.2,<5.0)",
+            "wxPython (==4.2.1)"
+          ],
+          "requires_python": ">=3.8,<3.12"
+        }
       }
     }
   },
@@ -41159,6 +41211,12 @@
           "requires_python": ">=3.8"
         }
       },
+      "0.1.11": {
+        "htcdaskgateway-0.1.11-py3-none-any.whl": "0.1.10@htcdaskgateway-0.1.10-py3-none-any.whl"
+      },
+      "0.1.12": {
+        "htcdaskgateway-0.1.12-py3-none-any.whl": "0.1.10@htcdaskgateway-0.1.10-py3-none-any.whl"
+      },
       "0.1.4": {
         "htcdaskgateway-0.1.4-py3-none-any.whl": "0.1.10@htcdaskgateway-0.1.10-py3-none-any.whl"
       },
@@ -43429,6 +43487,15 @@
       }
     }
   },
+  "json-repair": {
+    "py3": {
+      "0.1.5": {
+        "json_repair-0.1.5-py3-none-any.whl": {
+          "requires_python": ">=3.7"
+        }
+      }
+    }
+  },
   "jsondataclass": {
     "py2.py3": {
       "0.1.0": {
@@ -44430,6 +44497,11 @@
       },
       "0.2.1": {
         "kitsuyui_pypi_playground-0.2.1-py3-none-any.whl": "0.2.0@kitsuyui_pypi_playground-0.2.0-py3-none-any.whl"
+      },
+      "0.3.0": {
+        "kitsuyui_pypi_playground-0.3.0-py3-none-any.whl": {
+          "requires_python": ">=3.8"
+        }
       }
     }
   },
@@ -53697,6 +53769,9 @@
       },
       "25.2023.3500": {
         "lsst_daf_butler-25.2023.3500-py3-none-any.whl": "25.2023.3200@lsst_daf_butler-25.2023.3200-py3-none-any.whl"
+      },
+      "25.2023.3600": {
+        "lsst_daf_butler-25.2023.3600-py3-none-any.whl": "25.2023.3200@lsst_daf_butler-25.2023.3200-py3-none-any.whl"
       },
       "25.2023.600": {
         "lsst_daf_butler-25.2023.600-py3-none-any.whl": {
@@ -112834,6 +112909,60 @@
             "odoo-addon-sales-team-security (<16.1dev,>=16.0dev)"
           ]
         }
+      },
+      "16.0.20230906.0": {
+        "odoo_addons_oca_sale_workflow-16.0.20230906.0-py3-none-any.whl": {
+          "requires_dist": [
+            "odoo-addon-partner-contact-sale-info-propagation <16.1dev,>=16.0dev",
+            "odoo-addon-partner-sale-pivot <16.1dev,>=16.0dev",
+            "odoo-addon-product-form-sale-link <16.1dev,>=16.0dev",
+            "odoo-addon-product-supplierinfo-for-customer-sale <16.1dev,>=16.0dev",
+            "odoo-addon-sale-automatic-workflow <16.1dev,>=16.0dev",
+            "odoo-addon-sale-automatic-workflow-job <16.1dev,>=16.0dev",
+            "odoo-addon-sale-automatic-workflow-payment-mode <16.1dev,>=16.0dev",
+            "odoo-addon-sale-cancel-reason <16.1dev,>=16.0dev",
+            "odoo-addon-sale-commercial-partner <16.1dev,>=16.0dev",
+            "odoo-addon-sale-company-currency <16.1dev,>=16.0dev",
+            "odoo-addon-sale-discount-display-amount <16.1dev,>=16.0dev",
+            "odoo-addon-sale-elaboration <16.1dev,>=16.0dev",
+            "odoo-addon-sale-exception <16.1dev,>=16.0dev",
+            "odoo-addon-sale-force-invoiced <16.1dev,>=16.0dev",
+            "odoo-addon-sale-invoice-policy <16.1dev,>=16.0dev",
+            "odoo-addon-sale-manual-delivery <16.1dev,>=16.0dev",
+            "odoo-addon-sale-mrp-bom <16.1dev,>=16.0dev",
+            "odoo-addon-sale-order-archive <16.1dev,>=16.0dev",
+            "odoo-addon-sale-order-currency-rate <16.1dev,>=16.0dev",
+            "odoo-addon-sale-order-general-discount <16.1dev,>=16.0dev",
+            "odoo-addon-sale-order-invoice-amount <16.1dev,>=16.0dev",
+            "odoo-addon-sale-order-line-date <16.1dev,>=16.0dev",
+            "odoo-addon-sale-order-line-menu <16.1dev,>=16.0dev",
+            "odoo-addon-sale-order-line-price-history <16.1dev,>=16.0dev",
+            "odoo-addon-sale-order-line-sequence <16.1dev,>=16.0dev",
+            "odoo-addon-sale-order-lot-generator <16.1dev,>=16.0dev",
+            "odoo-addon-sale-order-lot-selection <16.1dev,>=16.0dev",
+            "odoo-addon-sale-order-product-availability-inline <16.1dev,>=16.0dev",
+            "odoo-addon-sale-order-product-recommendation <16.1dev,>=16.0dev",
+            "odoo-addon-sale-order-qty-change-no-recompute <16.1dev,>=16.0dev",
+            "odoo-addon-sale-order-revision <16.1dev,>=16.0dev",
+            "odoo-addon-sale-order-type <16.1dev,>=16.0dev",
+            "odoo-addon-sale-packaging-default <16.1dev,>=16.0dev",
+            "odoo-addon-sale-partner-incoterm <16.1dev,>=16.0dev",
+            "odoo-addon-sale-partner-selectable-option <16.1dev,>=16.0dev",
+            "odoo-addon-sale-procurement-group-by-line <16.1dev,>=16.0dev",
+            "odoo-addon-sale-product-category-menu <16.1dev,>=16.0dev",
+            "odoo-addon-sale-product-multi-add <16.1dev,>=16.0dev",
+            "odoo-addon-sale-product-set <16.1dev,>=16.0dev",
+            "odoo-addon-sale-quotation-number <16.1dev,>=16.0dev",
+            "odoo-addon-sale-start-end-dates <16.1dev,>=16.0dev",
+            "odoo-addon-sale-stock-cancel-restriction <16.1dev,>=16.0dev",
+            "odoo-addon-sale-stock-picking-blocking <16.1dev,>=16.0dev",
+            "odoo-addon-sale-stock-picking-note <16.1dev,>=16.0dev",
+            "odoo-addon-sale-substate <16.1dev,>=16.0dev",
+            "odoo-addon-sale-tier-validation <16.1dev,>=16.0dev",
+            "odoo-addon-sale-triple-discount <16.1dev,>=16.0dev",
+            "odoo-addon-sales-team-security <16.1dev,>=16.0dev"
+          ]
+        }
       }
     }
   },
@@ -144446,6 +144575,9 @@
       },
       "3.80.0": {
         "pulumi-3.80.0-py3-none-any.whl": "3.79.0@pulumi-3.79.0-py3-none-any.whl"
+      },
+      "3.81.0": {
+        "pulumi-3.81.0-py3-none-any.whl": "3.79.0@pulumi-3.79.0-py3-none-any.whl"
       }
     }
   },
@@ -155477,6 +155609,21 @@
           ],
           "requires_python": ">=3.7"
         }
+      },
+      "3.6.0": {
+        "schemachange-3.6.0-py3-none-any.whl": {
+          "provides_extras": [
+            "dev"
+          ],
+          "requires_dist": [
+            "jinja2 ~=3.0",
+            "pandas ~=1.3",
+            "pyyaml ~=6.0",
+            "snowflake-connector-python <4.0,>=2.8",
+            "pytest ; extra == 'dev'"
+          ],
+          "requires_python": ">=3.8"
+        }
       }
     }
   },
@@ -159182,6 +159329,9 @@
       },
       "0.1.1": {
         "strangeworks_optimization_models-0.1.1-py3-none-any.whl": "0.1.0.post4@strangeworks_optimization_models-0.1.0.post4-py3-none-any.whl"
+      },
+      "0.1.10": {
+        "strangeworks_optimization_models-0.1.10-py3-none-any.whl": "0.1.0.post4@strangeworks_optimization_models-0.1.0.post4-py3-none-any.whl"
       },
       "0.1.2": {
         "strangeworks_optimization_models-0.1.2-py3-none-any.whl": "0.1.0.post4@strangeworks_optimization_models-0.1.0.post4-py3-none-any.whl"

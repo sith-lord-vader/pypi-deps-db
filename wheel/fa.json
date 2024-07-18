@@ -12535,6 +12535,9 @@
       "1.31.41": {
         "botocore_a_la_carte_kendra_ranking-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_kendra_ranking-1.29.100-py3-none-any.whl"
       },
+      "1.31.42": {
+        "botocore_a_la_carte_kendra_ranking-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_kendra_ranking-1.29.100-py3-none-any.whl"
+      },
       "1.31.5": {
         "botocore_a_la_carte_kendra_ranking-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_kendra_ranking-1.29.100-py3-none-any.whl"
       },
@@ -34705,8 +34708,17 @@
       "2.4.27": {
         "checkov-2.4.27-py3-none-any.whl": "2.4.10@checkov-2.4.10-py3-none-any.whl"
       },
+      "2.4.28": {
+        "checkov-2.4.28-py3-none-any.whl": "2.4.10@checkov-2.4.10-py3-none-any.whl"
+      },
+      "2.4.29": {
+        "checkov-2.4.29-py3-none-any.whl": "2.4.10@checkov-2.4.10-py3-none-any.whl"
+      },
       "2.4.3": {
         "checkov-2.4.3-py3-none-any.whl": "2.4.10@checkov-2.4.10-py3-none-any.whl"
+      },
+      "2.4.30": {
+        "checkov-2.4.30-py3-none-any.whl": "2.4.10@checkov-2.4.10-py3-none-any.whl"
       },
       "2.4.4": {
         "checkov-2.4.4-py3-none-any.whl": "2.4.10@checkov-2.4.10-py3-none-any.whl"
@@ -49605,6 +49617,38 @@
           ]
         }
       },
+      "6.36.0": {
+        "codeforlife_portal-6.36.0-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "django ==3.2.20",
+            "django-countries ==7.3.1",
+            "djangorestframework ==3.13.1",
+            "django-pipeline ==2.0.8",
+            "django-recaptcha ==2.0.6",
+            "pyyaml ==5.4.1",
+            "importlib-metadata ==4.13.0",
+            "rapid-router >=4",
+            "aimmo >=2",
+            "reportlab ==3.6.13",
+            "django-formtools ==2.2",
+            "django-otp ==1.0.2",
+            "requests ==2.31.0",
+            "django-treebeard ==4.3.1",
+            "django-sekizai ==2.0.0",
+            "django-classy-tags ==2.0.0",
+            "sqlparse ==0.4.4",
+            "libsass ==0.22.0",
+            "phonenumbers ==8.12.12",
+            "more-itertools ==8.7.0",
+            "cfl-common ==6.36.0",
+            "django-ratelimit ==3.0.1",
+            "django-preventconcurrentlogins ==0.8.2",
+            "django-csp ==3.7",
+            "setuptools ==62.1.0",
+            "django-import-export"
+          ]
+        }
+      },
       "6.4.0": {
         "codeforlife_portal-6.4.0-py2.py3-none-any.whl": {
           "requires_dist": [
@@ -58924,6 +58968,14 @@
           ],
           "requires_python": ">=3.8"
         }
+      },
+      "1.5.0": {
+        "eo_learn_features-1.5.0-py3-none-any.whl": {
+          "requires_dist": [
+            "eo-learn"
+          ],
+          "requires_python": ">=3.8"
+        }
       }
     }
   },
@@ -58936,6 +58988,34 @@
             "RPi.GPIO"
           ]
         }
+      }
+    }
+  },
+  "ephyspy": {
+    "py3": {
+      "0.0.3": {
+        "ephyspy-0.0.3-py3-none-any.whl": {
+          "provides_extras": [
+            "dev"
+          ],
+          "requires_dist": [
+            "pandas (>=1.5.3)",
+            "numpy (>=1.23.5)",
+            "matplotlib (>=3.4.2)",
+            "scipy (>=1.9.1)",
+            "scikit-learn (>=1.1.1)",
+            "black ; extra == 'dev'",
+            "isort ; extra == 'dev'",
+            "pyright ; extra == 'dev'",
+            "flake8 ; extra == 'dev'",
+            "autoflake ; extra == 'dev'",
+            "pre-commit ; extra == 'dev'"
+          ],
+          "requires_python": ">=3.8"
+        }
+      },
+      "0.0.4": {
+        "ephyspy-0.0.4-py3-none-any.whl": "0.0.3@ephyspy-0.0.3-py3-none-any.whl"
       }
     }
   },
@@ -75649,6 +75729,41 @@
       "2023.8.4": {
         "homeassistant-2023.8.4-py3-none-any.whl": "2023.8.1@homeassistant-2023.8.1-py3-none-any.whl"
       },
+      "2023.9.0": {
+        "homeassistant-2023.9.0-py3-none-any.whl": {
+          "requires_dist": [
+            "aiohttp (==3.8.5)",
+            "astral (==2.2)",
+            "async-timeout (==4.0.3)",
+            "attrs (==23.1.0)",
+            "atomicwrites-homeassistant (==1.4.1)",
+            "awesomeversion (==22.9.0)",
+            "bcrypt (==4.0.1)",
+            "certifi (>=2021.5.30)",
+            "ciso8601 (==2.3.0)",
+            "httpx (==0.24.1)",
+            "home-assistant-bluetooth (==1.10.3)",
+            "ifaddr (==0.2.0)",
+            "Jinja2 (==3.1.2)",
+            "lru-dict (==1.2.0)",
+            "PyJWT (==2.8.0)",
+            "cryptography (==41.0.3)",
+            "pyOpenSSL (==23.2.0)",
+            "orjson (==3.9.2)",
+            "packaging (>=23.1)",
+            "pip (>=21.3.1)",
+            "python-slugify (==4.0.1)",
+            "PyYAML (==6.0.1)",
+            "requests (==2.31.0)",
+            "typing-extensions (<5.0,>=4.7.0)",
+            "ulid-transform (==0.8.1)",
+            "voluptuous (==0.13.1)",
+            "voluptuous-serialize (==2.6.0)",
+            "yarl (==1.9.2)"
+          ],
+          "requires_python": ">=3.11.0"
+        }
+      },
       "2023.9.0b0": {
         "homeassistant-2023.9.0b0-py3-none-any.whl": {
           "requires_dist": [
@@ -75685,51 +75800,22 @@
         }
       },
       "2023.9.0b1": {
-        "homeassistant-2023.9.0b1-py3-none-any.whl": {
-          "requires_dist": [
-            "aiohttp (==3.8.5)",
-            "astral (==2.2)",
-            "async-timeout (==4.0.3)",
-            "attrs (==23.1.0)",
-            "atomicwrites-homeassistant (==1.4.1)",
-            "awesomeversion (==22.9.0)",
-            "bcrypt (==4.0.1)",
-            "certifi (>=2021.5.30)",
-            "ciso8601 (==2.3.0)",
-            "httpx (==0.24.1)",
-            "home-assistant-bluetooth (==1.10.3)",
-            "ifaddr (==0.2.0)",
-            "Jinja2 (==3.1.2)",
-            "lru-dict (==1.2.0)",
-            "PyJWT (==2.8.0)",
-            "cryptography (==41.0.3)",
-            "pyOpenSSL (==23.2.0)",
-            "orjson (==3.9.2)",
-            "packaging (>=23.1)",
-            "pip (>=21.3.1)",
-            "python-slugify (==4.0.1)",
-            "PyYAML (==6.0.1)",
-            "requests (==2.31.0)",
-            "typing-extensions (<5.0,>=4.7.0)",
-            "ulid-transform (==0.8.1)",
-            "voluptuous (==0.13.1)",
-            "voluptuous-serialize (==2.6.0)",
-            "yarl (==1.9.2)"
-          ],
-          "requires_python": ">=3.11.0"
-        }
+        "homeassistant-2023.9.0b1-py3-none-any.whl": "2023.9.0@homeassistant-2023.9.0-py3-none-any.whl"
       },
       "2023.9.0b2": {
-        "homeassistant-2023.9.0b2-py3-none-any.whl": "2023.9.0b1@homeassistant-2023.9.0b1-py3-none-any.whl"
+        "homeassistant-2023.9.0b2-py3-none-any.whl": "2023.9.0@homeassistant-2023.9.0-py3-none-any.whl"
       },
       "2023.9.0b3": {
-        "homeassistant-2023.9.0b3-py3-none-any.whl": "2023.9.0b1@homeassistant-2023.9.0b1-py3-none-any.whl"
+        "homeassistant-2023.9.0b3-py3-none-any.whl": "2023.9.0@homeassistant-2023.9.0-py3-none-any.whl"
       },
       "2023.9.0b4": {
-        "homeassistant-2023.9.0b4-py3-none-any.whl": "2023.9.0b1@homeassistant-2023.9.0b1-py3-none-any.whl"
+        "homeassistant-2023.9.0b4-py3-none-any.whl": "2023.9.0@homeassistant-2023.9.0-py3-none-any.whl"
       },
       "2023.9.0b5": {
-        "homeassistant-2023.9.0b5-py3-none-any.whl": "2023.9.0b1@homeassistant-2023.9.0b1-py3-none-any.whl"
+        "homeassistant-2023.9.0b5-py3-none-any.whl": "2023.9.0@homeassistant-2023.9.0-py3-none-any.whl"
+      },
+      "2023.9.0b6": {
+        "homeassistant-2023.9.0b6-py3-none-any.whl": "2023.9.0@homeassistant-2023.9.0-py3-none-any.whl"
       }
     }
   },
@@ -76675,6 +76761,14 @@
         "huaweicloudsdkrocketmq-3.1.57-py2.py3-none-any.whl": {
           "requires_dist": [
             "huaweicloudsdkcore >=3.1.57"
+          ],
+          "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
+        }
+      },
+      "3.1.58": {
+        "huaweicloudsdkrocketmq-3.1.58-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "huaweicloudsdkcore >=3.1.58"
           ],
           "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
         }
@@ -78917,6 +79011,9 @@
       },
       "0.25.1": {
         "jmlopez_m-0.25.1-py3-none-any.whl": "0.23.0@jmlopez_m-0.23.0-py3-none-any.whl"
+      },
+      "0.25.2": {
+        "jmlopez_m-0.25.2-py3-none-any.whl": "0.23.0@jmlopez_m-0.23.0-py3-none-any.whl"
       },
       "0.7.0": {
         "jmlopez_m-0.7.0-py3-none-any.whl": {
@@ -81391,6 +81488,18 @@
       },
       "99.0.202309051900": {
         "kfish-99.0.202309051900-py3-none-any.whl": "99.0.202212031508.202103111306@kfish-99.0.202212031508.202103111306-py3-none-any.whl"
+      },
+      "99.0.202309061303": {
+        "kfish-99.0.202309061303-py3-none-any.whl": "99.0.202212031508.202103111306@kfish-99.0.202212031508.202103111306-py3-none-any.whl"
+      },
+      "99.0.202309061824": {
+        "kfish-99.0.202309061824-py3-none-any.whl": "99.0.202212031508.202103111306@kfish-99.0.202212031508.202103111306-py3-none-any.whl"
+      },
+      "99.0.202309070844": {
+        "kfish-99.0.202309070844-py3-none-any.whl": "99.0.202212031508.202103111306@kfish-99.0.202212031508.202103111306-py3-none-any.whl"
+      },
+      "99.0.202309071127": {
+        "kfish-99.0.202309071127-py3-none-any.whl": "99.0.202212031508.202103111306@kfish-99.0.202212031508.202103111306-py3-none-any.whl"
       }
     }
   },
@@ -84814,6 +84923,28 @@
       }
     }
   },
+  "modelmarket": {
+    "py3": {
+      "0.1.1": {
+        "modelmarket-0.1.1-py3-none-any.whl": {
+          "requires_dist": [
+            "pandas (>=1.2)",
+            "requests (>=2)"
+          ],
+          "requires_python": ">=3.7,<4.0"
+        }
+      },
+      "0.1.2": {
+        "modelmarket-0.1.2-py3-none-any.whl": "0.1.1@modelmarket-0.1.1-py3-none-any.whl"
+      },
+      "0.1.3": {
+        "modelmarket-0.1.3-py3-none-any.whl": "0.1.1@modelmarket-0.1.1-py3-none-any.whl"
+      },
+      "0.1.4": {
+        "modelmarket-0.1.4-py3-none-any.whl": "0.1.1@modelmarket-0.1.1-py3-none-any.whl"
+      }
+    }
+  },
   "modesto": {
     "py3": {
       "1.0.0": {
@@ -85234,6 +85365,12 @@
       },
       "1.0.0": {
         "MuLP-1.0.0-py3-none-any.whl": "0.0.5@MuLP-0.0.5-py3-none-any.whl"
+      },
+      "1.0.1": {
+        "MuLP-1.0.1-py3-none-any.whl": "0.0.5@MuLP-0.0.5-py3-none-any.whl"
+      },
+      "1.0.2": {
+        "MuLP-1.0.2-py3-none-any.whl": "0.0.5@MuLP-0.0.5-py3-none-any.whl"
       }
     }
   },
@@ -88773,6 +88910,20 @@
         "odoo14_addon_base_custom_system_parameter-14.0.1.0.1-py3-none-any.whl": {
           "requires_dist": [
             "odoo (<14.1dev,>=14.0a)"
+          ],
+          "requires_python": ">=3.6"
+        }
+      }
+    }
+  },
+  "odoo14-addon-l10n-ro-pos": {
+    "py3": {
+      "14.0.2.1.0": {
+        "odoo14_addon_l10n_ro_pos-14.0.2.1.0-py3-none-any.whl": {
+          "requires_dist": [
+            "odoo14-addon-l10n-ro-config",
+            "odoo14-addon-l10n-ro-stock",
+            "odoo <14.1dev,>=14.0a"
           ],
           "requires_python": ">=3.6"
         }
@@ -95731,6 +95882,34 @@
           ],
           "requires_python": ">=3.6.9"
         }
+      },
+      "0.1.0": {
+        "pytest_copie-0.1.0-py3-none-any.whl": {
+          "provides_extras": [
+            "dev",
+            "doc",
+            "test"
+          ],
+          "requires_dist": [
+            "deprecated >=1.2.14",
+            "copier",
+            "pytest",
+            "pre-commit ; extra == 'dev'",
+            "commitizen ; extra == 'dev'",
+            "nox ; extra == 'dev'",
+            "sphinx >=6.2.1 ; extra == 'doc'",
+            "sphinx-immaterial ; extra == 'doc'",
+            "sphinx-copybutton ; extra == 'doc'",
+            "sphinx-design ; extra == 'doc'",
+            "sphinx-icon ; extra == 'doc'",
+            "sphinx-autoapi ; extra == 'doc'",
+            "pytest ; extra == 'test'",
+            "coverage ; extra == 'test'",
+            "pytest-sugar ; extra == 'test'",
+            "pytest-deadfixtures ; extra == 'test'"
+          ],
+          "requires_python": ">=3.8"
+        }
       }
     }
   },
@@ -98429,6 +98608,30 @@
       },
       "1.3.1": {
         "refinitiv_data-1.3.1-py3-none-any.whl": "1.3.0@refinitiv_data-1.3.0-py3-none-any.whl"
+      },
+      "1.4.0": {
+        "refinitiv_data-1.4.0-py3-none-any.whl": {
+          "requires_dist": [
+            "appdirs <=1.4.4,>=1.4.3",
+            "pyee <=9.0.4",
+            "httpx <=0.24.1,>=0.18",
+            "httpcore <=0.15.0",
+            "PyMySQL >=1.0.2",
+            "numpy <=1.23.4,>=1.11.0",
+            "pandas <=2.0.2,>=1.3.5",
+            "python-dateutil <=2.8.2",
+            "requests <=2.28.1",
+            "scipy <=1.9.3",
+            "six <=1.16.0",
+            "tenacity <8.1.0,>=8.0",
+            "watchdog <=2.1.9,>=0.10.2",
+            "websocket-client !=1.2.2,<=1.5.1,>=0.58.0",
+            "pyhumps <=3.8.0,~=3.0.2",
+            "jinja2 <4.0.0,>=3.0.3",
+            "simplejson ~=3.15"
+          ],
+          "requires_python": ">=3.7"
+        }
       }
     }
   },

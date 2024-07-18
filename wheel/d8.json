@@ -3701,6 +3701,36 @@
           "requires_python": ">=3.10,<3.12"
         }
       },
+      "0.8.7a0": {
+        "ampel_core-0.8.7a0-py3-none-any.whl": {
+          "provides_extras": [
+            "docs",
+            "server",
+            "slack"
+          ],
+          "requires_dist": [
+            "Sphinx (>=6.1.2,<6.2.0) ; extra == \"docs\"",
+            "ampel-interface (>=0.8.10,<0.9.0)",
+            "appdirs (>=1.4.4,<2.0.0)",
+            "fastapi (>=0.95,<0.96) ; extra == \"server\"",
+            "prometheus-client (>=0.16,<0.17)",
+            "psutil (>=5.8.0,<6.0.0)",
+            "pydantic (>=1.9.0,<2.0.0)",
+            "pymongo (>=4.0,<5.0)",
+            "requests (>=2.0,<3.0)",
+            "schedule (>=1.0.0,<2.0.0)",
+            "sjcl (>=0.2.1,<0.3.0)",
+            "slack-sdk (>=3.18.1,<4.0.0) ; extra == \"slack\"",
+            "sphinx-autodoc-typehints (>=1.11.1,<2.0.0) ; extra == \"docs\"",
+            "sphinx-press-theme (>=0.5.1,<0.9.0) ; extra == \"docs\"",
+            "tomlkit (>=0.11.0,<0.12.0) ; extra == \"docs\"",
+            "uvicorn[standard] (>=0.21.1,<0.22.0) ; extra == \"server\"",
+            "xxhash (>=3.0.0,<4.0.0)",
+            "yq (>=3.0.0,<4.0.0)"
+          ],
+          "requires_python": ">=3.10,<3.12"
+        }
+      },
       "0.9.0": {
         "ampel_core-0.9.0-py3-none-any.whl": {
           "provides_extras": [
@@ -10885,6 +10915,9 @@
       },
       "1.31.41": {
         "botocore_a_la_carte_migrationhubstrategy-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_migrationhubstrategy-1.29.100-py3-none-any.whl"
+      },
+      "1.31.42": {
+        "botocore_a_la_carte_migrationhubstrategy-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_migrationhubstrategy-1.29.100-py3-none-any.whl"
       },
       "1.31.5": {
         "botocore_a_la_carte_migrationhubstrategy-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_migrationhubstrategy-1.29.100-py3-none-any.whl"
@@ -18939,6 +18972,15 @@
             "numba",
             "spacerocks"
           ]
+        }
+      }
+    }
+  },
+  "devx-mdmamn": {
+    "py3": {
+      "0.0.1rc1": {
+        "devx_mdmamn-0.0.1rc1-py3-none-any.whl": {
+          "requires_python": ">=3.6,<4.0"
         }
       }
     }
@@ -41755,6 +41797,18 @@
       }
     }
   },
+  "lcm-websocket-server": {
+    "py3": {
+      "0.1.0": {
+        "lcm_websocket_server-0.1.0-py3-none-any.whl": {
+          "requires_dist": [
+            "websockets (>=10.4,<11.0)"
+          ],
+          "requires_python": ">=3.9,<4.0"
+        }
+      }
+    }
+  },
   "ldapkit": {
     "py2.py3": {
       "1.1": {
@@ -41854,6 +41908,9 @@
       },
       "1.3.2": {
         "learning_assistant-1.3.2-py2.py3-none-any.whl": "1.0.0@learning_assistant-1.0.0-py2.py3-none-any.whl"
+      },
+      "1.3.3": {
+        "learning_assistant-1.3.3-py2.py3-none-any.whl": "1.0.0@learning_assistant-1.0.0-py2.py3-none-any.whl"
       }
     }
   },
@@ -53522,6 +53579,12 @@
       },
       "1.0.0": {
         "neuralspace-1.0.0-py3-none-any.whl": "0.3.0@neuralspace-0.3.0-py3-none-any.whl"
+      },
+      "1.0.1": {
+        "neuralspace-1.0.1-py3-none-any.whl": "0.3.0@neuralspace-0.3.0-py3-none-any.whl"
+      },
+      "1.0.2": {
+        "neuralspace-1.0.2-py3-none-any.whl": "0.3.0@neuralspace-0.3.0-py3-none-any.whl"
       }
     }
   },
@@ -62173,6 +62236,15 @@
           ],
           "requires_python": ">=3.6"
         }
+      },
+      "0.2.13": {
+        "paradance-0.2.13-py3-none-any.whl": "0.2.12@paradance-0.2.12-py3-none-any.whl"
+      },
+      "0.2.14": {
+        "paradance-0.2.14-py3-none-any.whl": "0.2.12@paradance-0.2.12-py3-none-any.whl"
+      },
+      "0.2.15": {
+        "paradance-0.2.15-py3-none-any.whl": "0.2.12@paradance-0.2.12-py3-none-any.whl"
       }
     }
   },
@@ -64900,6 +64972,9 @@
       },
       "0.1.0b8": {
         "polywrap_test_cases-0.1.0b8-py3-none-any.whl": "0.1.0@polywrap_test_cases-0.1.0-py3-none-any.whl"
+      },
+      "0.1.2": {
+        "polywrap_test_cases-0.1.2-py3-none-any.whl": "0.1.0@polywrap_test_cases-0.1.0-py3-none-any.whl"
       }
     }
   },
@@ -73463,6 +73538,9 @@
       },
       "1.2.0": {
         "pywa-1.2.0-py3-none-any.whl": "1.0.0@pywa-1.0.0-py3-none-any.whl"
+      },
+      "1.3.0": {
+        "pywa-1.3.0-py3-none-any.whl": "1.0.0@pywa-1.0.0-py3-none-any.whl"
       }
     }
   },
@@ -74659,6 +74737,18 @@
       },
       "0.2.4": {
         "replus-0.2.4-py2.py3-none-any.whl": "0.2.0@replus-0.2.0-py2.py3-none-any.whl"
+      }
+    },
+    "py3": {
+      "0.3.0": {
+        "replus-0.3.0-py3-none-any.whl": {
+          "requires_dist": [
+            "coverage (>=7.3.0,<8.0.0)",
+            "pytest-cov (>=4.1.0,<5.0.0)",
+            "regex (>=2023.8.8,<2024.0.0)"
+          ],
+          "requires_python": ">=3.11,<4.0"
+        }
       }
     }
   },
@@ -80091,6 +80181,9 @@
       },
       "0.3.5": {
         "searvey-0.3.5-py3-none-any.whl": "0.3.3@searvey-0.3.3-py3-none-any.whl"
+      },
+      "0.3.6": {
+        "searvey-0.3.6-py3-none-any.whl": "0.3.3@searvey-0.3.3-py3-none-any.whl"
       }
     }
   },
@@ -80226,6 +80319,22 @@
             "jieba"
           ]
         }
+      }
+    }
+  },
+  "selenium-assist": {
+    "py3": {
+      "0.3.0": {
+        "selenium_assist-0.3.0-py3-none-any.whl": {
+          "requires_dist": [
+            "selenium>3",
+            "webdriver-manager"
+          ],
+          "requires_python": ">=3.7"
+        }
+      },
+      "0.3.1": {
+        "selenium_assist-0.3.1-py3-none-any.whl": "0.3.0@selenium_assist-0.3.0-py3-none-any.whl"
       }
     }
   },
@@ -87142,6 +87251,15 @@
       },
       "2023.5.13": {
         "submerger-2023.5.13-py3-none-any.whl": "1.0.0@submerger-1.0.0-py3-none-any.whl"
+      }
+    }
+  },
+  "sudokugame": {
+    "py3": {
+      "0.1.0": {
+        "sudokugame-0.1.0-py3-none-any.whl": {
+          "requires_python": ">=3.7"
+        }
       }
     }
   },
@@ -95980,6 +96098,38 @@
           ],
           "requires_python": ">=3.8,<4.0"
         }
+      },
+      "0.5.0": {
+        "zetascale-0.5.0-py3-none-any.whl": {
+          "requires_dist": [
+            "accelerate",
+            "bitsandbytes",
+            "colt5-attention (==0.10.14)",
+            "datasets",
+            "einops",
+            "einops-exts",
+            "fairscale",
+            "lion-pytorch",
+            "pytest",
+            "sentencepiece",
+            "timm (==0.4.12)",
+            "torch",
+            "torchvision",
+            "transformers",
+            "triton",
+            "typing"
+          ],
+          "requires_python": ">=3.8,<4.0"
+        }
+      },
+      "0.5.1": {
+        "zetascale-0.5.1-py3-none-any.whl": "0.5.0@zetascale-0.5.0-py3-none-any.whl"
+      },
+      "0.5.2": {
+        "zetascale-0.5.2-py3-none-any.whl": "0.5.0@zetascale-0.5.0-py3-none-any.whl"
+      },
+      "0.5.3": {
+        "zetascale-0.5.3-py3-none-any.whl": "0.5.0@zetascale-0.5.0-py3-none-any.whl"
       }
     }
   },

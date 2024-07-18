@@ -12564,6 +12564,9 @@
       "1.31.41": {
         "botocore_a_la_carte_greengrassv2-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_greengrassv2-1.29.100-py3-none-any.whl"
       },
+      "1.31.42": {
+        "botocore_a_la_carte_greengrassv2-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_greengrassv2-1.29.100-py3-none-any.whl"
+      },
       "1.31.5": {
         "botocore_a_la_carte_greengrassv2-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_greengrassv2-1.29.100-py3-none-any.whl"
       },
@@ -13064,6 +13067,9 @@
       },
       "1.31.41": {
         "botocore_a_la_carte_macie-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_macie-1.29.100-py3-none-any.whl"
+      },
+      "1.31.42": {
+        "botocore_a_la_carte_macie-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_macie-1.29.100-py3-none-any.whl"
       },
       "1.31.5": {
         "botocore_a_la_carte_macie-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_macie-1.29.100-py3-none-any.whl"
@@ -13566,6 +13572,9 @@
       "1.31.41": {
         "botocore_a_la_carte_migrationhub_config-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_migrationhub_config-1.29.100-py3-none-any.whl"
       },
+      "1.31.42": {
+        "botocore_a_la_carte_migrationhub_config-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_migrationhub_config-1.29.100-py3-none-any.whl"
+      },
       "1.31.5": {
         "botocore_a_la_carte_migrationhub_config-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_migrationhub_config-1.29.100-py3-none-any.whl"
       },
@@ -14066,6 +14075,9 @@
       },
       "1.31.41": {
         "botocore_a_la_carte_outposts-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_outposts-1.29.100-py3-none-any.whl"
+      },
+      "1.31.42": {
+        "botocore_a_la_carte_outposts-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_outposts-1.29.100-py3-none-any.whl"
       },
       "1.31.5": {
         "botocore_a_la_carte_outposts-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_outposts-1.29.100-py3-none-any.whl"
@@ -19822,6 +19834,86 @@
             "python-swiftclient (<5.0,>=3.2.0) ; extra == 'openstack'",
             "python-neutronclient (<9.0,>=6.0.0) ; extra == 'openstack'",
             "python-keystoneclient (<6.0,>=3.13.0) ; extra == 'openstack'"
+          ]
+        }
+      },
+      "3.2.0": {
+        "cloudbridge-3.2.0-py2.py3-none-any.whl": {
+          "provides_extras": [
+            "aws",
+            "azure",
+            "dev",
+            "full",
+            "gcp",
+            "openstack"
+          ],
+          "requires_dist": [
+            "six >=1.11",
+            "tenacity >=6.0",
+            "deprecation >=2.0.7",
+            "pyeventsystem <2",
+            "ipaddress ; python_version<\"3.3\"",
+            "boto3 <2.0.0,>=1.9.86 ; extra == 'aws'",
+            "msrestazure <1.0.0 ; extra == 'azure'",
+            "azure-identity <2.0.0 ; extra == 'azure'",
+            "azure-common <2.0.0 ; extra == 'azure'",
+            "azure-mgmt-devtestlabs <10.0.0 ; extra == 'azure'",
+            "azure-mgmt-resource <22.0.0 ; extra == 'azure'",
+            "azure-mgmt-compute <28.0.0,>=27.2.0 ; extra == 'azure'",
+            "azure-mgmt-network <22.0.0 ; extra == 'azure'",
+            "azure-mgmt-storage <21.0.0 ; extra == 'azure'",
+            "azure-storage-blob <13.0.0 ; extra == 'azure'",
+            "azure-cosmosdb-table <2.0.0 ; extra == 'azure'",
+            "pysftp <1.0.0 ; extra == 'azure'",
+            "tox >=4.0.0 ; extra == 'dev'",
+            "pytest ; extra == 'dev'",
+            "moto >=3.1.18 ; extra == 'dev'",
+            "sphinx >=1.3.1 ; extra == 'dev'",
+            "pydevd ; extra == 'dev'",
+            "flake8 >=3.3.0 ; extra == 'dev'",
+            "flake8-import-order >=0.12 ; extra == 'dev'",
+            "boto3 <2.0.0,>=1.9.86 ; extra == 'dev'",
+            "google-api-python-client <3.0.0,>=2.0 ; extra == 'dev'",
+            "openstacksdk <1.0.0,>=0.12.0 ; extra == 'dev'",
+            "python-novaclient <19.0,>=7.0.0 ; extra == 'dev'",
+            "python-swiftclient <5.0,>=3.2.0 ; extra == 'dev'",
+            "python-neutronclient <9.0,>=6.0.0 ; extra == 'dev'",
+            "python-keystoneclient <6.0,>=3.13.0 ; extra == 'dev'",
+            "msrestazure <1.0.0 ; extra == 'dev'",
+            "azure-identity <2.0.0 ; extra == 'dev'",
+            "azure-common <2.0.0 ; extra == 'dev'",
+            "azure-mgmt-devtestlabs <10.0.0 ; extra == 'dev'",
+            "azure-mgmt-resource <22.0.0 ; extra == 'dev'",
+            "azure-mgmt-compute <28.0.0,>=27.2.0 ; extra == 'dev'",
+            "azure-mgmt-network <22.0.0 ; extra == 'dev'",
+            "azure-mgmt-storage <21.0.0 ; extra == 'dev'",
+            "azure-storage-blob <13.0.0 ; extra == 'dev'",
+            "azure-cosmosdb-table <2.0.0 ; extra == 'dev'",
+            "pysftp <1.0.0 ; extra == 'dev'",
+            "boto3 <2.0.0,>=1.9.86 ; extra == 'full'",
+            "google-api-python-client <3.0.0,>=2.0 ; extra == 'full'",
+            "openstacksdk <1.0.0,>=0.12.0 ; extra == 'full'",
+            "python-novaclient <19.0,>=7.0.0 ; extra == 'full'",
+            "python-swiftclient <5.0,>=3.2.0 ; extra == 'full'",
+            "python-neutronclient <9.0,>=6.0.0 ; extra == 'full'",
+            "python-keystoneclient <6.0,>=3.13.0 ; extra == 'full'",
+            "msrestazure <1.0.0 ; extra == 'full'",
+            "azure-identity <2.0.0 ; extra == 'full'",
+            "azure-common <2.0.0 ; extra == 'full'",
+            "azure-mgmt-devtestlabs <10.0.0 ; extra == 'full'",
+            "azure-mgmt-resource <22.0.0 ; extra == 'full'",
+            "azure-mgmt-compute <28.0.0,>=27.2.0 ; extra == 'full'",
+            "azure-mgmt-network <22.0.0 ; extra == 'full'",
+            "azure-mgmt-storage <21.0.0 ; extra == 'full'",
+            "azure-storage-blob <13.0.0 ; extra == 'full'",
+            "azure-cosmosdb-table <2.0.0 ; extra == 'full'",
+            "pysftp <1.0.0 ; extra == 'full'",
+            "google-api-python-client <3.0.0,>=2.0 ; extra == 'gcp'",
+            "openstacksdk <1.0.0,>=0.12.0 ; extra == 'openstack'",
+            "python-novaclient <19.0,>=7.0.0 ; extra == 'openstack'",
+            "python-swiftclient <5.0,>=3.2.0 ; extra == 'openstack'",
+            "python-neutronclient <9.0,>=6.0.0 ; extra == 'openstack'",
+            "python-keystoneclient <6.0,>=3.13.0 ; extra == 'openstack'"
           ]
         }
       }
@@ -31231,6 +31323,24 @@
         "Geode_Simplex-6.1.6rc1-cp310-cp310-manylinux2014_x86_64.whl": "6.1.6@Geode_Simplex-6.1.6-cp310-cp310-manylinux2014_x86_64.whl",
         "Geode_Simplex-6.1.6rc1-cp310-cp310-win_amd64.whl": "6.1.6@Geode_Simplex-6.1.6-cp310-cp310-win_amd64.whl"
       },
+      "6.1.7": {
+        "Geode_Simplex-6.1.7-cp310-cp310-manylinux2014_x86_64.whl": {
+          "requires_dist": [
+            "geode-background (==7.*,>=7.3.7)",
+            "geode-common (==26.*,>=26.2.0)",
+            "geode-numerics (==3.*,>=3.0.11)",
+            "opengeode-core (==14.*,>=14.6.3)"
+          ]
+        },
+        "Geode_Simplex-6.1.7-cp310-cp310-win_amd64.whl": {
+          "requires_dist": [
+            "geode-background ==7.*,>=7.3.7",
+            "geode-common ==26.*,>=26.2.0",
+            "geode-numerics ==3.*,>=3.0.11",
+            "opengeode-core ==14.*,>=14.6.3"
+          ]
+        }
+      },
       "6.1.7rc1": {
         "Geode_Simplex-6.1.7rc1-cp310-cp310-manylinux2014_x86_64.whl": {
           "requires_dist": [
@@ -31746,6 +31856,24 @@
       "6.1.6rc1": {
         "Geode_Simplex-6.1.6rc1-cp311-cp311-manylinux2014_x86_64.whl": "6.1.6@Geode_Simplex-6.1.6-cp311-cp311-manylinux2014_x86_64.whl",
         "Geode_Simplex-6.1.6rc1-cp311-cp311-win_amd64.whl": "6.1.6@Geode_Simplex-6.1.6-cp311-cp311-win_amd64.whl"
+      },
+      "6.1.7": {
+        "Geode_Simplex-6.1.7-cp311-cp311-manylinux2014_x86_64.whl": {
+          "requires_dist": [
+            "geode-background (==7.*,>=7.3.7)",
+            "geode-common (==26.*,>=26.2.0)",
+            "geode-numerics (==3.*,>=3.0.11)",
+            "opengeode-core (==14.*,>=14.6.3)"
+          ]
+        },
+        "Geode_Simplex-6.1.7-cp311-cp311-win_amd64.whl": {
+          "requires_dist": [
+            "geode-background ==7.*,>=7.3.7",
+            "geode-common ==26.*,>=26.2.0",
+            "geode-numerics ==3.*,>=3.0.11",
+            "opengeode-core ==14.*,>=14.6.3"
+          ]
+        }
       },
       "6.1.7rc1": {
         "Geode_Simplex-6.1.7rc1-cp311-cp311-manylinux2014_x86_64.whl": {
@@ -32307,6 +32435,24 @@
         "Geode_Simplex-6.1.6rc1-cp38-cp38-manylinux2014_x86_64.whl": "6.1.6@Geode_Simplex-6.1.6-cp38-cp38-manylinux2014_x86_64.whl",
         "Geode_Simplex-6.1.6rc1-cp38-cp38-win_amd64.whl": "6.1.6@Geode_Simplex-6.1.6-cp38-cp38-win_amd64.whl"
       },
+      "6.1.7": {
+        "Geode_Simplex-6.1.7-cp38-cp38-manylinux2014_x86_64.whl": {
+          "requires_dist": [
+            "geode-background (==7.*,>=7.3.7)",
+            "geode-common (==26.*,>=26.2.0)",
+            "geode-numerics (==3.*,>=3.0.11)",
+            "opengeode-core (==14.*,>=14.6.3)"
+          ]
+        },
+        "Geode_Simplex-6.1.7-cp38-cp38-win_amd64.whl": {
+          "requires_dist": [
+            "geode-background ==7.*,>=7.3.7",
+            "geode-common ==26.*,>=26.2.0",
+            "geode-numerics ==3.*,>=3.0.11",
+            "opengeode-core ==14.*,>=14.6.3"
+          ]
+        }
+      },
       "6.1.7rc1": {
         "Geode_Simplex-6.1.7rc1-cp38-cp38-manylinux2014_x86_64.whl": {
           "requires_dist": [
@@ -32840,6 +32986,24 @@
       "6.1.6rc1": {
         "Geode_Simplex-6.1.6rc1-cp39-cp39-manylinux2014_x86_64.whl": "6.1.6@Geode_Simplex-6.1.6-cp39-cp39-manylinux2014_x86_64.whl",
         "Geode_Simplex-6.1.6rc1-cp39-cp39-win_amd64.whl": "6.1.6@Geode_Simplex-6.1.6-cp39-cp39-win_amd64.whl"
+      },
+      "6.1.7": {
+        "Geode_Simplex-6.1.7-cp39-cp39-manylinux2014_x86_64.whl": {
+          "requires_dist": [
+            "geode-background (==7.*,>=7.3.7)",
+            "geode-common (==26.*,>=26.2.0)",
+            "geode-numerics (==3.*,>=3.0.11)",
+            "opengeode-core (==14.*,>=14.6.3)"
+          ]
+        },
+        "Geode_Simplex-6.1.7-cp39-cp39-win_amd64.whl": {
+          "requires_dist": [
+            "geode-background ==7.*,>=7.3.7",
+            "geode-common ==26.*,>=26.2.0",
+            "geode-numerics ==3.*,>=3.0.11",
+            "opengeode-core ==14.*,>=14.6.3"
+          ]
+        }
       },
       "6.1.7rc1": {
         "Geode_Simplex-6.1.7rc1-cp39-cp39-manylinux2014_x86_64.whl": {
@@ -38404,6 +38568,18 @@
       },
       "0.1.9": {
         "jupyterlab_proxy_gui-0.1.9-py3-none-any.whl": "0.1.10@jupyterlab_proxy_gui-0.1.10-py3-none-any.whl"
+      }
+    }
+  },
+  "jupyterlab-symbol-algorithm-extension": {
+    "py3": {
+      "0.1.6": {
+        "jupyterlab_symbol_algorithm_extension-0.1.6-py3-none-any.whl": {
+          "requires_python": ">=3.7"
+        }
+      },
+      "0.1.7": {
+        "jupyterlab_symbol_algorithm_extension-0.1.7-py3-none-any.whl": "0.1.6@jupyterlab_symbol_algorithm_extension-0.1.6-py3-none-any.whl"
       }
     }
   },
@@ -44486,6 +44662,9 @@
       },
       "0.1.1": {
         "mdit_py_i18n-0.1.1-py3-none-any.whl": "0.1.0@mdit_py_i18n-0.1.0-py3-none-any.whl"
+      },
+      "0.1.2": {
+        "mdit_py_i18n-0.1.2-py3-none-any.whl": "0.1.0@mdit_py_i18n-0.1.0-py3-none-any.whl"
       }
     }
   },
@@ -47036,6 +47215,9 @@
       },
       "5.8.0.dev3": {
         "mozregression-5.8.0.dev3-py3-none-any.whl": "5.7.1.dev1@mozregression-5.7.1.dev1-py3-none-any.whl"
+      },
+      "5.9.0": {
+        "mozregression-5.9.0-py3-none-any.whl": "5.7.1.dev1@mozregression-5.7.1.dev1-py3-none-any.whl"
       }
     }
   },
@@ -85102,6 +85284,20 @@
         "tencentcloud_sdk_python_cfw-3.0.974-py2.py3-none-any.whl": {
           "requires_dist": [
             "tencentcloud-sdk-python-common (==3.0.974)"
+          ]
+        }
+      },
+      "3.0.975": {
+        "tencentcloud_sdk_python_cfw-3.0.975-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.975)"
+          ]
+        }
+      },
+      "3.0.976": {
+        "tencentcloud_sdk_python_cfw-3.0.976-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.976)"
           ]
         }
       }

@@ -1409,6 +1409,9 @@
       },
       "5.0.2": {
         "akantu-5.0.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "4.0.0@akantu-4.0.0-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
+      },
+      "5.0.3": {
+        "akantu-5.0.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "4.0.0@akantu-4.0.0-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
       }
     },
     "cp311": {
@@ -1419,6 +1422,9 @@
             "scipy"
           ]
         }
+      },
+      "5.0.3": {
+        "akantu-5.0.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "5.0.2@akantu-5.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
       }
     },
     "cp312": {
@@ -1429,6 +1435,9 @@
             "scipy"
           ]
         }
+      },
+      "5.0.3": {
+        "akantu-5.0.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "5.0.2@akantu-5.0.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
       }
     },
     "cp36": {
@@ -1460,6 +1469,9 @@
       },
       "5.0.2": {
         "akantu-5.0.2-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "4.0.0@akantu-4.0.0-cp36-cp36m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
+      },
+      "5.0.3": {
+        "akantu-5.0.3-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "4.0.0@akantu-4.0.0-cp36-cp36m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
       }
     },
     "cp37": {
@@ -1491,6 +1503,9 @@
       },
       "5.0.2": {
         "akantu-5.0.2-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "4.0.0@akantu-4.0.0-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
+      },
+      "5.0.3": {
+        "akantu-5.0.3-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "4.0.0@akantu-4.0.0-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
       }
     },
     "cp38": {
@@ -1522,6 +1537,9 @@
       },
       "5.0.2": {
         "akantu-5.0.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "4.0.0@akantu-4.0.0-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
+      },
+      "5.0.3": {
+        "akantu-5.0.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "4.0.0@akantu-4.0.0-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
       }
     },
     "cp39": {
@@ -1553,6 +1571,9 @@
       },
       "5.0.2": {
         "akantu-5.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "4.0.0@akantu-4.0.0-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
+      },
+      "5.0.3": {
+        "akantu-5.0.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "4.0.0@akantu-4.0.0-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
       }
     }
   },
@@ -4727,6 +4748,19 @@
       },
       "0.0.31": {
         "auto_schema-0.0.31-py3-none-any.whl": "0.0.30@auto_schema-0.0.30-py3-none-any.whl"
+      },
+      "0.0.32": {
+        "auto_schema-0.0.32-py3-none-any.whl": {
+          "requires_dist": [
+            "sqlalchemy ==2.0.18",
+            "lolopinto-alembic-fork ==0.0.1.dev0",
+            "datetime ==4.3",
+            "psycopg2 ==2.9.6",
+            "ruff ==0.0.285",
+            "python-dateutil ==2.8.2"
+          ],
+          "requires_python": "==3.11"
+        }
       },
       "0.0.5": {
         "auto_schema-0.0.5-py3-none-any.whl": "0.0.1@auto_schema-0.0.1-py3-none-any.whl"
@@ -14379,6 +14413,9 @@
       },
       "1.31.41": {
         "botocore_a_la_carte_cloudtrail_data-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_cloudtrail_data-1.29.100-py3-none-any.whl"
+      },
+      "1.31.42": {
+        "botocore_a_la_carte_cloudtrail_data-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_cloudtrail_data-1.29.100-py3-none-any.whl"
       },
       "1.31.5": {
         "botocore_a_la_carte_cloudtrail_data-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_cloudtrail_data-1.29.100-py3-none-any.whl"
@@ -58659,6 +58696,32 @@
       }
     }
   },
+  "palmera-ethtx": {
+    "py3": {
+      "1.0.1": {
+        "palmera_ethtx-1.0.1-py3-none-any.whl": {
+          "requires_dist": [
+            "toml",
+            "pymongo <4.0,>=3.10.0",
+            "dnspython >=2.0.0",
+            "mongoengine <0.27.0",
+            "mongomock",
+            "web3 <7.0.0,>=6.0.0",
+            "python-dotenv",
+            "requests",
+            "pydantic ==1.10.12",
+            "setuptools",
+            "wheel",
+            "twine"
+          ],
+          "requires_python": ">=3.7.0"
+        }
+      },
+      "1.0.2": {
+        "palmera_ethtx-1.0.2-py3-none-any.whl": "1.0.1@palmera_ethtx-1.0.1-py3-none-any.whl"
+      }
+    }
+  },
   "panasoniceolia": {
     "py3": {
       "0.0.1": {
@@ -83092,6 +83155,9 @@
       },
       "6.2.0.dev122": {
         "stix_shifter_modules_aws_athena-6.2.0.dev122-py2.py3-none-any.whl": "1.0.0.dev782@stix_shifter_modules_aws_athena-1.0.0.dev782-py2.py3-none-any.whl"
+      },
+      "6.2.1": {
+        "stix_shifter_modules_aws_athena-6.2.1-py2.py3-none-any.whl": "1.0.0.dev782@stix_shifter_modules_aws_athena-1.0.0.dev782-py2.py3-none-any.whl"
       }
     }
   },
@@ -87102,6 +87168,20 @@
             "tencentcloud-sdk-python-common (==3.0.974)"
           ]
         }
+      },
+      "3.0.975": {
+        "tencentcloud_sdk_python_mariadb-3.0.975-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.975)"
+          ]
+        }
+      },
+      "3.0.976": {
+        "tencentcloud_sdk_python_mariadb-3.0.976-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.976)"
+          ]
+        }
       }
     }
   },
@@ -89315,6 +89395,20 @@
         "tencentcloud_sdk_python_ssm-3.0.974-py2.py3-none-any.whl": {
           "requires_dist": [
             "tencentcloud-sdk-python-common (==3.0.974)"
+          ]
+        }
+      },
+      "3.0.975": {
+        "tencentcloud_sdk_python_ssm-3.0.975-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.975)"
+          ]
+        }
+      },
+      "3.0.976": {
+        "tencentcloud_sdk_python_ssm-3.0.976-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.976)"
           ]
         }
       }
@@ -95070,6 +95164,18 @@
       "1.167.0": {
         "wmill_pg-1.167.0-py3-none-any.whl": "1.10.0@wmill_pg-1.10.0-py3-none-any.whl"
       },
+      "1.168.0": {
+        "wmill_pg-1.168.0-py3-none-any.whl": "1.10.0@wmill_pg-1.10.0-py3-none-any.whl"
+      },
+      "1.168.1": {
+        "wmill_pg-1.168.1-py3-none-any.whl": "1.10.0@wmill_pg-1.10.0-py3-none-any.whl"
+      },
+      "1.168.2": {
+        "wmill_pg-1.168.2-py3-none-any.whl": "1.10.0@wmill_pg-1.10.0-py3-none-any.whl"
+      },
+      "1.168.3": {
+        "wmill_pg-1.168.3-py3-none-any.whl": "1.10.0@wmill_pg-1.10.0-py3-none-any.whl"
+      },
       "1.17.0": {
         "wmill_pg-1.17.0-py3-none-any.whl": "1.10.0@wmill_pg-1.10.0-py3-none-any.whl"
       },
@@ -97263,6 +97369,9 @@
       },
       "7.2.1": {
         "yellowdog_python_examples-7.2.1-py3-none-any.whl": "7.2.0@yellowdog_python_examples-7.2.0-py3-none-any.whl"
+      },
+      "7.2.2": {
+        "yellowdog_python_examples-7.2.2-py3-none-any.whl": "7.2.0@yellowdog_python_examples-7.2.0-py3-none-any.whl"
       }
     }
   },
@@ -98191,6 +98300,23 @@
         "zhounayu_yishi_qimen_sucheng_xinfa-2022.11.9.0-py3-none-any.whl": {
           "requires_python": ">=3.6"
         }
+      }
+    }
+  },
+  "zoi-python-sdk": {
+    "py2.py3": {
+      "1.0.0": {
+        "zoi_python_sdk-1.0.0-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "requests",
+            "python-dateutil",
+            "urllib3",
+            "mysql-connector"
+          ]
+        }
+      },
+      "1.0.2": {
+        "zoi_python_sdk-1.0.2-py2.py3-none-any.whl": "1.0.0@zoi_python_sdk-1.0.0-py2.py3-none-any.whl"
       }
     }
   },

@@ -33217,6 +33217,53 @@
   },
   "dtcc-wrangler": {
     "py3": {
+      "0.7.15": {
+        "dtcc_wrangler-0.7.15-py3-none-any.whl": {
+          "provides_extras": [
+            "test"
+          ],
+          "requires_dist": [
+            "numpy <2.0.0,>=1.20.0",
+            "scipy <2.0.0,>=1.6.0",
+            "shapely <3.0.0,>=2.0.0",
+            "rasterio <2.0.0,>=1.2.0",
+            "rasterstats <1.0.0,>=0.19.0",
+            "pypoints2grid",
+            "dtcc-model >=0.7.15",
+            "dtcc-io >=0.7.15",
+            "pytest ; extra == 'test'"
+          ],
+          "requires_python": ">=3.10"
+        }
+      },
+      "0.7.16": {
+        "dtcc_wrangler-0.7.16-py3-none-any.whl": "0.7.15@dtcc_wrangler-0.7.15-py3-none-any.whl"
+      },
+      "0.7.17": {
+        "dtcc_wrangler-0.7.17-py3-none-any.whl": {
+          "provides_extras": [
+            "test"
+          ],
+          "requires_dist": [
+            "numpy <2.0.0,>=1.20.0",
+            "scipy <2.0.0,>=1.6.0",
+            "shapely <3.0.0,>=2.0.0",
+            "rasterio <2.0.0,>=1.2.0",
+            "rasterstats <1.0.0,>=0.19.0",
+            "pypoints2grid",
+            "dtcc-model >=0.7.17",
+            "dtcc-io >=0.7.17",
+            "pytest ; extra == 'test'"
+          ],
+          "requires_python": ">=3.10"
+        }
+      },
+      "0.7.18": {
+        "dtcc_wrangler-0.7.18-py3-none-any.whl": "0.7.17@dtcc_wrangler-0.7.17-py3-none-any.whl"
+      },
+      "0.7.19": {
+        "dtcc_wrangler-0.7.19-py3-none-any.whl": "0.7.17@dtcc_wrangler-0.7.17-py3-none-any.whl"
+      },
       "0.7.8": {
         "dtcc_wrangler-0.7.8-py3-none-any.whl": {
           "provides_extras": [
@@ -34289,6 +34336,15 @@
     "py3": {
       "1": {
         "example_pkg_b-1-py3-none-any.whl": {}
+      }
+    }
+  },
+  "example-pkg-scdev-pd-columns-noah": {
+    "py3": {
+      "0.0.1": {
+        "example_pkg_scdev_pd_columns_noah-0.0.1-py3-none-any.whl": {
+          "requires_python": ">=3.6"
+        }
       }
     }
   },
@@ -37103,6 +37159,9 @@
       },
       "4.5.0": {
         "FreeClimb-4.5.0-py3-none-any.whl": "4.4.2@FreeClimb-4.4.2-py3-none-any.whl"
+      },
+      "4.5.1": {
+        "FreeClimb-4.5.1-py3-none-any.whl": "4.4.2@FreeClimb-4.4.2-py3-none-any.whl"
       }
     }
   },
@@ -93483,6 +93542,9 @@
       },
       "0.7.3": {
         "tecton-0.7.3-py3-none-any.whl": "0.7.0@tecton-0.7.0-py3-none-any.whl"
+      },
+      "0.7.4": {
+        "tecton-0.7.4-py3-none-any.whl": "0.7.0@tecton-0.7.0-py3-none-any.whl"
       },
       "0.8.0b0": {
         "tecton-0.8.0b0-py3-none-any.whl": "0.7.0@tecton-0.7.0-py3-none-any.whl"

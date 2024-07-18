@@ -14674,6 +14674,9 @@
           "requires_python": "<4.0,>=3.8"
         }
       },
+      "1.15.0": {
+        "browsr-1.15.0-py3-none-any.whl": "1.14.0@browsr-1.14.0-py3-none-any.whl"
+      },
       "1.2.0": {
         "browsr-1.2.0-py3-none-any.whl": "1.1.0@browsr-1.1.0-py3-none-any.whl"
       },
@@ -52704,6 +52707,27 @@
       },
       "0.7.5": {
         "matrepr-0.7.5-py3-none-any.whl": "0.7.1@matrepr-0.7.1-py3-none-any.whl"
+      },
+      "0.8.0": {
+        "matrepr-0.8.0-py3-none-any.whl": {
+          "provides_extras": [
+            "supported",
+            "test"
+          ],
+          "requires_dist": [
+            "tabulate",
+            "scipy ; extra == 'supported'",
+            "numpy ; extra == 'supported'",
+            "python-graphblas ; extra == 'supported'",
+            "sparse ; extra == 'supported'",
+            "torch ; extra == 'supported'",
+            "tensorflow ; extra == 'supported'",
+            "pytest ; extra == 'test'",
+            "html5lib ; extra == 'test'",
+            "scipy ; extra == 'test'"
+          ],
+          "requires_python": ">=3.7"
+        }
       }
     }
   },
@@ -100342,6 +100366,9 @@
       },
       "2.15.0.dev20230905": {
         "tf_nightly_intel-2.15.0.dev20230905-cp310-cp310-win_amd64.whl": "2.15.0.dev20230811@tf_nightly_intel-2.15.0.dev20230811-cp310-cp310-win_amd64.whl"
+      },
+      "2.15.0.dev20230906": {
+        "tf_nightly_intel-2.15.0.dev20230906-cp310-cp310-win_amd64.whl": "2.15.0.dev20230811@tf_nightly_intel-2.15.0.dev20230811-cp310-cp310-win_amd64.whl"
       }
     },
     "cp311": {
@@ -101554,6 +101581,9 @@
       },
       "2.15.0.dev20230905": {
         "tf_nightly_intel-2.15.0.dev20230905-cp311-cp311-win_amd64.whl": "2.15.0.dev20230811@tf_nightly_intel-2.15.0.dev20230811-cp311-cp311-win_amd64.whl"
+      },
+      "2.15.0.dev20230906": {
+        "tf_nightly_intel-2.15.0.dev20230906-cp311-cp311-win_amd64.whl": "2.15.0.dev20230811@tf_nightly_intel-2.15.0.dev20230811-cp311-cp311-win_amd64.whl"
       }
     },
     "cp37": {
@@ -106309,6 +106339,9 @@
       },
       "2.15.0.dev20230905": {
         "tf_nightly_intel-2.15.0.dev20230905-cp39-cp39-win_amd64.whl": "2.15.0.dev20230811@tf_nightly_intel-2.15.0.dev20230811-cp39-cp39-win_amd64.whl"
+      },
+      "2.15.0.dev20230906": {
+        "tf_nightly_intel-2.15.0.dev20230906-cp39-cp39-win_amd64.whl": "2.15.0.dev20230811@tf_nightly_intel-2.15.0.dev20230811-cp39-cp39-win_amd64.whl"
       }
     }
   },
@@ -111001,6 +111034,9 @@
       "0.1.134": {
         "vessl-0.1.134-py3-none-any.whl": "0.1.133@vessl-0.1.133-py3-none-any.whl"
       },
+      "0.1.135": {
+        "vessl-0.1.135-py3-none-any.whl": "0.1.133@vessl-0.1.133-py3-none-any.whl"
+      },
       "0.1.14": {
         "vessl-0.1.14-py3-none-any.whl": "0.1.11@vessl-0.1.11-py3-none-any.whl"
       },
@@ -113102,6 +113138,9 @@
       },
       "23.9.1": {
         "wagtail_cjkcms-23.9.1-py2.py3-none-any.whl": "23.8.10@wagtail_cjkcms-23.8.10-py2.py3-none-any.whl"
+      },
+      "23.9.2": {
+        "wagtail_cjkcms-23.9.2-py2.py3-none-any.whl": "23.8.10@wagtail_cjkcms-23.8.10-py2.py3-none-any.whl"
       }
     },
     "py3": {

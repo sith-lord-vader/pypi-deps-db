@@ -12312,6 +12312,9 @@
       "1.31.41": {
         "botocore_a_la_carte_cloudtrail-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_cloudtrail-1.29.100-py3-none-any.whl"
       },
+      "1.31.42": {
+        "botocore_a_la_carte_cloudtrail-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_cloudtrail-1.29.100-py3-none-any.whl"
+      },
       "1.31.5": {
         "botocore_a_la_carte_cloudtrail-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_cloudtrail-1.29.100-py3-none-any.whl"
       },
@@ -12812,6 +12815,9 @@
       },
       "1.31.41": {
         "botocore_a_la_carte_schemas-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_schemas-1.29.100-py3-none-any.whl"
+      },
+      "1.31.42": {
+        "botocore_a_la_carte_schemas-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_schemas-1.29.100-py3-none-any.whl"
       },
       "1.31.5": {
         "botocore_a_la_carte_schemas-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_schemas-1.29.100-py3-none-any.whl"
@@ -16327,6 +16333,9 @@
       },
       "0.29.5": {
         "crate_docs_theme-0.29.5-py3-none-any.whl": "0.29.1@crate_docs_theme-0.29.1-py3-none-any.whl"
+      },
+      "0.29.6": {
+        "crate_docs_theme-0.29.6-py3-none-any.whl": "0.29.1@crate_docs_theme-0.29.1-py3-none-any.whl"
       },
       "0.5.19": {
         "crate_docs_theme-0.5.19-py3-none-any.whl": {
@@ -21306,6 +21315,20 @@
           ],
           "requires_python": ">=3.7,<4.0"
         }
+      },
+      "4.2.0": {
+        "cyclonedx_python_lib-4.2.0-py3-none-any.whl": {
+          "requires_dist": [
+            "license-expression (>=30,<31)",
+            "packageurl-python (>=0.11)",
+            "py-serializable (>=0.11.1,<0.12.0)",
+            "sortedcontainers (>=2.4.0,<3.0.0)"
+          ],
+          "requires_python": ">=3.7,<4.0"
+        }
+      },
+      "4.2.1": {
+        "cyclonedx_python_lib-4.2.1-py3-none-any.whl": "4.2.0@cyclonedx_python_lib-4.2.0-py3-none-any.whl"
       }
     }
   },
@@ -21354,6 +21377,27 @@
       "0.2.1": {
         "cyslf-0.2.1-py3-none-any.whl": "0.1.1@cyslf-0.1.1-py3-none-any.whl"
       },
+      "0.2.10": {
+        "cyslf-0.2.10-py3-none-any.whl": {
+          "requires_dist": [
+            "geopy (>=2.2.0,<3.0.0)",
+            "numpy (>=1.21.3,<2.0.0)",
+            "pandas (>=1.4.3,<2.0.0)",
+            "thefuzz (>=0.19.0,<0.20.0)",
+            "tqdm (>=4.64.0,<5.0.0)"
+          ],
+          "requires_python": ">=3.8,<4.0"
+        }
+      },
+      "0.2.11": {
+        "cyslf-0.2.11-py3-none-any.whl": "0.2.10@cyslf-0.2.10-py3-none-any.whl"
+      },
+      "0.2.12": {
+        "cyslf-0.2.12-py3-none-any.whl": "0.2.10@cyslf-0.2.10-py3-none-any.whl"
+      },
+      "0.2.13": {
+        "cyslf-0.2.13-py3-none-any.whl": "0.2.10@cyslf-0.2.10-py3-none-any.whl"
+      },
       "0.2.2": {
         "cyslf-0.2.2-py3-none-any.whl": {
           "requires_dist": [
@@ -21371,31 +21415,22 @@
         "cyslf-0.2.3-py3-none-any.whl": "0.2.2@cyslf-0.2.2-py3-none-any.whl"
       },
       "0.2.4": {
-        "cyslf-0.2.4-py3-none-any.whl": {
-          "requires_dist": [
-            "geopy (>=2.2.0,<3.0.0)",
-            "numpy (>=1.21.3,<2.0.0)",
-            "pandas (>=1.4.3,<2.0.0)",
-            "thefuzz (>=0.19.0,<0.20.0)",
-            "tqdm (>=4.64.0,<5.0.0)"
-          ],
-          "requires_python": ">=3.8,<4.0"
-        }
+        "cyslf-0.2.4-py3-none-any.whl": "0.2.10@cyslf-0.2.10-py3-none-any.whl"
       },
       "0.2.5": {
-        "cyslf-0.2.5-py3-none-any.whl": "0.2.4@cyslf-0.2.4-py3-none-any.whl"
+        "cyslf-0.2.5-py3-none-any.whl": "0.2.10@cyslf-0.2.10-py3-none-any.whl"
       },
       "0.2.6": {
-        "cyslf-0.2.6-py3-none-any.whl": "0.2.4@cyslf-0.2.4-py3-none-any.whl"
+        "cyslf-0.2.6-py3-none-any.whl": "0.2.10@cyslf-0.2.10-py3-none-any.whl"
       },
       "0.2.7": {
-        "cyslf-0.2.7-py3-none-any.whl": "0.2.4@cyslf-0.2.4-py3-none-any.whl"
+        "cyslf-0.2.7-py3-none-any.whl": "0.2.10@cyslf-0.2.10-py3-none-any.whl"
       },
       "0.2.8": {
-        "cyslf-0.2.8-py3-none-any.whl": "0.2.4@cyslf-0.2.4-py3-none-any.whl"
+        "cyslf-0.2.8-py3-none-any.whl": "0.2.10@cyslf-0.2.10-py3-none-any.whl"
       },
       "0.2.9": {
-        "cyslf-0.2.9-py3-none-any.whl": "0.2.4@cyslf-0.2.4-py3-none-any.whl"
+        "cyslf-0.2.9-py3-none-any.whl": "0.2.10@cyslf-0.2.10-py3-none-any.whl"
       }
     }
   },
@@ -29740,6 +29775,66 @@
           ],
           "requires_python": ">=3.8"
         }
+      },
+      "1.5.0": {
+        "eo_learn-1.5.0-py3-none-any.whl": {
+          "provides_extras": [
+            "dev",
+            "docs",
+            "extra",
+            "full",
+            "ray",
+            "visualization",
+            "zarr"
+          ],
+          "requires_dist": [
+            "affine",
+            "boto3",
+            "fiona>=1.8.18",
+            "fs",
+            "fs-s3fs",
+            "geopandas>=0.11.0",
+            "numpy>=1.20.0",
+            "opencv-python-headless",
+            "python-dateutil",
+            "rasterio<1.3.8,>=1.2.7",
+            "sentinelhub>=3.9.0",
+            "shapely",
+            "tqdm>=4.27",
+            "typing-extensions",
+            "build; extra == 'dev'",
+            "eo-learn[full]; extra == 'dev'",
+            "hypothesis; extra == 'dev'",
+            "moto; extra == 'dev'",
+            "mypy>=0.990; extra == 'dev'",
+            "pylint>=2.14.0; extra == 'dev'",
+            "pytest-cov; extra == 'dev'",
+            "pytest-lazy-fixture; extra == 'dev'",
+            "pytest-mock; extra == 'dev'",
+            "pytest>=7.0.0; extra == 'dev'",
+            "twine; extra == 'dev'",
+            "types-python-dateutil; extra == 'dev'",
+            "eo-learn[full]; extra == 'docs'",
+            "jupyter; extra == 'docs'",
+            "nbsphinx; extra == 'docs'",
+            "sphinx-mdinclude; extra == 'docs'",
+            "sphinx-rtd-theme==1.3.0; extra == 'docs'",
+            "sphinx==7.1.2; extra == 'docs'",
+            "numba>=0.53.0; extra == 'extra'",
+            "s2cloudless; extra == 'extra'",
+            "scikit-learn; extra == 'extra'",
+            "scipy; extra == 'extra'",
+            "eo-learn[extra,ray,visualization,zarr]; extra == 'full'",
+            "ray[default]; extra == 'ray'",
+            "graphviz>=0.10.1; extra == 'visualization'",
+            "jinja2; extra == 'visualization'",
+            "matplotlib; extra == 'visualization'",
+            "pygments; extra == 'visualization'",
+            "s3fs; extra == 'zarr'",
+            "zarr; extra == 'zarr'"
+          ],
+          "requires_python": ">=3.8"
+        }
       }
     }
   },
@@ -35402,6 +35497,14 @@
         "huaweicloudsdkmsgsms-3.1.57-py2.py3-none-any.whl": {
           "requires_dist": [
             "huaweicloudsdkcore >=3.1.57"
+          ],
+          "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
+        }
+      },
+      "3.1.58": {
+        "huaweicloudsdkmsgsms-3.1.58-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "huaweicloudsdkcore >=3.1.58"
           ],
           "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
         }
@@ -123244,6 +123347,12 @@
           ],
           "requires_python": ">=3.6"
         }
+      },
+      "14.0.3.1.0": {
+        "odoo14_addon_l10n_br_account_payment_order-14.0.3.1.0-py3-none-any.whl": "14.0.3.0.3.dev1@odoo14_addon_l10n_br_account_payment_order-14.0.3.0.3.dev1-py3-none-any.whl"
+      },
+      "14.0.3.1.1.dev1": {
+        "odoo14_addon_l10n_br_account_payment_order-14.0.3.1.1.dev1-py3-none-any.whl": "14.0.3.0.3.dev1@odoo14_addon_l10n_br_account_payment_order-14.0.3.0.3.dev1-py3-none-any.whl"
       }
     }
   },
@@ -136567,6 +136676,19 @@
     }
   },
   "pytun-pmd3": {
+    "cp310": {
+      "1.0.0": {
+        "pytun_pmd3-1.0.0-cp310-cp310-macosx_13_0_arm64.whl": {
+          "provides_extras": [
+            "test"
+          ],
+          "requires_dist": [
+            "pytest ; extra == 'test'"
+          ],
+          "requires_python": ">=3.8"
+        }
+      }
+    },
     "cp311": {
       "0.0.1": {
         "pytun_pmd3-0.0.1-cp311-cp311-macosx_13_0_arm64.whl": {
@@ -136581,6 +136703,36 @@
       },
       "0.0.2": {
         "pytun_pmd3-0.0.2-cp311-cp311-macosx_13_0_arm64.whl": "0.0.1@pytun_pmd3-0.0.1-cp311-cp311-macosx_13_0_arm64.whl"
+      },
+      "1.0.0": {
+        "pytun_pmd3-1.0.0-cp311-cp311-macosx_13_0_arm64.whl": "0.0.1@pytun_pmd3-0.0.1-cp311-cp311-macosx_13_0_arm64.whl"
+      }
+    },
+    "cp38": {
+      "1.0.0": {
+        "pytun_pmd3-1.0.0-cp38-cp38-macosx_13_0_arm64.whl": {
+          "provides_extras": [
+            "test"
+          ],
+          "requires_dist": [
+            "pytest ; extra == 'test'"
+          ],
+          "requires_python": ">=3.8"
+        }
+      }
+    },
+    "cp39": {
+      "1.0.0": {
+        "pytun_pmd3-1.0.0-cp39-cp39-macosx_11_0_x86_64.whl": {
+          "provides_extras": [
+            "test"
+          ],
+          "requires_dist": [
+            "pytest ; extra == 'test'"
+          ],
+          "requires_python": ">=3.8"
+        },
+        "pytun_pmd3-1.0.0-cp39-cp39-macosx_13_0_arm64.whl": "1.0.0@pytun_pmd3-1.0.0-cp39-cp39-macosx_11_0_x86_64.whl"
       }
     }
   },
@@ -147459,6 +147611,21 @@
       },
       "1.1.0": {
         "TDCRPy-1.1.0-py3-none-any.whl": "0.0.50@TDCRPy-0.0.50-py3-none-any.whl"
+      },
+      "1.1.2": {
+        "TDCRPy-1.1.2-py3-none-any.whl": "0.0.50@TDCRPy-0.0.50-py3-none-any.whl"
+      },
+      "1.1.3": {
+        "TDCRPy-1.1.3-py3-none-any.whl": "0.0.50@TDCRPy-0.0.50-py3-none-any.whl"
+      },
+      "1.1.4": {
+        "TDCRPy-1.1.4-py3-none-any.whl": "0.0.50@TDCRPy-0.0.50-py3-none-any.whl"
+      },
+      "1.1.5": {
+        "TDCRPy-1.1.5-py3-none-any.whl": "0.0.50@TDCRPy-0.0.50-py3-none-any.whl"
+      },
+      "1.1.6": {
+        "TDCRPy-1.1.6-py3-none-any.whl": "0.0.50@TDCRPy-0.0.50-py3-none-any.whl"
       }
     }
   },
@@ -154450,6 +154617,9 @@
           ],
           "requires_python": ">=3.8"
         }
+      },
+      "0.8.1": {
+        "xesmf-0.8.1-py3-none-any.whl": "0.8@xesmf-0.8-py3-none-any.whl"
       }
     }
   },

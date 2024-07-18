@@ -11490,6 +11490,15 @@
       }
     }
   },
+  "billing-importer-base-lib": {
+    "py3": {
+      "0.0.1rc1": {
+        "billing_importer_base_lib-0.0.1rc1-py3-none-any.whl": {
+          "requires_python": ">=3.6,<4.0"
+        }
+      }
+    }
+  },
   "binance-aio": {
     "py3": {
       "0.0.1": {
@@ -12807,6 +12816,9 @@
       },
       "1.31.41": {
         "botocore_a_la_carte_chime-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_chime-1.29.100-py3-none-any.whl"
+      },
+      "1.31.42": {
+        "botocore_a_la_carte_chime-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_chime-1.29.100-py3-none-any.whl"
       },
       "1.31.5": {
         "botocore_a_la_carte_chime-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_chime-1.29.100-py3-none-any.whl"
@@ -24944,6 +24956,59 @@
       "2.2.1": {
         "declearn-2.2.1-py3-none-any.whl": "2.2.0@declearn-2.2.0-py3-none-any.whl"
       },
+      "2.2.2": {
+        "declearn-2.2.2-py3-none-any.whl": {
+          "provides_extras": [
+            "all",
+            "docs",
+            "dp",
+            "grpc",
+            "haiku",
+            "tensorflow",
+            "tests",
+            "torch",
+            "websockets"
+          ],
+          "requires_dist": [
+            "cryptography >=35.0",
+            "fire >=0.4",
+            "pandas >=1.2",
+            "requests ~=2.18",
+            "scikit-learn >=1.0",
+            "typing-extensions >=4.0",
+            "tomli >=2.0 ; python_version < \"3.11\"",
+            "dm-haiku ==0.0.9 ; extra == 'all'",
+            "functorch ; extra == 'all'",
+            "grpcio >=1.45 ; extra == 'all'",
+            "jax[cpu] <0.5,>=0.4 ; extra == 'all'",
+            "opacus ~=1.1 ; extra == 'all'",
+            "protobuf >=3.19 ; extra == 'all'",
+            "tensorflow ~=2.5 ; extra == 'all'",
+            "torch ~=1.10 ; extra == 'all'",
+            "websockets ~=10.1 ; extra == 'all'",
+            "mkdocstrings[python] >=0.8 ; extra == 'docs'",
+            "mkdocs-autorefs ; extra == 'docs'",
+            "mkdocs-literate-nav ; extra == 'docs'",
+            "mkdocs-material >=9.1 ; extra == 'docs'",
+            "opacus ~=1.1 ; extra == 'dp'",
+            "grpcio >=1.45 ; extra == 'grpc'",
+            "protobuf >=3.19 ; extra == 'grpc'",
+            "dm-haiku ==0.0.9 ; extra == 'haiku'",
+            "jax[cpu] <0.5,>=0.4 ; extra == 'haiku'",
+            "tensorflow ~=2.5 ; extra == 'tensorflow'",
+            "black ~=23.0 ; extra == 'tests'",
+            "mypy ~=1.0 ; extra == 'tests'",
+            "pylint >=2.14 ; extra == 'tests'",
+            "pytest >=6.1 ; extra == 'tests'",
+            "pytest-asyncio ; extra == 'tests'",
+            "pytest-cov >=4.0 ; extra == 'tests'",
+            "functorch ; extra == 'torch'",
+            "torch ~=1.10 ; extra == 'torch'",
+            "websockets ~=10.1 ; extra == 'websockets'"
+          ],
+          "requires_python": ">=3.8"
+        }
+      },
       "2.3.0": {
         "declearn-2.3.0-py3-none-any.whl": {
           "provides_extras": [
@@ -25004,6 +25069,9 @@
           ],
           "requires_python": ">=3.8"
         }
+      },
+      "2.3.1": {
+        "declearn-2.3.1-py3-none-any.whl": "2.3.0@declearn-2.3.0-py3-none-any.whl"
       }
     }
   },
@@ -29689,6 +29757,20 @@
             "eo-learn-core",
             "numpy",
             "shapely",
+            "matplotlib ; extra == 'plotting'",
+            "tdigest (==0.5.2.2) ; extra == 'tdigest'"
+          ],
+          "requires_python": ">=3.8"
+        }
+      },
+      "1.5.0": {
+        "eo_learn_ml_tools-1.5.0-py3-none-any.whl": {
+          "provides_extras": [
+            "plotting",
+            "tdigest"
+          ],
+          "requires_dist": [
+            "eo-learn",
             "matplotlib ; extra == 'plotting'",
             "tdigest (==0.5.2.2) ; extra == 'tdigest'"
           ],
@@ -46882,6 +46964,9 @@
       },
       "0.0.2": {
         "langchoice-0.0.2-py3-none-any.whl": "0.0.1@langchoice-0.0.1-py3-none-any.whl"
+      },
+      "0.0.3": {
+        "langchoice-0.0.3-py3-none-any.whl": "0.0.1@langchoice-0.0.1-py3-none-any.whl"
       }
     }
   },
@@ -63369,6 +63454,166 @@
             "aiofiles",
             "nucliadb-protos ==2.24.0-post629",
             "nucliadb-models ==2.24.0-post629",
+            "nucliadb-telemetry >=1.15.0",
+            "urllib3 <1.27,>=1.21.1"
+          ],
+          "requires_python": ">=3.8, <4"
+        }
+      },
+      "2.24.0.post630": {
+        "nucliadb_client-2.24.0.post630-py3-none-any.whl": {
+          "requires_dist": [
+            "httpx",
+            "protobuf >=3.19.3",
+            "types-protobuf <4.0,>=3.19.5",
+            "grpcio >=1.44.0",
+            "aiofiles",
+            "nucliadb-protos ==2.24.0-post630",
+            "nucliadb-models ==2.24.0-post630",
+            "nucliadb-telemetry >=1.15.0",
+            "urllib3 <1.27,>=1.21.1"
+          ],
+          "requires_python": ">=3.8, <4"
+        }
+      },
+      "2.24.0.post631": {
+        "nucliadb_client-2.24.0.post631-py3-none-any.whl": {
+          "requires_dist": [
+            "httpx",
+            "protobuf >=3.19.3",
+            "types-protobuf <4.0,>=3.19.5",
+            "grpcio >=1.44.0",
+            "aiofiles",
+            "nucliadb-protos ==2.24.0-post631",
+            "nucliadb-models ==2.24.0-post631",
+            "nucliadb-telemetry >=1.15.0",
+            "urllib3 <1.27,>=1.21.1"
+          ],
+          "requires_python": ">=3.8, <4"
+        }
+      },
+      "2.24.0.post632": {
+        "nucliadb_client-2.24.0.post632-py3-none-any.whl": {
+          "requires_dist": [
+            "httpx",
+            "protobuf >=3.19.3",
+            "types-protobuf <4.0,>=3.19.5",
+            "grpcio >=1.44.0",
+            "aiofiles",
+            "nucliadb-protos ==2.24.0-post632",
+            "nucliadb-models ==2.24.0-post632",
+            "nucliadb-telemetry >=1.15.0",
+            "urllib3 <1.27,>=1.21.1"
+          ],
+          "requires_python": ">=3.8, <4"
+        }
+      },
+      "2.24.0.post633": {
+        "nucliadb_client-2.24.0.post633-py3-none-any.whl": {
+          "requires_dist": [
+            "httpx",
+            "protobuf >=3.19.3",
+            "types-protobuf <4.0,>=3.19.5",
+            "grpcio >=1.44.0",
+            "aiofiles",
+            "nucliadb-protos ==2.24.0-post633",
+            "nucliadb-models ==2.24.0-post633",
+            "nucliadb-telemetry >=1.15.0",
+            "urllib3 <1.27,>=1.21.1"
+          ],
+          "requires_python": ">=3.8, <4"
+        }
+      },
+      "2.24.0.post634": {
+        "nucliadb_client-2.24.0.post634-py3-none-any.whl": {
+          "requires_dist": [
+            "httpx",
+            "protobuf >=3.19.3",
+            "types-protobuf <4.0,>=3.19.5",
+            "grpcio >=1.44.0",
+            "aiofiles",
+            "nucliadb-protos ==2.24.0-post634",
+            "nucliadb-models ==2.24.0-post634",
+            "nucliadb-telemetry >=1.15.0",
+            "urllib3 <1.27,>=1.21.1"
+          ],
+          "requires_python": ">=3.8, <4"
+        }
+      },
+      "2.24.0.post635": {
+        "nucliadb_client-2.24.0.post635-py3-none-any.whl": {
+          "requires_dist": [
+            "httpx",
+            "protobuf >=3.19.3",
+            "types-protobuf <4.0,>=3.19.5",
+            "grpcio >=1.44.0",
+            "aiofiles",
+            "nucliadb-protos ==2.24.0-post635",
+            "nucliadb-models ==2.24.0-post635",
+            "nucliadb-telemetry >=1.15.0",
+            "urllib3 <1.27,>=1.21.1"
+          ],
+          "requires_python": ">=3.8, <4"
+        }
+      },
+      "2.24.0.post636": {
+        "nucliadb_client-2.24.0.post636-py3-none-any.whl": {
+          "requires_dist": [
+            "httpx",
+            "protobuf >=3.19.3",
+            "types-protobuf <4.0,>=3.19.5",
+            "grpcio >=1.44.0",
+            "aiofiles",
+            "nucliadb-protos ==2.24.0-post636",
+            "nucliadb-models ==2.24.0-post636",
+            "nucliadb-telemetry >=1.15.0",
+            "urllib3 <1.27,>=1.21.1"
+          ],
+          "requires_python": ">=3.8, <4"
+        }
+      },
+      "2.24.0.post637": {
+        "nucliadb_client-2.24.0.post637-py3-none-any.whl": {
+          "requires_dist": [
+            "httpx",
+            "protobuf >=3.19.3",
+            "types-protobuf <4.0,>=3.19.5",
+            "grpcio >=1.44.0",
+            "aiofiles",
+            "nucliadb-protos ==2.24.0-post637",
+            "nucliadb-models ==2.24.0-post637",
+            "nucliadb-telemetry >=1.15.0",
+            "urllib3 <1.27,>=1.21.1"
+          ],
+          "requires_python": ">=3.8, <4"
+        }
+      },
+      "2.24.0.post638": {
+        "nucliadb_client-2.24.0.post638-py3-none-any.whl": {
+          "requires_dist": [
+            "httpx",
+            "protobuf >=3.19.3",
+            "types-protobuf <4.0,>=3.19.5",
+            "grpcio >=1.44.0",
+            "aiofiles",
+            "nucliadb-protos ==2.24.0-post638",
+            "nucliadb-models ==2.24.0-post638",
+            "nucliadb-telemetry >=1.15.0",
+            "urllib3 <1.27,>=1.21.1"
+          ],
+          "requires_python": ">=3.8, <4"
+        }
+      },
+      "2.24.0.post639": {
+        "nucliadb_client-2.24.0.post639-py3-none-any.whl": {
+          "requires_dist": [
+            "httpx",
+            "protobuf >=3.19.3",
+            "types-protobuf <4.0,>=3.19.5",
+            "grpcio >=1.44.0",
+            "aiofiles",
+            "nucliadb-protos ==2.24.0-post639",
+            "nucliadb-models ==2.24.0-post639",
             "nucliadb-telemetry >=1.15.0",
             "urllib3 <1.27,>=1.21.1"
           ],
@@ -79965,6 +80210,9 @@
       "2.10.3": {
         "pycotem-2.10.3-py3-none-any.whl": "2.0.1@pycotem-2.0.1-py3-none-any.whl"
       },
+      "2.11.0": {
+        "pycotem-2.11.0-py3-none-any.whl": "2.0.1@pycotem-2.0.1-py3-none-any.whl"
+      },
       "2.2.0": {
         "pycotem-2.2.0-py3-none-any.whl": "2.0.1@pycotem-2.0.1-py3-none-any.whl"
       },
@@ -84293,6 +84541,83 @@
           ],
           "requires_python": ">=3.7"
         }
+      },
+      "0.7.4": {
+        "pyhf-0.7.4-py3-none-any.whl": {
+          "provides_extras": [
+            "all",
+            "backends",
+            "contrib",
+            "develop",
+            "docs",
+            "jax",
+            "minuit",
+            "shellcomplete",
+            "tensorflow",
+            "test",
+            "torch",
+            "xmlio"
+          ],
+          "requires_dist": [
+            "click>=8.0.0",
+            "importlib-resources>=1.4.0; python_version < '3.9'",
+            "jsonpatch>=1.15",
+            "jsonschema>=4.15.0",
+            "numpy",
+            "pyyaml>=5.1",
+            "scipy>=1.2.0",
+            "tqdm>=4.56.0",
+            "typing-extensions>=3.7.4.3; python_version == '3.7'",
+            "pyhf[backends,contrib,shellcomplete,xmlio]; extra == 'all'",
+            "pyhf[jax,minuit,tensorflow,torch]; extra == 'backends'",
+            "matplotlib>=3.0.0; extra == 'contrib'",
+            "requests>=2.22.0; extra == 'contrib'",
+            "codemetapy>=2.3.0; extra == 'develop'",
+            "nox; extra == 'develop'",
+            "pre-commit; extra == 'develop'",
+            "pyhf[docs,test]; extra == 'develop'",
+            "tbump>=6.7.0; extra == 'develop'",
+            "ipython!=8.7.0; extra == 'docs'",
+            "ipywidgets; extra == 'docs'",
+            "jupyterlite-pyodide-kernel>=0.0.7; extra == 'docs'",
+            "jupyterlite-sphinx>=0.8.0; extra == 'docs'",
+            "jupytext>=1.14.0; extra == 'docs'",
+            "nbsphinx!=0.8.8; extra == 'docs'",
+            "pyhf[contrib,xmlio]; extra == 'docs'",
+            "sphinx-click; extra == 'docs'",
+            "sphinx-copybutton!=0.5.1,>=0.3.2; extra == 'docs'",
+            "sphinx-issues; extra == 'docs'",
+            "sphinx-rtd-theme>=1.3.0; extra == 'docs'",
+            "sphinx>=7.0.0; extra == 'docs'",
+            "sphinxcontrib-bibtex~=2.1; extra == 'docs'",
+            "jax>=0.2.10; extra == 'jax'",
+            "jaxlib!=0.1.68,>=0.1.61; extra == 'jax'",
+            "iminuit>=2.7.0; extra == 'minuit'",
+            "click-completion; extra == 'shellcomplete'",
+            "tensorflow-macos>=2.7.0; platform_machine == 'arm64' and platform_system == 'Darwin' and extra == 'tensorflow'",
+            "tensorflow-probability!=0.20.0,>=0.11.0; extra == 'tensorflow'",
+            "tensorflow>=2.7.0; platform_machine != 'arm64' and extra == 'tensorflow'",
+            "graphviz; extra == 'test'",
+            "ipympl>=0.3.0; extra == 'test'",
+            "jupyter; extra == 'test'",
+            "papermill~=2.3.4; extra == 'test'",
+            "pydocstyle; extra == 'test'",
+            "pyhf[all]; extra == 'test'",
+            "pytest-benchmark[histogram]; extra == 'test'",
+            "pytest-console-scripts>=1.4.0; extra == 'test'",
+            "pytest-cov>=2.5.1; extra == 'test'",
+            "pytest-mock; extra == 'test'",
+            "pytest-mpl; extra == 'test'",
+            "pytest-socket>=0.2.0; extra == 'test'",
+            "pytest>=6.0; extra == 'test'",
+            "requests-mock>=1.9.0; extra == 'test'",
+            "scikit-hep-testdata>=0.4.11; extra == 'test'",
+            "scrapbook~=0.5.0; extra == 'test'",
+            "torch>=1.10.0; extra == 'torch'",
+            "uproot>=4.1.1; extra == 'xmlio'"
+          ],
+          "requires_python": ">=3.7"
+        }
       }
     }
   },
@@ -88326,6 +88651,46 @@
         },
         "qutip-5.0.0a1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "5.0.0a1@qutip-5.0.0a1-cp310-cp310-macosx_10_9_x86_64.whl",
         "qutip-5.0.0a1-cp310-cp310-win_amd64.whl": "5.0.0a1@qutip-5.0.0a1-cp310-cp310-macosx_10_9_x86_64.whl"
+      },
+      "5.0.0a2": {
+        "qutip-5.0.0a2-cp310-cp310-macosx_10_9_x86_64.whl": {
+          "provides_extras": [
+            "extras",
+            "full",
+            "graphics",
+            "ipython",
+            "runtime_compilation",
+            "semidefinite",
+            "tests"
+          ],
+          "requires_dist": [
+            "numpy >=1.16.6",
+            "scipy >=1.0",
+            "packaging",
+            "loky ; extra == 'extras'",
+            "tqdm ; extra == 'extras'",
+            "matplotlib >=1.2.1 ; extra == 'full'",
+            "cython >=0.29.20 ; extra == 'full'",
+            "filelock ; extra == 'full'",
+            "cvxpy >=1.0 ; extra == 'full'",
+            "cvxopt ; extra == 'full'",
+            "pytest >=5.2 ; extra == 'full'",
+            "pytest-rerunfailures ; extra == 'full'",
+            "ipython ; extra == 'full'",
+            "loky ; extra == 'full'",
+            "tqdm ; extra == 'full'",
+            "matplotlib >=1.2.1 ; extra == 'graphics'",
+            "ipython ; extra == 'ipython'",
+            "cython >=0.29.20 ; extra == 'runtime_compilation'",
+            "filelock ; extra == 'runtime_compilation'",
+            "cvxpy >=1.0 ; extra == 'semidefinite'",
+            "cvxopt ; extra == 'semidefinite'",
+            "pytest >=5.2 ; extra == 'tests'",
+            "pytest-rerunfailures ; extra == 'tests'"
+          ]
+        },
+        "qutip-5.0.0a2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "5.0.0a2@qutip-5.0.0a2-cp310-cp310-macosx_10_9_x86_64.whl",
+        "qutip-5.0.0a2-cp310-cp310-win_amd64.whl": "5.0.0a2@qutip-5.0.0a2-cp310-cp310-macosx_10_9_x86_64.whl"
       }
     },
     "cp311": {
@@ -88434,6 +88799,46 @@
         },
         "qutip-5.0.0a1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "5.0.0a1@qutip-5.0.0a1-cp311-cp311-macosx_10_9_x86_64.whl",
         "qutip-5.0.0a1-cp311-cp311-win_amd64.whl": "5.0.0a1@qutip-5.0.0a1-cp311-cp311-macosx_10_9_x86_64.whl"
+      },
+      "5.0.0a2": {
+        "qutip-5.0.0a2-cp311-cp311-macosx_10_9_x86_64.whl": {
+          "provides_extras": [
+            "extras",
+            "full",
+            "graphics",
+            "ipython",
+            "runtime_compilation",
+            "semidefinite",
+            "tests"
+          ],
+          "requires_dist": [
+            "numpy >=1.16.6",
+            "scipy >=1.0",
+            "packaging",
+            "loky ; extra == 'extras'",
+            "tqdm ; extra == 'extras'",
+            "matplotlib >=1.2.1 ; extra == 'full'",
+            "cython >=0.29.20 ; extra == 'full'",
+            "filelock ; extra == 'full'",
+            "cvxpy >=1.0 ; extra == 'full'",
+            "cvxopt ; extra == 'full'",
+            "pytest >=5.2 ; extra == 'full'",
+            "pytest-rerunfailures ; extra == 'full'",
+            "ipython ; extra == 'full'",
+            "loky ; extra == 'full'",
+            "tqdm ; extra == 'full'",
+            "matplotlib >=1.2.1 ; extra == 'graphics'",
+            "ipython ; extra == 'ipython'",
+            "cython >=0.29.20 ; extra == 'runtime_compilation'",
+            "filelock ; extra == 'runtime_compilation'",
+            "cvxpy >=1.0 ; extra == 'semidefinite'",
+            "cvxopt ; extra == 'semidefinite'",
+            "pytest >=5.2 ; extra == 'tests'",
+            "pytest-rerunfailures ; extra == 'tests'"
+          ]
+        },
+        "qutip-5.0.0a2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "5.0.0a2@qutip-5.0.0a2-cp311-cp311-macosx_10_9_x86_64.whl",
+        "qutip-5.0.0a2-cp311-cp311-win_amd64.whl": "5.0.0a2@qutip-5.0.0a2-cp311-cp311-macosx_10_9_x86_64.whl"
       }
     },
     "cp36": {
@@ -88949,6 +89354,46 @@
         },
         "qutip-5.0.0a1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "5.0.0a1@qutip-5.0.0a1-cp38-cp38-macosx_10_9_x86_64.whl",
         "qutip-5.0.0a1-cp38-cp38-win_amd64.whl": "5.0.0a1@qutip-5.0.0a1-cp38-cp38-macosx_10_9_x86_64.whl"
+      },
+      "5.0.0a2": {
+        "qutip-5.0.0a2-cp38-cp38-macosx_10_9_x86_64.whl": {
+          "provides_extras": [
+            "extras",
+            "full",
+            "graphics",
+            "ipython",
+            "runtime_compilation",
+            "semidefinite",
+            "tests"
+          ],
+          "requires_dist": [
+            "numpy >=1.16.6",
+            "scipy >=1.0",
+            "packaging",
+            "loky ; extra == 'extras'",
+            "tqdm ; extra == 'extras'",
+            "matplotlib >=1.2.1 ; extra == 'full'",
+            "cython >=0.29.20 ; extra == 'full'",
+            "filelock ; extra == 'full'",
+            "cvxpy >=1.0 ; extra == 'full'",
+            "cvxopt ; extra == 'full'",
+            "pytest >=5.2 ; extra == 'full'",
+            "pytest-rerunfailures ; extra == 'full'",
+            "ipython ; extra == 'full'",
+            "loky ; extra == 'full'",
+            "tqdm ; extra == 'full'",
+            "matplotlib >=1.2.1 ; extra == 'graphics'",
+            "ipython ; extra == 'ipython'",
+            "cython >=0.29.20 ; extra == 'runtime_compilation'",
+            "filelock ; extra == 'runtime_compilation'",
+            "cvxpy >=1.0 ; extra == 'semidefinite'",
+            "cvxopt ; extra == 'semidefinite'",
+            "pytest >=5.2 ; extra == 'tests'",
+            "pytest-rerunfailures ; extra == 'tests'"
+          ]
+        },
+        "qutip-5.0.0a2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "5.0.0a2@qutip-5.0.0a2-cp38-cp38-macosx_10_9_x86_64.whl",
+        "qutip-5.0.0a2-cp38-cp38-win_amd64.whl": "5.0.0a2@qutip-5.0.0a2-cp38-cp38-macosx_10_9_x86_64.whl"
       }
     },
     "cp39": {
@@ -89140,6 +89585,46 @@
         },
         "qutip-5.0.0a1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "5.0.0a1@qutip-5.0.0a1-cp39-cp39-macosx_10_9_x86_64.whl",
         "qutip-5.0.0a1-cp39-cp39-win_amd64.whl": "5.0.0a1@qutip-5.0.0a1-cp39-cp39-macosx_10_9_x86_64.whl"
+      },
+      "5.0.0a2": {
+        "qutip-5.0.0a2-cp39-cp39-macosx_10_9_x86_64.whl": {
+          "provides_extras": [
+            "extras",
+            "full",
+            "graphics",
+            "ipython",
+            "runtime_compilation",
+            "semidefinite",
+            "tests"
+          ],
+          "requires_dist": [
+            "numpy >=1.16.6",
+            "scipy >=1.0",
+            "packaging",
+            "loky ; extra == 'extras'",
+            "tqdm ; extra == 'extras'",
+            "matplotlib >=1.2.1 ; extra == 'full'",
+            "cython >=0.29.20 ; extra == 'full'",
+            "filelock ; extra == 'full'",
+            "cvxpy >=1.0 ; extra == 'full'",
+            "cvxopt ; extra == 'full'",
+            "pytest >=5.2 ; extra == 'full'",
+            "pytest-rerunfailures ; extra == 'full'",
+            "ipython ; extra == 'full'",
+            "loky ; extra == 'full'",
+            "tqdm ; extra == 'full'",
+            "matplotlib >=1.2.1 ; extra == 'graphics'",
+            "ipython ; extra == 'ipython'",
+            "cython >=0.29.20 ; extra == 'runtime_compilation'",
+            "filelock ; extra == 'runtime_compilation'",
+            "cvxpy >=1.0 ; extra == 'semidefinite'",
+            "cvxopt ; extra == 'semidefinite'",
+            "pytest >=5.2 ; extra == 'tests'",
+            "pytest-rerunfailures ; extra == 'tests'"
+          ]
+        },
+        "qutip-5.0.0a2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "5.0.0a2@qutip-5.0.0a2-cp39-cp39-macosx_10_9_x86_64.whl",
+        "qutip-5.0.0a2-cp39-cp39-win_amd64.whl": "5.0.0a2@qutip-5.0.0a2-cp39-cp39-macosx_10_9_x86_64.whl"
       }
     }
   },
@@ -89611,6 +90096,29 @@
             "pyarrow (>=6.0.0,<11.0.0) ; extra == \"batch\"",
             "python-json-logger (>=2.0.2)",
             "qwak-core (==0.0.215)",
+            "qwak-inference (==0.1.8)",
+            "tabulate (>=0.8.0)",
+            "yaspin (>=2.0.0)"
+          ],
+          "requires_python": ">=3.7.1,<3.10"
+        }
+      },
+      "0.5.26": {
+        "qwak_sdk-0.5.26-py3-none-any.whl": {
+          "provides_extras": [
+            "batch",
+            "feedback"
+          ],
+          "requires_dist": [
+            "boto3 (>=1.24.116,<2.0.0) ; extra == \"batch\" or extra == \"feedback\"",
+            "cookiecutter",
+            "gitpython (>=2.1.0)",
+            "joblib (>=1.1.0,<2.0.0) ; extra == \"batch\" or extra == \"feedback\"",
+            "pandas (<1.4) ; (python_full_version >= \"3.7.1\" and python_version < \"3.8\") and (extra == \"batch\" or extra == \"feedback\")",
+            "pandas (>=1.4.3,<2.0.0) ; (python_version >= \"3.8\" and python_version < \"3.10\") and (extra == \"batch\" or extra == \"feedback\")",
+            "pyarrow (>=6.0.0,<11.0.0) ; extra == \"batch\"",
+            "python-json-logger (>=2.0.2)",
+            "qwak-core (==0.0.217)",
             "qwak-inference (==0.1.8)",
             "tabulate (>=0.8.0)",
             "yaspin (>=2.0.0)"
@@ -99261,6 +99769,15 @@
       "2023.2.21.0": {
         "shaonv_3_yuanze_songzhiyang_20200311-2023.2.21.0-py3-none-any.whl": {
           "requires_python": ">=3.6"
+        }
+      }
+    }
+  },
+  "shapeless": {
+    "py3": {
+      "0.0.1": {
+        "shapeless-0.0.1-py3-none-any.whl": {
+          "requires_python": ">=3.6,<4.0"
         }
       }
     }
@@ -124188,6 +124705,20 @@
             "tencentcloud-sdk-python-common (==3.0.974)"
           ]
         }
+      },
+      "3.0.975": {
+        "tencentcloud_sdk_python_bmlb-3.0.975-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.975)"
+          ]
+        }
+      },
+      "3.0.976": {
+        "tencentcloud_sdk_python_bmlb-3.0.976-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.976)"
+          ]
+        }
       }
     }
   },
@@ -125981,6 +126512,9 @@
       },
       "1.0.6": {
         "trevorproxy-1.0.6-py3-none-any.whl": "1.0.3@trevorproxy-1.0.3-py3-none-any.whl"
+      },
+      "1.0.7": {
+        "trevorproxy-1.0.7-py3-none-any.whl": "1.0.3@trevorproxy-1.0.3-py3-none-any.whl"
       }
     }
   },

@@ -8982,6 +8982,9 @@
       "1.31.41": {
         "botocore_a_la_carte_license_manager_linux_subscriptions-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_license_manager_linux_subscriptions-1.29.100-py3-none-any.whl"
       },
+      "1.31.42": {
+        "botocore_a_la_carte_license_manager_linux_subscriptions-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_license_manager_linux_subscriptions-1.29.100-py3-none-any.whl"
+      },
       "1.31.5": {
         "botocore_a_la_carte_license_manager_linux_subscriptions-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_license_manager_linux_subscriptions-1.29.100-py3-none-any.whl"
       },
@@ -9483,6 +9486,9 @@
       "1.31.41": {
         "botocore_a_la_carte_sdb-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_sdb-1.29.100-py3-none-any.whl"
       },
+      "1.31.42": {
+        "botocore_a_la_carte_sdb-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_sdb-1.29.100-py3-none-any.whl"
+      },
       "1.31.5": {
         "botocore_a_la_carte_sdb-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_sdb-1.29.100-py3-none-any.whl"
       },
@@ -9983,6 +9989,9 @@
       },
       "1.31.41": {
         "botocore_a_la_carte_secretsmanager-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_secretsmanager-1.29.100-py3-none-any.whl"
+      },
+      "1.31.42": {
+        "botocore_a_la_carte_secretsmanager-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_secretsmanager-1.29.100-py3-none-any.whl"
       },
       "1.31.5": {
         "botocore_a_la_carte_secretsmanager-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_secretsmanager-1.29.100-py3-none-any.whl"
@@ -12183,6 +12192,9 @@
       },
       "0.2.0.dev0": {
         "cai_causal_graph-0.2.0.dev0-py3-none-any.whl": "0.1.0@cai_causal_graph-0.1.0-py3-none-any.whl"
+      },
+      "0.2.1.dev0": {
+        "cai_causal_graph-0.2.1.dev0-py3-none-any.whl": "0.1.0@cai_causal_graph-0.1.0-py3-none-any.whl"
       }
     }
   },
@@ -26941,6 +26953,22 @@
           ],
           "requires_python": ">=3.9.0"
         }
+      },
+      "1.3.0.dev20230906203935": {
+        "cirq_web-1.3.0.dev20230906203935-py3-none-any.whl": {
+          "requires_dist": [
+            "cirq-core ==1.3.0.dev20230906203935"
+          ],
+          "requires_python": ">=3.9.0"
+        }
+      },
+      "1.3.0.dev20230906215446": {
+        "cirq_web-1.3.0.dev20230906215446-py3-none-any.whl": {
+          "requires_dist": [
+            "cirq-core ==1.3.0.dev20230906215446"
+          ],
+          "requires_python": ">=3.9.0"
+        }
       }
     }
   },
@@ -27786,6 +27814,18 @@
         "cityhash-0.4.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.4.0.post2@cityhash-0.4.0.post2-cp39-cp39-macosx_10_9_x86_64.whl",
         "cityhash-0.4.7-cp39-cp39-win32.whl": "0.4.0.post2@cityhash-0.4.0.post2-cp39-cp39-macosx_10_9_x86_64.whl",
         "cityhash-0.4.7-cp39-cp39-win_amd64.whl": "0.4.0.post2@cityhash-0.4.0.post2-cp39-cp39-macosx_10_9_x86_64.whl"
+      }
+    }
+  },
+  "clear-skies-slack": {
+    "py3": {
+      "0.9.0": {
+        "clear_skies_slack-0.9.0-py3-none-any.whl": {
+          "requires_dist": [
+            "clear-skies (>=1.14.4,<2.0.0)"
+          ],
+          "requires_python": ">=3.8,<4.0"
+        }
       }
     }
   },
@@ -37788,6 +37828,9 @@
       },
       "0.8.1": {
         "dbt_cloud_cli-0.8.1-py3-none-any.whl": "0.7.6@dbt_cloud_cli-0.7.6-py3-none-any.whl"
+      },
+      "0.8.2": {
+        "dbt_cloud_cli-0.8.2-py3-none-any.whl": "0.7.6@dbt_cloud_cli-0.7.6-py3-none-any.whl"
       }
     }
   },
@@ -39856,6 +39899,14 @@
       },
       "1.0.6": {
         "django_objectid-1.0.6-py3-none-any.whl": "1.0.0@django_objectid-1.0.0-py3-none-any.whl"
+      },
+      "1.0.7": {
+        "django_objectid-1.0.7-py3-none-any.whl": {
+          "requires_dist": [
+            "django >=2.2.0"
+          ],
+          "requires_python": ">=3.6"
+        }
       }
     }
   },
@@ -45628,6 +45679,9 @@
       },
       "0.2.4": {
         "fps_auth_jupyterhub-0.2.4-py3-none-any.whl": "0.2.0@fps_auth_jupyterhub-0.2.0-py3-none-any.whl"
+      },
+      "0.2.5": {
+        "fps_auth_jupyterhub-0.2.5-py3-none-any.whl": "0.2.0@fps_auth_jupyterhub-0.2.0-py3-none-any.whl"
       }
     }
   },
@@ -52742,6 +52796,9 @@
           ],
           "requires_python": "~=3.10.0"
         }
+      },
+      "0.1.0": {
+        "ipyblender_experimental-0.1.0-py3-none-any.whl": "0.0.3@ipyblender_experimental-0.0.3-py3-none-any.whl"
       }
     }
   },
@@ -62133,6 +62190,11 @@
         "lsst_sphgeom-25.2023.3500-cp310-cp310-macosx_11_0_arm64.whl": "25.2023.3200@lsst_sphgeom-25.2023.3200-cp310-cp310-macosx_10_9_x86_64.whl",
         "lsst_sphgeom-25.2023.3500-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "25.2023.3200@lsst_sphgeom-25.2023.3200-cp310-cp310-macosx_10_9_x86_64.whl"
       },
+      "25.2023.3600": {
+        "lsst_sphgeom-25.2023.3600-cp310-cp310-macosx_10_9_x86_64.whl": "25.2023.3200@lsst_sphgeom-25.2023.3200-cp310-cp310-macosx_10_9_x86_64.whl",
+        "lsst_sphgeom-25.2023.3600-cp310-cp310-macosx_11_0_arm64.whl": "25.2023.3200@lsst_sphgeom-25.2023.3200-cp310-cp310-macosx_10_9_x86_64.whl",
+        "lsst_sphgeom-25.2023.3600-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "25.2023.3200@lsst_sphgeom-25.2023.3200-cp310-cp310-macosx_10_9_x86_64.whl"
+      },
       "25.2023.600": {
         "lsst_sphgeom-25.2023.600-cp310-cp310-macosx_10_9_x86_64.whl": "24.0.0a20223000@lsst_sphgeom-24.0.0a20223000-cp310-cp310-macosx_10_9_x86_64.whl",
         "lsst_sphgeom-25.2023.600-cp310-cp310-macosx_11_0_arm64.whl": "24.0.0a20223000@lsst_sphgeom-24.0.0a20223000-cp310-cp310-macosx_10_9_x86_64.whl",
@@ -62236,6 +62298,11 @@
         "lsst_sphgeom-25.2023.3500-cp311-cp311-macosx_10_9_x86_64.whl": "25.2023.3200@lsst_sphgeom-25.2023.3200-cp311-cp311-macosx_10_9_x86_64.whl",
         "lsst_sphgeom-25.2023.3500-cp311-cp311-macosx_11_0_arm64.whl": "25.2023.3200@lsst_sphgeom-25.2023.3200-cp311-cp311-macosx_10_9_x86_64.whl",
         "lsst_sphgeom-25.2023.3500-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "25.2023.3200@lsst_sphgeom-25.2023.3200-cp311-cp311-macosx_10_9_x86_64.whl"
+      },
+      "25.2023.3600": {
+        "lsst_sphgeom-25.2023.3600-cp311-cp311-macosx_10_9_x86_64.whl": "25.2023.3200@lsst_sphgeom-25.2023.3200-cp311-cp311-macosx_10_9_x86_64.whl",
+        "lsst_sphgeom-25.2023.3600-cp311-cp311-macosx_11_0_arm64.whl": "25.2023.3200@lsst_sphgeom-25.2023.3200-cp311-cp311-macosx_10_9_x86_64.whl",
+        "lsst_sphgeom-25.2023.3600-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "25.2023.3200@lsst_sphgeom-25.2023.3200-cp311-cp311-macosx_10_9_x86_64.whl"
       }
     },
     "cp38": {
@@ -62477,6 +62544,11 @@
         "lsst_sphgeom-25.2023.3500-cp38-cp38-macosx_10_9_x86_64.whl": "25.2023.3200@lsst_sphgeom-25.2023.3200-cp38-cp38-macosx_10_9_x86_64.whl",
         "lsst_sphgeom-25.2023.3500-cp38-cp38-macosx_11_0_arm64.whl": "25.2023.3200@lsst_sphgeom-25.2023.3200-cp38-cp38-macosx_10_9_x86_64.whl",
         "lsst_sphgeom-25.2023.3500-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "25.2023.3200@lsst_sphgeom-25.2023.3200-cp38-cp38-macosx_10_9_x86_64.whl"
+      },
+      "25.2023.3600": {
+        "lsst_sphgeom-25.2023.3600-cp38-cp38-macosx_10_9_x86_64.whl": "25.2023.3200@lsst_sphgeom-25.2023.3200-cp38-cp38-macosx_10_9_x86_64.whl",
+        "lsst_sphgeom-25.2023.3600-cp38-cp38-macosx_11_0_arm64.whl": "25.2023.3200@lsst_sphgeom-25.2023.3200-cp38-cp38-macosx_10_9_x86_64.whl",
+        "lsst_sphgeom-25.2023.3600-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "25.2023.3200@lsst_sphgeom-25.2023.3200-cp38-cp38-macosx_10_9_x86_64.whl"
       },
       "25.2023.600": {
         "lsst_sphgeom-25.2023.600-cp38-cp38-macosx_10_9_x86_64.whl": "24.0.0a20223000@lsst_sphgeom-24.0.0a20223000-cp38-cp38-macosx_10_9_x86_64.whl",
@@ -62758,6 +62830,11 @@
         "lsst_sphgeom-25.2023.3500-cp39-cp39-macosx_10_9_x86_64.whl": "25.2023.3200@lsst_sphgeom-25.2023.3200-cp39-cp39-macosx_10_9_x86_64.whl",
         "lsst_sphgeom-25.2023.3500-cp39-cp39-macosx_11_0_arm64.whl": "25.2023.3200@lsst_sphgeom-25.2023.3200-cp39-cp39-macosx_10_9_x86_64.whl",
         "lsst_sphgeom-25.2023.3500-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "25.2023.3200@lsst_sphgeom-25.2023.3200-cp39-cp39-macosx_10_9_x86_64.whl"
+      },
+      "25.2023.3600": {
+        "lsst_sphgeom-25.2023.3600-cp39-cp39-macosx_10_9_x86_64.whl": "25.2023.3200@lsst_sphgeom-25.2023.3200-cp39-cp39-macosx_10_9_x86_64.whl",
+        "lsst_sphgeom-25.2023.3600-cp39-cp39-macosx_11_0_arm64.whl": "25.2023.3200@lsst_sphgeom-25.2023.3200-cp39-cp39-macosx_10_9_x86_64.whl",
+        "lsst_sphgeom-25.2023.3600-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "25.2023.3200@lsst_sphgeom-25.2023.3200-cp39-cp39-macosx_10_9_x86_64.whl"
       },
       "25.2023.600": {
         "lsst_sphgeom-25.2023.600-cp39-cp39-macosx_10_9_x86_64.whl": "24.0.0a20223000@lsst_sphgeom-24.0.0a20223000-cp39-cp39-macosx_10_9_x86_64.whl",
@@ -64678,6 +64755,41 @@
             "polygon-api-client",
             "aiohttp ==3.8.1",
             "alpaca-trade-api <3.0.0,>=2.3.0",
+            "alpha-vantage",
+            "ibapi ==9.81.1.post1",
+            "yfinance >=0.2.18",
+            "matplotlib >=3.3.3",
+            "quandl",
+            "pandas <2.1.0,>=2.0.0",
+            "pandas-datareader",
+            "pandas-market-calendars <=4.1.4",
+            "plotly",
+            "flask >=2.2.2",
+            "flask-socketio",
+            "flask-sqlalchemy",
+            "flask-marshmallow",
+            "flask-security",
+            "marshmallow-sqlalchemy",
+            "email-validator",
+            "bcrypt",
+            "pytest",
+            "scipy ==1.10.1",
+            "ipython",
+            "quantstats ==0.0.62",
+            "python-dotenv",
+            "ccxt ==3.0.61",
+            "termcolor",
+            "jsonpickle",
+            "apscheduler ==3.10.1"
+          ],
+          "requires_python": ">=3.7"
+        }
+      },
+      "2.7.18": {
+        "lumibot-2.7.18-py3-none-any.whl": {
+          "requires_dist": [
+            "polygon-api-client",
+            "alpaca-py <=0.10.0",
             "alpha-vantage",
             "ibapi ==9.81.1.post1",
             "yfinance >=0.2.18",
@@ -74484,6 +74596,219 @@
       },
       "4.2.0.post1": {
         "moto_ext-4.2.0.post1-py2.py3-none-any.whl": "4.1.14.post1@moto_ext-4.1.14.post1-py2.py3-none-any.whl"
+      },
+      "4.2.2.post1": {
+        "moto_ext-4.2.2.post1-py2.py3-none-any.whl": {
+          "provides_extras": [
+            "acm",
+            "acmpca",
+            "all",
+            "amp",
+            "apigateway",
+            "apigatewayv2",
+            "applicationautoscaling",
+            "appsync",
+            "athena",
+            "autoscaling",
+            "awslambda",
+            "batch",
+            "batch_simple",
+            "budgets",
+            "ce",
+            "cloudformation",
+            "cloudfront",
+            "cloudtrail",
+            "cloudwatch",
+            "codebuild",
+            "codecommit",
+            "codepipeline",
+            "cognitoidentity",
+            "cognitoidp",
+            "comprehend",
+            "config",
+            "databrew",
+            "datapipeline",
+            "datasync",
+            "dax",
+            "dms",
+            "ds",
+            "dynamodb",
+            "dynamodbstreams",
+            "ebs",
+            "ec2",
+            "ec2instanceconnect",
+            "ecr",
+            "ecs",
+            "efs",
+            "eks",
+            "elasticache",
+            "elasticbeanstalk",
+            "elastictranscoder",
+            "elb",
+            "elbv2",
+            "emr",
+            "emrcontainers",
+            "emrserverless",
+            "es",
+            "events",
+            "firehose",
+            "forecast",
+            "glacier",
+            "glue",
+            "greengrass",
+            "guardduty",
+            "iam",
+            "iot",
+            "iotdata",
+            "kinesis",
+            "kinesisvideo",
+            "kinesisvideoarchivedmedia",
+            "kms",
+            "logs",
+            "managedblockchain",
+            "mediaconnect",
+            "medialive",
+            "mediapackage",
+            "mediastore",
+            "mediastoredata",
+            "meteringmarketplace",
+            "mq",
+            "opsworks",
+            "organizations",
+            "personalize",
+            "pinpoint",
+            "polly",
+            "quicksight",
+            "ram",
+            "rds",
+            "redshift",
+            "redshiftdata",
+            "rekognition",
+            "resourcegroups",
+            "resourcegroupstaggingapi",
+            "route53",
+            "route53resolver",
+            "s3",
+            "s3control",
+            "s3crc32c",
+            "sagemaker",
+            "sdb",
+            "secretsmanager",
+            "server",
+            "servicediscovery",
+            "servicequotas",
+            "ses",
+            "signer",
+            "sns",
+            "sqs",
+            "ssm",
+            "ssoadmin",
+            "stepfunctions",
+            "sts",
+            "support",
+            "swf",
+            "textract",
+            "timestreamwrite",
+            "transcribe",
+            "wafv2",
+            "xray"
+          ],
+          "requires_dist": [
+            "boto3 >=1.9.201",
+            "botocore >=1.12.201",
+            "cryptography >=3.3.1",
+            "requests >=2.5",
+            "xmltodict",
+            "werkzeug !=2.2.0,!=2.2.1,>=0.5",
+            "python-dateutil <3.0.0,>=2.1",
+            "responses >=0.13.0",
+            "Jinja2 >=2.10.1",
+            "importlib-metadata ; python_version < \"3.8\"",
+            "python-jose[cryptography] <4.0.0,>=3.1.0 ; extra == 'all'",
+            "ecdsa !=0.15 ; extra == 'all'",
+            "docker >=3.0.0 ; extra == 'all'",
+            "graphql-core ; extra == 'all'",
+            "PyYAML >=5.1 ; extra == 'all'",
+            "cfn-lint >=0.40.0 ; extra == 'all'",
+            "sshpubkeys >=3.1.0 ; extra == 'all'",
+            "openapi-spec-validator >=0.2.8 ; extra == 'all'",
+            "pyparsing >=3.0.7 ; extra == 'all'",
+            "jsondiff >=1.1.2 ; extra == 'all'",
+            "py-partiql-parser ==0.3.7 ; extra == 'all'",
+            "aws-xray-sdk !=0.96,>=0.93 ; extra == 'all'",
+            "setuptools ; extra == 'all'",
+            "PyYAML >=5.1 ; extra == 'apigateway'",
+            "python-jose[cryptography] <4.0.0,>=3.1.0 ; extra == 'apigateway'",
+            "ecdsa !=0.15 ; extra == 'apigateway'",
+            "openapi-spec-validator >=0.2.8 ; extra == 'apigateway'",
+            "PyYAML >=5.1 ; extra == 'apigatewayv2'",
+            "graphql-core ; extra == 'appsync'",
+            "docker >=3.0.0 ; extra == 'awslambda'",
+            "docker >=3.0.0 ; extra == 'batch'",
+            "python-jose[cryptography] <4.0.0,>=3.1.0 ; extra == 'cloudformation'",
+            "ecdsa !=0.15 ; extra == 'cloudformation'",
+            "docker >=3.0.0 ; extra == 'cloudformation'",
+            "graphql-core ; extra == 'cloudformation'",
+            "PyYAML >=5.1 ; extra == 'cloudformation'",
+            "cfn-lint >=0.40.0 ; extra == 'cloudformation'",
+            "sshpubkeys >=3.1.0 ; extra == 'cloudformation'",
+            "openapi-spec-validator >=0.2.8 ; extra == 'cloudformation'",
+            "pyparsing >=3.0.7 ; extra == 'cloudformation'",
+            "jsondiff >=1.1.2 ; extra == 'cloudformation'",
+            "py-partiql-parser ==0.3.7 ; extra == 'cloudformation'",
+            "aws-xray-sdk !=0.96,>=0.93 ; extra == 'cloudformation'",
+            "setuptools ; extra == 'cloudformation'",
+            "python-jose[cryptography] <4.0.0,>=3.1.0 ; extra == 'cognitoidp'",
+            "ecdsa !=0.15 ; extra == 'cognitoidp'",
+            "sshpubkeys >=3.1.0 ; extra == 'ds'",
+            "docker >=3.0.0 ; extra == 'dynamodb'",
+            "py-partiql-parser ==0.3.7 ; extra == 'dynamodb'",
+            "docker >=3.0.0 ; extra == 'dynamodbstreams'",
+            "py-partiql-parser ==0.3.7 ; extra == 'dynamodbstreams'",
+            "sshpubkeys >=3.1.0 ; extra == 'ebs'",
+            "sshpubkeys >=3.1.0 ; extra == 'ec2'",
+            "sshpubkeys >=3.1.0 ; extra == 'efs'",
+            "sshpubkeys >=3.1.0 ; extra == 'eks'",
+            "pyparsing >=3.0.7 ; extra == 'glue'",
+            "jsondiff >=1.1.2 ; extra == 'iotdata'",
+            "python-jose[cryptography] <4.0.0,>=3.1.0 ; extra == 'resourcegroupstaggingapi'",
+            "ecdsa !=0.15 ; extra == 'resourcegroupstaggingapi'",
+            "docker >=3.0.0 ; extra == 'resourcegroupstaggingapi'",
+            "graphql-core ; extra == 'resourcegroupstaggingapi'",
+            "PyYAML >=5.1 ; extra == 'resourcegroupstaggingapi'",
+            "cfn-lint >=0.40.0 ; extra == 'resourcegroupstaggingapi'",
+            "sshpubkeys >=3.1.0 ; extra == 'resourcegroupstaggingapi'",
+            "openapi-spec-validator >=0.2.8 ; extra == 'resourcegroupstaggingapi'",
+            "pyparsing >=3.0.7 ; extra == 'resourcegroupstaggingapi'",
+            "jsondiff >=1.1.2 ; extra == 'resourcegroupstaggingapi'",
+            "py-partiql-parser ==0.3.7 ; extra == 'resourcegroupstaggingapi'",
+            "sshpubkeys >=3.1.0 ; extra == 'route53resolver'",
+            "PyYAML >=5.1 ; extra == 's3'",
+            "py-partiql-parser ==0.3.7 ; extra == 's3'",
+            "PyYAML >=5.1 ; extra == 's3crc32c'",
+            "py-partiql-parser ==0.3.7 ; extra == 's3crc32c'",
+            "crc32c ; extra == 's3crc32c'",
+            "python-jose[cryptography] <4.0.0,>=3.1.0 ; extra == 'server'",
+            "ecdsa !=0.15 ; extra == 'server'",
+            "docker >=3.0.0 ; extra == 'server'",
+            "graphql-core ; extra == 'server'",
+            "PyYAML >=5.1 ; extra == 'server'",
+            "cfn-lint >=0.40.0 ; extra == 'server'",
+            "sshpubkeys >=3.1.0 ; extra == 'server'",
+            "openapi-spec-validator >=0.2.8 ; extra == 'server'",
+            "pyparsing >=3.0.7 ; extra == 'server'",
+            "jsondiff >=1.1.2 ; extra == 'server'",
+            "py-partiql-parser ==0.3.7 ; extra == 'server'",
+            "aws-xray-sdk !=0.96,>=0.93 ; extra == 'server'",
+            "setuptools ; extra == 'server'",
+            "flask !=2.2.0,!=2.2.1 ; extra == 'server'",
+            "flask-cors ; extra == 'server'",
+            "PyYAML >=5.1 ; extra == 'ssm'",
+            "aws-xray-sdk !=0.96,>=0.93 ; extra == 'xray'",
+            "setuptools ; extra == 'xray'"
+          ],
+          "requires_python": ">=3.7"
+        }
       }
     },
     "py3": {
@@ -115425,6 +115750,9 @@
       },
       "2023.9.5": {
         "slcl1butils-2023.9.5-py3-none-any.whl": "2023.9.4@slcl1butils-2023.9.4-py3-none-any.whl"
+      },
+      "2023.9.7": {
+        "slcl1butils-2023.9.7-py3-none-any.whl": "2023.9.4@slcl1butils-2023.9.4-py3-none-any.whl"
       }
     }
   },
@@ -120746,6 +121074,20 @@
             "tencentcloud-sdk-python-common (==3.0.974)"
           ]
         }
+      },
+      "3.0.975": {
+        "tencentcloud_sdk_python_kms-3.0.975-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.975)"
+          ]
+        }
+      },
+      "3.0.976": {
+        "tencentcloud_sdk_python_kms-3.0.976-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.976)"
+          ]
+        }
       }
     }
   },
@@ -122950,6 +123292,20 @@
         "tencentcloud_sdk_python_tag-3.0.974-py2.py3-none-any.whl": {
           "requires_dist": [
             "tencentcloud-sdk-python-common (==3.0.974)"
+          ]
+        }
+      },
+      "3.0.975": {
+        "tencentcloud_sdk_python_tag-3.0.975-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.975)"
+          ]
+        }
+      },
+      "3.0.976": {
+        "tencentcloud_sdk_python_tag-3.0.976-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.976)"
           ]
         }
       }
@@ -128760,6 +129116,54 @@
           ],
           "requires_python": ">=3.7,<4.0"
         }
+      },
+      "0.0.2": {
+        "weba-0.0.2-py3-none-any.whl": {
+          "requires_dist": [
+            "aiocache (>=0.12)",
+            "aiofiles (>=23)",
+            "aiohttp (>=3)",
+            "cryptography (>=41.0.3,<42.0.0)",
+            "dominate (>=2)",
+            "fastapi (>=0.100.0)",
+            "jsmin (>=3)",
+            "psutil (>=5)",
+            "pydantic (>=2)",
+            "pydantic-settings (>=2)",
+            "pytailwindcss (>=0.2.0)",
+            "python-dotenv (>=1.0.0)",
+            "starlette-cramjam (>=0.3.0)",
+            "starlette-securecookies (>=1.1.1,<2.0.0)",
+            "uvicorn[standard] (>=0.20)"
+          ],
+          "requires_python": ">=3.10,<3.12"
+        }
+      },
+      "0.0.3": {
+        "weba-0.0.3-py3-none-any.whl": {
+          "requires_dist": [
+            "aiocache (>=0.12)",
+            "aiofiles (>=23)",
+            "aiohttp (>=3)",
+            "cryptography (>=41.0.3,<42.0.0)",
+            "dominate (>=2)",
+            "fastapi (>=0.100.0)",
+            "itsdangerous (>=2.0.0)",
+            "jsmin (>=3)",
+            "psutil (>=5)",
+            "pydantic (>=2)",
+            "pydantic-settings (>=2)",
+            "pytailwindcss (>=0.2.0)",
+            "python-dotenv (>=1.0.0)",
+            "starlette-cramjam (>=0.3.0)",
+            "starlette-securecookies (>=1.1.1,<2.0.0)",
+            "uvicorn[standard] (>=0.20)"
+          ],
+          "requires_python": ">=3.10,<3.12"
+        }
+      },
+      "0.0.4": {
+        "weba-0.0.4-py3-none-any.whl": "0.0.3@weba-0.0.3-py3-none-any.whl"
       }
     }
   },

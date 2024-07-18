@@ -24460,6 +24460,15 @@
       "0.91.1": {
         "cybrid_api_bank_python-0.91.1-py3-none-any.whl": "0.1.10@cybrid_api_bank_python-0.1.10-py3-none-any.whl"
       },
+      "0.91.10": {
+        "cybrid_api_bank_python-0.91.10-py3-none-any.whl": "0.1.10@cybrid_api_bank_python-0.1.10-py3-none-any.whl"
+      },
+      "0.91.11": {
+        "cybrid_api_bank_python-0.91.11-py3-none-any.whl": "0.1.10@cybrid_api_bank_python-0.1.10-py3-none-any.whl"
+      },
+      "0.91.12": {
+        "cybrid_api_bank_python-0.91.12-py3-none-any.whl": "0.1.10@cybrid_api_bank_python-0.1.10-py3-none-any.whl"
+      },
       "0.91.2": {
         "cybrid_api_bank_python-0.91.2-py3-none-any.whl": "0.1.10@cybrid_api_bank_python-0.1.10-py3-none-any.whl"
       },
@@ -24477,6 +24486,9 @@
       },
       "0.91.8": {
         "cybrid_api_bank_python-0.91.8-py3-none-any.whl": "0.1.10@cybrid_api_bank_python-0.1.10-py3-none-any.whl"
+      },
+      "0.91.9": {
+        "cybrid_api_bank_python-0.91.9-py3-none-any.whl": "0.1.10@cybrid_api_bank_python-0.1.10-py3-none-any.whl"
       }
     }
   },
@@ -26191,6 +26203,9 @@
       },
       "0.46.0": {
         "datadog-0.46.0-py2.py3-none-any.whl": "0.45.0@datadog-0.45.0-py2.py3-none-any.whl"
+      },
+      "0.47.0": {
+        "datadog-0.47.0-py2.py3-none-any.whl": "0.45.0@datadog-0.45.0-py2.py3-none-any.whl"
       }
     }
   },
@@ -26474,6 +26489,12 @@
       },
       "6.1.1a12": {
         "db_plugins-6.1.1a12-py3-none-any.whl": "5.1.0@db_plugins-5.1.0-py3-none-any.whl"
+      },
+      "6.1.1a13": {
+        "db_plugins-6.1.1a13-py3-none-any.whl": "5.1.0@db_plugins-5.1.0-py3-none-any.whl"
+      },
+      "6.1.1a14": {
+        "db_plugins-6.1.1a14-py3-none-any.whl": "5.1.0@db_plugins-5.1.0-py3-none-any.whl"
       },
       "6.1.1a2": {
         "db_plugins-6.1.1a2-py3-none-any.whl": "5.1.0@db_plugins-5.1.0-py3-none-any.whl"
@@ -43297,6 +43318,9 @@
       },
       "1.2151.0": {
         "gardener_cicd_dso-1.2151.0-py3-none-any.whl": "1.1976.0@gardener_cicd_dso-1.1976.0-py3-none-any.whl"
+      },
+      "1.2152.0": {
+        "gardener_cicd_dso-1.2152.0-py3-none-any.whl": "1.1976.0@gardener_cicd_dso-1.1976.0-py3-none-any.whl"
       }
     }
   },
@@ -51396,6 +51420,17 @@
             "packaging"
           ]
         }
+      },
+      "1.2.3": {
+        "jfrog_client-1.2.3-py3-none-any.whl": {
+          "requires_dist": [
+            "requests",
+            "tabulate",
+            "logging",
+            "packaging",
+            "tqdm"
+          ]
+        }
       }
     }
   },
@@ -58664,6 +58699,9 @@
         "mlpack-4.2.0-cp310-cp310-musllinux_1_1_x86_64.whl": "4.0.0.post1@mlpack-4.0.0.post1-cp310-cp310-macosx_10_9_x86_64.whl",
         "mlpack-4.2.0-cp310-cp310-win32.whl": "4.0.0.post1@mlpack-4.0.0.post1-cp310-cp310-macosx_10_9_x86_64.whl",
         "mlpack-4.2.0-cp310-cp310-win_amd64.whl": "4.0.0.post1@mlpack-4.0.0.post1-cp310-cp310-macosx_10_9_x86_64.whl"
+      },
+      "4.2.1": {
+        "mlpack-4.2.1-cp310-cp310-manylinux_2_17_i686.manylinux2014_i686.whl": "4.0.0.post1@mlpack-4.0.0.post1-cp310-cp310-macosx_10_9_x86_64.whl"
       }
     },
     "cp311": {
@@ -58728,6 +58766,9 @@
         "mlpack-4.2.0-cp311-cp311-musllinux_1_1_x86_64.whl": "4.0.0.post1@mlpack-4.0.0.post1-cp311-cp311-macosx_10_9_x86_64.whl",
         "mlpack-4.2.0-cp311-cp311-win32.whl": "4.0.0.post1@mlpack-4.0.0.post1-cp311-cp311-macosx_10_9_x86_64.whl",
         "mlpack-4.2.0-cp311-cp311-win_amd64.whl": "4.0.0.post1@mlpack-4.0.0.post1-cp311-cp311-macosx_10_9_x86_64.whl"
+      },
+      "4.2.1": {
+        "mlpack-4.2.1-cp311-cp311-manylinux_2_17_i686.manylinux2014_i686.whl": "4.0.0.post1@mlpack-4.0.0.post1-cp311-cp311-macosx_10_9_x86_64.whl"
       }
     },
     "cp35": {
@@ -58833,6 +58874,10 @@
         "mlpack-4.2.0-cp36-cp36m-musllinux_1_1_x86_64.whl": "3.2.0@mlpack-3.2.0-cp36-cp36m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl",
         "mlpack-4.2.0-cp36-cp36m-win32.whl": "3.2.0@mlpack-3.2.0-cp36-cp36m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl",
         "mlpack-4.2.0-cp36-cp36m-win_amd64.whl": "3.2.0@mlpack-3.2.0-cp36-cp36m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl"
+      },
+      "4.2.1": {
+        "mlpack-4.2.1-cp36-cp36m-manylinux_2_17_i686.manylinux2014_i686.whl": "3.2.0@mlpack-3.2.0-cp36-cp36m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl",
+        "mlpack-4.2.1-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "3.2.0@mlpack-3.2.0-cp36-cp36m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl"
       }
     },
     "cp37": {
@@ -58923,6 +58968,10 @@
         "mlpack-4.2.0-cp37-cp37m-musllinux_1_1_x86_64.whl": "3.2.0@mlpack-3.2.0-cp37-cp37m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl",
         "mlpack-4.2.0-cp37-cp37m-win32.whl": "3.2.0@mlpack-3.2.0-cp37-cp37m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl",
         "mlpack-4.2.0-cp37-cp37m-win_amd64.whl": "3.2.0@mlpack-3.2.0-cp37-cp37m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl"
+      },
+      "4.2.1": {
+        "mlpack-4.2.1-cp37-cp37m-manylinux_2_17_i686.manylinux2014_i686.whl": "3.2.0@mlpack-3.2.0-cp37-cp37m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl",
+        "mlpack-4.2.1-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "3.2.0@mlpack-3.2.0-cp37-cp37m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl"
       }
     },
     "cp38": {
@@ -59010,6 +59059,10 @@
         "mlpack-4.2.0-cp38-cp38-musllinux_1_1_x86_64.whl": "3.2.2@mlpack-3.2.2-cp38-cp38-macosx_10_9_x86_64.whl",
         "mlpack-4.2.0-cp38-cp38-win32.whl": "3.2.2@mlpack-3.2.2-cp38-cp38-macosx_10_9_x86_64.whl",
         "mlpack-4.2.0-cp38-cp38-win_amd64.whl": "3.2.2@mlpack-3.2.2-cp38-cp38-macosx_10_9_x86_64.whl"
+      },
+      "4.2.1": {
+        "mlpack-4.2.1-cp38-cp38-manylinux_2_17_i686.manylinux2014_i686.whl": "3.2.2@mlpack-3.2.2-cp38-cp38-macosx_10_9_x86_64.whl",
+        "mlpack-4.2.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "3.2.2@mlpack-3.2.2-cp38-cp38-macosx_10_9_x86_64.whl"
       }
     },
     "cp39": {
@@ -59074,6 +59127,10 @@
         "mlpack-4.2.0-cp39-cp39-musllinux_1_1_x86_64.whl": "4.0.0.post1@mlpack-4.0.0.post1-cp39-cp39-macosx_10_9_x86_64.whl",
         "mlpack-4.2.0-cp39-cp39-win32.whl": "4.0.0.post1@mlpack-4.0.0.post1-cp39-cp39-macosx_10_9_x86_64.whl",
         "mlpack-4.2.0-cp39-cp39-win_amd64.whl": "4.0.0.post1@mlpack-4.0.0.post1-cp39-cp39-macosx_10_9_x86_64.whl"
+      },
+      "4.2.1": {
+        "mlpack-4.2.1-cp39-cp39-manylinux_2_17_i686.manylinux2014_i686.whl": "4.0.0.post1@mlpack-4.0.0.post1-cp39-cp39-macosx_10_9_x86_64.whl",
+        "mlpack-4.2.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "4.0.0.post1@mlpack-4.0.0.post1-cp39-cp39-macosx_10_9_x86_64.whl"
       }
     },
     "pp37": {
@@ -59102,6 +59159,9 @@
         "mlpack-4.2.0-pp37-pypy37_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "4.0.0.post1@mlpack-4.0.0.post1-pp37-pypy37_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
         "mlpack-4.2.0-pp37-pypy37_pp73-manylinux_2_17_i686.manylinux2014_i686.whl": "4.0.0.post1@mlpack-4.0.0.post1-pp37-pypy37_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
         "mlpack-4.2.0-pp37-pypy37_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "4.0.0.post1@mlpack-4.0.0.post1-pp37-pypy37_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+      },
+      "4.2.1": {
+        "mlpack-4.2.1-pp37-pypy37_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "4.0.0.post1@mlpack-4.0.0.post1-pp37-pypy37_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
       }
     },
     "pp38": {
@@ -74996,6 +75056,9 @@
       },
       "0.1.8": {
         "p_template_generator-0.1.8-py3-none-any.whl": "0.1.11@p_template_generator-0.1.11-py3-none-any.whl"
+      },
+      "0.1.81": {
+        "p_template_generator-0.1.81-py3-none-any.whl": "0.1.74@p_template_generator-0.1.74-py3-none-any.whl"
       },
       "0.1.9": {
         "p_template_generator-0.1.9-py3-none-any.whl": "0.1.11@p_template_generator-0.1.11-py3-none-any.whl"

@@ -486,6 +486,15 @@
       }
     }
   },
+  "aisi-pip-utils": {
+    "py3": {
+      "0.0.1rc1": {
+        "aisi_pip_utils-0.0.1rc1-py3-none-any.whl": {
+          "requires_python": ">=3.6,<4.0"
+        }
+      }
+    }
+  },
   "ak-phrase.py": {
     "py3": {
       "1.0.0": {
@@ -4838,6 +4847,12 @@
           "requires_python": ">=3.8"
         }
       },
+      "1.1.10": {
+        "betwatch-1.1.10-py3-none-any.whl": "1.1.1@betwatch-1.1.1-py3-none-any.whl"
+      },
+      "1.1.12": {
+        "betwatch-1.1.12-py3-none-any.whl": "1.1.1@betwatch-1.1.1-py3-none-any.whl"
+      },
       "1.1.2": {
         "betwatch-1.1.2-py3-none-any.whl": "1.1.1@betwatch-1.1.1-py3-none-any.whl"
       },
@@ -4858,6 +4873,9 @@
       },
       "1.1.8": {
         "betwatch-1.1.8-py3-none-any.whl": "1.1.1@betwatch-1.1.1-py3-none-any.whl"
+      },
+      "1.1.9": {
+        "betwatch-1.1.9-py3-none-any.whl": "1.1.1@betwatch-1.1.1-py3-none-any.whl"
       }
     }
   },
@@ -5887,6 +5905,12 @@
       "1.31.40": {
         "botocore_a_la_carte_athena-1.31.40-py3-none-any.whl": "1.29.100@botocore_a_la_carte_athena-1.29.100-py3-none-any.whl"
       },
+      "1.31.41": {
+        "botocore_a_la_carte_athena-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_athena-1.29.100-py3-none-any.whl"
+      },
+      "1.31.42": {
+        "botocore_a_la_carte_athena-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_athena-1.29.100-py3-none-any.whl"
+      },
       "1.31.5": {
         "botocore_a_la_carte_athena-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_athena-1.29.100-py3-none-any.whl"
       },
@@ -6384,6 +6408,12 @@
       },
       "1.31.40": {
         "botocore_a_la_carte_codecommit-1.31.40-py3-none-any.whl": "1.29.100@botocore_a_la_carte_codecommit-1.29.100-py3-none-any.whl"
+      },
+      "1.31.41": {
+        "botocore_a_la_carte_codecommit-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_codecommit-1.29.100-py3-none-any.whl"
+      },
+      "1.31.42": {
+        "botocore_a_la_carte_codecommit-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_codecommit-1.29.100-py3-none-any.whl"
       },
       "1.31.5": {
         "botocore_a_la_carte_codecommit-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_codecommit-1.29.100-py3-none-any.whl"
@@ -6883,6 +6913,12 @@
       "1.31.40": {
         "botocore_a_la_carte_ecs-1.31.40-py3-none-any.whl": "1.29.100@botocore_a_la_carte_ecs-1.29.100-py3-none-any.whl"
       },
+      "1.31.41": {
+        "botocore_a_la_carte_ecs-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_ecs-1.29.100-py3-none-any.whl"
+      },
+      "1.31.42": {
+        "botocore_a_la_carte_ecs-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_ecs-1.29.100-py3-none-any.whl"
+      },
       "1.31.5": {
         "botocore_a_la_carte_ecs-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_ecs-1.29.100-py3-none-any.whl"
       },
@@ -7380,6 +7416,12 @@
       },
       "1.31.40": {
         "botocore_a_la_carte_signer-1.31.40-py3-none-any.whl": "1.29.100@botocore_a_la_carte_signer-1.29.100-py3-none-any.whl"
+      },
+      "1.31.41": {
+        "botocore_a_la_carte_signer-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_signer-1.29.100-py3-none-any.whl"
+      },
+      "1.31.42": {
+        "botocore_a_la_carte_signer-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_signer-1.29.100-py3-none-any.whl"
       },
       "1.31.5": {
         "botocore_a_la_carte_signer-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_signer-1.29.100-py3-none-any.whl"
@@ -11817,6 +11859,15 @@
       "2.0.352": {
         "cdk_fargate_run_task-2.0.352-py3-none-any.whl": "2.0.343@cdk_fargate_run_task-2.0.343-py3-none-any.whl"
       },
+      "2.0.353": {
+        "cdk_fargate_run_task-2.0.353-py3-none-any.whl": "2.0.343@cdk_fargate_run_task-2.0.343-py3-none-any.whl"
+      },
+      "2.0.354": {
+        "cdk_fargate_run_task-2.0.354-py3-none-any.whl": "2.0.343@cdk_fargate_run_task-2.0.343-py3-none-any.whl"
+      },
+      "2.0.355": {
+        "cdk_fargate_run_task-2.0.355-py3-none-any.whl": "2.0.343@cdk_fargate_run_task-2.0.343-py3-none-any.whl"
+      },
       "2.0.36": {
         "cdk_fargate_run_task-2.0.36-py3-none-any.whl": "2.0.25@cdk_fargate_run_task-2.0.25-py3-none-any.whl"
       },
@@ -12616,6 +12667,9 @@
       },
       "3.0.13": {
         "checkout_sdk-3.0.13-py3-none-any.whl": "3.0.0@checkout_sdk-3.0.0-py3-none-any.whl"
+      },
+      "3.0.14": {
+        "checkout_sdk-3.0.14-py3-none-any.whl": "3.0.0@checkout_sdk-3.0.0-py3-none-any.whl"
       },
       "3.0.2": {
         "checkout_sdk-3.0.2-py3-none-any.whl": "3.0.0@checkout_sdk-3.0.0-py3-none-any.whl"
@@ -15898,6 +15952,21 @@
           "requires_python": ">=3.6"
         }
       },
+      "0.0.26": {
+        "comotion_sdk-0.0.26-py3-none-any.whl": {
+          "requires_dist": [
+            "requests >=2.25.0",
+            "pandas >=1.2.0",
+            "click >=8.0.3",
+            "keyring >=23.2.1",
+            "pyjwt",
+            "urllib3 >=1.25.3",
+            "sqlalchemy >=1.4.36",
+            "tqdm >=4.64.0"
+          ],
+          "requires_python": ">=3.6"
+        }
+      },
       "0.0.3": {
         "comotion_sdk-0.0.3-py3-none-any.whl": "0.0.11@comotion_sdk-0.0.11-py3-none-any.whl"
       },
@@ -18336,6 +18405,15 @@
       },
       "1.4.0rc3": {
         "dbt_fabric-1.4.0rc3-py3-none-any.whl": "1.4.0rc1@dbt_fabric-1.4.0rc1-py3-none-any.whl"
+      },
+      "1.5.0rc1": {
+        "dbt_fabric-1.5.0rc1-py3-none-any.whl": {
+          "requires_dist": [
+            "dbt-core ~=1.5.2",
+            "pyodbc !=4.0.36,!=4.0.37,~=4.0.35",
+            "azure-identity >=1.12.0"
+          ]
+        }
       }
     }
   },
@@ -21687,6 +21765,9 @@
           "requires_python": ">=3.7,<3.12"
         }
       },
+      "1.10.6.1": {
+        "driverlessai-1.10.6.1-py3-none-any.whl": "1.10.6@driverlessai-1.10.6-py3-none-any.whl"
+      },
       "1.8.6.3b0": {
         "driverlessai-1.8.6.3b0-py3-none-any.whl": {
           "requires_dist": [
@@ -22613,6 +22694,1056 @@
         "duckdb-0.2.0-cp27-cp27m-manylinux1_x86_64.whl": "0.2.0@duckdb-0.2.0-cp27-cp27m-macosx_10_7_intel.whl",
         "duckdb-0.2.0-cp27-cp27mu-manylinux1_i686.whl": "0.2.0@duckdb-0.2.0-cp27-cp27m-macosx_10_7_intel.whl",
         "duckdb-0.2.0-cp27-cp27mu-manylinux1_x86_64.whl": "0.2.0@duckdb-0.2.0-cp27-cp27m-macosx_10_7_intel.whl"
+      }
+    },
+    "cp310": {
+      "0.3.2": {
+        "duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl": {
+          "requires_dist": [
+            "numpy (>=1.14)"
+          ]
+        },
+        "duckdb-0.3.2-cp310-cp310-macosx_10_9_x86_64.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.3.2-cp310-cp310-macosx_11_0_arm64.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.3.2-cp310-cp310-manylinux_2_17_i686.manylinux2014_i686.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.3.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.3.2-cp310-cp310-musllinux_1_1_i686.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.3.2-cp310-cp310-musllinux_1_1_x86_64.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.3.2-cp310-cp310-win32.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.3.2-cp310-cp310-win_amd64.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl"
+      },
+      "0.3.3": {
+        "duckdb-0.3.3-cp310-cp310-manylinux_2_17_i686.manylinux2014_i686.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.3.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.3.3-cp310-cp310-musllinux_1_1_i686.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.3.3-cp310-cp310-musllinux_1_1_x86_64.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.3.3-cp310-cp310-win32.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.3.3-cp310-cp310-win_amd64.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl"
+      },
+      "0.3.4": {
+        "duckdb-0.3.4-cp310-cp310-macosx_10_9_universal2.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.3.4-cp310-cp310-macosx_10_9_x86_64.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.3.4-cp310-cp310-macosx_11_0_arm64.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.3.4-cp310-cp310-manylinux_2_17_i686.manylinux2014_i686.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.3.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.3.4-cp310-cp310-musllinux_1_1_i686.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.3.4-cp310-cp310-musllinux_1_1_x86_64.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.3.4-cp310-cp310-win32.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.3.4-cp310-cp310-win_amd64.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl"
+      },
+      "0.4.0": {
+        "duckdb-0.4.0-cp310-cp310-macosx_10_9_universal2.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.4.0-cp310-cp310-macosx_10_9_x86_64.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.4.0-cp310-cp310-macosx_11_0_arm64.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.4.0-cp310-cp310-manylinux_2_17_i686.manylinux2014_i686.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.4.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.4.0-cp310-cp310-musllinux_1_1_i686.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.4.0-cp310-cp310-musllinux_1_1_x86_64.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.4.0-cp310-cp310-win32.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.4.0-cp310-cp310-win_amd64.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl"
+      },
+      "0.5.0": {
+        "duckdb-0.5.0-cp310-cp310-macosx_10_9_universal2.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.5.0-cp310-cp310-macosx_10_9_x86_64.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.5.0-cp310-cp310-macosx_11_0_arm64.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.5.0-cp310-cp310-manylinux_2_17_i686.manylinux2014_i686.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.5.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.5.0-cp310-cp310-musllinux_1_1_i686.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.5.0-cp310-cp310-musllinux_1_1_x86_64.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.5.0-cp310-cp310-win32.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.5.0-cp310-cp310-win_amd64.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl"
+      },
+      "0.5.1": {
+        "duckdb-0.5.1-cp310-cp310-macosx_10_9_universal2.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.5.1-cp310-cp310-macosx_10_9_x86_64.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.5.1-cp310-cp310-macosx_11_0_arm64.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.5.1-cp310-cp310-manylinux_2_17_i686.manylinux2014_i686.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.5.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.5.1-cp310-cp310-musllinux_1_1_i686.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.5.1-cp310-cp310-musllinux_1_1_x86_64.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.5.1-cp310-cp310-win32.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.5.1-cp310-cp310-win_amd64.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl"
+      },
+      "0.6.0": {
+        "duckdb-0.6.0-cp310-cp310-macosx_10_9_universal2.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.6.0-cp310-cp310-macosx_10_9_x86_64.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.6.0-cp310-cp310-macosx_11_0_arm64.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.6.0-cp310-cp310-manylinux_2_17_i686.manylinux2014_i686.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.6.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.6.0-cp310-cp310-musllinux_1_1_i686.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.6.0-cp310-cp310-musllinux_1_1_x86_64.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.6.0-cp310-cp310-win32.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.6.0-cp310-cp310-win_amd64.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl"
+      },
+      "0.6.1": {
+        "duckdb-0.6.1-cp310-cp310-macosx_10_9_universal2.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.6.1-cp310-cp310-macosx_10_9_x86_64.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.6.1-cp310-cp310-macosx_11_0_arm64.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.6.1-cp310-cp310-manylinux_2_17_i686.manylinux2014_i686.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.6.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.6.1-cp310-cp310-musllinux_1_1_i686.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.6.1-cp310-cp310-musllinux_1_1_x86_64.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.6.1-cp310-cp310-win32.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.6.1-cp310-cp310-win_amd64.whl": "0.3.2@duckdb-0.3.2-cp310-cp310-macosx_10_9_universal2.whl"
+      },
+      "0.7.0": {
+        "duckdb-0.7.0-cp310-cp310-macosx_10_9_universal2.whl": {},
+        "duckdb-0.7.0-cp310-cp310-macosx_10_9_x86_64.whl": "0.7.0@duckdb-0.7.0-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.7.0-cp310-cp310-macosx_11_0_arm64.whl": "0.7.0@duckdb-0.7.0-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.7.0-cp310-cp310-manylinux_2_17_i686.manylinux2014_i686.whl": "0.7.0@duckdb-0.7.0-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.7.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.7.0@duckdb-0.7.0-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.7.0-cp310-cp310-musllinux_1_1_i686.whl": "0.7.0@duckdb-0.7.0-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.7.0-cp310-cp310-musllinux_1_1_x86_64.whl": "0.7.0@duckdb-0.7.0-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.7.0-cp310-cp310-win32.whl": "0.7.0@duckdb-0.7.0-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.7.0-cp310-cp310-win_amd64.whl": "0.7.0@duckdb-0.7.0-cp310-cp310-macosx_10_9_universal2.whl"
+      },
+      "0.7.1": {
+        "duckdb-0.7.1-cp310-cp310-macosx_10_9_universal2.whl": "0.7.0@duckdb-0.7.0-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.7.1-cp310-cp310-macosx_10_9_x86_64.whl": "0.7.0@duckdb-0.7.0-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.7.1-cp310-cp310-macosx_11_0_arm64.whl": "0.7.0@duckdb-0.7.0-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.7.1-cp310-cp310-manylinux_2_17_i686.manylinux2014_i686.whl": "0.7.0@duckdb-0.7.0-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.7.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.7.0@duckdb-0.7.0-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.7.1-cp310-cp310-musllinux_1_1_i686.whl": "0.7.0@duckdb-0.7.0-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.7.1-cp310-cp310-musllinux_1_1_x86_64.whl": "0.7.0@duckdb-0.7.0-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.7.1-cp310-cp310-win32.whl": "0.7.0@duckdb-0.7.0-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.7.1-cp310-cp310-win_amd64.whl": "0.7.0@duckdb-0.7.0-cp310-cp310-macosx_10_9_universal2.whl"
+      },
+      "0.8.0": {
+        "duckdb-0.8.0-cp310-cp310-macosx_10_9_universal2.whl": "0.7.0@duckdb-0.7.0-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.8.0-cp310-cp310-macosx_10_9_x86_64.whl": "0.7.0@duckdb-0.7.0-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.8.0-cp310-cp310-macosx_11_0_arm64.whl": "0.7.0@duckdb-0.7.0-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.8.0-cp310-cp310-manylinux_2_17_i686.manylinux2014_i686.whl": "0.7.0@duckdb-0.7.0-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.8.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.7.0@duckdb-0.7.0-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.8.0-cp310-cp310-musllinux_1_1_i686.whl": "0.7.0@duckdb-0.7.0-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.8.0-cp310-cp310-musllinux_1_1_x86_64.whl": "0.7.0@duckdb-0.7.0-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.8.0-cp310-cp310-win32.whl": "0.7.0@duckdb-0.7.0-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.8.0-cp310-cp310-win_amd64.whl": "0.7.0@duckdb-0.7.0-cp310-cp310-macosx_10_9_universal2.whl"
+      },
+      "0.8.1": {
+        "duckdb-0.8.1-cp310-cp310-macosx_10_9_universal2.whl": "0.7.0@duckdb-0.7.0-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.8.1-cp310-cp310-macosx_10_9_x86_64.whl": "0.7.0@duckdb-0.7.0-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.8.1-cp310-cp310-macosx_11_0_arm64.whl": "0.7.0@duckdb-0.7.0-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.8.1-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "0.7.0@duckdb-0.7.0-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.8.1-cp310-cp310-manylinux_2_17_i686.manylinux2014_i686.whl": "0.7.0@duckdb-0.7.0-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.8.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.7.0@duckdb-0.7.0-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.8.1-cp310-cp310-musllinux_1_1_i686.whl": "0.7.0@duckdb-0.7.0-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.8.1-cp310-cp310-musllinux_1_1_x86_64.whl": "0.7.0@duckdb-0.7.0-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.8.1-cp310-cp310-win32.whl": "0.7.0@duckdb-0.7.0-cp310-cp310-macosx_10_9_universal2.whl",
+        "duckdb-0.8.1-cp310-cp310-win_amd64.whl": "0.7.0@duckdb-0.7.0-cp310-cp310-macosx_10_9_universal2.whl"
+      }
+    },
+    "cp311": {
+      "0.6.0": {
+        "duckdb-0.6.0-cp311-cp311-macosx_10_9_universal2.whl": {
+          "requires_dist": [
+            "numpy (>=1.14)"
+          ]
+        },
+        "duckdb-0.6.0-cp311-cp311-macosx_10_9_x86_64.whl": "0.6.0@duckdb-0.6.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.6.0-cp311-cp311-macosx_11_0_arm64.whl": "0.6.0@duckdb-0.6.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.6.0-cp311-cp311-manylinux_2_17_i686.manylinux2014_i686.whl": "0.6.0@duckdb-0.6.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.6.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.6.0@duckdb-0.6.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.6.0-cp311-cp311-musllinux_1_1_i686.whl": "0.6.0@duckdb-0.6.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.6.0-cp311-cp311-musllinux_1_1_x86_64.whl": "0.6.0@duckdb-0.6.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.6.0-cp311-cp311-win32.whl": "0.6.0@duckdb-0.6.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.6.0-cp311-cp311-win_amd64.whl": "0.6.0@duckdb-0.6.0-cp311-cp311-macosx_10_9_universal2.whl"
+      },
+      "0.6.1": {
+        "duckdb-0.6.1-cp311-cp311-macosx_10_9_universal2.whl": "0.6.0@duckdb-0.6.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.6.1-cp311-cp311-macosx_10_9_x86_64.whl": "0.6.0@duckdb-0.6.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.6.1-cp311-cp311-macosx_11_0_arm64.whl": "0.6.0@duckdb-0.6.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.6.1-cp311-cp311-manylinux_2_17_i686.manylinux2014_i686.whl": "0.6.0@duckdb-0.6.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.6.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.6.0@duckdb-0.6.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.6.1-cp311-cp311-musllinux_1_1_i686.whl": "0.6.0@duckdb-0.6.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.6.1-cp311-cp311-musllinux_1_1_x86_64.whl": "0.6.0@duckdb-0.6.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.6.1-cp311-cp311-win32.whl": "0.6.0@duckdb-0.6.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.6.1-cp311-cp311-win_amd64.whl": "0.6.0@duckdb-0.6.0-cp311-cp311-macosx_10_9_universal2.whl"
+      },
+      "0.7.0": {
+        "duckdb-0.7.0-cp311-cp311-macosx_10_9_universal2.whl": {},
+        "duckdb-0.7.0-cp311-cp311-macosx_10_9_x86_64.whl": "0.7.0@duckdb-0.7.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.7.0-cp311-cp311-macosx_11_0_arm64.whl": "0.7.0@duckdb-0.7.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.7.0-cp311-cp311-manylinux_2_17_i686.manylinux2014_i686.whl": "0.7.0@duckdb-0.7.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.7.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.7.0@duckdb-0.7.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.7.0-cp311-cp311-musllinux_1_1_i686.whl": "0.7.0@duckdb-0.7.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.7.0-cp311-cp311-musllinux_1_1_x86_64.whl": "0.7.0@duckdb-0.7.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.7.0-cp311-cp311-win32.whl": "0.7.0@duckdb-0.7.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.7.0-cp311-cp311-win_amd64.whl": "0.7.0@duckdb-0.7.0-cp311-cp311-macosx_10_9_universal2.whl"
+      },
+      "0.7.1": {
+        "duckdb-0.7.1-cp311-cp311-macosx_10_9_universal2.whl": "0.7.0@duckdb-0.7.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.7.1-cp311-cp311-macosx_10_9_x86_64.whl": "0.7.0@duckdb-0.7.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.7.1-cp311-cp311-macosx_11_0_arm64.whl": "0.7.0@duckdb-0.7.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.7.1-cp311-cp311-manylinux_2_17_i686.manylinux2014_i686.whl": "0.7.0@duckdb-0.7.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.7.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.7.0@duckdb-0.7.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.7.1-cp311-cp311-musllinux_1_1_i686.whl": "0.7.0@duckdb-0.7.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.7.1-cp311-cp311-musllinux_1_1_x86_64.whl": "0.7.0@duckdb-0.7.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.7.1-cp311-cp311-win32.whl": "0.7.0@duckdb-0.7.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.7.1-cp311-cp311-win_amd64.whl": "0.7.0@duckdb-0.7.0-cp311-cp311-macosx_10_9_universal2.whl"
+      },
+      "0.8.0": {
+        "duckdb-0.8.0-cp311-cp311-macosx_10_9_universal2.whl": "0.7.0@duckdb-0.7.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.8.0-cp311-cp311-macosx_10_9_x86_64.whl": "0.7.0@duckdb-0.7.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.8.0-cp311-cp311-macosx_11_0_arm64.whl": "0.7.0@duckdb-0.7.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.8.0-cp311-cp311-manylinux_2_17_i686.manylinux2014_i686.whl": "0.7.0@duckdb-0.7.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.8.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.7.0@duckdb-0.7.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.8.0-cp311-cp311-musllinux_1_1_i686.whl": "0.7.0@duckdb-0.7.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.8.0-cp311-cp311-musllinux_1_1_x86_64.whl": "0.7.0@duckdb-0.7.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.8.0-cp311-cp311-win32.whl": "0.7.0@duckdb-0.7.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.8.0-cp311-cp311-win_amd64.whl": "0.7.0@duckdb-0.7.0-cp311-cp311-macosx_10_9_universal2.whl"
+      },
+      "0.8.1": {
+        "duckdb-0.8.1-cp311-cp311-macosx_10_9_universal2.whl": "0.7.0@duckdb-0.7.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.8.1-cp311-cp311-macosx_10_9_x86_64.whl": "0.7.0@duckdb-0.7.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.8.1-cp311-cp311-macosx_11_0_arm64.whl": "0.7.0@duckdb-0.7.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.8.1-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "0.7.0@duckdb-0.7.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.8.1-cp311-cp311-manylinux_2_17_i686.manylinux2014_i686.whl": "0.7.0@duckdb-0.7.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.8.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.7.0@duckdb-0.7.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.8.1-cp311-cp311-musllinux_1_1_i686.whl": "0.7.0@duckdb-0.7.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.8.1-cp311-cp311-musllinux_1_1_x86_64.whl": "0.7.0@duckdb-0.7.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.8.1-cp311-cp311-win32.whl": "0.7.0@duckdb-0.7.0-cp311-cp311-macosx_10_9_universal2.whl",
+        "duckdb-0.8.1-cp311-cp311-win_amd64.whl": "0.7.0@duckdb-0.7.0-cp311-cp311-macosx_10_9_universal2.whl"
+      }
+    },
+    "cp36": {
+      "0.2.0": {
+        "duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl": {
+          "requires_dist": [
+            "numpy (>=1.14)"
+          ]
+        },
+        "duckdb-0.2.0-cp36-cp36m-manylinux1_x86_64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl"
+      },
+      "0.2.1": {
+        "duckdb-0.2.1-cp36-cp36m-manylinux1_i686.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.2.1-cp36-cp36m-manylinux1_x86_64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.2.1-cp36-cp36m-win32.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.2.1-cp36-cp36m-win_amd64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl"
+      },
+      "0.2.2": {
+        "duckdb-0.2.2-cp36-cp36m-manylinux1_i686.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.2.2-cp36-cp36m-manylinux1_x86_64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.2.2-cp36-cp36m-win32.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.2.2-cp36-cp36m-win_amd64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl"
+      },
+      "0.2.3": {
+        "duckdb-0.2.3-cp36-cp36m-macosx_10_9_x86_64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.2.3-cp36-cp36m-manylinux2010_i686.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.2.3-cp36-cp36m-manylinux2010_x86_64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.2.3-cp36-cp36m-win32.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.2.3-cp36-cp36m-win_amd64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl"
+      },
+      "0.2.4": {
+        "duckdb-0.2.4-cp36-cp36m-macosx_10_9_x86_64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.2.4-cp36-cp36m-manylinux2010_i686.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.2.4-cp36-cp36m-manylinux2010_x86_64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.2.4-cp36-cp36m-win32.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.2.4-cp36-cp36m-win_amd64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl"
+      },
+      "0.2.5": {
+        "duckdb-0.2.5-cp36-cp36m-macosx_10_9_x86_64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.2.5-cp36-cp36m-manylinux2010_i686.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.2.5-cp36-cp36m-manylinux2010_x86_64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.2.5-cp36-cp36m-win32.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.2.5-cp36-cp36m-win_amd64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl"
+      },
+      "0.2.6": {
+        "duckdb-0.2.6-cp36-cp36m-macosx_10_9_x86_64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.2.6-cp36-cp36m-manylinux2010_i686.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.2.6-cp36-cp36m-manylinux2010_x86_64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.2.6-cp36-cp36m-win32.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.2.6-cp36-cp36m-win_amd64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl"
+      },
+      "0.2.7": {
+        "duckdb-0.2.7-cp36-cp36m-macosx_10_9_x86_64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.2.7-cp36-cp36m-manylinux2010_i686.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.2.7-cp36-cp36m-manylinux2010_x86_64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.2.7-cp36-cp36m-win32.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.2.7-cp36-cp36m-win_amd64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl"
+      },
+      "0.2.8": {
+        "duckdb-0.2.8-cp36-cp36m-macosx_10_9_x86_64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.2.8-cp36-cp36m-manylinux_2_12_i686.manylinux2010_i686.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.2.8-cp36-cp36m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.2.8-cp36-cp36m-win32.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.2.8-cp36-cp36m-win_amd64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl"
+      },
+      "0.2.9": {
+        "duckdb-0.2.9-cp36-cp36m-macosx_10_9_x86_64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.2.9-cp36-cp36m-manylinux_2_12_i686.manylinux2010_i686.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.2.9-cp36-cp36m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.2.9-cp36-cp36m-win32.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.2.9-cp36-cp36m-win_amd64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl"
+      },
+      "0.3.0": {
+        "duckdb-0.3.0-cp36-cp36m-macosx_10_9_x86_64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.3.0-cp36-cp36m-manylinux_2_12_i686.manylinux2010_i686.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.3.0-cp36-cp36m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.3.0-cp36-cp36m-win32.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.3.0-cp36-cp36m-win_amd64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl"
+      },
+      "0.3.1": {
+        "duckdb-0.3.1-cp36-cp36m-macosx_10_9_x86_64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.3.1-cp36-cp36m-win32.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.3.1-cp36-cp36m-win_amd64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl"
+      },
+      "0.3.2": {
+        "duckdb-0.3.2-cp36-cp36m-macosx_10_9_x86_64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.3.2-cp36-cp36m-win32.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.3.2-cp36-cp36m-win_amd64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl"
+      },
+      "0.3.3": {
+        "duckdb-0.3.3-cp36-cp36m-win32.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.3.3-cp36-cp36m-win_amd64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl"
+      },
+      "0.3.4": {
+        "duckdb-0.3.4-cp36-cp36m-macosx_10_9_x86_64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.3.4-cp36-cp36m-win32.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.3.4-cp36-cp36m-win_amd64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl"
+      },
+      "0.4.0": {
+        "duckdb-0.4.0-cp36-cp36m-macosx_10_9_x86_64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.4.0-cp36-cp36m-win32.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.4.0-cp36-cp36m-win_amd64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl"
+      },
+      "0.5.0": {
+        "duckdb-0.5.0-cp36-cp36m-macosx_10_9_x86_64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.5.0-cp36-cp36m-win32.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.5.0-cp36-cp36m-win_amd64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl"
+      },
+      "0.5.1": {
+        "duckdb-0.5.1-cp36-cp36m-macosx_10_9_x86_64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.5.1-cp36-cp36m-win32.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.5.1-cp36-cp36m-win_amd64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl"
+      },
+      "0.6.0": {
+        "duckdb-0.6.0-cp36-cp36m-macosx_10_9_x86_64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.6.0-cp36-cp36m-win32.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.6.0-cp36-cp36m-win_amd64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl"
+      },
+      "0.6.1": {
+        "duckdb-0.6.1-cp36-cp36m-macosx_10_9_x86_64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.6.1-cp36-cp36m-win32.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl",
+        "duckdb-0.6.1-cp36-cp36m-win_amd64.whl": "0.2.0@duckdb-0.2.0-cp36-cp36m-manylinux1_i686.whl"
+      },
+      "0.7.0": {
+        "duckdb-0.7.0-cp36-cp36m-macosx_10_9_x86_64.whl": {},
+        "duckdb-0.7.0-cp36-cp36m-win32.whl": "0.7.0@duckdb-0.7.0-cp36-cp36m-macosx_10_9_x86_64.whl",
+        "duckdb-0.7.0-cp36-cp36m-win_amd64.whl": "0.7.0@duckdb-0.7.0-cp36-cp36m-macosx_10_9_x86_64.whl"
+      },
+      "0.7.1": {
+        "duckdb-0.7.1-cp36-cp36m-macosx_10_9_x86_64.whl": "0.7.0@duckdb-0.7.0-cp36-cp36m-macosx_10_9_x86_64.whl",
+        "duckdb-0.7.1-cp36-cp36m-win32.whl": "0.7.0@duckdb-0.7.0-cp36-cp36m-macosx_10_9_x86_64.whl",
+        "duckdb-0.7.1-cp36-cp36m-win_amd64.whl": "0.7.0@duckdb-0.7.0-cp36-cp36m-macosx_10_9_x86_64.whl"
+      },
+      "0.8.0": {
+        "duckdb-0.8.0-cp36-cp36m-macosx_10_9_x86_64.whl": "0.7.0@duckdb-0.7.0-cp36-cp36m-macosx_10_9_x86_64.whl",
+        "duckdb-0.8.0-cp36-cp36m-win32.whl": "0.7.0@duckdb-0.7.0-cp36-cp36m-macosx_10_9_x86_64.whl",
+        "duckdb-0.8.0-cp36-cp36m-win_amd64.whl": "0.7.0@duckdb-0.7.0-cp36-cp36m-macosx_10_9_x86_64.whl"
+      },
+      "0.8.1": {
+        "duckdb-0.8.1-cp36-cp36m-macosx_10_9_x86_64.whl": "0.7.0@duckdb-0.7.0-cp36-cp36m-macosx_10_9_x86_64.whl",
+        "duckdb-0.8.1-cp36-cp36m-win32.whl": "0.7.0@duckdb-0.7.0-cp36-cp36m-macosx_10_9_x86_64.whl",
+        "duckdb-0.8.1-cp36-cp36m-win_amd64.whl": "0.7.0@duckdb-0.7.0-cp36-cp36m-macosx_10_9_x86_64.whl"
+      }
+    },
+    "cp37": {
+      "0.0.3": {
+        "duckdb-0.0.3-cp37-cp37m-macosx_10_14_x86_64.whl": {
+          "requires_dist": [
+            "numpy (>=1.16)",
+            "pandas (>=0.24)"
+          ]
+        },
+        "duckdb-0.0.3-cp37-cp37m-win_amd64.whl": "0.0.3@duckdb-0.0.3-cp37-cp37m-macosx_10_14_x86_64.whl"
+      },
+      "0.1.0": {
+        "duckdb-0.1.0-cp37-cp37m-macosx_10_6_intel.whl": "0.0.3@duckdb-0.0.3-cp37-cp37m-macosx_10_14_x86_64.whl",
+        "duckdb-0.1.0-cp37-cp37m-manylinux1_i686.whl": "0.0.3@duckdb-0.0.3-cp37-cp37m-macosx_10_14_x86_64.whl",
+        "duckdb-0.1.0-cp37-cp37m-manylinux1_x86_64.whl": "0.0.3@duckdb-0.0.3-cp37-cp37m-macosx_10_14_x86_64.whl",
+        "duckdb-0.1.0-cp37-cp37m-win32.whl": "0.0.3@duckdb-0.0.3-cp37-cp37m-macosx_10_14_x86_64.whl",
+        "duckdb-0.1.0-cp37-cp37m-win_amd64.whl": "0.0.3@duckdb-0.0.3-cp37-cp37m-macosx_10_14_x86_64.whl"
+      },
+      "0.1.1": {
+        "duckdb-0.1.1-cp37-cp37m-macosx_10_6_intel.whl": {
+          "requires_dist": [
+            "numpy (>=1.14)",
+            "pandas (>=0.23)"
+          ]
+        },
+        "duckdb-0.1.1-cp37-cp37m-manylinux1_i686.whl": "0.1.1@duckdb-0.1.1-cp37-cp37m-macosx_10_6_intel.whl",
+        "duckdb-0.1.1-cp37-cp37m-manylinux1_x86_64.whl": "0.1.1@duckdb-0.1.1-cp37-cp37m-macosx_10_6_intel.whl",
+        "duckdb-0.1.1-cp37-cp37m-win32.whl": "0.1.1@duckdb-0.1.1-cp37-cp37m-macosx_10_6_intel.whl",
+        "duckdb-0.1.1-cp37-cp37m-win_amd64.whl": "0.1.1@duckdb-0.1.1-cp37-cp37m-macosx_10_6_intel.whl"
+      },
+      "0.1.2": {
+        "duckdb-0.1.2-cp37-cp37m-macosx_10_6_intel.whl": "0.1.1@duckdb-0.1.1-cp37-cp37m-macosx_10_6_intel.whl",
+        "duckdb-0.1.2-cp37-cp37m-manylinux1_i686.whl": "0.1.1@duckdb-0.1.1-cp37-cp37m-macosx_10_6_intel.whl",
+        "duckdb-0.1.2-cp37-cp37m-manylinux1_x86_64.whl": "0.1.1@duckdb-0.1.1-cp37-cp37m-macosx_10_6_intel.whl",
+        "duckdb-0.1.2-cp37-cp37m-win32.whl": "0.1.1@duckdb-0.1.1-cp37-cp37m-macosx_10_6_intel.whl",
+        "duckdb-0.1.2-cp37-cp37m-win_amd64.whl": "0.1.1@duckdb-0.1.1-cp37-cp37m-macosx_10_6_intel.whl"
+      },
+      "0.1.3": {
+        "duckdb-0.1.3-cp37-cp37m-macosx_10_7_intel.whl": "0.1.1@duckdb-0.1.1-cp37-cp37m-macosx_10_6_intel.whl",
+        "duckdb-0.1.3-cp37-cp37m-manylinux1_i686.whl": "0.1.1@duckdb-0.1.1-cp37-cp37m-macosx_10_6_intel.whl",
+        "duckdb-0.1.3-cp37-cp37m-manylinux1_x86_64.whl": "0.1.1@duckdb-0.1.1-cp37-cp37m-macosx_10_6_intel.whl",
+        "duckdb-0.1.3-cp37-cp37m-win32.whl": "0.1.1@duckdb-0.1.1-cp37-cp37m-macosx_10_6_intel.whl",
+        "duckdb-0.1.3-cp37-cp37m-win_amd64.whl": "0.1.1@duckdb-0.1.1-cp37-cp37m-macosx_10_6_intel.whl"
+      },
+      "0.1.5": {
+        "duckdb-0.1.5-cp37-cp37m-macosx_10_7_intel.whl": "0.1.1@duckdb-0.1.1-cp37-cp37m-macosx_10_6_intel.whl",
+        "duckdb-0.1.5-cp37-cp37m-manylinux1_i686.whl": "0.1.1@duckdb-0.1.1-cp37-cp37m-macosx_10_6_intel.whl",
+        "duckdb-0.1.5-cp37-cp37m-manylinux1_x86_64.whl": "0.1.1@duckdb-0.1.1-cp37-cp37m-macosx_10_6_intel.whl",
+        "duckdb-0.1.5-cp37-cp37m-win32.whl": "0.1.1@duckdb-0.1.1-cp37-cp37m-macosx_10_6_intel.whl",
+        "duckdb-0.1.5-cp37-cp37m-win_amd64.whl": "0.1.1@duckdb-0.1.1-cp37-cp37m-macosx_10_6_intel.whl"
+      },
+      "0.1.6": {
+        "duckdb-0.1.6-cp37-cp37m-macosx_10_7_intel.whl": {
+          "requires_dist": [
+            "numpy (>=1.14)",
+            "pandas (>=0.23)",
+            "pybind11 (>=2.4)"
+          ]
+        },
+        "duckdb-0.1.6-cp37-cp37m-manylinux1_i686.whl": "0.1.6@duckdb-0.1.6-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.1.6-cp37-cp37m-manylinux1_x86_64.whl": "0.1.6@duckdb-0.1.6-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.1.6-cp37-cp37m-win32.whl": "0.1.6@duckdb-0.1.6-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.1.6-cp37-cp37m-win_amd64.whl": "0.1.6@duckdb-0.1.6-cp37-cp37m-macosx_10_7_intel.whl"
+      },
+      "0.1.7": {
+        "duckdb-0.1.7-cp37-cp37m-macosx_10_7_intel.whl": "0.1.1@duckdb-0.1.1-cp37-cp37m-macosx_10_6_intel.whl",
+        "duckdb-0.1.7-cp37-cp37m-manylinux1_i686.whl": "0.1.1@duckdb-0.1.1-cp37-cp37m-macosx_10_6_intel.whl",
+        "duckdb-0.1.7-cp37-cp37m-manylinux1_x86_64.whl": "0.1.1@duckdb-0.1.1-cp37-cp37m-macosx_10_6_intel.whl",
+        "duckdb-0.1.7-cp37-cp37m-win32.whl": "0.1.1@duckdb-0.1.1-cp37-cp37m-macosx_10_6_intel.whl",
+        "duckdb-0.1.7-cp37-cp37m-win_amd64.whl": "0.1.1@duckdb-0.1.1-cp37-cp37m-macosx_10_6_intel.whl"
+      },
+      "0.1.8": {
+        "duckdb-0.1.8-cp37-cp37m-macosx_10_7_intel.whl": "0.1.1@duckdb-0.1.1-cp37-cp37m-macosx_10_6_intel.whl",
+        "duckdb-0.1.8-cp37-cp37m-manylinux1_i686.whl": "0.1.1@duckdb-0.1.1-cp37-cp37m-macosx_10_6_intel.whl",
+        "duckdb-0.1.8-cp37-cp37m-manylinux1_x86_64.whl": "0.1.1@duckdb-0.1.1-cp37-cp37m-macosx_10_6_intel.whl",
+        "duckdb-0.1.8-cp37-cp37m-win32.whl": "0.1.1@duckdb-0.1.1-cp37-cp37m-macosx_10_6_intel.whl",
+        "duckdb-0.1.8-cp37-cp37m-win_amd64.whl": "0.1.1@duckdb-0.1.1-cp37-cp37m-macosx_10_6_intel.whl"
+      },
+      "0.1.9": {
+        "duckdb-0.1.9-cp37-cp37m-macosx_10_7_intel.whl": "0.1.1@duckdb-0.1.1-cp37-cp37m-macosx_10_6_intel.whl",
+        "duckdb-0.1.9-cp37-cp37m-manylinux1_i686.whl": "0.1.1@duckdb-0.1.1-cp37-cp37m-macosx_10_6_intel.whl",
+        "duckdb-0.1.9-cp37-cp37m-manylinux1_x86_64.whl": "0.1.1@duckdb-0.1.1-cp37-cp37m-macosx_10_6_intel.whl",
+        "duckdb-0.1.9-cp37-cp37m-win32.whl": "0.1.1@duckdb-0.1.1-cp37-cp37m-macosx_10_6_intel.whl",
+        "duckdb-0.1.9-cp37-cp37m-win_amd64.whl": "0.1.1@duckdb-0.1.1-cp37-cp37m-macosx_10_6_intel.whl"
+      },
+      "0.2.0": {
+        "duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl": {
+          "requires_dist": [
+            "numpy (>=1.14)"
+          ]
+        },
+        "duckdb-0.2.0-cp37-cp37m-manylinux1_i686.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.2.0-cp37-cp37m-manylinux1_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.2.0-cp37-cp37m-win32.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.2.0-cp37-cp37m-win_amd64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl"
+      },
+      "0.2.1": {
+        "duckdb-0.2.1-cp37-cp37m-macosx_10_9_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.2.1-cp37-cp37m-manylinux2010_i686.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.2.1-cp37-cp37m-manylinux2010_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.2.1-cp37-cp37m-win32.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.2.1-cp37-cp37m-win_amd64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl"
+      },
+      "0.2.2": {
+        "duckdb-0.2.2-cp37-cp37m-macosx_10_9_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.2.2-cp37-cp37m-manylinux2010_i686.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.2.2-cp37-cp37m-manylinux2010_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.2.2-cp37-cp37m-win32.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.2.2-cp37-cp37m-win_amd64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl"
+      },
+      "0.2.3": {
+        "duckdb-0.2.3-cp37-cp37m-macosx_10_9_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.2.3-cp37-cp37m-manylinux2010_i686.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.2.3-cp37-cp37m-manylinux2010_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.2.3-cp37-cp37m-win32.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.2.3-cp37-cp37m-win_amd64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl"
+      },
+      "0.2.4": {
+        "duckdb-0.2.4-cp37-cp37m-macosx_10_9_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.2.4-cp37-cp37m-manylinux2010_i686.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.2.4-cp37-cp37m-manylinux2010_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.2.4-cp37-cp37m-win32.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.2.4-cp37-cp37m-win_amd64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl"
+      },
+      "0.2.5": {
+        "duckdb-0.2.5-cp37-cp37m-macosx_10_9_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.2.5-cp37-cp37m-manylinux2010_i686.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.2.5-cp37-cp37m-manylinux2010_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.2.5-cp37-cp37m-win32.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.2.5-cp37-cp37m-win_amd64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl"
+      },
+      "0.2.6": {
+        "duckdb-0.2.6-cp37-cp37m-macosx_10_9_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.2.6-cp37-cp37m-manylinux2010_i686.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.2.6-cp37-cp37m-manylinux2010_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.2.6-cp37-cp37m-win32.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.2.6-cp37-cp37m-win_amd64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl"
+      },
+      "0.2.7": {
+        "duckdb-0.2.7-cp37-cp37m-macosx_10_9_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.2.7-cp37-cp37m-manylinux2010_i686.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.2.7-cp37-cp37m-manylinux2010_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.2.7-cp37-cp37m-win32.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.2.7-cp37-cp37m-win_amd64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl"
+      },
+      "0.2.8": {
+        "duckdb-0.2.8-cp37-cp37m-macosx_10_9_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.2.8-cp37-cp37m-manylinux_2_12_i686.manylinux2010_i686.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.2.8-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.2.8-cp37-cp37m-win32.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.2.8-cp37-cp37m-win_amd64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl"
+      },
+      "0.2.9": {
+        "duckdb-0.2.9-cp37-cp37m-macosx_10_9_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.2.9-cp37-cp37m-manylinux_2_12_i686.manylinux2010_i686.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.2.9-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.2.9-cp37-cp37m-win32.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.2.9-cp37-cp37m-win_amd64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl"
+      },
+      "0.3.0": {
+        "duckdb-0.3.0-cp37-cp37m-macosx_10_9_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.3.0-cp37-cp37m-manylinux_2_12_i686.manylinux2010_i686.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.3.0-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.3.0-cp37-cp37m-win32.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.3.0-cp37-cp37m-win_amd64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl"
+      },
+      "0.3.1": {
+        "duckdb-0.3.1-cp37-cp37m-macosx_10_9_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.3.1-cp37-cp37m-manylinux_2_12_i686.manylinux2010_i686.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.3.1-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.3.1-cp37-cp37m-musllinux_1_1_i686.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.3.1-cp37-cp37m-musllinux_1_1_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.3.1-cp37-cp37m-win32.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.3.1-cp37-cp37m-win_amd64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl"
+      },
+      "0.3.2": {
+        "duckdb-0.3.2-cp37-cp37m-macosx_10_9_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.3.2-cp37-cp37m-manylinux_2_17_i686.manylinux2014_i686.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.3.2-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.3.2-cp37-cp37m-musllinux_1_1_i686.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.3.2-cp37-cp37m-musllinux_1_1_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.3.2-cp37-cp37m-win32.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.3.2-cp37-cp37m-win_amd64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl"
+      },
+      "0.3.3": {
+        "duckdb-0.3.3-cp37-cp37m-manylinux_2_17_i686.manylinux2014_i686.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.3.3-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.3.3-cp37-cp37m-musllinux_1_1_i686.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.3.3-cp37-cp37m-musllinux_1_1_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl"
+      },
+      "0.3.4": {
+        "duckdb-0.3.4-cp37-cp37m-macosx_10_9_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.3.4-cp37-cp37m-manylinux_2_17_i686.manylinux2014_i686.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.3.4-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.3.4-cp37-cp37m-musllinux_1_1_i686.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.3.4-cp37-cp37m-musllinux_1_1_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.3.4-cp37-cp37m-win32.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.3.4-cp37-cp37m-win_amd64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl"
+      },
+      "0.4.0": {
+        "duckdb-0.4.0-cp37-cp37m-macosx_10_9_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.4.0-cp37-cp37m-manylinux_2_17_i686.manylinux2014_i686.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.4.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.4.0-cp37-cp37m-musllinux_1_1_i686.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.4.0-cp37-cp37m-musllinux_1_1_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.4.0-cp37-cp37m-win32.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.4.0-cp37-cp37m-win_amd64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl"
+      },
+      "0.5.0": {
+        "duckdb-0.5.0-cp37-cp37m-macosx_10_9_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.5.0-cp37-cp37m-manylinux_2_17_i686.manylinux2014_i686.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.5.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.5.0-cp37-cp37m-musllinux_1_1_i686.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.5.0-cp37-cp37m-musllinux_1_1_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.5.0-cp37-cp37m-win32.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.5.0-cp37-cp37m-win_amd64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl"
+      },
+      "0.5.1": {
+        "duckdb-0.5.1-cp37-cp37m-macosx_10_9_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.5.1-cp37-cp37m-manylinux_2_17_i686.manylinux2014_i686.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.5.1-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.5.1-cp37-cp37m-musllinux_1_1_i686.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.5.1-cp37-cp37m-musllinux_1_1_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.5.1-cp37-cp37m-win32.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.5.1-cp37-cp37m-win_amd64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl"
+      },
+      "0.6.0": {
+        "duckdb-0.6.0-cp37-cp37m-macosx_10_9_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.6.0-cp37-cp37m-manylinux_2_17_i686.manylinux2014_i686.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.6.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.6.0-cp37-cp37m-musllinux_1_1_i686.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.6.0-cp37-cp37m-musllinux_1_1_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.6.0-cp37-cp37m-win32.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.6.0-cp37-cp37m-win_amd64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl"
+      },
+      "0.6.1": {
+        "duckdb-0.6.1-cp37-cp37m-macosx_10_9_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.6.1-cp37-cp37m-manylinux_2_17_i686.manylinux2014_i686.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.6.1-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.6.1-cp37-cp37m-musllinux_1_1_i686.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.6.1-cp37-cp37m-musllinux_1_1_x86_64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.6.1-cp37-cp37m-win32.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl",
+        "duckdb-0.6.1-cp37-cp37m-win_amd64.whl": "0.2.0@duckdb-0.2.0-cp37-cp37m-macosx_10_7_intel.whl"
+      },
+      "0.7.0": {
+        "duckdb-0.7.0-cp37-cp37m-macosx_10_9_x86_64.whl": {},
+        "duckdb-0.7.0-cp37-cp37m-manylinux_2_17_i686.manylinux2014_i686.whl": "0.7.0@duckdb-0.7.0-cp37-cp37m-macosx_10_9_x86_64.whl",
+        "duckdb-0.7.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.7.0@duckdb-0.7.0-cp37-cp37m-macosx_10_9_x86_64.whl",
+        "duckdb-0.7.0-cp37-cp37m-musllinux_1_1_i686.whl": "0.7.0@duckdb-0.7.0-cp37-cp37m-macosx_10_9_x86_64.whl",
+        "duckdb-0.7.0-cp37-cp37m-musllinux_1_1_x86_64.whl": "0.7.0@duckdb-0.7.0-cp37-cp37m-macosx_10_9_x86_64.whl",
+        "duckdb-0.7.0-cp37-cp37m-win32.whl": "0.7.0@duckdb-0.7.0-cp37-cp37m-macosx_10_9_x86_64.whl",
+        "duckdb-0.7.0-cp37-cp37m-win_amd64.whl": "0.7.0@duckdb-0.7.0-cp37-cp37m-macosx_10_9_x86_64.whl"
+      },
+      "0.7.1": {
+        "duckdb-0.7.1-cp37-cp37m-macosx_10_9_x86_64.whl": "0.7.0@duckdb-0.7.0-cp37-cp37m-macosx_10_9_x86_64.whl",
+        "duckdb-0.7.1-cp37-cp37m-manylinux_2_17_i686.manylinux2014_i686.whl": "0.7.0@duckdb-0.7.0-cp37-cp37m-macosx_10_9_x86_64.whl",
+        "duckdb-0.7.1-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.7.0@duckdb-0.7.0-cp37-cp37m-macosx_10_9_x86_64.whl",
+        "duckdb-0.7.1-cp37-cp37m-musllinux_1_1_i686.whl": "0.7.0@duckdb-0.7.0-cp37-cp37m-macosx_10_9_x86_64.whl",
+        "duckdb-0.7.1-cp37-cp37m-musllinux_1_1_x86_64.whl": "0.7.0@duckdb-0.7.0-cp37-cp37m-macosx_10_9_x86_64.whl",
+        "duckdb-0.7.1-cp37-cp37m-win32.whl": "0.7.0@duckdb-0.7.0-cp37-cp37m-macosx_10_9_x86_64.whl",
+        "duckdb-0.7.1-cp37-cp37m-win_amd64.whl": "0.7.0@duckdb-0.7.0-cp37-cp37m-macosx_10_9_x86_64.whl"
+      },
+      "0.8.0": {
+        "duckdb-0.8.0-cp37-cp37m-macosx_10_9_x86_64.whl": "0.7.0@duckdb-0.7.0-cp37-cp37m-macosx_10_9_x86_64.whl",
+        "duckdb-0.8.0-cp37-cp37m-manylinux_2_17_i686.manylinux2014_i686.whl": "0.7.0@duckdb-0.7.0-cp37-cp37m-macosx_10_9_x86_64.whl",
+        "duckdb-0.8.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.7.0@duckdb-0.7.0-cp37-cp37m-macosx_10_9_x86_64.whl",
+        "duckdb-0.8.0-cp37-cp37m-musllinux_1_1_i686.whl": "0.7.0@duckdb-0.7.0-cp37-cp37m-macosx_10_9_x86_64.whl",
+        "duckdb-0.8.0-cp37-cp37m-musllinux_1_1_x86_64.whl": "0.7.0@duckdb-0.7.0-cp37-cp37m-macosx_10_9_x86_64.whl",
+        "duckdb-0.8.0-cp37-cp37m-win32.whl": "0.7.0@duckdb-0.7.0-cp37-cp37m-macosx_10_9_x86_64.whl",
+        "duckdb-0.8.0-cp37-cp37m-win_amd64.whl": "0.7.0@duckdb-0.7.0-cp37-cp37m-macosx_10_9_x86_64.whl"
+      },
+      "0.8.1": {
+        "duckdb-0.8.1-cp37-cp37m-macosx_10_9_x86_64.whl": "0.7.0@duckdb-0.7.0-cp37-cp37m-macosx_10_9_x86_64.whl",
+        "duckdb-0.8.1-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "0.7.0@duckdb-0.7.0-cp37-cp37m-macosx_10_9_x86_64.whl",
+        "duckdb-0.8.1-cp37-cp37m-manylinux_2_17_i686.manylinux2014_i686.whl": "0.7.0@duckdb-0.7.0-cp37-cp37m-macosx_10_9_x86_64.whl",
+        "duckdb-0.8.1-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.7.0@duckdb-0.7.0-cp37-cp37m-macosx_10_9_x86_64.whl",
+        "duckdb-0.8.1-cp37-cp37m-musllinux_1_1_i686.whl": "0.7.0@duckdb-0.7.0-cp37-cp37m-macosx_10_9_x86_64.whl",
+        "duckdb-0.8.1-cp37-cp37m-musllinux_1_1_x86_64.whl": "0.7.0@duckdb-0.7.0-cp37-cp37m-macosx_10_9_x86_64.whl",
+        "duckdb-0.8.1-cp37-cp37m-win32.whl": "0.7.0@duckdb-0.7.0-cp37-cp37m-macosx_10_9_x86_64.whl",
+        "duckdb-0.8.1-cp37-cp37m-win_amd64.whl": "0.7.0@duckdb-0.7.0-cp37-cp37m-macosx_10_9_x86_64.whl"
+      }
+    },
+    "cp38": {
+      "0.2.1": {
+        "duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl": {
+          "requires_dist": [
+            "numpy (>=1.14)"
+          ]
+        },
+        "duckdb-0.2.1-cp38-cp38-manylinux2010_i686.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.1-cp38-cp38-manylinux2010_x86_64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.1-cp38-cp38-win32.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.1-cp38-cp38-win_amd64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl"
+      },
+      "0.2.2": {
+        "duckdb-0.2.2-cp38-cp38-macosx_10_9_x86_64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.2-cp38-cp38-manylinux2010_i686.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.2-cp38-cp38-manylinux2010_x86_64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.2-cp38-cp38-win32.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.2-cp38-cp38-win_amd64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl"
+      },
+      "0.2.3": {
+        "duckdb-0.2.3-cp38-cp38-macosx_10_9_x86_64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.3-cp38-cp38-manylinux2010_i686.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.3-cp38-cp38-manylinux2010_x86_64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.3-cp38-cp38-win32.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.3-cp38-cp38-win_amd64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl"
+      },
+      "0.2.4": {
+        "duckdb-0.2.4-cp38-cp38-macosx_10_9_x86_64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.4-cp38-cp38-manylinux2010_i686.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.4-cp38-cp38-manylinux2010_x86_64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.4-cp38-cp38-win32.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.4-cp38-cp38-win_amd64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl"
+      },
+      "0.2.5": {
+        "duckdb-0.2.5-cp38-cp38-macosx_10_9_x86_64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.5-cp38-cp38-manylinux2010_i686.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.5-cp38-cp38-manylinux2010_x86_64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.5-cp38-cp38-win32.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.5-cp38-cp38-win_amd64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl"
+      },
+      "0.2.6": {
+        "duckdb-0.2.6-cp38-cp38-macosx_10_9_x86_64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.6-cp38-cp38-manylinux2010_i686.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.6-cp38-cp38-manylinux2010_x86_64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.6-cp38-cp38-win32.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.6-cp38-cp38-win_amd64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl"
+      },
+      "0.2.7": {
+        "duckdb-0.2.7-cp38-cp38-macosx_10_9_x86_64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.7-cp38-cp38-manylinux2010_i686.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.7-cp38-cp38-manylinux2010_x86_64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.7-cp38-cp38-win32.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.7-cp38-cp38-win_amd64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl"
+      },
+      "0.2.8": {
+        "duckdb-0.2.8-cp38-cp38-macosx_10_9_universal2.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.8-cp38-cp38-macosx_10_9_x86_64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.8-cp38-cp38-macosx_11_0_arm64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.8-cp38-cp38-manylinux_2_12_i686.manylinux2010_i686.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.8-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.8-cp38-cp38-win32.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.8-cp38-cp38-win_amd64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl"
+      },
+      "0.2.9": {
+        "duckdb-0.2.9-cp38-cp38-macosx_10_9_universal2.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.9-cp38-cp38-macosx_10_9_x86_64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.9-cp38-cp38-macosx_11_0_arm64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.9-cp38-cp38-manylinux_2_12_i686.manylinux2010_i686.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.9-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.9-cp38-cp38-win32.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.9-cp38-cp38-win_amd64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl"
+      },
+      "0.3.0": {
+        "duckdb-0.3.0-cp38-cp38-macosx_10_9_universal2.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.0-cp38-cp38-macosx_10_9_x86_64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.0-cp38-cp38-macosx_11_0_arm64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.0-cp38-cp38-manylinux_2_12_i686.manylinux2010_i686.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.0-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.0-cp38-cp38-win32.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.0-cp38-cp38-win_amd64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl"
+      },
+      "0.3.1": {
+        "duckdb-0.3.1-cp38-cp38-macosx_10_9_universal2.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.1-cp38-cp38-macosx_10_9_x86_64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.1-cp38-cp38-macosx_11_0_arm64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.1-cp38-cp38-manylinux_2_12_i686.manylinux2010_i686.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.1-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.1-cp38-cp38-musllinux_1_1_i686.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.1-cp38-cp38-musllinux_1_1_x86_64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.1-cp38-cp38-win32.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.1-cp38-cp38-win_amd64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl"
+      },
+      "0.3.2": {
+        "duckdb-0.3.2-cp38-cp38-macosx_10_9_universal2.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.2-cp38-cp38-macosx_10_9_x86_64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.2-cp38-cp38-macosx_11_0_arm64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.2-cp38-cp38-manylinux_2_17_i686.manylinux2014_i686.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.2-cp38-cp38-musllinux_1_1_i686.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.2-cp38-cp38-musllinux_1_1_x86_64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.2-cp38-cp38-win32.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.2-cp38-cp38-win_amd64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl"
+      },
+      "0.3.4": {
+        "duckdb-0.3.4-cp38-cp38-macosx_10_9_universal2.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.4-cp38-cp38-macosx_10_9_x86_64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.4-cp38-cp38-macosx_11_0_arm64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.4-cp38-cp38-manylinux_2_17_i686.manylinux2014_i686.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.4-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.4-cp38-cp38-musllinux_1_1_i686.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.4-cp38-cp38-musllinux_1_1_x86_64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.4-cp38-cp38-win32.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.4-cp38-cp38-win_amd64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl"
+      },
+      "0.4.0": {
+        "duckdb-0.4.0-cp38-cp38-macosx_10_9_universal2.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.4.0-cp38-cp38-macosx_10_9_x86_64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.4.0-cp38-cp38-macosx_11_0_arm64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.4.0-cp38-cp38-manylinux_2_17_i686.manylinux2014_i686.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.4.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.4.0-cp38-cp38-musllinux_1_1_i686.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.4.0-cp38-cp38-musllinux_1_1_x86_64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.4.0-cp38-cp38-win32.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.4.0-cp38-cp38-win_amd64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl"
+      },
+      "0.5.0": {
+        "duckdb-0.5.0-cp38-cp38-macosx_10_9_universal2.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.5.0-cp38-cp38-macosx_10_9_x86_64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.5.0-cp38-cp38-macosx_11_0_arm64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.5.0-cp38-cp38-manylinux_2_17_i686.manylinux2014_i686.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.5.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.5.0-cp38-cp38-musllinux_1_1_i686.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.5.0-cp38-cp38-musllinux_1_1_x86_64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.5.0-cp38-cp38-win32.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.5.0-cp38-cp38-win_amd64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl"
+      },
+      "0.5.1": {
+        "duckdb-0.5.1-cp38-cp38-macosx_10_9_universal2.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.5.1-cp38-cp38-macosx_10_9_x86_64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.5.1-cp38-cp38-macosx_11_0_arm64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.5.1-cp38-cp38-manylinux_2_17_i686.manylinux2014_i686.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.5.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.5.1-cp38-cp38-musllinux_1_1_i686.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.5.1-cp38-cp38-musllinux_1_1_x86_64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.5.1-cp38-cp38-win32.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.5.1-cp38-cp38-win_amd64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl"
+      },
+      "0.6.0": {
+        "duckdb-0.6.0-cp38-cp38-macosx_10_9_universal2.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.6.0-cp38-cp38-macosx_10_9_x86_64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.6.0-cp38-cp38-macosx_11_0_arm64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.6.0-cp38-cp38-manylinux_2_17_i686.manylinux2014_i686.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.6.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.6.0-cp38-cp38-musllinux_1_1_i686.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.6.0-cp38-cp38-musllinux_1_1_x86_64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.6.0-cp38-cp38-win32.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.6.0-cp38-cp38-win_amd64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl"
+      },
+      "0.6.1": {
+        "duckdb-0.6.1-cp38-cp38-macosx_10_9_universal2.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.6.1-cp38-cp38-macosx_10_9_x86_64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.6.1-cp38-cp38-macosx_11_0_arm64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.6.1-cp38-cp38-manylinux_2_17_i686.manylinux2014_i686.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.6.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.6.1-cp38-cp38-musllinux_1_1_i686.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.6.1-cp38-cp38-musllinux_1_1_x86_64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.6.1-cp38-cp38-win32.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "duckdb-0.6.1-cp38-cp38-win_amd64.whl": "0.2.1@duckdb-0.2.1-cp38-cp38-macosx_10_9_x86_64.whl"
+      },
+      "0.7.0": {
+        "duckdb-0.7.0-cp38-cp38-macosx_10_9_universal2.whl": {},
+        "duckdb-0.7.0-cp38-cp38-macosx_10_9_x86_64.whl": "0.7.0@duckdb-0.7.0-cp38-cp38-macosx_10_9_universal2.whl",
+        "duckdb-0.7.0-cp38-cp38-macosx_11_0_arm64.whl": "0.7.0@duckdb-0.7.0-cp38-cp38-macosx_10_9_universal2.whl",
+        "duckdb-0.7.0-cp38-cp38-manylinux_2_17_i686.manylinux2014_i686.whl": "0.7.0@duckdb-0.7.0-cp38-cp38-macosx_10_9_universal2.whl",
+        "duckdb-0.7.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.7.0@duckdb-0.7.0-cp38-cp38-macosx_10_9_universal2.whl",
+        "duckdb-0.7.0-cp38-cp38-musllinux_1_1_i686.whl": "0.7.0@duckdb-0.7.0-cp38-cp38-macosx_10_9_universal2.whl",
+        "duckdb-0.7.0-cp38-cp38-musllinux_1_1_x86_64.whl": "0.7.0@duckdb-0.7.0-cp38-cp38-macosx_10_9_universal2.whl",
+        "duckdb-0.7.0-cp38-cp38-win32.whl": "0.7.0@duckdb-0.7.0-cp38-cp38-macosx_10_9_universal2.whl",
+        "duckdb-0.7.0-cp38-cp38-win_amd64.whl": "0.7.0@duckdb-0.7.0-cp38-cp38-macosx_10_9_universal2.whl"
+      },
+      "0.7.1": {
+        "duckdb-0.7.1-cp38-cp38-macosx_10_9_universal2.whl": "0.7.0@duckdb-0.7.0-cp38-cp38-macosx_10_9_universal2.whl",
+        "duckdb-0.7.1-cp38-cp38-macosx_10_9_x86_64.whl": "0.7.0@duckdb-0.7.0-cp38-cp38-macosx_10_9_universal2.whl",
+        "duckdb-0.7.1-cp38-cp38-macosx_11_0_arm64.whl": "0.7.0@duckdb-0.7.0-cp38-cp38-macosx_10_9_universal2.whl",
+        "duckdb-0.7.1-cp38-cp38-manylinux_2_17_i686.manylinux2014_i686.whl": "0.7.0@duckdb-0.7.0-cp38-cp38-macosx_10_9_universal2.whl",
+        "duckdb-0.7.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.7.0@duckdb-0.7.0-cp38-cp38-macosx_10_9_universal2.whl",
+        "duckdb-0.7.1-cp38-cp38-musllinux_1_1_i686.whl": "0.7.0@duckdb-0.7.0-cp38-cp38-macosx_10_9_universal2.whl",
+        "duckdb-0.7.1-cp38-cp38-musllinux_1_1_x86_64.whl": "0.7.0@duckdb-0.7.0-cp38-cp38-macosx_10_9_universal2.whl",
+        "duckdb-0.7.1-cp38-cp38-win32.whl": "0.7.0@duckdb-0.7.0-cp38-cp38-macosx_10_9_universal2.whl",
+        "duckdb-0.7.1-cp38-cp38-win_amd64.whl": "0.7.0@duckdb-0.7.0-cp38-cp38-macosx_10_9_universal2.whl"
+      },
+      "0.8.0": {
+        "duckdb-0.8.0-cp38-cp38-macosx_10_9_universal2.whl": "0.7.0@duckdb-0.7.0-cp38-cp38-macosx_10_9_universal2.whl",
+        "duckdb-0.8.0-cp38-cp38-macosx_10_9_x86_64.whl": "0.7.0@duckdb-0.7.0-cp38-cp38-macosx_10_9_universal2.whl",
+        "duckdb-0.8.0-cp38-cp38-macosx_11_0_arm64.whl": "0.7.0@duckdb-0.7.0-cp38-cp38-macosx_10_9_universal2.whl",
+        "duckdb-0.8.0-cp38-cp38-manylinux_2_17_i686.manylinux2014_i686.whl": "0.7.0@duckdb-0.7.0-cp38-cp38-macosx_10_9_universal2.whl",
+        "duckdb-0.8.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.7.0@duckdb-0.7.0-cp38-cp38-macosx_10_9_universal2.whl",
+        "duckdb-0.8.0-cp38-cp38-musllinux_1_1_i686.whl": "0.7.0@duckdb-0.7.0-cp38-cp38-macosx_10_9_universal2.whl",
+        "duckdb-0.8.0-cp38-cp38-musllinux_1_1_x86_64.whl": "0.7.0@duckdb-0.7.0-cp38-cp38-macosx_10_9_universal2.whl",
+        "duckdb-0.8.0-cp38-cp38-win32.whl": "0.7.0@duckdb-0.7.0-cp38-cp38-macosx_10_9_universal2.whl",
+        "duckdb-0.8.0-cp38-cp38-win_amd64.whl": "0.7.0@duckdb-0.7.0-cp38-cp38-macosx_10_9_universal2.whl"
+      },
+      "0.8.1": {
+        "duckdb-0.8.1-cp38-cp38-macosx_10_9_universal2.whl": "0.7.0@duckdb-0.7.0-cp38-cp38-macosx_10_9_universal2.whl",
+        "duckdb-0.8.1-cp38-cp38-macosx_10_9_x86_64.whl": "0.7.0@duckdb-0.7.0-cp38-cp38-macosx_10_9_universal2.whl",
+        "duckdb-0.8.1-cp38-cp38-macosx_11_0_arm64.whl": "0.7.0@duckdb-0.7.0-cp38-cp38-macosx_10_9_universal2.whl",
+        "duckdb-0.8.1-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "0.7.0@duckdb-0.7.0-cp38-cp38-macosx_10_9_universal2.whl",
+        "duckdb-0.8.1-cp38-cp38-manylinux_2_17_i686.manylinux2014_i686.whl": "0.7.0@duckdb-0.7.0-cp38-cp38-macosx_10_9_universal2.whl",
+        "duckdb-0.8.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.7.0@duckdb-0.7.0-cp38-cp38-macosx_10_9_universal2.whl",
+        "duckdb-0.8.1-cp38-cp38-musllinux_1_1_i686.whl": "0.7.0@duckdb-0.7.0-cp38-cp38-macosx_10_9_universal2.whl",
+        "duckdb-0.8.1-cp38-cp38-musllinux_1_1_x86_64.whl": "0.7.0@duckdb-0.7.0-cp38-cp38-macosx_10_9_universal2.whl",
+        "duckdb-0.8.1-cp38-cp38-win32.whl": "0.7.0@duckdb-0.7.0-cp38-cp38-macosx_10_9_universal2.whl",
+        "duckdb-0.8.1-cp38-cp38-win_amd64.whl": "0.7.0@duckdb-0.7.0-cp38-cp38-macosx_10_9_universal2.whl"
+      }
+    },
+    "cp39": {
+      "0.2.3": {
+        "duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl": {
+          "requires_dist": [
+            "numpy (>=1.14)"
+          ]
+        },
+        "duckdb-0.2.3-cp39-cp39-manylinux2010_i686.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.3-cp39-cp39-manylinux2010_x86_64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.3-cp39-cp39-win32.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.3-cp39-cp39-win_amd64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl"
+      },
+      "0.2.4": {
+        "duckdb-0.2.4-cp39-cp39-macosx_10_9_x86_64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.4-cp39-cp39-manylinux2010_i686.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.4-cp39-cp39-manylinux2010_x86_64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.4-cp39-cp39-win32.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.4-cp39-cp39-win_amd64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl"
+      },
+      "0.2.5": {
+        "duckdb-0.2.5-cp39-cp39-macosx_10_9_x86_64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.5-cp39-cp39-manylinux2010_i686.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.5-cp39-cp39-manylinux2010_x86_64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.5-cp39-cp39-win32.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.5-cp39-cp39-win_amd64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl"
+      },
+      "0.2.6": {
+        "duckdb-0.2.6-cp39-cp39-macosx_10_9_x86_64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.6-cp39-cp39-manylinux2010_i686.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.6-cp39-cp39-manylinux2010_x86_64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.6-cp39-cp39-win32.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.6-cp39-cp39-win_amd64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl"
+      },
+      "0.2.7": {
+        "duckdb-0.2.7-cp39-cp39-macosx_10_9_universal2.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.7-cp39-cp39-macosx_10_9_x86_64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.7-cp39-cp39-macosx_11_0_arm64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.7-cp39-cp39-manylinux2010_i686.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.7-cp39-cp39-manylinux2010_x86_64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.7-cp39-cp39-win32.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.7-cp39-cp39-win_amd64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl"
+      },
+      "0.2.8": {
+        "duckdb-0.2.8-cp39-cp39-macosx_10_9_universal2.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.8-cp39-cp39-macosx_10_9_x86_64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.8-cp39-cp39-macosx_11_0_arm64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.8-cp39-cp39-manylinux_2_12_i686.manylinux2010_i686.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.8-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.8-cp39-cp39-win32.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.8-cp39-cp39-win_amd64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl"
+      },
+      "0.2.9": {
+        "duckdb-0.2.9-cp39-cp39-macosx_10_9_universal2.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.9-cp39-cp39-macosx_10_9_x86_64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.9-cp39-cp39-macosx_11_0_arm64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.9-cp39-cp39-manylinux_2_12_i686.manylinux2010_i686.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.9-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.9-cp39-cp39-win32.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.2.9-cp39-cp39-win_amd64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl"
+      },
+      "0.3.0": {
+        "duckdb-0.3.0-cp39-cp39-macosx_10_9_universal2.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.0-cp39-cp39-macosx_10_9_x86_64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.0-cp39-cp39-macosx_11_0_arm64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.0-cp39-cp39-manylinux_2_12_i686.manylinux2010_i686.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.0-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.0-cp39-cp39-win32.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.0-cp39-cp39-win_amd64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl"
+      },
+      "0.3.1": {
+        "duckdb-0.3.1-cp39-cp39-macosx_10_9_universal2.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.1-cp39-cp39-macosx_10_9_x86_64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.1-cp39-cp39-macosx_11_0_arm64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.1-cp39-cp39-manylinux_2_12_i686.manylinux2010_i686.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.1-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.1-cp39-cp39-musllinux_1_1_i686.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.1-cp39-cp39-musllinux_1_1_x86_64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.1-cp39-cp39-win32.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.1-cp39-cp39-win_amd64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl"
+      },
+      "0.3.2": {
+        "duckdb-0.3.2-cp39-cp39-macosx_10_9_universal2.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.2-cp39-cp39-macosx_10_9_x86_64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.2-cp39-cp39-macosx_11_0_arm64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.2-cp39-cp39-manylinux_2_17_i686.manylinux2014_i686.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.2-cp39-cp39-musllinux_1_1_i686.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.2-cp39-cp39-musllinux_1_1_x86_64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.2-cp39-cp39-win32.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.2-cp39-cp39-win_amd64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl"
+      },
+      "0.3.4": {
+        "duckdb-0.3.4-cp39-cp39-macosx_10_9_universal2.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.4-cp39-cp39-macosx_10_9_x86_64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.4-cp39-cp39-macosx_11_0_arm64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.4-cp39-cp39-manylinux_2_17_i686.manylinux2014_i686.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.4-cp39-cp39-musllinux_1_1_i686.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.4-cp39-cp39-musllinux_1_1_x86_64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.4-cp39-cp39-win32.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.3.4-cp39-cp39-win_amd64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl"
+      },
+      "0.4.0": {
+        "duckdb-0.4.0-cp39-cp39-macosx_10_9_universal2.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.4.0-cp39-cp39-macosx_10_9_x86_64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.4.0-cp39-cp39-macosx_11_0_arm64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.4.0-cp39-cp39-manylinux_2_17_i686.manylinux2014_i686.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.4.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.4.0-cp39-cp39-musllinux_1_1_i686.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.4.0-cp39-cp39-musllinux_1_1_x86_64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.4.0-cp39-cp39-win32.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.4.0-cp39-cp39-win_amd64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl"
+      },
+      "0.5.0": {
+        "duckdb-0.5.0-cp39-cp39-macosx_10_9_universal2.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.5.0-cp39-cp39-macosx_10_9_x86_64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.5.0-cp39-cp39-macosx_11_0_arm64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.5.0-cp39-cp39-manylinux_2_17_i686.manylinux2014_i686.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.5.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.5.0-cp39-cp39-musllinux_1_1_i686.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.5.0-cp39-cp39-musllinux_1_1_x86_64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.5.0-cp39-cp39-win32.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.5.0-cp39-cp39-win_amd64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl"
+      },
+      "0.5.1": {
+        "duckdb-0.5.1-cp39-cp39-macosx_10_9_universal2.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.5.1-cp39-cp39-macosx_10_9_x86_64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.5.1-cp39-cp39-macosx_11_0_arm64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.5.1-cp39-cp39-manylinux_2_17_i686.manylinux2014_i686.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.5.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.5.1-cp39-cp39-musllinux_1_1_i686.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.5.1-cp39-cp39-musllinux_1_1_x86_64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.5.1-cp39-cp39-win32.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.5.1-cp39-cp39-win_amd64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl"
+      },
+      "0.6.0": {
+        "duckdb-0.6.0-cp39-cp39-macosx_10_9_universal2.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.6.0-cp39-cp39-macosx_10_9_x86_64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.6.0-cp39-cp39-macosx_11_0_arm64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.6.0-cp39-cp39-manylinux_2_17_i686.manylinux2014_i686.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.6.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.6.0-cp39-cp39-musllinux_1_1_i686.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.6.0-cp39-cp39-musllinux_1_1_x86_64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.6.0-cp39-cp39-win32.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.6.0-cp39-cp39-win_amd64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl"
+      },
+      "0.6.1": {
+        "duckdb-0.6.1-cp39-cp39-macosx_10_9_universal2.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.6.1-cp39-cp39-macosx_10_9_x86_64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.6.1-cp39-cp39-macosx_11_0_arm64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.6.1-cp39-cp39-manylinux_2_17_i686.manylinux2014_i686.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.6.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.6.1-cp39-cp39-musllinux_1_1_i686.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.6.1-cp39-cp39-musllinux_1_1_x86_64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.6.1-cp39-cp39-win32.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl",
+        "duckdb-0.6.1-cp39-cp39-win_amd64.whl": "0.2.3@duckdb-0.2.3-cp39-cp39-macosx_10_9_x86_64.whl"
+      },
+      "0.7.0": {
+        "duckdb-0.7.0-cp39-cp39-macosx_10_9_universal2.whl": {},
+        "duckdb-0.7.0-cp39-cp39-macosx_10_9_x86_64.whl": "0.7.0@duckdb-0.7.0-cp39-cp39-macosx_10_9_universal2.whl",
+        "duckdb-0.7.0-cp39-cp39-macosx_11_0_arm64.whl": "0.7.0@duckdb-0.7.0-cp39-cp39-macosx_10_9_universal2.whl",
+        "duckdb-0.7.0-cp39-cp39-manylinux_2_17_i686.manylinux2014_i686.whl": "0.7.0@duckdb-0.7.0-cp39-cp39-macosx_10_9_universal2.whl",
+        "duckdb-0.7.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.7.0@duckdb-0.7.0-cp39-cp39-macosx_10_9_universal2.whl",
+        "duckdb-0.7.0-cp39-cp39-musllinux_1_1_i686.whl": "0.7.0@duckdb-0.7.0-cp39-cp39-macosx_10_9_universal2.whl",
+        "duckdb-0.7.0-cp39-cp39-musllinux_1_1_x86_64.whl": "0.7.0@duckdb-0.7.0-cp39-cp39-macosx_10_9_universal2.whl",
+        "duckdb-0.7.0-cp39-cp39-win32.whl": "0.7.0@duckdb-0.7.0-cp39-cp39-macosx_10_9_universal2.whl",
+        "duckdb-0.7.0-cp39-cp39-win_amd64.whl": "0.7.0@duckdb-0.7.0-cp39-cp39-macosx_10_9_universal2.whl"
+      },
+      "0.7.1": {
+        "duckdb-0.7.1-cp39-cp39-macosx_10_9_universal2.whl": "0.7.0@duckdb-0.7.0-cp39-cp39-macosx_10_9_universal2.whl",
+        "duckdb-0.7.1-cp39-cp39-macosx_10_9_x86_64.whl": "0.7.0@duckdb-0.7.0-cp39-cp39-macosx_10_9_universal2.whl",
+        "duckdb-0.7.1-cp39-cp39-macosx_11_0_arm64.whl": "0.7.0@duckdb-0.7.0-cp39-cp39-macosx_10_9_universal2.whl",
+        "duckdb-0.7.1-cp39-cp39-manylinux_2_17_i686.manylinux2014_i686.whl": "0.7.0@duckdb-0.7.0-cp39-cp39-macosx_10_9_universal2.whl",
+        "duckdb-0.7.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.7.0@duckdb-0.7.0-cp39-cp39-macosx_10_9_universal2.whl",
+        "duckdb-0.7.1-cp39-cp39-musllinux_1_1_i686.whl": "0.7.0@duckdb-0.7.0-cp39-cp39-macosx_10_9_universal2.whl",
+        "duckdb-0.7.1-cp39-cp39-musllinux_1_1_x86_64.whl": "0.7.0@duckdb-0.7.0-cp39-cp39-macosx_10_9_universal2.whl",
+        "duckdb-0.7.1-cp39-cp39-win32.whl": "0.7.0@duckdb-0.7.0-cp39-cp39-macosx_10_9_universal2.whl",
+        "duckdb-0.7.1-cp39-cp39-win_amd64.whl": "0.7.0@duckdb-0.7.0-cp39-cp39-macosx_10_9_universal2.whl"
+      },
+      "0.8.0": {
+        "duckdb-0.8.0-cp39-cp39-macosx_10_9_universal2.whl": "0.7.0@duckdb-0.7.0-cp39-cp39-macosx_10_9_universal2.whl",
+        "duckdb-0.8.0-cp39-cp39-macosx_10_9_x86_64.whl": "0.7.0@duckdb-0.7.0-cp39-cp39-macosx_10_9_universal2.whl",
+        "duckdb-0.8.0-cp39-cp39-macosx_11_0_arm64.whl": "0.7.0@duckdb-0.7.0-cp39-cp39-macosx_10_9_universal2.whl",
+        "duckdb-0.8.0-cp39-cp39-manylinux_2_17_i686.manylinux2014_i686.whl": "0.7.0@duckdb-0.7.0-cp39-cp39-macosx_10_9_universal2.whl",
+        "duckdb-0.8.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.7.0@duckdb-0.7.0-cp39-cp39-macosx_10_9_universal2.whl",
+        "duckdb-0.8.0-cp39-cp39-musllinux_1_1_i686.whl": "0.7.0@duckdb-0.7.0-cp39-cp39-macosx_10_9_universal2.whl",
+        "duckdb-0.8.0-cp39-cp39-musllinux_1_1_x86_64.whl": "0.7.0@duckdb-0.7.0-cp39-cp39-macosx_10_9_universal2.whl",
+        "duckdb-0.8.0-cp39-cp39-win32.whl": "0.7.0@duckdb-0.7.0-cp39-cp39-macosx_10_9_universal2.whl",
+        "duckdb-0.8.0-cp39-cp39-win_amd64.whl": "0.7.0@duckdb-0.7.0-cp39-cp39-macosx_10_9_universal2.whl"
+      },
+      "0.8.1": {
+        "duckdb-0.8.1-cp39-cp39-macosx_10_9_universal2.whl": "0.7.0@duckdb-0.7.0-cp39-cp39-macosx_10_9_universal2.whl",
+        "duckdb-0.8.1-cp39-cp39-macosx_10_9_x86_64.whl": "0.7.0@duckdb-0.7.0-cp39-cp39-macosx_10_9_universal2.whl",
+        "duckdb-0.8.1-cp39-cp39-macosx_11_0_arm64.whl": "0.7.0@duckdb-0.7.0-cp39-cp39-macosx_10_9_universal2.whl",
+        "duckdb-0.8.1-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "0.7.0@duckdb-0.7.0-cp39-cp39-macosx_10_9_universal2.whl",
+        "duckdb-0.8.1-cp39-cp39-manylinux_2_17_i686.manylinux2014_i686.whl": "0.7.0@duckdb-0.7.0-cp39-cp39-macosx_10_9_universal2.whl",
+        "duckdb-0.8.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.7.0@duckdb-0.7.0-cp39-cp39-macosx_10_9_universal2.whl",
+        "duckdb-0.8.1-cp39-cp39-musllinux_1_1_i686.whl": "0.7.0@duckdb-0.7.0-cp39-cp39-macosx_10_9_universal2.whl",
+        "duckdb-0.8.1-cp39-cp39-musllinux_1_1_x86_64.whl": "0.7.0@duckdb-0.7.0-cp39-cp39-macosx_10_9_universal2.whl",
+        "duckdb-0.8.1-cp39-cp39-win32.whl": "0.7.0@duckdb-0.7.0-cp39-cp39-macosx_10_9_universal2.whl",
+        "duckdb-0.8.1-cp39-cp39-win_amd64.whl": "0.7.0@duckdb-0.7.0-cp39-cp39-macosx_10_9_universal2.whl"
       }
     }
   },
@@ -25936,6 +27067,9 @@
           ],
           "requires_python": ">=3.9,<4.0"
         }
+      },
+      "0.2.1": {
+        "flowdeploy-0.2.1-py3-none-any.whl": "0.2.0@flowdeploy-0.2.0-py3-none-any.whl"
       }
     }
   },
@@ -26454,6 +27588,9 @@
       },
       "0.2.4": {
         "fps_kernels-0.2.4-py3-none-any.whl": "0.1.10@fps_kernels-0.1.10-py3-none-any.whl"
+      },
+      "0.2.5": {
+        "fps_kernels-0.2.5-py3-none-any.whl": "0.1.10@fps_kernels-0.1.10-py3-none-any.whl"
       }
     }
   },
@@ -28994,6 +30131,20 @@
       }
     }
   },
+  "functionapplydict": {
+    "py3": {
+      "0.10": {
+        "functionapplydict-0.10-py3-none-any.whl": {
+          "requires_dist": [
+            "deepcopyall",
+            "flatten-any-dict-iterable-or-whatsoever",
+            "isiter",
+            "multikeyiterdict"
+          ]
+        }
+      }
+    }
+  },
   "fusegrader": {
     "py3": {
       "0.0.1": {
@@ -30255,6 +31406,22 @@
       },
       "1.0.9": {
         "garmin_uploader-1.0.9-py3-none-any.whl": "1.0.10@garmin_uploader-1.0.10-py3-none-any.whl"
+      }
+    }
+  },
+  "gbtoolbox": {
+    "py3": {
+      "0.0.2": {
+        "gbtoolbox-0.0.2-py3-none-any.whl": {
+          "requires_dist": [
+            "geomloss>=0.2.6",
+            "numba>=0.57.0",
+            "numpy>=1.24.3",
+            "scipy>=1.10.1",
+            "torch>=2.0.1"
+          ],
+          "requires_python": ">=3.7"
+        }
       }
     }
   },
@@ -33538,6 +34705,16 @@
       },
       "0.1.1": {
         "hipersim-0.1.1-py3-none-any.whl": "0.0.26@hipersim-0.0.26-py3-none-any.whl"
+      },
+      "0.1.2": {
+        "hipersim-0.1.2-py3-none-any.whl": {
+          "requires_dist": [
+            "xarray",
+            "netcdf4",
+            "h5netcdf",
+            "tqdm"
+          ]
+        }
       }
     }
   },
@@ -35508,6 +36685,21 @@
             "gpytoolbox",
             "trimesh",
             "chamferdist == 1.0.0"
+          ],
+          "requires_python": ">=3.8"
+        }
+      },
+      "0.1.2": {
+        "irtk-0.1.2-py3-none-any.whl": {
+          "requires_dist": [
+            "imageio >= 2.27.0",
+            "imageio_ffmpeg",
+            "numpy",
+            "gin-config",
+            "gpytoolbox",
+            "trimesh",
+            "chamferdist == 1.0.0",
+            "matplotlib"
           ],
           "requires_python": ">=3.8"
         }
@@ -47187,6 +48379,12 @@
           "requires_python": ">=3.8.1,<4.0"
         }
       },
+      "0.0.283": {
+        "langchain-0.0.283-py3-none-any.whl": "0.0.281@langchain-0.0.281-py3-none-any.whl"
+      },
+      "0.0.284": {
+        "langchain-0.0.284-py3-none-any.whl": "0.0.281@langchain-0.0.281-py3-none-any.whl"
+      },
       "0.0.29": {
         "langchain-0.0.29-py3-none-any.whl": "0.0.28@langchain-0.0.28-py3-none-any.whl"
       },
@@ -54218,6 +55416,44 @@
       }
     }
   },
+  "llpm": {
+    "py3": {
+      "0.1.0": {
+        "llpm-0.1.0-py3-none-any.whl": {
+          "requires_dist": [
+            "requests (>=2.31.0,<3.0.0)",
+            "rich (>=13.5.2,<14.0.0)"
+          ],
+          "requires_python": ">=3.8,<4.0"
+        }
+      },
+      "0.1.1": {
+        "llpm-0.1.1-py3-none-any.whl": "0.1.0@llpm-0.1.0-py3-none-any.whl"
+      },
+      "0.1.2": {
+        "llpm-0.1.2-py3-none-any.whl": "0.1.0@llpm-0.1.0-py3-none-any.whl"
+      },
+      "0.2.0": {
+        "llpm-0.2.0-py3-none-any.whl": "0.1.0@llpm-0.1.0-py3-none-any.whl"
+      },
+      "0.2.1": {
+        "llpm-0.2.1-py3-none-any.whl": {
+          "requires_dist": [
+            "requests (>=2.31.0,<3.0.0)",
+            "rich (>=13.5.2,<14.0.0)",
+            "rich-argparse (>=1.3.0,<2.0.0)"
+          ],
+          "requires_python": ">=3.8,<4.0"
+        }
+      },
+      "0.2.2": {
+        "llpm-0.2.2-py3-none-any.whl": "0.2.1@llpm-0.2.1-py3-none-any.whl"
+      },
+      "0.3.0": {
+        "llpm-0.3.0-py3-none-any.whl": "0.2.1@llpm-0.2.1-py3-none-any.whl"
+      }
+    }
+  },
   "llsd": {
     "py2": {
       "1.0.0": {
@@ -57189,6 +58425,20 @@
             "jinja2",
             "logging"
           ]
+        }
+      }
+    }
+  },
+  "metobs-gui": {
+    "py3": {
+      "0.0.1a0": {
+        "metobs_gui-0.0.1a0-py3-none-any.whl": {
+          "requires_dist": [
+            "PyQt5 (==5.12.3)",
+            "PyQtWebEngine (>=5.12.1,<5.13.0)",
+            "metobs_toolkit (==0.1.2)"
+          ],
+          "requires_python": ">=3.9,<4.0"
         }
       }
     }
@@ -60274,8 +61524,26 @@
       "0.0.1004": {
         "nbdev_pandas-0.0.1004-py3-none-any.whl": "0.0.10@nbdev_pandas-0.0.10-py3-none-any.whl"
       },
+      "0.0.1005": {
+        "nbdev_pandas-0.0.1005-py3-none-any.whl": "0.0.10@nbdev_pandas-0.0.10-py3-none-any.whl"
+      },
+      "0.0.1006": {
+        "nbdev_pandas-0.0.1006-py3-none-any.whl": "0.0.10@nbdev_pandas-0.0.10-py3-none-any.whl"
+      },
+      "0.0.1007": {
+        "nbdev_pandas-0.0.1007-py3-none-any.whl": "0.0.10@nbdev_pandas-0.0.10-py3-none-any.whl"
+      },
+      "0.0.1008": {
+        "nbdev_pandas-0.0.1008-py3-none-any.whl": "0.0.10@nbdev_pandas-0.0.10-py3-none-any.whl"
+      },
+      "0.0.1009": {
+        "nbdev_pandas-0.0.1009-py3-none-any.whl": "0.0.10@nbdev_pandas-0.0.10-py3-none-any.whl"
+      },
       "0.0.101": {
         "nbdev_pandas-0.0.101-py3-none-any.whl": "0.0.10@nbdev_pandas-0.0.10-py3-none-any.whl"
+      },
+      "0.0.1010": {
+        "nbdev_pandas-0.0.1010-py3-none-any.whl": "0.0.10@nbdev_pandas-0.0.10-py3-none-any.whl"
       },
       "0.0.102": {
         "nbdev_pandas-0.0.102-py3-none-any.whl": "0.0.10@nbdev_pandas-0.0.10-py3-none-any.whl"
@@ -65243,6 +66511,9 @@
           ],
           "requires_python": ">=3.10"
         }
+      },
+      "16.0.1.0.3": {
+        "odoo_addon_product_variant_default_code-16.0.1.0.3-py3-none-any.whl": "16.0.1.0.2.1@odoo_addon_product_variant_default_code-16.0.1.0.2.1-py3-none-any.whl"
       }
     }
   },
@@ -65280,6 +66551,18 @@
       },
       "16.0.1.0.0.4": {
         "odoo_addon_repair_type-16.0.1.0.0.4-py3-none-any.whl": {
+          "requires_dist": [
+            "odoo <16.1dev,>=16.0a"
+          ],
+          "requires_python": ">=3.10"
+        }
+      }
+    }
+  },
+  "odoo-addon-sale-order-currency-rate": {
+    "py3": {
+      "16.0.1.0.0.3": {
+        "odoo_addon_sale_order_currency_rate-16.0.1.0.0.3-py3-none-any.whl": {
           "requires_dist": [
             "odoo <16.1dev,>=16.0a"
           ],
@@ -65422,6 +66705,14 @@
       },
       "10.0.2.0.2.99.dev5": {
         "odoo10_addon_product_margin_classification-10.0.2.0.2.99.dev5-py2-none-any.whl": "10.0.2.0.0.99.dev4@odoo10_addon_product_margin_classification-10.0.2.0.0.99.dev4-py2-none-any.whl"
+      },
+      "10.0.2.0.2.99.dev6": {
+        "odoo10_addon_product_margin_classification-10.0.2.0.2.99.dev6-py2-none-any.whl": {
+          "requires_dist": [
+            "odoo <10.1dev,>=10.0"
+          ],
+          "requires_python": "~=2.7"
+        }
       }
     }
   },
@@ -108616,6 +109907,56 @@
       }
     }
   },
+  "renson-endura-delta": {
+    "py3": {
+      "1.3.1": {
+        "renson_endura_delta-1.3.1-py3-none-any.whl": {
+          "requires_dist": [
+            "requests (>=2.26.0)",
+            "cachetools (>=4.2.2)"
+          ],
+          "requires_python": ">=3.6"
+        }
+      },
+      "1.3.2": {
+        "renson_endura_delta-1.3.2-py3-none-any.whl": {
+          "requires_dist": [
+            "requests (>=2.26.0)"
+          ],
+          "requires_python": ">=3.6"
+        }
+      },
+      "1.3.3": {
+        "renson_endura_delta-1.3.3-py3-none-any.whl": "1.3.2@renson_endura_delta-1.3.2-py3-none-any.whl"
+      },
+      "1.3.4": {
+        "renson_endura_delta-1.3.4-py3-none-any.whl": "1.3.2@renson_endura_delta-1.3.2-py3-none-any.whl"
+      },
+      "1.4.0": {
+        "renson_endura_delta-1.4.0-py3-none-any.whl": "1.3.2@renson_endura_delta-1.3.2-py3-none-any.whl"
+      },
+      "1.4.1": {
+        "renson_endura_delta-1.4.1-py3-none-any.whl": "1.3.2@renson_endura_delta-1.3.2-py3-none-any.whl"
+      },
+      "1.4.2": {
+        "renson_endura_delta-1.4.2-py3-none-any.whl": "1.3.2@renson_endura_delta-1.3.2-py3-none-any.whl"
+      },
+      "1.4.3": {
+        "renson_endura_delta-1.4.3-py3-none-any.whl": "1.3.2@renson_endura_delta-1.3.2-py3-none-any.whl"
+      },
+      "1.5.0": {
+        "renson_endura_delta-1.5.0-py3-none-any.whl": "1.3.2@renson_endura_delta-1.3.2-py3-none-any.whl"
+      },
+      "1.6.0": {
+        "renson_endura_delta-1.6.0-py3-none-any.whl": {
+          "requires_dist": [
+            "requests >=2.26.0"
+          ],
+          "requires_python": ">=3.6"
+        }
+      }
+    }
+  },
   "replay-classification": {
     "py2.py3": {
       "0.1.1": {
@@ -113362,6 +114703,25 @@
       "1.2.0": {
         "sdc11073-1.2.0-py3-none-any.whl": "1.1.24@sdc11073-1.1.24-py3-none-any.whl"
       },
+      "1.2.1": {
+        "sdc11073-1.2.1-py3-none-any.whl": {
+          "provides_extras": [
+            "lz4",
+            "test"
+          ],
+          "requires_dist": [
+            "ifaddr",
+            "lxml>=2.3",
+            "lz4; extra == 'lz4'",
+            "pytest; extra == 'test'",
+            "pytest-cov; extra == 'test'",
+            "pytest-html; extra == 'test'",
+            "pytest-xdist[psutil]; extra == 'test'",
+            "sdc11073[lz4]; extra == 'test'"
+          ],
+          "requires_python": "<3.12,>=3.7"
+        }
+      },
       "2.0.0a1": {
         "sdc11073-2.0.0a1-py3-none-any.whl": {
           "provides_extras": [
@@ -114584,6 +115944,9 @@
       },
       "1.5.4": {
         "sinol_make-1.5.4-py3-none-any.whl": "1.4.2@sinol_make-1.4.2-py3-none-any.whl"
+      },
+      "1.5.5": {
+        "sinol_make-1.5.5-py3-none-any.whl": "1.4.2@sinol_make-1.4.2-py3-none-any.whl"
       }
     }
   },
@@ -114697,6 +116060,27 @@
       },
       "0.0.7": {
         "skynet_ml-0.0.7-py3-none-any.whl": "0.0.1@skynet_ml-0.0.1-py3-none-any.whl"
+      },
+      "0.0.8": {
+        "skynet_ml-0.0.8-py3-none-any.whl": "0.0.1@skynet_ml-0.0.1-py3-none-any.whl"
+      },
+      "0.0.8.1": {
+        "skynet_ml-0.0.8.1-py3-none-any.whl": "0.0.1@skynet_ml-0.0.1-py3-none-any.whl"
+      },
+      "0.0.8.2": {
+        "skynet_ml-0.0.8.2-py3-none-any.whl": "0.0.1@skynet_ml-0.0.1-py3-none-any.whl"
+      },
+      "0.0.8.3": {
+        "skynet_ml-0.0.8.3-py3-none-any.whl": "0.0.1@skynet_ml-0.0.1-py3-none-any.whl"
+      },
+      "0.0.8.4": {
+        "skynet_ml-0.0.8.4-py3-none-any.whl": "0.0.1@skynet_ml-0.0.1-py3-none-any.whl"
+      },
+      "0.0.8.5": {
+        "skynet_ml-0.0.8.5-py3-none-any.whl": "0.0.1@skynet_ml-0.0.1-py3-none-any.whl"
+      },
+      "0.0.9": {
+        "skynet_ml-0.0.9-py3-none-any.whl": "0.0.1@skynet_ml-0.0.1-py3-none-any.whl"
       }
     }
   },
@@ -120526,6 +121910,17 @@
           ],
           "requires_python": ">=3.7.1,<3.12"
         }
+      },
+      "0.0.2": {
+        "tap_bitly-0.0.2-py3-none-any.whl": {
+          "requires_dist": [
+            "singer-sdk (>=0.31.0,<0.32.0)"
+          ],
+          "requires_python": ">=3.8,<3.12"
+        }
+      },
+      "0.0.2b1": {
+        "tap_bitly-0.0.2b1-py3-none-any.whl": "0.0.2@tap_bitly-0.0.2-py3-none-any.whl"
       }
     }
   },
@@ -121667,6 +123062,27 @@
         "tencentcloud_sdk_python_dbdc-3.0.973-py2.py3-none-any.whl": {
           "requires_dist": [
             "tencentcloud-sdk-python-common (==3.0.973)"
+          ]
+        }
+      },
+      "3.0.974": {
+        "tencentcloud_sdk_python_dbdc-3.0.974-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.974)"
+          ]
+        }
+      },
+      "3.0.975": {
+        "tencentcloud_sdk_python_dbdc-3.0.975-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.975)"
+          ]
+        }
+      },
+      "3.0.976": {
+        "tencentcloud_sdk_python_dbdc-3.0.976-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.976)"
           ]
         }
       }
@@ -123464,6 +124880,27 @@
         "tencentcloud_sdk_python_tem-3.0.973-py2.py3-none-any.whl": {
           "requires_dist": [
             "tencentcloud-sdk-python-common (==3.0.973)"
+          ]
+        }
+      },
+      "3.0.974": {
+        "tencentcloud_sdk_python_tem-3.0.974-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.974)"
+          ]
+        }
+      },
+      "3.0.975": {
+        "tencentcloud_sdk_python_tem-3.0.975-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.975)"
+          ]
+        }
+      },
+      "3.0.976": {
+        "tencentcloud_sdk_python_tem-3.0.976-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.976)"
           ]
         }
       }
@@ -132631,6 +134068,12 @@
       },
       "2023.9.4.2": {
         "yyxx_game_pkg-2023.9.4.2-py3-none-any.whl": "2023.8.10.1@yyxx_game_pkg-2023.8.10.1-py3-none-any.whl"
+      },
+      "2023.9.7.1": {
+        "yyxx_game_pkg-2023.9.7.1-py3-none-any.whl": "2023.8.10.1@yyxx_game_pkg-2023.8.10.1-py3-none-any.whl"
+      },
+      "2023.9.7.2": {
+        "yyxx_game_pkg-2023.9.7.2-py3-none-any.whl": "2023.8.10.1@yyxx_game_pkg-2023.8.10.1-py3-none-any.whl"
       }
     }
   },

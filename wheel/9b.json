@@ -6228,6 +6228,9 @@
       "1.31.41": {
         "botocore_a_la_carte_workspaces-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_workspaces-1.29.100-py3-none-any.whl"
       },
+      "1.31.42": {
+        "botocore_a_la_carte_workspaces-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_workspaces-1.29.100-py3-none-any.whl"
+      },
       "1.31.5": {
         "botocore_a_la_carte_workspaces-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_workspaces-1.29.100-py3-none-any.whl"
       },
@@ -16040,6 +16043,32 @@
     "py2.py3": {
       "1.0": {
         "DBConnectHelper-1.0-py2.py3-none-any.whl": {}
+      }
+    }
+  },
+  "dbt-ibis": {
+    "py3": {
+      "0.1.0": {
+        "dbt_ibis-0.1.0-py3-none-any.whl": {
+          "provides_extras": [
+            "dev"
+          ],
+          "requires_dist": [
+            "click",
+            "dbt-core>=1.5",
+            "ibis-framework[duckdb]>=6",
+            "black; extra == 'dev'",
+            "dbt-duckdb; extra == 'dev'",
+            "hatch; extra == 'dev'",
+            "ipdb; extra == 'dev'",
+            "ipykernel; extra == 'dev'",
+            "ipython; extra == 'dev'",
+            "mypy; extra == 'dev'",
+            "pytest; extra == 'dev'",
+            "ruff; extra == 'dev'"
+          ],
+          "requires_python": ">=3.9"
+        }
       }
     }
   },
@@ -34362,6 +34391,14 @@
         "huaweicloudsdkdli-3.1.57-py2.py3-none-any.whl": {
           "requires_dist": [
             "huaweicloudsdkcore >=3.1.57"
+          ],
+          "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
+        }
+      },
+      "3.1.58": {
+        "huaweicloudsdkdli-3.1.58-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "huaweicloudsdkcore >=3.1.58"
           ],
           "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
         }
@@ -58443,6 +58480,11 @@
         "OpenVisusNoGui-2.2.113-cp310-none-manylinux2010_x86_64.whl": "0.0.101@OpenVisusNoGui-0.0.101-cp310-none-macosx_10_9_x86_64.whl",
         "OpenVisusNoGui-2.2.113-cp310-none-win_amd64.whl": "0.0.101@OpenVisusNoGui-0.0.101-cp310-none-macosx_10_9_x86_64.whl"
       },
+      "2.2.114": {
+        "OpenVisusNoGui-2.2.114-cp310-none-macosx_10_9_x86_64.whl": "0.0.101@OpenVisusNoGui-0.0.101-cp310-none-macosx_10_9_x86_64.whl",
+        "OpenVisusNoGui-2.2.114-cp310-none-manylinux2010_x86_64.whl": "0.0.101@OpenVisusNoGui-0.0.101-cp310-none-macosx_10_9_x86_64.whl",
+        "OpenVisusNoGui-2.2.114-cp310-none-win_amd64.whl": "0.0.101@OpenVisusNoGui-0.0.101-cp310-none-macosx_10_9_x86_64.whl"
+      },
       "2.2.89": {
         "OpenVisusNoGui-2.2.89-cp310-none-macosx_10_9_x86_64.whl": "0.0.101@OpenVisusNoGui-0.0.101-cp310-none-macosx_10_9_x86_64.whl",
         "OpenVisusNoGui-2.2.89-cp310-none-manylinux2010_x86_64.whl": "0.0.101@OpenVisusNoGui-0.0.101-cp310-none-macosx_10_9_x86_64.whl",
@@ -58527,6 +58569,10 @@
         "OpenVisusNoGui-2.2.113-cp311-none-macosx_10_9_x86_64.whl": "2.2.100@OpenVisusNoGui-2.2.100-cp311-none-macosx_10_9_x86_64.whl",
         "OpenVisusNoGui-2.2.113-cp311-none-win_amd64.whl": "2.2.100@OpenVisusNoGui-2.2.100-cp311-none-macosx_10_9_x86_64.whl"
       },
+      "2.2.114": {
+        "OpenVisusNoGui-2.2.114-cp311-none-macosx_10_9_x86_64.whl": "2.2.100@OpenVisusNoGui-2.2.100-cp311-none-macosx_10_9_x86_64.whl",
+        "OpenVisusNoGui-2.2.114-cp311-none-win_amd64.whl": "2.2.100@OpenVisusNoGui-2.2.100-cp311-none-macosx_10_9_x86_64.whl"
+      },
       "2.2.89": {
         "OpenVisusNoGui-2.2.89-cp311-none-macosx_10_9_x86_64.whl": "2.2.100@OpenVisusNoGui-2.2.100-cp311-none-macosx_10_9_x86_64.whl",
         "OpenVisusNoGui-2.2.89-cp311-none-win_amd64.whl": "2.2.100@OpenVisusNoGui-2.2.100-cp311-none-macosx_10_9_x86_64.whl"
@@ -58592,6 +58638,9 @@
       },
       "2.2.113": {
         "OpenVisusNoGui-2.2.113-cp36-none-manylinux2010_x86_64.whl": "2.2.100@OpenVisusNoGui-2.2.100-cp36-none-manylinux2010_x86_64.whl"
+      },
+      "2.2.114": {
+        "OpenVisusNoGui-2.2.114-cp36-none-manylinux2010_x86_64.whl": "2.2.100@OpenVisusNoGui-2.2.100-cp36-none-manylinux2010_x86_64.whl"
       },
       "2.2.89": {
         "OpenVisusNoGui-2.2.89-cp36-none-manylinux2010_x86_64.whl": "2.2.100@OpenVisusNoGui-2.2.100-cp36-none-manylinux2010_x86_64.whl"
@@ -58680,6 +58729,11 @@
         "OpenVisusNoGui-2.2.113-cp37-none-macosx_10_9_x86_64.whl": "0.0.101@OpenVisusNoGui-0.0.101-cp37-none-macosx_10_9_x86_64.whl",
         "OpenVisusNoGui-2.2.113-cp37-none-manylinux2010_x86_64.whl": "0.0.101@OpenVisusNoGui-0.0.101-cp37-none-macosx_10_9_x86_64.whl",
         "OpenVisusNoGui-2.2.113-cp37-none-win_amd64.whl": "0.0.101@OpenVisusNoGui-0.0.101-cp37-none-macosx_10_9_x86_64.whl"
+      },
+      "2.2.114": {
+        "OpenVisusNoGui-2.2.114-cp37-none-macosx_10_9_x86_64.whl": "0.0.101@OpenVisusNoGui-0.0.101-cp37-none-macosx_10_9_x86_64.whl",
+        "OpenVisusNoGui-2.2.114-cp37-none-manylinux2010_x86_64.whl": "0.0.101@OpenVisusNoGui-0.0.101-cp37-none-macosx_10_9_x86_64.whl",
+        "OpenVisusNoGui-2.2.114-cp37-none-win_amd64.whl": "0.0.101@OpenVisusNoGui-0.0.101-cp37-none-macosx_10_9_x86_64.whl"
       },
       "2.2.89": {
         "OpenVisusNoGui-2.2.89-cp37-none-macosx_10_9_x86_64.whl": "0.0.101@OpenVisusNoGui-0.0.101-cp37-none-macosx_10_9_x86_64.whl",
@@ -58786,6 +58840,11 @@
         "OpenVisusNoGui-2.2.113-cp38-none-manylinux2010_x86_64.whl": "0.0.101@OpenVisusNoGui-0.0.101-cp38-none-macosx_10_9_x86_64.whl",
         "OpenVisusNoGui-2.2.113-cp38-none-win_amd64.whl": "0.0.101@OpenVisusNoGui-0.0.101-cp38-none-macosx_10_9_x86_64.whl"
       },
+      "2.2.114": {
+        "OpenVisusNoGui-2.2.114-cp38-none-macosx_10_9_x86_64.whl": "0.0.101@OpenVisusNoGui-0.0.101-cp38-none-macosx_10_9_x86_64.whl",
+        "OpenVisusNoGui-2.2.114-cp38-none-manylinux2010_x86_64.whl": "0.0.101@OpenVisusNoGui-0.0.101-cp38-none-macosx_10_9_x86_64.whl",
+        "OpenVisusNoGui-2.2.114-cp38-none-win_amd64.whl": "0.0.101@OpenVisusNoGui-0.0.101-cp38-none-macosx_10_9_x86_64.whl"
+      },
       "2.2.89": {
         "OpenVisusNoGui-2.2.89-cp38-none-macosx_10_9_x86_64.whl": "0.0.101@OpenVisusNoGui-0.0.101-cp38-none-macosx_10_9_x86_64.whl",
         "OpenVisusNoGui-2.2.89-cp38-none-manylinux2010_x86_64.whl": "0.0.101@OpenVisusNoGui-0.0.101-cp38-none-macosx_10_9_x86_64.whl",
@@ -58888,6 +58947,11 @@
         "OpenVisusNoGui-2.2.113-cp39-none-macosx_10_9_x86_64.whl": "0.0.101@OpenVisusNoGui-0.0.101-cp39-none-macosx_10_9_x86_64.whl",
         "OpenVisusNoGui-2.2.113-cp39-none-manylinux2010_x86_64.whl": "0.0.101@OpenVisusNoGui-0.0.101-cp39-none-macosx_10_9_x86_64.whl",
         "OpenVisusNoGui-2.2.113-cp39-none-win_amd64.whl": "0.0.101@OpenVisusNoGui-0.0.101-cp39-none-macosx_10_9_x86_64.whl"
+      },
+      "2.2.114": {
+        "OpenVisusNoGui-2.2.114-cp39-none-macosx_10_9_x86_64.whl": "0.0.101@OpenVisusNoGui-0.0.101-cp39-none-macosx_10_9_x86_64.whl",
+        "OpenVisusNoGui-2.2.114-cp39-none-manylinux2010_x86_64.whl": "0.0.101@OpenVisusNoGui-0.0.101-cp39-none-macosx_10_9_x86_64.whl",
+        "OpenVisusNoGui-2.2.114-cp39-none-win_amd64.whl": "0.0.101@OpenVisusNoGui-0.0.101-cp39-none-macosx_10_9_x86_64.whl"
       },
       "2.2.89": {
         "OpenVisusNoGui-2.2.89-cp39-none-macosx_10_9_x86_64.whl": "0.0.101@OpenVisusNoGui-0.0.101-cp39-none-macosx_10_9_x86_64.whl",
@@ -87775,6 +87839,9 @@
       "0.0.21": {
         "symbal-0.0.21-py3-none-any.whl": "0.0.1@symbal-0.0.1-py3-none-any.whl"
       },
+      "0.0.22": {
+        "symbal-0.0.22-py3-none-any.whl": "0.0.1@symbal-0.0.1-py3-none-any.whl"
+      },
       "0.0.3": {
         "symbal-0.0.3-py3-none-any.whl": "0.0.1@symbal-0.0.1-py3-none-any.whl"
       },
@@ -100892,6 +100959,24 @@
       "0.0.12": {
         "variable_local-0.0.12-py3-none-any.whl": "0.0.1@variable_local-0.0.1-py3-none-any.whl"
       },
+      "0.0.13": {
+        "variable_local-0.0.13-py3-none-any.whl": "0.0.1@variable_local-0.0.1-py3-none-any.whl"
+      },
+      "0.0.14": {
+        "variable_local-0.0.14-py3-none-any.whl": "0.0.1@variable_local-0.0.1-py3-none-any.whl"
+      },
+      "0.0.15": {
+        "variable_local-0.0.15-py3-none-any.whl": "0.0.1@variable_local-0.0.1-py3-none-any.whl"
+      },
+      "0.0.16": {
+        "variable_local-0.0.16-py3-none-any.whl": "0.0.1@variable_local-0.0.1-py3-none-any.whl"
+      },
+      "0.0.17": {
+        "variable_local-0.0.17-py3-none-any.whl": "0.0.1@variable_local-0.0.1-py3-none-any.whl"
+      },
+      "0.0.18": {
+        "variable_local-0.0.18-py3-none-any.whl": "0.0.1@variable_local-0.0.1-py3-none-any.whl"
+      },
       "0.0.3": {
         "variable_local-0.0.3-py3-none-any.whl": "0.0.1@variable_local-0.0.1-py3-none-any.whl"
       },
@@ -102953,6 +103038,33 @@
       },
       "3.1.4": {
         "wedge_lib-3.1.4-py3-none-any.whl": "3.1.0@wedge_lib-3.1.0-py3-none-any.whl"
+      },
+      "3.1.5": {
+        "wedge_lib-3.1.5-py3-none-any.whl": {
+          "requires_dist": [
+            "arrow >=0.16",
+            "Django >=3.1",
+            "djangorestframework >=3.12.4",
+            "djangorestframework-api-key >=2.0.0",
+            "factory-boy >=3.0",
+            "openpyxl >=3.0",
+            "python-keycloak >=0.24.0",
+            "PyYAML >=5.3",
+            "requests >=2.24",
+            "serpy >=0.3",
+            "validators >=0.18",
+            "var-dump >=1.2",
+            "WeasyPrint >=52.5",
+            "pyzstd >=0.15.0",
+            "cryptography >=36.0.2",
+            "pandas >=1.4.2",
+            "mergedeep >=1.3.4",
+            "boto3 >=1.26.141",
+            "botocore >=1.29.141",
+            "moto >=4.1.10"
+          ],
+          "requires_python": ">=3.8"
+        }
       }
     }
   },

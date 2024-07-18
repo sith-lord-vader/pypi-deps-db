@@ -15099,6 +15099,9 @@
       },
       "3.8.1": {
         "boxsdk-3.8.1-py2.py3-none-any.whl": "3.7.2@boxsdk-3.7.2-py2.py3-none-any.whl"
+      },
+      "3.9.0": {
+        "boxsdk-3.9.0-py2.py3-none-any.whl": "3.7.2@boxsdk-3.7.2-py2.py3-none-any.whl"
       }
     }
   },
@@ -25897,6 +25900,37 @@
       }
     }
   },
+  "ddeutil": {
+    "py3": {
+      "0.1.0": {
+        "ddeutil-0.1.0-py3-none-any.whl": {
+          "provides_extras": [
+            "dev",
+            "test"
+          ],
+          "requires_dist": [
+            "ujson <6.0.0,==5.8.0",
+            "tzdata >=2023.3",
+            "python-dateutil",
+            "click >=8.1.3",
+            "tomli >=2.0.1",
+            "backports.zoneinfo >=0.2.1 ; python_version == \"3.8\"",
+            "ddeutil[test] ; extra == 'dev'",
+            "ruff >=0.0.138 ; extra == 'dev'",
+            "pre-commit >=3.3.3 ; extra == 'dev'",
+            "bump2version >=1.0.1 ; extra == 'dev'",
+            "pytest >=7.3.2 ; extra == 'test'",
+            "coverage[toml] >=7.0.0 ; extra == 'test'",
+            "mypy >=0.982 ; extra == 'test'",
+            "types-python-dateutil ; extra == 'test'",
+            "memory-profiler >=0.61.0 ; extra == 'test'",
+            "perfplot >=0.10.2 ; extra == 'test'"
+          ],
+          "requires_python": ">=3.8.10"
+        }
+      }
+    }
+  },
   "decoratio": {
     "py3": {
       "1.0.1": {
@@ -26130,6 +26164,9 @@
           ],
           "requires_python": ">=3.6"
         }
+      },
+      "0.11.2": {
+        "dedoc-0.11.2-py3-none-any.whl": "0.11.1@dedoc-0.11.1-py3-none-any.whl"
       },
       "0.9": {
         "dedoc-0.9-py3-none-any.whl": {
@@ -31114,6 +31151,17 @@
       },
       "0.0.5": {
         "email_address_local-0.0.5-py3-none-any.whl": "0.0.3@email_address_local-0.0.3-py3-none-any.whl"
+      },
+      "0.0.6": {
+        "email_address_local-0.0.6-py3-none-any.whl": {
+          "requires_dist": [
+            "logger-local >=0.0.56",
+            "database-without-orm-local >=0.0.70"
+          ]
+        }
+      },
+      "0.0.7": {
+        "email_address_local-0.0.7-py3-none-any.whl": "0.0.6@email_address_local-0.0.6-py3-none-any.whl"
       }
     }
   },
@@ -37977,6 +38025,9 @@
       },
       "5.6.0": {
         "hera_workflows-5.6.0-py3-none-any.whl": "5.0.0@hera_workflows-5.0.0-py3-none-any.whl"
+      },
+      "5.7.0": {
+        "hera_workflows-5.7.0-py3-none-any.whl": "5.0.0@hera_workflows-5.0.0-py3-none-any.whl"
       }
     }
   },
@@ -64228,6 +64279,12 @@
           ],
           "requires_python": ">=3.10"
         }
+      },
+      "16.0.2.0.0": {
+        "odoo_addon_attachment_zipped_download-16.0.2.0.0-py3-none-any.whl": "16.0.1.0.2.1@odoo_addon_attachment_zipped_download-16.0.1.0.2.1-py3-none-any.whl"
+      },
+      "16.0.2.0.0.2": {
+        "odoo_addon_attachment_zipped_download-16.0.2.0.0.2-py3-none-any.whl": "16.0.1.0.2.1@odoo_addon_attachment_zipped_download-16.0.1.0.2.1-py3-none-any.whl"
       }
     }
   },
@@ -64270,6 +64327,22 @@
         "odoo_addon_l10n_be_partner_kbo_bce-16.0.1.0.1.4-py3-none-any.whl": {
           "requires_dist": [
             "odoo-addon-partner-identification <16.1dev,>=16.0dev",
+            "odoo <16.1dev,>=16.0a"
+          ],
+          "requires_python": ">=3.10"
+        }
+      }
+    }
+  },
+  "odoo-addon-l10n-it-fatturapa-out-wt": {
+    "py3": {
+      "16.0.1.0.0.2": {
+        "odoo_addon_l10n_it_fatturapa_out_wt-16.0.1.0.0.2-py3-none-any.whl": {
+          "requires_dist": [
+            "odoo-addon-l10n-it-fatturapa <16.1dev,>=16.0dev",
+            "odoo-addon-l10n-it-fatturapa-out <16.1dev,>=16.0dev",
+            "odoo-addon-l10n-it-withholding-tax <16.1dev,>=16.0dev",
+            "odoo-addon-l10n-it-withholding-tax-reason <16.1dev,>=16.0dev",
             "odoo <16.1dev,>=16.0a"
           ],
           "requires_python": ">=3.10"
@@ -71573,6 +71646,12 @@
         "pelutils-3.0.0a1-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "3.0.0a1@pelutils-3.0.0a1-cp310-cp310-macosx_10_9_x86_64.whl",
         "pelutils-3.0.0a1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "3.0.0a1@pelutils-3.0.0a1-cp310-cp310-macosx_10_9_x86_64.whl",
         "pelutils-3.0.0a1-cp310-cp310-win_amd64.whl": "3.0.0a1@pelutils-3.0.0a1-cp310-cp310-macosx_10_9_x86_64.whl"
+      },
+      "3.0.0a2": {
+        "pelutils-3.0.0a2-cp310-cp310-macosx_10_9_x86_64.whl": "3.0.0a1@pelutils-3.0.0a1-cp310-cp310-macosx_10_9_x86_64.whl",
+        "pelutils-3.0.0a2-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "3.0.0a1@pelutils-3.0.0a1-cp310-cp310-macosx_10_9_x86_64.whl",
+        "pelutils-3.0.0a2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "3.0.0a1@pelutils-3.0.0a1-cp310-cp310-macosx_10_9_x86_64.whl",
+        "pelutils-3.0.0a2-cp310-cp310-win_amd64.whl": "3.0.0a1@pelutils-3.0.0a1-cp310-cp310-macosx_10_9_x86_64.whl"
       }
     },
     "cp37": {
@@ -71742,6 +71821,12 @@
         "pelutils-3.0.0a1-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "3.0.0a1@pelutils-3.0.0a1-cp37-cp37m-macosx_10_9_x86_64.whl",
         "pelutils-3.0.0a1-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "3.0.0a1@pelutils-3.0.0a1-cp37-cp37m-macosx_10_9_x86_64.whl",
         "pelutils-3.0.0a1-cp37-cp37m-win_amd64.whl": "3.0.0a1@pelutils-3.0.0a1-cp37-cp37m-macosx_10_9_x86_64.whl"
+      },
+      "3.0.0a2": {
+        "pelutils-3.0.0a2-cp37-cp37m-macosx_10_9_x86_64.whl": "3.0.0a1@pelutils-3.0.0a1-cp37-cp37m-macosx_10_9_x86_64.whl",
+        "pelutils-3.0.0a2-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "3.0.0a1@pelutils-3.0.0a1-cp37-cp37m-macosx_10_9_x86_64.whl",
+        "pelutils-3.0.0a2-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "3.0.0a1@pelutils-3.0.0a1-cp37-cp37m-macosx_10_9_x86_64.whl",
+        "pelutils-3.0.0a2-cp37-cp37m-win_amd64.whl": "3.0.0a1@pelutils-3.0.0a1-cp37-cp37m-macosx_10_9_x86_64.whl"
       }
     },
     "cp38": {
@@ -71911,6 +71996,12 @@
         "pelutils-3.0.0a1-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "3.0.0a1@pelutils-3.0.0a1-cp38-cp38-macosx_10_9_x86_64.whl",
         "pelutils-3.0.0a1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "3.0.0a1@pelutils-3.0.0a1-cp38-cp38-macosx_10_9_x86_64.whl",
         "pelutils-3.0.0a1-cp38-cp38-win_amd64.whl": "3.0.0a1@pelutils-3.0.0a1-cp38-cp38-macosx_10_9_x86_64.whl"
+      },
+      "3.0.0a2": {
+        "pelutils-3.0.0a2-cp38-cp38-macosx_10_9_x86_64.whl": "3.0.0a1@pelutils-3.0.0a1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "pelutils-3.0.0a2-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "3.0.0a1@pelutils-3.0.0a1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "pelutils-3.0.0a2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "3.0.0a1@pelutils-3.0.0a1-cp38-cp38-macosx_10_9_x86_64.whl",
+        "pelutils-3.0.0a2-cp38-cp38-win_amd64.whl": "3.0.0a1@pelutils-3.0.0a1-cp38-cp38-macosx_10_9_x86_64.whl"
       }
     },
     "cp39": {
@@ -72080,6 +72171,12 @@
         "pelutils-3.0.0a1-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "3.0.0a1@pelutils-3.0.0a1-cp39-cp39-macosx_10_9_x86_64.whl",
         "pelutils-3.0.0a1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "3.0.0a1@pelutils-3.0.0a1-cp39-cp39-macosx_10_9_x86_64.whl",
         "pelutils-3.0.0a1-cp39-cp39-win_amd64.whl": "3.0.0a1@pelutils-3.0.0a1-cp39-cp39-macosx_10_9_x86_64.whl"
+      },
+      "3.0.0a2": {
+        "pelutils-3.0.0a2-cp39-cp39-macosx_10_9_x86_64.whl": "3.0.0a1@pelutils-3.0.0a1-cp39-cp39-macosx_10_9_x86_64.whl",
+        "pelutils-3.0.0a2-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "3.0.0a1@pelutils-3.0.0a1-cp39-cp39-macosx_10_9_x86_64.whl",
+        "pelutils-3.0.0a2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "3.0.0a1@pelutils-3.0.0a1-cp39-cp39-macosx_10_9_x86_64.whl",
+        "pelutils-3.0.0a2-cp39-cp39-win_amd64.whl": "3.0.0a1@pelutils-3.0.0a1-cp39-cp39-macosx_10_9_x86_64.whl"
       }
     },
     "py3": {
@@ -76362,6 +76459,12 @@
       },
       "1.9.1": {
         "pyenphase-1.9.1-py3-none-any.whl": "0.10.0@pyenphase-0.10.0-py3-none-any.whl"
+      },
+      "1.9.2": {
+        "pyenphase-1.9.2-py3-none-any.whl": "0.10.0@pyenphase-0.10.0-py3-none-any.whl"
+      },
+      "1.9.3": {
+        "pyenphase-1.9.3-py3-none-any.whl": "0.10.0@pyenphase-0.10.0-py3-none-any.whl"
       }
     }
   },
@@ -79718,6 +79821,15 @@
             "pandas",
             "pyspark"
           ]
+        }
+      }
+    }
+  },
+  "pytorch-dataset": {
+    "py3": {
+      "0.0.1": {
+        "pytorch_dataset-0.0.1-py3-none-any.whl": {
+          "requires_python": ">=3.6,<4.0"
         }
       }
     }
@@ -86359,6 +86471,9 @@
       },
       "1.2.0": {
         "robocorp_vault-1.2.0-py3-none-any.whl": "1.1.0@robocorp_vault-1.1.0-py3-none-any.whl"
+      },
+      "1.3.0": {
+        "robocorp_vault-1.3.0-py3-none-any.whl": "1.1.0@robocorp_vault-1.1.0-py3-none-any.whl"
       }
     }
   },
@@ -87591,6 +87706,9 @@
       },
       "0.0.6": {
         "seaplane_framework.api-0.0.6-py3-none-any.whl": "0.0.2@seaplane_framework.api-0.0.2-py3-none-any.whl"
+      },
+      "0.0.7": {
+        "seaplane_framework.api-0.0.7-py3-none-any.whl": "0.0.2@seaplane_framework.api-0.0.2-py3-none-any.whl"
       }
     }
   },
@@ -89700,6 +89818,14 @@
       },
       "2.3.1.5": {
         "spacetraders_sdk-2.3.1.5-py3-none-any.whl": "2.3.1@spacetraders_sdk-2.3.1-py3-none-any.whl"
+      },
+      "2.3.1.7": {
+        "spacetraders_sdk-2.3.1.7-py3-none-any.whl": {
+          "requires_dist": [
+            "dacite (>=1.8.1,<2.0.0)"
+          ],
+          "requires_python": ">=3.10,<4.0"
+        }
       }
     }
   },
@@ -91024,6 +91150,9 @@
       },
       "6.2.0.dev122": {
         "stix_shifter_modules_rhacs-6.2.0.dev122-py2.py3-none-any.whl": "1.0.0.dev782@stix_shifter_modules_rhacs-1.0.0.dev782-py2.py3-none-any.whl"
+      },
+      "6.2.1": {
+        "stix_shifter_modules_rhacs-6.2.1-py2.py3-none-any.whl": "1.0.0.dev782@stix_shifter_modules_rhacs-1.0.0.dev782-py2.py3-none-any.whl"
       }
     }
   },
@@ -95518,6 +95647,9 @@
       },
       "0.0.3": {
         "universities_api_wrapper-0.0.3-py3-none-any.whl": "0.0.2@universities_api_wrapper-0.0.2-py3-none-any.whl"
+      },
+      "0.0.4": {
+        "universities_api_wrapper-0.0.4-py3-none-any.whl": "0.0.2@universities_api_wrapper-0.0.2-py3-none-any.whl"
       }
     }
   },
@@ -97881,6 +98013,32 @@
             "anyio<5,>=3.6.2",
             "typing-extensions; python_version < '3.8'",
             "y-py<0.7.0,>=0.6.0",
+            "mkdocs; extra == 'docs'",
+            "mkdocs-material; extra == 'docs'",
+            "mkdocstrings-python; extra == 'docs'",
+            "mypy; extra == 'test'",
+            "pre-commit; extra == 'test'",
+            "pytest; extra == 'test'",
+            "pytest-asyncio; extra == 'test'",
+            "uvicorn; extra == 'test'",
+            "websockets>=10.0; extra == 'test'"
+          ],
+          "requires_python": ">=3.7"
+        }
+      },
+      "0.12.3": {
+        "ypy_websocket-0.12.3-py3-none-any.whl": {
+          "provides_extras": [
+            "django",
+            "docs",
+            "test"
+          ],
+          "requires_dist": [
+            "aiosqlite<1,>=0.18.0",
+            "anyio<5,>=3.6.2",
+            "typing-extensions; python_version < '3.8'",
+            "y-py<0.7.0,>=0.6.0",
+            "channels; extra == 'django'",
             "mkdocs; extra == 'docs'",
             "mkdocs-material; extra == 'docs'",
             "mkdocstrings-python; extra == 'docs'",

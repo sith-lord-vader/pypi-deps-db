@@ -389,6 +389,14 @@
             "numpy-io (>=0.0.8)"
           ]
         }
+      },
+      "0.2.2": {
+        "aigc_zoo-0.2.2-py3-none-any.whl": {
+          "requires_dist": [
+            "deep-training (~=0.2.2)",
+            "numpy-io (>=0.0.8)"
+          ]
+        }
       }
     }
   },
@@ -3234,6 +3242,9 @@
       },
       "3.2.0": {
         "arlulacore-3.2.0-py3-none-any.whl": "1.0.0@arlulacore-1.0.0-py3-none-any.whl"
+      },
+      "3.3.0": {
+        "arlulacore-3.3.0-py3-none-any.whl": "1.0.0@arlulacore-1.0.0-py3-none-any.whl"
       }
     }
   },
@@ -13812,6 +13823,9 @@
       },
       "1.31.41": {
         "botocore_a_la_carte_inspector2-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_inspector2-1.29.100-py3-none-any.whl"
+      },
+      "1.31.42": {
+        "botocore_a_la_carte_inspector2-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_inspector2-1.29.100-py3-none-any.whl"
       },
       "1.31.5": {
         "botocore_a_la_carte_inspector2-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_inspector2-1.29.100-py3-none-any.whl"
@@ -32095,6 +32109,9 @@
       },
       "1.0.14": {
         "ecoengine-1.0.14-py3-none-any.whl": "0.0.1@ecoengine-0.0.1-py3-none-any.whl"
+      },
+      "1.0.15": {
+        "ecoengine-1.0.15-py3-none-any.whl": "0.0.1@ecoengine-0.0.1-py3-none-any.whl"
       },
       "1.0.2": {
         "ecoengine-1.0.2-py3-none-any.whl": "0.0.1@ecoengine-0.0.1-py3-none-any.whl"
@@ -68039,6 +68056,9 @@
       "15.0.1.0.2": {
         "odoo_addon_web_search_with_and-15.0.1.0.2-py3-none-any.whl": "15.0.1.0.1.1@odoo_addon_web_search_with_and-15.0.1.0.1.1-py3-none-any.whl"
       },
+      "15.0.1.0.2.1": {
+        "odoo_addon_web_search_with_and-15.0.1.0.2.1-py3-none-any.whl": "15.0.1.0.1.1@odoo_addon_web_search_with_and-15.0.1.0.1.1-py3-none-any.whl"
+      },
       "16.0.1.0.0.2": {
         "odoo_addon_web_search_with_and-16.0.1.0.0.2-py3-none-any.whl": {
           "requires_dist": [
@@ -72832,6 +72852,20 @@
           ],
           "requires_python": ">=3.6.2,<4.0"
         }
+      },
+      "3.0.0": {
+        "pelican_mau_reader-3.0.0-py3-none-any.whl": {
+          "provides_extras": [
+            "markdown"
+          ],
+          "requires_dist": [
+            "mau-html-visitor>=1.0.0",
+            "mau<4.0.0,>=3.0.0",
+            "pelican>=4.5",
+            "markdown>=3.4; extra == 'markdown'"
+          ],
+          "requires_python": "<4.0,>=3.8.1"
+        }
       }
     }
   },
@@ -73676,6 +73710,22 @@
       }
     }
   },
+  "playingwithml": {
+    "py3": {
+      "0.1.5": {
+        "playingwithml-0.1.5-py3-none-any.whl": {
+          "requires_dist": [
+            "certifi==2023.7.22",
+            "charset-normalizer==3.2.0",
+            "idna==3.4",
+            "requests==2.31.0",
+            "urllib3==2.0.4"
+          ],
+          "requires_python": ">=3.7"
+        }
+      }
+    }
+  },
   "plover-yaml-dictionary": {
     "py3": {
       "0.0.1": {
@@ -73866,6 +73916,24 @@
       },
       "0.5.0a8": {
         "podaac_tig-0.5.0a8-py3-none-any.whl": "0.5.0a10@podaac_tig-0.5.0a10-py3-none-any.whl"
+      },
+      "0.6.1": {
+        "podaac_tig-0.6.1-py3-none-any.whl": {
+          "requires_dist": [
+            "cumulus-process (>=1.0.0,<2.0.0)",
+            "imageio (>=2.16.1,<3.0.0)",
+            "matplotlib (>=3.5.1,<4.0.0)",
+            "netCDF4 (>=1.5.8,<2.0.0)",
+            "numpy (>=1.22.3,<2.0.0)",
+            "pygeogrids (>=0.4.1,<0.5.0)",
+            "requests (>=2.27.1,<3.0.0)",
+            "xarray (>=2022.3.0,<2023.0.0)"
+          ],
+          "requires_python": ">=3.8,<4.0"
+        }
+      },
+      "0.6.2": {
+        "podaac_tig-0.6.2-py3-none-any.whl": "0.6.1@podaac_tig-0.6.1-py3-none-any.whl"
       }
     }
   },
@@ -80381,6 +80449,9 @@
       },
       "0.9.3": {
         "pytomography-0.9.3-py3-none-any.whl": "0.10.0@pytomography-0.10.0-py3-none-any.whl"
+      },
+      "1.0.0": {
+        "pytomography-1.0.0-py3-none-any.whl": "0.10.0@pytomography-0.10.0-py3-none-any.whl"
       }
     }
   },
@@ -83236,6 +83307,29 @@
       },
       "0.9.0.1482008498": {
         "RAMLLintBear-0.9.0.1482008498-py3-none-any.whl": "0.8.0.1470601983@RAMLLintBear-0.8.0.1470601983-py3-none-any.whl"
+      }
+    }
+  },
+  "randomfactory": {
+    "py3": {
+      "1.0.0": {
+        "randomfactory-1.0.0-py3-none-any.whl": {
+          "requires_python": ">=3.11,<4.0"
+        }
+      },
+      "1.0.4": {
+        "randomfactory-1.0.4-py3-none-any.whl": "1.0.0@randomfactory-1.0.0-py3-none-any.whl"
+      },
+      "1.0.6": {
+        "randomfactory-1.0.6-py3-none-any.whl": "1.0.0@randomfactory-1.0.0-py3-none-any.whl"
+      },
+      "1.0.7": {
+        "randomfactory-1.0.7-py3-none-any.whl": {
+          "requires_python": ">=3.8,<4.0"
+        }
+      },
+      "1.0.8": {
+        "randomfactory-1.0.8-py3-none-any.whl": "1.0.7@randomfactory-1.0.7-py3-none-any.whl"
       }
     }
   },
@@ -87228,6 +87322,25 @@
           ]
         }
       },
+      "0.1.10": {
+        "research_framework-0.1.10-py3-none-any.whl": {
+          "requires_dist": [
+            "python-dotenv",
+            "pydantic",
+            "pymongo[srv]",
+            "google-api-python-client",
+            "google-cloud-core",
+            "google-cloud-storage",
+            "pytest",
+            "pandas",
+            "scikit-learn",
+            "scikit-fuzzy",
+            "torch",
+            "transformers[torch]",
+            "sentence-transformers[torch]"
+          ]
+        }
+      },
       "0.1.2": {
         "research_framework-0.1.2-py3-none-any.whl": {
           "requires_dist": [
@@ -87255,32 +87368,19 @@
         "research_framework-0.1.4-py3-none-any.whl": "0.1.2@research_framework-0.1.2-py3-none-any.whl"
       },
       "0.1.5": {
-        "research_framework-0.1.5-py3-none-any.whl": {
-          "requires_dist": [
-            "python-dotenv",
-            "pydantic",
-            "pymongo[srv]",
-            "google-api-python-client",
-            "google-cloud-core",
-            "google-cloud-storage",
-            "pytest",
-            "pandas",
-            "scikit-learn",
-            "scikit-fuzzy",
-            "torch",
-            "transformers[torch]",
-            "sentence-transformers[torch]"
-          ]
-        }
+        "research_framework-0.1.5-py3-none-any.whl": "0.1.10@research_framework-0.1.10-py3-none-any.whl"
       },
       "0.1.6": {
-        "research_framework-0.1.6-py3-none-any.whl": "0.1.5@research_framework-0.1.5-py3-none-any.whl"
+        "research_framework-0.1.6-py3-none-any.whl": "0.1.10@research_framework-0.1.10-py3-none-any.whl"
       },
       "0.1.7": {
-        "research_framework-0.1.7-py3-none-any.whl": "0.1.5@research_framework-0.1.5-py3-none-any.whl"
+        "research_framework-0.1.7-py3-none-any.whl": "0.1.10@research_framework-0.1.10-py3-none-any.whl"
       },
       "0.1.8": {
-        "research_framework-0.1.8-py3-none-any.whl": "0.1.5@research_framework-0.1.5-py3-none-any.whl"
+        "research_framework-0.1.8-py3-none-any.whl": "0.1.10@research_framework-0.1.10-py3-none-any.whl"
+      },
+      "0.1.9": {
+        "research_framework-0.1.9-py3-none-any.whl": "0.1.10@research_framework-0.1.10-py3-none-any.whl"
       }
     }
   },
@@ -91194,6 +91294,15 @@
       },
       "3.9.8": {
         "shareddata-3.9.8-py3-none-any.whl": "3.1.0@shareddata-3.1.0-py3-none-any.whl"
+      },
+      "4.0.0": {
+        "shareddata-4.0.0-py3-none-any.whl": "3.1.0@shareddata-3.1.0-py3-none-any.whl"
+      },
+      "4.0.1": {
+        "shareddata-4.0.1-py3-none-any.whl": "3.1.0@shareddata-3.1.0-py3-none-any.whl"
+      },
+      "4.0.2": {
+        "shareddata-4.0.2-py3-none-any.whl": "3.1.0@shareddata-3.1.0-py3-none-any.whl"
       }
     }
   },
@@ -93549,6 +93658,12 @@
       },
       "0.0.38": {
         "std_uritemplate-0.0.38-py3-none-any.whl": "0.0.36@std_uritemplate-0.0.36-py3-none-any.whl"
+      },
+      "0.0.39": {
+        "std_uritemplate-0.0.39-py3-none-any.whl": "0.0.36@std_uritemplate-0.0.36-py3-none-any.whl"
+      },
+      "0.0.40": {
+        "std_uritemplate-0.0.40-py3-none-any.whl": "0.0.36@std_uritemplate-0.0.36-py3-none-any.whl"
       }
     }
   },
@@ -96811,6 +96926,20 @@
         "tencentcloud_sdk_python_mrs-3.0.974-py2.py3-none-any.whl": {
           "requires_dist": [
             "tencentcloud-sdk-python-common (==3.0.974)"
+          ]
+        }
+      },
+      "3.0.975": {
+        "tencentcloud_sdk_python_mrs-3.0.975-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.975)"
+          ]
+        }
+      },
+      "3.0.976": {
+        "tencentcloud_sdk_python_mrs-3.0.976-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.976)"
           ]
         }
       }
@@ -109115,6 +109244,20 @@
           "requires_dist": [
             "numpy"
           ]
+        }
+      }
+    }
+  },
+  "wdb-utils": {
+    "py3": {
+      "1.1.0": {
+        "wdb_utils-1.1.0-py3-none-any.whl": {
+          "requires_dist": [
+            "oracledb >=1.2",
+            "pandas >=1.0",
+            "PyYAML >=6.0"
+          ],
+          "requires_python": ">=3.7, <4"
         }
       }
     }

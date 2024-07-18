@@ -12787,6 +12787,9 @@
       "5.32.0": {
         "cofactr-5.32.0-py3-none-any.whl": "5.18.0@cofactr-5.18.0-py3-none-any.whl"
       },
+      "5.33.0": {
+        "cofactr-5.33.0-py3-none-any.whl": "5.18.0@cofactr-5.18.0-py3-none-any.whl"
+      },
       "5.4.0": {
         "cofactr-5.4.0-py3-none-any.whl": "5.0.0@cofactr-5.0.0-py3-none-any.whl"
       },
@@ -13124,6 +13127,9 @@
             "python-Levenshtein"
           ]
         }
+      },
+      "0.3": {
+        "comparisons-0.3-py3-none-any.whl": "0.2@comparisons-0.2-py3-none-any.whl"
       }
     }
   },
@@ -28428,6 +28434,12 @@
       },
       "0.5.0": {
         "gipea-0.5.0-py3-none-any.whl": "0.0.0@gipea-0.0.0-py3-none-any.whl"
+      },
+      "0.6.0": {
+        "gipea-0.6.0-py3-none-any.whl": "0.0.0@gipea-0.0.0-py3-none-any.whl"
+      },
+      "0.6.1": {
+        "gipea-0.6.1-py3-none-any.whl": "0.0.0@gipea-0.0.0-py3-none-any.whl"
       }
     }
   },
@@ -29010,6 +29022,523 @@
     }
   },
   "gma": {
+    "cp310": {
+      "1.0.10": {
+        "gma-1.0.10-cp310-cp310-win_amd64.whl": {
+          "requires_dist": [
+            "pandas (>=1.3.3)",
+            "numpy (>=1.19.5)",
+            "scipy (>=1.7.1)",
+            "psutil (>=5.8.0)",
+            "tqdm"
+          ],
+          "requires_python": ">=3.8.8"
+        }
+      },
+      "1.0.11": {
+        "gma-1.0.11-cp310-cp310-win_amd64.whl": "1.0.10@gma-1.0.10-cp310-cp310-win_amd64.whl"
+      },
+      "1.0.12": {
+        "gma-1.0.12-cp310-cp310-win_amd64.whl": "1.0.10@gma-1.0.10-cp310-cp310-win_amd64.whl"
+      },
+      "1.0.13": {
+        "gma-1.0.13-cp310-cp310-win_amd64.whl": {
+          "requires_dist": [
+            "pandas (>=1.4.2)",
+            "numpy (>=1.23.3)",
+            "scipy (>=1.7.3)",
+            "psutil (>=5.8.0)",
+            "tqdm"
+          ],
+          "requires_python": ">=3.8.8"
+        }
+      },
+      "1.0.4": {
+        "gma-1.0.4-cp310-cp310-win_amd64.whl": {
+          "requires_dist": [
+            "gdal (>=3.3.2)",
+            "pandas (>=1.3.3)",
+            "numpy (>=1.19.5)",
+            "scipy (>=1.7.1)",
+            "psutil (>=5.8.0)",
+            "tqdm"
+          ],
+          "requires_python": ">=3.8"
+        }
+      },
+      "1.0.5": {
+        "gma-1.0.5-cp310-cp310-win_amd64.whl": {
+          "requires_dist": [
+            "pandas (>=1.3.3)",
+            "numpy (>=1.19.5)",
+            "scipy (>=1.7.1)",
+            "psutil (>=5.8.0)",
+            "tqdm"
+          ],
+          "requires_python": ">=3.8"
+        }
+      },
+      "1.0.6": {
+        "gma-1.0.6-cp310-cp310-win_amd64.whl": "1.0.5@gma-1.0.5-cp310-cp310-win_amd64.whl"
+      },
+      "1.0.7": {
+        "gma-1.0.7-cp310-cp310-win_amd64.whl": "1.0.10@gma-1.0.10-cp310-cp310-win_amd64.whl"
+      },
+      "1.0.8": {
+        "gma-1.0.8-cp310-cp310-win_amd64.whl": "1.0.10@gma-1.0.10-cp310-cp310-win_amd64.whl"
+      },
+      "1.0.9": {
+        "gma-1.0.9-cp310-cp310-win_amd64.whl": "1.0.10@gma-1.0.10-cp310-cp310-win_amd64.whl"
+      },
+      "1.1.0": {
+        "gma-1.1.0-cp310-cp310-manylinux1_x86_64.whl": {
+          "requires_dist": [
+            "pandas (>=1.4.2)",
+            "numpy (>=1.23.3)",
+            "scipy (>=1.7.3)",
+            "psutil (>=5.8.0)",
+            "tqdm"
+          ],
+          "requires_python": ">=3.9"
+        },
+        "gma-1.1.0-cp310-cp310-win_amd64.whl": "1.0.13@gma-1.0.13-cp310-cp310-win_amd64.whl"
+      },
+      "1.1.1": {
+        "gma-1.1.1-cp310-cp310-manylinux1_x86_64.whl": "1.1.0@gma-1.1.0-cp310-cp310-manylinux1_x86_64.whl",
+        "gma-1.1.1-cp310-cp310-win_amd64.whl": "1.0.13@gma-1.0.13-cp310-cp310-win_amd64.whl"
+      },
+      "1.1.2": {
+        "gma-1.1.2-cp310-cp310-manylinux1_x86_64.whl": {
+          "requires_dist": [
+            "pandas (>=1.4.2)",
+            "numpy (>=1.23.3)",
+            "scipy (>=1.7.3)",
+            "psutil (>=5.8.0)",
+            "tqdm",
+            "matplotlib (>=3.5.2)"
+          ],
+          "requires_python": ">=3.9"
+        },
+        "gma-1.1.2-cp310-cp310-win_amd64.whl": {
+          "requires_dist": [
+            "pandas (>=1.4.2)",
+            "numpy (>=1.23.3)",
+            "scipy (>=1.7.3)",
+            "psutil (>=5.8.0)",
+            "tqdm",
+            "matplotlib (>=3.5.2)"
+          ],
+          "requires_python": ">=3.8.8"
+        }
+      },
+      "1.1.3": {
+        "gma-1.1.3-cp310-cp310-manylinux1_x86_64.whl": "1.1.2@gma-1.1.2-cp310-cp310-manylinux1_x86_64.whl",
+        "gma-1.1.3-cp310-cp310-win_amd64.whl": "1.1.2@gma-1.1.2-cp310-cp310-win_amd64.whl"
+      },
+      "1.1.4": {
+        "gma-1.1.4-cp310-cp310-manylinux1_x86_64.whl": "1.1.2@gma-1.1.2-cp310-cp310-manylinux1_x86_64.whl",
+        "gma-1.1.4-cp310-cp310-win_amd64.whl": "1.1.2@gma-1.1.2-cp310-cp310-win_amd64.whl"
+      },
+      "1.1.5": {
+        "gma-1.1.5-cp310-cp310-manylinux1_x86_64.whl": "1.1.2@gma-1.1.2-cp310-cp310-manylinux1_x86_64.whl",
+        "gma-1.1.5-cp310-cp310-win_amd64.whl": "1.1.2@gma-1.1.2-cp310-cp310-win_amd64.whl"
+      },
+      "1.1.6": {
+        "gma-1.1.6-cp310-cp310-manylinux1_x86_64.whl": "1.1.2@gma-1.1.2-cp310-cp310-manylinux1_x86_64.whl",
+        "gma-1.1.6-cp310-cp310-win_amd64.whl": "1.1.2@gma-1.1.2-cp310-cp310-win_amd64.whl"
+      },
+      "2.0.0": {
+        "gma-2.0.0-cp310-cp310-manylinux1_x86_64.whl": {
+          "requires_dist": [
+            "pandas (>=1.4.2)",
+            "numpy (>=1.23.3)",
+            "scipy (>=1.7.3)",
+            "psutil (>=5.8.0)",
+            "tqdm (>=4.64.1)",
+            "matplotlib (>=3.5.2)"
+          ],
+          "requires_python": ">=3.9"
+        },
+        "gma-2.0.0-cp310-cp310-win_amd64.whl": {
+          "requires_dist": [
+            "pandas (>=1.4.2)",
+            "numpy (>=1.23.3)",
+            "scipy (>=1.7.3)",
+            "psutil (>=5.8.0)",
+            "tqdm (>=4.64.1)",
+            "matplotlib (>=3.5.2)"
+          ],
+          "requires_python": ">=3.8.8"
+        }
+      },
+      "2.0.0a1": {
+        "gma-2.0.0a1-cp310-cp310-win_amd64.whl": "1.1.2@gma-1.1.2-cp310-cp310-win_amd64.whl"
+      },
+      "2.0.0a2": {
+        "gma-2.0.0a2-cp310-cp310-manylinux1_x86_64.whl": "2.0.0@gma-2.0.0-cp310-cp310-manylinux1_x86_64.whl",
+        "gma-2.0.0a2-cp310-cp310-win_amd64.whl": "2.0.0@gma-2.0.0-cp310-cp310-win_amd64.whl"
+      },
+      "2.0.0a3": {
+        "gma-2.0.0a3-cp310-cp310-manylinux1_x86_64.whl": "2.0.0@gma-2.0.0-cp310-cp310-manylinux1_x86_64.whl",
+        "gma-2.0.0a3-cp310-cp310-win_amd64.whl": "2.0.0@gma-2.0.0-cp310-cp310-win_amd64.whl"
+      }
+    },
+    "cp311": {
+      "1.1.3": {
+        "gma-1.1.3-cp311-cp311-manylinux1_x86_64.whl": {
+          "requires_dist": [
+            "pandas (>=1.4.2)",
+            "numpy (>=1.23.3)",
+            "scipy (>=1.7.3)",
+            "psutil (>=5.8.0)",
+            "tqdm",
+            "matplotlib (>=3.5.2)"
+          ],
+          "requires_python": ">=3.9"
+        },
+        "gma-1.1.3-cp311-cp311-win_amd64.whl": {
+          "requires_dist": [
+            "pandas (>=1.4.2)",
+            "numpy (>=1.23.3)",
+            "scipy (>=1.7.3)",
+            "psutil (>=5.8.0)",
+            "tqdm",
+            "matplotlib (>=3.5.2)"
+          ],
+          "requires_python": ">=3.8.8"
+        }
+      },
+      "1.1.4": {
+        "gma-1.1.4-cp311-cp311-manylinux1_x86_64.whl": "1.1.3@gma-1.1.3-cp311-cp311-manylinux1_x86_64.whl",
+        "gma-1.1.4-cp311-cp311-win_amd64.whl": "1.1.3@gma-1.1.3-cp311-cp311-win_amd64.whl"
+      },
+      "1.1.5": {
+        "gma-1.1.5-cp311-cp311-manylinux1_x86_64.whl": "1.1.3@gma-1.1.3-cp311-cp311-manylinux1_x86_64.whl",
+        "gma-1.1.5-cp311-cp311-win_amd64.whl": "1.1.3@gma-1.1.3-cp311-cp311-win_amd64.whl"
+      },
+      "1.1.6": {
+        "gma-1.1.6-cp311-cp311-manylinux1_x86_64.whl": "1.1.3@gma-1.1.3-cp311-cp311-manylinux1_x86_64.whl",
+        "gma-1.1.6-cp311-cp311-win_amd64.whl": "1.1.3@gma-1.1.3-cp311-cp311-win_amd64.whl"
+      },
+      "2.0.0": {
+        "gma-2.0.0-cp311-cp311-manylinux1_x86_64.whl": {
+          "requires_dist": [
+            "pandas (>=1.4.2)",
+            "numpy (>=1.23.3)",
+            "scipy (>=1.7.3)",
+            "psutil (>=5.8.0)",
+            "tqdm (>=4.64.1)",
+            "matplotlib (>=3.5.2)"
+          ],
+          "requires_python": ">=3.9"
+        },
+        "gma-2.0.0-cp311-cp311-win_amd64.whl": {
+          "requires_dist": [
+            "pandas (>=1.4.2)",
+            "numpy (>=1.23.3)",
+            "scipy (>=1.7.3)",
+            "psutil (>=5.8.0)",
+            "tqdm (>=4.64.1)",
+            "matplotlib (>=3.5.2)"
+          ],
+          "requires_python": ">=3.8.8"
+        }
+      },
+      "2.0.0a1": {
+        "gma-2.0.0a1-cp311-cp311-win_amd64.whl": "1.1.3@gma-1.1.3-cp311-cp311-win_amd64.whl"
+      },
+      "2.0.0a2": {
+        "gma-2.0.0a2-cp311-cp311-manylinux1_x86_64.whl": "2.0.0@gma-2.0.0-cp311-cp311-manylinux1_x86_64.whl",
+        "gma-2.0.0a2-cp311-cp311-win_amd64.whl": "2.0.0@gma-2.0.0-cp311-cp311-win_amd64.whl"
+      },
+      "2.0.0a3": {
+        "gma-2.0.0a3-cp311-cp311-manylinux1_x86_64.whl": "2.0.0@gma-2.0.0-cp311-cp311-manylinux1_x86_64.whl",
+        "gma-2.0.0a3-cp311-cp311-win_amd64.whl": "2.0.0@gma-2.0.0-cp311-cp311-win_amd64.whl"
+      }
+    },
+    "cp38": {
+      "1.0.10": {
+        "gma-1.0.10-cp38-cp38-win_amd64.whl": {
+          "requires_dist": [
+            "pandas (>=1.3.3)",
+            "numpy (>=1.19.5)",
+            "scipy (>=1.7.1)",
+            "psutil (>=5.8.0)",
+            "tqdm"
+          ],
+          "requires_python": ">=3.8.8"
+        }
+      },
+      "1.0.11": {
+        "gma-1.0.11-cp38-cp38-win_amd64.whl": "1.0.10@gma-1.0.10-cp38-cp38-win_amd64.whl"
+      },
+      "1.0.12": {
+        "gma-1.0.12-cp38-cp38-win_amd64.whl": "1.0.10@gma-1.0.10-cp38-cp38-win_amd64.whl"
+      },
+      "1.0.13": {
+        "gma-1.0.13-cp38-cp38-win_amd64.whl": {
+          "requires_dist": [
+            "pandas (>=1.4.2)",
+            "numpy (>=1.23.3)",
+            "scipy (>=1.7.3)",
+            "psutil (>=5.8.0)",
+            "tqdm"
+          ],
+          "requires_python": ">=3.8.8"
+        }
+      },
+      "1.0.4": {
+        "gma-1.0.4-cp38-cp38-win_amd64.whl": {
+          "requires_dist": [
+            "gdal (>=3.3.2)",
+            "pandas (>=1.3.3)",
+            "numpy (>=1.19.5)",
+            "scipy (>=1.7.1)",
+            "psutil (>=5.8.0)",
+            "tqdm"
+          ],
+          "requires_python": ">=3.8"
+        }
+      },
+      "1.0.5": {
+        "gma-1.0.5-cp38-cp38-win_amd64.whl": {
+          "requires_dist": [
+            "pandas (>=1.3.3)",
+            "numpy (>=1.19.5)",
+            "scipy (>=1.7.1)",
+            "psutil (>=5.8.0)",
+            "tqdm"
+          ],
+          "requires_python": ">=3.8"
+        }
+      },
+      "1.0.6": {
+        "gma-1.0.6-cp38-cp38-win_amd64.whl": "1.0.5@gma-1.0.5-cp38-cp38-win_amd64.whl"
+      },
+      "1.0.7": {
+        "gma-1.0.7-cp38-cp38-win_amd64.whl": "1.0.10@gma-1.0.10-cp38-cp38-win_amd64.whl"
+      },
+      "1.0.8": {
+        "gma-1.0.8-cp38-cp38-win_amd64.whl": "1.0.10@gma-1.0.10-cp38-cp38-win_amd64.whl"
+      },
+      "1.0.9": {
+        "gma-1.0.9-cp38-cp38-win_amd64.whl": "1.0.10@gma-1.0.10-cp38-cp38-win_amd64.whl"
+      },
+      "1.1.0": {
+        "gma-1.1.0-cp38-cp38-win_amd64.whl": "1.0.13@gma-1.0.13-cp38-cp38-win_amd64.whl"
+      },
+      "1.1.1": {
+        "gma-1.1.1-cp38-cp38-win_amd64.whl": "1.0.13@gma-1.0.13-cp38-cp38-win_amd64.whl"
+      },
+      "1.1.2": {
+        "gma-1.1.2-cp38-cp38-win_amd64.whl": {
+          "requires_dist": [
+            "pandas (>=1.4.2)",
+            "numpy (>=1.23.3)",
+            "scipy (>=1.7.3)",
+            "psutil (>=5.8.0)",
+            "tqdm",
+            "matplotlib (>=3.5.2)"
+          ],
+          "requires_python": ">=3.8.8"
+        }
+      },
+      "1.1.3": {
+        "gma-1.1.3-cp38-cp38-win_amd64.whl": "1.1.2@gma-1.1.2-cp38-cp38-win_amd64.whl"
+      },
+      "1.1.4": {
+        "gma-1.1.4-cp38-cp38-win_amd64.whl": "1.1.2@gma-1.1.2-cp38-cp38-win_amd64.whl"
+      },
+      "1.1.5": {
+        "gma-1.1.5-cp38-cp38-win_amd64.whl": "1.1.2@gma-1.1.2-cp38-cp38-win_amd64.whl"
+      },
+      "1.1.6": {
+        "gma-1.1.6-cp38-cp38-win_amd64.whl": "1.1.2@gma-1.1.2-cp38-cp38-win_amd64.whl"
+      },
+      "2.0.0": {
+        "gma-2.0.0-cp38-cp38-win_amd64.whl": {
+          "requires_dist": [
+            "pandas (>=1.4.2)",
+            "numpy (>=1.23.3)",
+            "scipy (>=1.7.3)",
+            "psutil (>=5.8.0)",
+            "tqdm (>=4.64.1)",
+            "matplotlib (>=3.5.2)"
+          ],
+          "requires_python": ">=3.8.8"
+        }
+      },
+      "2.0.0a1": {
+        "gma-2.0.0a1-cp38-cp38-win_amd64.whl": "1.1.2@gma-1.1.2-cp38-cp38-win_amd64.whl"
+      },
+      "2.0.0a2": {
+        "gma-2.0.0a2-cp38-cp38-win_amd64.whl": "2.0.0@gma-2.0.0-cp38-cp38-win_amd64.whl"
+      },
+      "2.0.0a3": {
+        "gma-2.0.0a3-cp38-cp38-win_amd64.whl": "2.0.0@gma-2.0.0-cp38-cp38-win_amd64.whl"
+      }
+    },
+    "cp39": {
+      "1.0.10": {
+        "gma-1.0.10-cp39-cp39-win_amd64.whl": {
+          "requires_dist": [
+            "pandas (>=1.3.3)",
+            "numpy (>=1.19.5)",
+            "scipy (>=1.7.1)",
+            "psutil (>=5.8.0)",
+            "tqdm"
+          ],
+          "requires_python": ">=3.8.8"
+        }
+      },
+      "1.0.11": {
+        "gma-1.0.11-cp39-cp39-win_amd64.whl": "1.0.10@gma-1.0.10-cp39-cp39-win_amd64.whl"
+      },
+      "1.0.12": {
+        "gma-1.0.12-cp39-cp39-win_amd64.whl": "1.0.10@gma-1.0.10-cp39-cp39-win_amd64.whl"
+      },
+      "1.0.13": {
+        "gma-1.0.13-cp39-cp39-win_amd64.whl": {
+          "requires_dist": [
+            "pandas (>=1.4.2)",
+            "numpy (>=1.23.3)",
+            "scipy (>=1.7.3)",
+            "psutil (>=5.8.0)",
+            "tqdm"
+          ],
+          "requires_python": ">=3.8.8"
+        }
+      },
+      "1.0.4": {
+        "gma-1.0.4-cp39-cp39-win_amd64.whl": {
+          "requires_dist": [
+            "gdal (>=3.3.2)",
+            "pandas (>=1.3.3)",
+            "numpy (>=1.19.5)",
+            "scipy (>=1.7.1)",
+            "psutil (>=5.8.0)",
+            "tqdm"
+          ],
+          "requires_python": ">=3.8"
+        }
+      },
+      "1.0.5": {
+        "gma-1.0.5-cp39-cp39-win_amd64.whl": {
+          "requires_dist": [
+            "pandas (>=1.3.3)",
+            "numpy (>=1.19.5)",
+            "scipy (>=1.7.1)",
+            "psutil (>=5.8.0)",
+            "tqdm"
+          ],
+          "requires_python": ">=3.8"
+        }
+      },
+      "1.0.6": {
+        "gma-1.0.6-cp39-cp39-win_amd64.whl": "1.0.5@gma-1.0.5-cp39-cp39-win_amd64.whl"
+      },
+      "1.0.7": {
+        "gma-1.0.7-cp39-cp39-win_amd64.whl": "1.0.10@gma-1.0.10-cp39-cp39-win_amd64.whl"
+      },
+      "1.0.8": {
+        "gma-1.0.8-cp39-cp39-win_amd64.whl": "1.0.10@gma-1.0.10-cp39-cp39-win_amd64.whl"
+      },
+      "1.0.9": {
+        "gma-1.0.9-cp39-cp39-win_amd64.whl": "1.0.10@gma-1.0.10-cp39-cp39-win_amd64.whl"
+      },
+      "1.1.0": {
+        "gma-1.1.0-cp39-cp39-manylinux1_x86_64.whl": "1.0.13@gma-1.0.13-cp39-cp39-win_amd64.whl",
+        "gma-1.1.0-cp39-cp39-win_amd64.whl": "1.0.13@gma-1.0.13-cp39-cp39-win_amd64.whl"
+      },
+      "1.1.1": {
+        "gma-1.1.1-cp39-cp39-manylinux1_x86_64.whl": {
+          "requires_dist": [
+            "pandas (>=1.4.2)",
+            "numpy (>=1.23.3)",
+            "scipy (>=1.7.3)",
+            "psutil (>=5.8.0)",
+            "tqdm"
+          ],
+          "requires_python": ">=3.9"
+        },
+        "gma-1.1.1-cp39-cp39-win_amd64.whl": "1.0.13@gma-1.0.13-cp39-cp39-win_amd64.whl"
+      },
+      "1.1.2": {
+        "gma-1.1.2-cp39-cp39-manylinux1_x86_64.whl": {
+          "requires_dist": [
+            "pandas (>=1.4.2)",
+            "numpy (>=1.23.3)",
+            "scipy (>=1.7.3)",
+            "psutil (>=5.8.0)",
+            "tqdm",
+            "matplotlib (>=3.5.2)"
+          ],
+          "requires_python": ">=3.9"
+        },
+        "gma-1.1.2-cp39-cp39-win_amd64.whl": {
+          "requires_dist": [
+            "pandas (>=1.4.2)",
+            "numpy (>=1.23.3)",
+            "scipy (>=1.7.3)",
+            "psutil (>=5.8.0)",
+            "tqdm",
+            "matplotlib (>=3.5.2)"
+          ],
+          "requires_python": ">=3.8.8"
+        }
+      },
+      "1.1.3": {
+        "gma-1.1.3-cp39-cp39-manylinux1_x86_64.whl": "1.1.2@gma-1.1.2-cp39-cp39-manylinux1_x86_64.whl",
+        "gma-1.1.3-cp39-cp39-win_amd64.whl": "1.1.2@gma-1.1.2-cp39-cp39-win_amd64.whl"
+      },
+      "1.1.4": {
+        "gma-1.1.4-cp39-cp39-manylinux1_x86_64.whl": "1.1.2@gma-1.1.2-cp39-cp39-manylinux1_x86_64.whl",
+        "gma-1.1.4-cp39-cp39-win_amd64.whl": "1.1.2@gma-1.1.2-cp39-cp39-win_amd64.whl"
+      },
+      "1.1.5": {
+        "gma-1.1.5-cp39-cp39-manylinux1_x86_64.whl": "1.1.2@gma-1.1.2-cp39-cp39-manylinux1_x86_64.whl",
+        "gma-1.1.5-cp39-cp39-win_amd64.whl": "1.1.2@gma-1.1.2-cp39-cp39-win_amd64.whl"
+      },
+      "1.1.6": {
+        "gma-1.1.6-cp39-cp39-manylinux1_x86_64.whl": "1.1.2@gma-1.1.2-cp39-cp39-manylinux1_x86_64.whl",
+        "gma-1.1.6-cp39-cp39-win_amd64.whl": "1.1.2@gma-1.1.2-cp39-cp39-win_amd64.whl"
+      },
+      "2.0.0": {
+        "gma-2.0.0-cp39-cp39-manylinux1_x86_64.whl": {
+          "requires_dist": [
+            "pandas (>=1.4.2)",
+            "numpy (>=1.23.3)",
+            "scipy (>=1.7.3)",
+            "psutil (>=5.8.0)",
+            "tqdm (>=4.64.1)",
+            "matplotlib (>=3.5.2)"
+          ],
+          "requires_python": ">=3.9"
+        },
+        "gma-2.0.0-cp39-cp39-win_amd64.whl": {
+          "requires_dist": [
+            "pandas (>=1.4.2)",
+            "numpy (>=1.23.3)",
+            "scipy (>=1.7.3)",
+            "psutil (>=5.8.0)",
+            "tqdm (>=4.64.1)",
+            "matplotlib (>=3.5.2)"
+          ],
+          "requires_python": ">=3.8.8"
+        }
+      },
+      "2.0.0a1": {
+        "gma-2.0.0a1-cp39-cp39-win_amd64.whl": "1.1.2@gma-1.1.2-cp39-cp39-win_amd64.whl"
+      },
+      "2.0.0a2": {
+        "gma-2.0.0a2-cp39-cp39-manylinux1_x86_64.whl": "2.0.0@gma-2.0.0-cp39-cp39-manylinux1_x86_64.whl",
+        "gma-2.0.0a2-cp39-cp39-win_amd64.whl": "2.0.0@gma-2.0.0-cp39-cp39-win_amd64.whl"
+      },
+      "2.0.0a3": {
+        "gma-2.0.0a3-cp39-cp39-manylinux1_x86_64.whl": "2.0.0@gma-2.0.0-cp39-cp39-manylinux1_x86_64.whl",
+        "gma-2.0.0a3-cp39-cp39-win_amd64.whl": "2.0.0@gma-2.0.0-cp39-cp39-win_amd64.whl"
+      }
+    },
     "py3": {
       "1.0.0": {
         "gma-1.0.0-py3-none-any.whl": {
@@ -30757,6 +31286,9 @@
       },
       "0.1.32": {
         "honeyhive-0.1.32-py3-none-any.whl": "0.1.30@honeyhive-0.1.30-py3-none-any.whl"
+      },
+      "0.1.33": {
+        "honeyhive-0.1.33-py3-none-any.whl": "0.1.30@honeyhive-0.1.30-py3-none-any.whl"
       }
     }
   },
@@ -31477,6 +32009,14 @@
         "huaweicloudsdkges-3.1.57-py2.py3-none-any.whl": {
           "requires_dist": [
             "huaweicloudsdkcore >=3.1.57"
+          ],
+          "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
+        }
+      },
+      "3.1.58": {
+        "huaweicloudsdkges-3.1.58-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "huaweicloudsdkcore >=3.1.58"
           ],
           "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
         }
@@ -36160,6 +36700,9 @@
       "0.0.17": {
         "langkit-0.0.17-py3-none-any.whl": "0.0.11@langkit-0.0.11-py3-none-any.whl"
       },
+      "0.0.18": {
+        "langkit-0.0.18-py3-none-any.whl": "0.0.11@langkit-0.0.11-py3-none-any.whl"
+      },
       "0.0.1b0": {
         "langkit-0.0.1b0-py3-none-any.whl": {
           "provides_extras": [
@@ -38279,6 +38822,24 @@
             "ruamel.yaml",
             "bump2version; extra == \"dev\"",
             "hatchling; extra == \"dev\"",
+            "tomli; extra == \"dev\"",
+            "twine; extra == \"dev\""
+          ],
+          "requires_python": ">=3.9"
+        }
+      },
+      "1.2": {
+        "metapensiero.tool.tinject-1.2-py3-none-any.whl": {
+          "provides_extras": [
+            "dev"
+          ],
+          "requires_dist": [
+            "jinja2",
+            "jinja2-time",
+            "questionary",
+            "ruamel.yaml",
+            "build; extra == \"dev\"",
+            "bump2version; extra == \"dev\"",
             "tomli; extra == \"dev\"",
             "twine; extra == \"dev\""
           ],
@@ -45749,6 +46310,9 @@
       },
       "1.2.0": {
         "netbox_config_diff-1.2.0-py3-none-any.whl": "1.1.1@netbox_config_diff-1.1.1-py3-none-any.whl"
+      },
+      "1.2.1": {
+        "netbox_config_diff-1.2.1-py3-none-any.whl": "1.1.1@netbox_config_diff-1.1.1-py3-none-any.whl"
       },
       "1.2.1b1": {
         "netbox_config_diff-1.2.1b1-py3-none-any.whl": "1.1.1@netbox_config_diff-1.1.1-py3-none-any.whl"
@@ -69766,6 +70330,101 @@
       },
       "1.0.0.dev20230905": {
         "skypilot_nightly-1.0.0.dev20230905-py3-none-any.whl": "1.0.0.dev20230816@skypilot_nightly-1.0.0.dev20230816-py3-none-any.whl"
+      },
+      "1.0.0.dev20230906": {
+        "skypilot_nightly-1.0.0.dev20230906-py3-none-any.whl": {
+          "provides_extras": [
+            "all",
+            "aws",
+            "azure",
+            "cloudflare",
+            "docker",
+            "gcp",
+            "ibm",
+            "kubernetes",
+            "lambda",
+            "oci",
+            "scp"
+          ],
+          "requires_dist": [
+            "wheel",
+            "click <=8.0.4,>=7.0",
+            "colorama <0.4.5",
+            "cryptography",
+            "jinja2 >=3.0",
+            "jsonschema",
+            "networkx",
+            "oauth2client",
+            "pandas",
+            "pendulum",
+            "PrettyTable >=2.0.0",
+            "python-dotenv",
+            "ray[default] !=2.6.0,<=2.6.3,>=2.2.0",
+            "rich",
+            "tabulate",
+            "filelock >=3.6.0",
+            "packaging",
+            "protobuf !=3.19.5,>=3.15.3",
+            "psutil",
+            "pulp",
+            "pydantic <2.0,>=1.10.8",
+            "pyyaml !=5.4.*,>3.13",
+            "urllib3 <2",
+            "awscli >=1.27.10",
+            "botocore >=1.29.10",
+            "boto3 >=1.26.1",
+            "pycryptodome ==3.12.0",
+            "grpcio !=1.48.0,<=1.51.3,>=1.32.0 ; python_version < \"3.10\" and sys_platform != \"darwin\"",
+            "grpcio !=1.48.0,<=1.49.1,>=1.32.0 ; python_version < \"3.10\" and sys_platform == \"darwin\"",
+            "typing-extensions ; python_version < \"3.8\"",
+            "grpcio !=1.48.0,<=1.51.3,>=1.42.0 ; python_version >= \"3.10\" and sys_platform != \"darwin\"",
+            "grpcio !=1.48.0,<=1.49.1,>=1.42.0 ; python_version >= \"3.10\" and sys_platform == \"darwin\"",
+            "urllib3 <2 ; extra == 'all'",
+            "awscli >=1.27.10 ; extra == 'all'",
+            "botocore >=1.29.10 ; extra == 'all'",
+            "boto3 >=1.26.1 ; extra == 'all'",
+            "pycryptodome ==3.12.0 ; extra == 'all'",
+            "azure-cli >=2.31.0 ; extra == 'all'",
+            "azure-core ; extra == 'all'",
+            "azure-identity >=1.13.0 ; extra == 'all'",
+            "azure-mgmt-network ; extra == 'all'",
+            "google-api-python-client ; extra == 'all'",
+            "google-cloud-storage ; extra == 'all'",
+            "ibm-cloud-sdk-core ; extra == 'all'",
+            "ibm-vpc ; extra == 'all'",
+            "ibm-platform-services ; extra == 'all'",
+            "ibm-cos-sdk ; extra == 'all'",
+            "docker ; extra == 'all'",
+            "oci ; extra == 'all'",
+            "kubernetes ; extra == 'all'",
+            "urllib3 <2 ; extra == 'aws'",
+            "awscli >=1.27.10 ; extra == 'aws'",
+            "botocore >=1.29.10 ; extra == 'aws'",
+            "boto3 >=1.26.1 ; extra == 'aws'",
+            "pycryptodome ==3.12.0 ; extra == 'aws'",
+            "azure-cli >=2.31.0 ; extra == 'azure'",
+            "azure-core ; extra == 'azure'",
+            "azure-identity >=1.13.0 ; extra == 'azure'",
+            "azure-mgmt-network ; extra == 'azure'",
+            "urllib3 <2 ; extra == 'cloudflare'",
+            "awscli >=1.27.10 ; extra == 'cloudflare'",
+            "botocore >=1.29.10 ; extra == 'cloudflare'",
+            "boto3 >=1.26.1 ; extra == 'cloudflare'",
+            "pycryptodome ==3.12.0 ; extra == 'cloudflare'",
+            "docker ; extra == 'docker'",
+            "google-api-python-client ; extra == 'gcp'",
+            "google-cloud-storage ; extra == 'gcp'",
+            "ibm-cloud-sdk-core ; extra == 'ibm'",
+            "ibm-vpc ; extra == 'ibm'",
+            "ibm-platform-services ; extra == 'ibm'",
+            "ibm-cos-sdk ; extra == 'ibm'",
+            "kubernetes ; extra == 'kubernetes'",
+            "oci ; extra == 'oci'"
+          ]
+        }
+      },
+      "1.0.0.dev20230907": {
+        "skypilot_nightly-1.0.0.dev20230907-py3-none-any.whl": "1.0.0.dev20230906@skypilot_nightly-1.0.0.dev20230906-py3-none-any.whl"
       }
     }
   },
@@ -71800,6 +72459,9 @@
       },
       "0.5.0": {
         "SPLayout-0.5.0-py3-none-any.whl": "0.1.5@SPLayout-0.1.5-py3-none-any.whl"
+      },
+      "0.5.1": {
+        "SPLayout-0.5.1-py3-none-any.whl": "0.1.5@SPLayout-0.1.5-py3-none-any.whl"
       }
     }
   },
@@ -74742,6 +75404,12 @@
       },
       "0.7.5.dev20230905": {
         "tf_model_optimization_nightly-0.7.5.dev20230905-py2.py3-none-any.whl": "0.7.5.dev20230819@tf_model_optimization_nightly-0.7.5.dev20230819-py2.py3-none-any.whl"
+      },
+      "0.7.5.dev20230906": {
+        "tf_model_optimization_nightly-0.7.5.dev20230906-py2.py3-none-any.whl": "0.7.5.dev20230819@tf_model_optimization_nightly-0.7.5.dev20230819-py2.py3-none-any.whl"
+      },
+      "0.7.5.dev20230907": {
+        "tf_model_optimization_nightly-0.7.5.dev20230907-py2.py3-none-any.whl": "0.7.5.dev20230819@tf_model_optimization_nightly-0.7.5.dev20230819-py2.py3-none-any.whl"
       }
     }
   },

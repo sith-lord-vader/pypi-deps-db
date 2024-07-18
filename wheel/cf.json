@@ -35776,6 +35776,9 @@
       },
       "0.0.8": {
         "django_df_api_drf-0.0.8-py3-none-any.whl": "0.0.6@django_df_api_drf-0.0.6-py3-none-any.whl"
+      },
+      "0.0.9": {
+        "django_df_api_drf-0.0.9-py3-none-any.whl": "0.0.6@django_df_api_drf-0.0.6-py3-none-any.whl"
       }
     }
   },
@@ -40458,6 +40461,9 @@
       "0.0.1rc23": {
         "feffery_antd_charts-0.0.1rc23-py3-none-any.whl": "0.0.1rc16@feffery_antd_charts-0.0.1rc16-py3-none-any.whl"
       },
+      "0.0.1rc24": {
+        "feffery_antd_charts-0.0.1rc24-py3-none-any.whl": "0.0.1rc16@feffery_antd_charts-0.0.1rc16-py3-none-any.whl"
+      },
       "0.0.1rc3": {
         "feffery_antd_charts-0.0.1rc3-py3-none-any.whl": "0.0.1rc1@feffery_antd_charts-0.0.1rc1-py3-none-any.whl"
       },
@@ -44108,6 +44114,9 @@
             "torch >=2.0.1"
           ]
         }
+      },
+      "0.1.1": {
+        "hexanonyme-0.1.1-py3-none-any.whl": "0.1.0@hexanonyme-0.1.0-py3-none-any.whl"
       }
     }
   },
@@ -61966,6 +61975,12 @@
       "1.0.481": {
         "lusid_sdk_preview-1.0.481-py3-none-any.whl": "0.11.4755@lusid_sdk_preview-0.11.4755-py3-none-any.whl"
       },
+      "1.0.482": {
+        "lusid_sdk_preview-1.0.482-py3-none-any.whl": "0.11.4755@lusid_sdk_preview-0.11.4755-py3-none-any.whl"
+      },
+      "1.0.488": {
+        "lusid_sdk_preview-1.0.488-py3-none-any.whl": "0.11.4755@lusid_sdk_preview-0.11.4755-py3-none-any.whl"
+      },
       "1.0.49": {
         "lusid_sdk_preview-1.0.49-py3-none-any.whl": "0.11.4755@lusid_sdk_preview-0.11.4755-py3-none-any.whl"
       },
@@ -76456,6 +76471,20 @@
       },
       "16.0.1.0.0.5": {
         "odoo_addon_l10n_es_ticketbai_batuz-16.0.1.0.0.5-py3-none-any.whl": "16.0.1.0.0.4@odoo_addon_l10n_es_ticketbai_batuz-16.0.1.0.0.4-py3-none-any.whl"
+      }
+    }
+  },
+  "odoo-addon-l10n-it-fatturapa-out-stamp": {
+    "py3": {
+      "16.0.1.0.0.2": {
+        "odoo_addon_l10n_it_fatturapa_out_stamp-16.0.1.0.0.2-py3-none-any.whl": {
+          "requires_dist": [
+            "odoo-addon-l10n-it-account-stamp <16.1dev,>=16.0dev",
+            "odoo-addon-l10n-it-fatturapa-out <16.1dev,>=16.0dev",
+            "odoo <16.1dev,>=16.0a"
+          ],
+          "requires_python": ">=3.10"
+        }
       }
     }
   },
@@ -95995,6 +96024,9 @@
       },
       "2.1.0": {
         "redis_dict-2.1.0-py3-none-any.whl": "2.0.0@redis_dict-2.0.0-py3-none-any.whl"
+      },
+      "2.2.0": {
+        "redis_dict-2.2.0-py3-none-any.whl": "2.0.0@redis_dict-2.0.0-py3-none-any.whl"
       }
     }
   },
@@ -114612,6 +114644,20 @@
             "tencentcloud-sdk-python-common (==3.0.974)"
           ]
         }
+      },
+      "3.0.975": {
+        "tencentcloud_sdk_python_gme-3.0.975-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.975)"
+          ]
+        }
+      },
+      "3.0.976": {
+        "tencentcloud_sdk_python_gme-3.0.976-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.976)"
+          ]
+        }
       }
     }
   },
@@ -115544,6 +115590,9 @@
           ],
           "requires_python": ">=3.8,<4.0"
         }
+      },
+      "0.9.4": {
+        "tiktokpy-0.9.4-py3-none-any.whl": "0.9.3@tiktokpy-0.9.3-py3-none-any.whl"
       }
     }
   },

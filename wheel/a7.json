@@ -3075,6 +3075,9 @@
       "0.8.7": {
         "ampel_ztf-0.8.7-py3-none-any.whl": "0.8.5b0@ampel_ztf-0.8.5b0-py3-none-any.whl"
       },
+      "0.8.8": {
+        "ampel_ztf-0.8.8-py3-none-any.whl": "0.8.5b0@ampel_ztf-0.8.5b0-py3-none-any.whl"
+      },
       "0.9.0": {
         "ampel_ztf-0.9.0-py3-none-any.whl": {
           "provides_extras": [
@@ -20563,6 +20566,9 @@
       "1.31.41": {
         "botocore_a_la_carte_billingconductor-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_billingconductor-1.29.100-py3-none-any.whl"
       },
+      "1.31.42": {
+        "botocore_a_la_carte_billingconductor-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_billingconductor-1.29.100-py3-none-any.whl"
+      },
       "1.31.5": {
         "botocore_a_la_carte_billingconductor-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_billingconductor-1.29.100-py3-none-any.whl"
       },
@@ -21063,6 +21069,9 @@
       },
       "1.31.41": {
         "botocore_a_la_carte_ecr-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_ecr-1.29.100-py3-none-any.whl"
+      },
+      "1.31.42": {
+        "botocore_a_la_carte_ecr-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_ecr-1.29.100-py3-none-any.whl"
       },
       "1.31.5": {
         "botocore_a_la_carte_ecr-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_ecr-1.29.100-py3-none-any.whl"
@@ -21565,6 +21574,9 @@
       "1.31.41": {
         "botocore_a_la_carte_events-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_events-1.29.100-py3-none-any.whl"
       },
+      "1.31.42": {
+        "botocore_a_la_carte_events-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_events-1.29.100-py3-none-any.whl"
+      },
       "1.31.5": {
         "botocore_a_la_carte_events-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_events-1.29.100-py3-none-any.whl"
       },
@@ -22065,6 +22077,9 @@
       },
       "1.31.41": {
         "botocore_a_la_carte_mgh-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_mgh-1.29.100-py3-none-any.whl"
+      },
+      "1.31.42": {
+        "botocore_a_la_carte_mgh-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_mgh-1.29.100-py3-none-any.whl"
       },
       "1.31.5": {
         "botocore_a_la_carte_mgh-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_mgh-1.29.100-py3-none-any.whl"
@@ -40013,6 +40028,9 @@
       },
       "0.2.4": {
         "freeplay-0.2.4-py3-none-any.whl": "0.1.2@freeplay-0.1.2-py3-none-any.whl"
+      },
+      "0.2.6": {
+        "freeplay-0.2.6-py3-none-any.whl": "0.1.2@freeplay-0.1.2-py3-none-any.whl"
       }
     }
   },
@@ -57106,6 +57124,9 @@
           ],
           "requires_python": ">=3.7"
         }
+      },
+      "1.28.42": {
+        "mypy_boto3_elbv2-1.28.42-py3-none-any.whl": "1.28.36@mypy_boto3_elbv2-1.28.36-py3-none-any.whl"
       }
     }
   },
@@ -71211,6 +71232,18 @@
       }
     }
   },
+  "pjtools": {
+    "py3": {
+      "0.0.2": {
+        "pjtools-0.0.2-py3-none-any.whl": {
+          "requires_dist": [
+            "numpy",
+            "pyyaml"
+          ]
+        }
+      }
+    }
+  },
   "pkimgr": {
     "py3": {
       "2.13.0": {
@@ -74281,6 +74314,17 @@
       },
       "0.1.1": {
         "pybonaparte-0.1.1-py3-none-any.whl": "0.1.0@pybonaparte-0.1.0-py3-none-any.whl"
+      },
+      "0.1.2": {
+        "pybonaparte-0.1.2-py3-none-any.whl": {
+          "requires_dist": [
+            "aenum (>=3.1.11,<4.0.0)",
+            "async-timeout (>=4.0.2,<5.0.0)",
+            "bleak (>=0.21.0,<0.22.0) ; python_version >= \"3.10\" and python_version < \"3.13\"",
+            "bleak-retry-connector (>=3.1.0,<4.0.0) ; python_version >= \"3.10\" and python_version < \"3.13\""
+          ],
+          "requires_python": ">=3.10,<4.0"
+        }
       }
     }
   },
@@ -95307,6 +95351,20 @@
             "tencentcloud-sdk-python-common (==3.0.974)"
           ]
         }
+      },
+      "3.0.975": {
+        "tencentcloud_sdk_python_smh-3.0.975-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.975)"
+          ]
+        }
+      },
+      "3.0.976": {
+        "tencentcloud_sdk_python_smh-3.0.976-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.976)"
+          ]
+        }
       }
     }
   },
@@ -97508,6 +97566,20 @@
         "tencentcloud_sdk_python_tbaas-3.0.974-py2.py3-none-any.whl": {
           "requires_dist": [
             "tencentcloud-sdk-python-common (==3.0.974)"
+          ]
+        }
+      },
+      "3.0.975": {
+        "tencentcloud_sdk_python_tbaas-3.0.975-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.975)"
+          ]
+        }
+      },
+      "3.0.976": {
+        "tencentcloud_sdk_python_tbaas-3.0.976-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.976)"
           ]
         }
       }
@@ -102977,6 +103049,21 @@
             "voila (==0.2.3) ; extra == 'dev'",
             "widget-periodictable (==2.1.5) ; extra == 'dev'",
             "pylint ; extra == 'dev'"
+          ]
+        }
+      },
+      "0.3.17": {
+        "voila_materialscloud_template-0.3.17-py2.py3-none-any.whl": {
+          "provides_extras": [
+            "dev"
+          ],
+          "requires_dist": [
+            "voila ~=0.5.2",
+            "jupyter-core ~=5.3.1",
+            "invoke ~=2.2 ; extra == 'dev'",
+            "ipywidgets ~=8.1 ; extra == 'dev'",
+            "pylint ~=2.17 ; extra == 'dev'",
+            "widget-periodictable ~=3.1 ; extra == 'dev'"
           ]
         }
       }
@@ -109466,6 +109553,14 @@
       "0.8.34": {
         "xia_engine-0.8.34-cp310-none-macosx_11_0_x86_64.whl": "0.8.33@xia_engine-0.8.33-cp310-none-macosx_11_0_x86_64.whl",
         "xia_engine-0.8.34-cp310-none-win_amd64.whl": "0.8.33@xia_engine-0.8.33-cp310-none-macosx_11_0_x86_64.whl"
+      },
+      "0.8.35": {
+        "xia_engine-0.8.35-cp310-none-macosx_11_0_x86_64.whl": "0.8.33@xia_engine-0.8.33-cp310-none-macosx_11_0_x86_64.whl",
+        "xia_engine-0.8.35-cp310-none-win_amd64.whl": "0.8.33@xia_engine-0.8.33-cp310-none-macosx_11_0_x86_64.whl"
+      },
+      "0.8.36": {
+        "xia_engine-0.8.36-cp310-none-macosx_11_0_x86_64.whl": "0.8.33@xia_engine-0.8.33-cp310-none-macosx_11_0_x86_64.whl",
+        "xia_engine-0.8.36-cp310-none-win_amd64.whl": "0.8.33@xia_engine-0.8.33-cp310-none-macosx_11_0_x86_64.whl"
       }
     },
     "cp311": {
@@ -109481,6 +109576,14 @@
       "0.8.34": {
         "xia_engine-0.8.34-cp311-none-macosx_11_0_x86_64.whl": "0.8.33@xia_engine-0.8.33-cp311-none-macosx_11_0_x86_64.whl",
         "xia_engine-0.8.34-cp311-none-win_amd64.whl": "0.8.33@xia_engine-0.8.33-cp311-none-macosx_11_0_x86_64.whl"
+      },
+      "0.8.35": {
+        "xia_engine-0.8.35-cp311-none-macosx_11_0_x86_64.whl": "0.8.33@xia_engine-0.8.33-cp311-none-macosx_11_0_x86_64.whl",
+        "xia_engine-0.8.35-cp311-none-win_amd64.whl": "0.8.33@xia_engine-0.8.33-cp311-none-macosx_11_0_x86_64.whl"
+      },
+      "0.8.36": {
+        "xia_engine-0.8.36-cp311-none-macosx_11_0_x86_64.whl": "0.8.33@xia_engine-0.8.33-cp311-none-macosx_11_0_x86_64.whl",
+        "xia_engine-0.8.36-cp311-none-win_amd64.whl": "0.8.33@xia_engine-0.8.33-cp311-none-macosx_11_0_x86_64.whl"
       }
     },
     "cp39": {
@@ -109496,6 +109599,14 @@
       "0.8.34": {
         "xia_engine-0.8.34-cp39-none-macosx_11_0_x86_64.whl": "0.8.33@xia_engine-0.8.33-cp39-none-macosx_11_0_x86_64.whl",
         "xia_engine-0.8.34-cp39-none-win_amd64.whl": "0.8.33@xia_engine-0.8.33-cp39-none-macosx_11_0_x86_64.whl"
+      },
+      "0.8.35": {
+        "xia_engine-0.8.35-cp39-none-macosx_11_0_x86_64.whl": "0.8.33@xia_engine-0.8.33-cp39-none-macosx_11_0_x86_64.whl",
+        "xia_engine-0.8.35-cp39-none-win_amd64.whl": "0.8.33@xia_engine-0.8.33-cp39-none-macosx_11_0_x86_64.whl"
+      },
+      "0.8.36": {
+        "xia_engine-0.8.36-cp39-none-macosx_11_0_x86_64.whl": "0.8.33@xia_engine-0.8.33-cp39-none-macosx_11_0_x86_64.whl",
+        "xia_engine-0.8.36-cp39-none-win_amd64.whl": "0.8.33@xia_engine-0.8.33-cp39-none-macosx_11_0_x86_64.whl"
       }
     }
   },

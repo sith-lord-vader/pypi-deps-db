@@ -525,6 +525,56 @@
           "requires_python": ">=3.7"
         }
       },
+      "2016.5.7": {
+        "abqpy-2016.5.7-py3-none-any.whl": {
+          "provides_extras": [
+            "dev",
+            "docs",
+            "jupyter"
+          ],
+          "requires_dist": [
+            "auto-all",
+            "fire",
+            "typeguard",
+            "typing-extensions",
+            "black ; extra == 'dev'",
+            "coverage ; extra == 'dev'",
+            "crowdin-api-client ; extra == 'dev'",
+            "docformatter ; extra == 'dev'",
+            "flake8 ; extra == 'dev'",
+            "mypy ; extra == 'dev'",
+            "pofmt ; extra == 'dev'",
+            "polib ; extra == 'dev'",
+            "pre-commit ; extra == 'dev'",
+            "pytest ; extra == 'dev'",
+            "pytest-cov ; extra == 'dev'",
+            "autoclasstoc ; extra == 'docs'",
+            "furo ; extra == 'docs'",
+            "gitpython ; extra == 'docs'",
+            "myst-parser ; extra == 'docs'",
+            "pandas ; extra == 'docs'",
+            "pillow ; extra == 'docs'",
+            "sphinx ; extra == 'docs'",
+            "sphinx-autoapi ; extra == 'docs'",
+            "sphinx-autodoc-typehints ; extra == 'docs'",
+            "sphinx-book-theme >=1.0.1 ; extra == 'docs'",
+            "sphinx-codeautolink ; extra == 'docs'",
+            "sphinx-copybutton ; extra == 'docs'",
+            "sphinx-comments ; extra == 'docs'",
+            "sphinx-design ; extra == 'docs'",
+            "sphinx-gallery ; extra == 'docs'",
+            "sphinx-hoverxref ; extra == 'docs'",
+            "sphinx-intl ; extra == 'docs'",
+            "sphinx-rtd-theme ; extra == 'docs'",
+            "sphinx-togglebutton ; extra == 'docs'",
+            "sphinx-toolbox ; extra == 'docs'",
+            "sphinxcontrib-programoutput ; extra == 'docs'",
+            "ipynbname ; extra == 'jupyter'",
+            "nbconvert ; extra == 'jupyter'"
+          ],
+          "requires_python": ">=3.7"
+        }
+      },
       "2016a1": {
         "abqpy-2016a1-py3-none-any.whl": {
           "requires_python": ">=3.9"
@@ -698,6 +748,9 @@
       "2017.5.6": {
         "abqpy-2017.5.6-py3-none-any.whl": "2016.5.6@abqpy-2016.5.6-py3-none-any.whl"
       },
+      "2017.5.7": {
+        "abqpy-2017.5.7-py3-none-any.whl": "2016.5.7@abqpy-2016.5.7-py3-none-any.whl"
+      },
       "2017a10": {
         "abqpy-2017a10-py3-none-any.whl": "2016a10@abqpy-2016a10-py3-none-any.whl"
       },
@@ -850,6 +903,9 @@
       },
       "2018.5.6": {
         "abqpy-2018.5.6-py3-none-any.whl": "2016.5.6@abqpy-2016.5.6-py3-none-any.whl"
+      },
+      "2018.5.7": {
+        "abqpy-2018.5.7-py3-none-any.whl": "2016.5.7@abqpy-2016.5.7-py3-none-any.whl"
       },
       "2018a10": {
         "abqpy-2018a10-py3-none-any.whl": "2016a10@abqpy-2016a10-py3-none-any.whl"
@@ -1004,6 +1060,9 @@
       "2019.5.6": {
         "abqpy-2019.5.6-py3-none-any.whl": "2016.5.6@abqpy-2016.5.6-py3-none-any.whl"
       },
+      "2019.5.7": {
+        "abqpy-2019.5.7-py3-none-any.whl": "2016.5.7@abqpy-2016.5.7-py3-none-any.whl"
+      },
       "2019a10": {
         "abqpy-2019a10-py3-none-any.whl": "2016a10@abqpy-2016a10-py3-none-any.whl"
       },
@@ -1154,6 +1213,9 @@
       "2020.5.6": {
         "abqpy-2020.5.6-py3-none-any.whl": "2016.5.6@abqpy-2016.5.6-py3-none-any.whl"
       },
+      "2020.5.7": {
+        "abqpy-2020.5.7-py3-none-any.whl": "2016.5.7@abqpy-2016.5.7-py3-none-any.whl"
+      },
       "2020a10": {
         "abqpy-2020a10-py3-none-any.whl": "2016a10@abqpy-2016a10-py3-none-any.whl"
       },
@@ -1301,6 +1363,9 @@
       "2021.5.6": {
         "abqpy-2021.5.6-py3-none-any.whl": "2016.5.6@abqpy-2016.5.6-py3-none-any.whl"
       },
+      "2021.5.7": {
+        "abqpy-2021.5.7-py3-none-any.whl": "2016.5.7@abqpy-2016.5.7-py3-none-any.whl"
+      },
       "2021a10": {
         "abqpy-2021a10-py3-none-any.whl": "2016a10@abqpy-2016a10-py3-none-any.whl"
       },
@@ -1445,6 +1510,9 @@
       "2022.5.6": {
         "abqpy-2022.5.6-py3-none-any.whl": "2016.5.6@abqpy-2016.5.6-py3-none-any.whl"
       },
+      "2022.5.7": {
+        "abqpy-2022.5.7-py3-none-any.whl": "2016.5.7@abqpy-2016.5.7-py3-none-any.whl"
+      },
       "2022a10": {
         "abqpy-2022a10-py3-none-any.whl": "2016a10@abqpy-2016a10-py3-none-any.whl"
       },
@@ -1492,6 +1560,9 @@
       },
       "2023.5.6": {
         "abqpy-2023.5.6-py3-none-any.whl": "2016.5.6@abqpy-2016.5.6-py3-none-any.whl"
+      },
+      "2023.5.7": {
+        "abqpy-2023.5.7-py3-none-any.whl": "2016.5.7@abqpy-2016.5.7-py3-none-any.whl"
       }
     }
   },
@@ -1543,6 +1614,19 @@
           ],
           "requires_dist": [
             "abqpy ==2019.5.6",
+            "ipynbname ; extra == 'jupyter'",
+            "nbconvert ; extra == 'jupyter'"
+          ],
+          "requires_python": ">=3.7"
+        }
+      },
+      "2019.5.7": {
+        "abqpy2019-2019.5.7-py3-none-any.whl": {
+          "provides_extras": [
+            "jupyter"
+          ],
+          "requires_dist": [
+            "abqpy ==2019.5.7",
             "ipynbname ; extra == 'jupyter'",
             "nbconvert ; extra == 'jupyter'"
           ],
@@ -2459,6 +2543,15 @@
       },
       "0.0.15": {
         "alfreds-0.0.15-py3-none-any.whl": "0.0.13@alfreds-0.0.13-py3-none-any.whl"
+      },
+      "0.0.16": {
+        "alfreds-0.0.16-py3-none-any.whl": "0.0.13@alfreds-0.0.13-py3-none-any.whl"
+      },
+      "0.0.17": {
+        "alfreds-0.0.17-py3-none-any.whl": "0.0.13@alfreds-0.0.13-py3-none-any.whl"
+      },
+      "0.0.18": {
+        "alfreds-0.0.18-py3-none-any.whl": "0.0.13@alfreds-0.0.13-py3-none-any.whl"
       },
       "0.0.2": {
         "alfreds-0.0.2-py3-none-any.whl": "0.0.10@alfreds-0.0.10-py3-none-any.whl"
@@ -3952,6 +4045,27 @@
             "ansys-sphinx-theme==0.10.4 ; extra == \"doc\"",
             "numpydoc==1.5.0 ; extra == \"doc\"",
             "sphinx==7.2.4 ; extra == \"doc\"",
+            "sphinx-copybutton==0.5.2 ; extra == \"doc\"",
+            "pytest==7.4.0 ; extra == \"tests\"",
+            "pytest-cov==4.1.0 ; extra == \"tests\""
+          ],
+          "requires_python": ">=3.7"
+        }
+      },
+      "1.5.0": {
+        "ansys_templates-1.5.0-py3-none-any.whl": {
+          "provides_extras": [
+            "doc",
+            "tests"
+          ],
+          "requires_dist": [
+            "importlib-metadata >=4.0",
+            "click>=7.0,<9.0.0",
+            "cookiecutter>=2.1.0,<2.3.0",
+            "isort>=5.10.1",
+            "ansys-sphinx-theme==0.10.4 ; extra == \"doc\"",
+            "numpydoc==1.5.0 ; extra == \"doc\"",
+            "sphinx==7.1.2 ; extra == \"doc\"",
             "sphinx-copybutton==0.5.2 ; extra == \"doc\"",
             "pytest==7.4.0 ; extra == \"tests\"",
             "pytest-cov==4.1.0 ; extra == \"tests\""
@@ -16792,6 +16906,15 @@
       }
     }
   },
+  "billing-importer-aws": {
+    "py3": {
+      "0.0.1rc1": {
+        "billing_importer_aws-0.0.1rc1-py3-none-any.whl": {
+          "requires_python": ">=3.6,<4.0"
+        }
+      }
+    }
+  },
   "billoredis": {
     "py3": {
       "0.0.0": {
@@ -17560,6 +17683,9 @@
       "1.31.41": {
         "botocore_a_la_carte_codeguru_security-1.31.41-py3-none-any.whl": "1.29.153@botocore_a_la_carte_codeguru_security-1.29.153-py3-none-any.whl"
       },
+      "1.31.42": {
+        "botocore_a_la_carte_codeguru_security-1.31.42-py3-none-any.whl": "1.29.153@botocore_a_la_carte_codeguru_security-1.29.153-py3-none-any.whl"
+      },
       "1.31.5": {
         "botocore_a_la_carte_codeguru_security-1.31.5-py3-none-any.whl": "1.29.153@botocore_a_la_carte_codeguru_security-1.29.153-py3-none-any.whl"
       },
@@ -17664,6 +17790,9 @@
       },
       "1.31.41": {
         "botocore_a_la_carte_entityresolution-1.31.41-py3-none-any.whl": "1.31.12@botocore_a_la_carte_entityresolution-1.31.12-py3-none-any.whl"
+      },
+      "1.31.42": {
+        "botocore_a_la_carte_entityresolution-1.31.42-py3-none-any.whl": "1.31.12@botocore_a_la_carte_entityresolution-1.31.12-py3-none-any.whl"
       }
     }
   },
@@ -18153,6 +18282,9 @@
       },
       "1.31.41": {
         "botocore_a_la_carte_resiliencehub-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_resiliencehub-1.29.100-py3-none-any.whl"
+      },
+      "1.31.42": {
+        "botocore_a_la_carte_resiliencehub-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_resiliencehub-1.29.100-py3-none-any.whl"
       },
       "1.31.5": {
         "botocore_a_la_carte_resiliencehub-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_resiliencehub-1.29.100-py3-none-any.whl"
@@ -18953,6 +19085,9 @@
           ],
           "requires_python": ">=3.9"
         }
+      },
+      "0.4.11": {
+        "cashflower-0.4.11-py3-none-any.whl": "0.4.10@cashflower-0.4.10-py3-none-any.whl"
       },
       "0.4.2": {
         "cashflower-0.4.2-py3-none-any.whl": "0.4.0@cashflower-0.4.0-py3-none-any.whl"
@@ -21211,6 +21346,18 @@
       },
       "0.0.365": {
         "cdk8s_jenkins-0.0.365-py3-none-any.whl": "0.0.363@cdk8s_jenkins-0.0.363-py3-none-any.whl"
+      },
+      "0.0.366": {
+        "cdk8s_jenkins-0.0.366-py3-none-any.whl": {
+          "requires_dist": [
+            "cdk8s <3.0.0,>=2.64.5",
+            "constructs <11.0.0,>=10.2.70",
+            "jsii <2.0.0,>=1.88.0",
+            "publication >=0.0.3",
+            "typeguard ~=2.13.3"
+          ],
+          "requires_python": "~=3.7"
+        }
       },
       "0.0.37": {
         "cdk8s_jenkins-0.0.37-py3-none-any.whl": "0.0.31@cdk8s_jenkins-0.0.31-py3-none-any.whl"
@@ -24139,6 +24286,19 @@
       },
       "0.1.0": {
         "commonroad_openscenario_converter-0.1.0-py3-none-any.whl": "0.0.4@commonroad_openscenario_converter-0.0.4-py3-none-any.whl"
+      }
+    }
+  },
+  "compdfkit-api-python": {
+    "py3": {
+      "1.3.2": {
+        "compdfkit_api_python-1.3.2-py3-none-any.whl": {
+          "requires_dist": [
+            "requests",
+            "requests-toolbelt"
+          ],
+          "requires_python": ">=3.8"
+        }
       }
     }
   },
@@ -30548,6 +30708,19 @@
         "dora_rs-0.2.4rc3-cp37-abi3-win32.whl": "0.1.0@dora_rs-0.1.0-cp37-abi3-macosx_10_7_x86_64.whl",
         "dora_rs-0.2.4rc3-cp37-abi3-win_amd64.whl": "0.1.0@dora_rs-0.1.0-cp37-abi3-macosx_10_7_x86_64.whl"
       },
+      "0.2.5": {
+        "dora_rs-0.2.5-cp37-abi3-macosx_10_7_x86_64.whl": {
+          "requires_dist": [
+            "pyarrow"
+          ]
+        },
+        "dora_rs-0.2.5-cp37-abi3-macosx_11_0_arm64.whl": "0.2.5@dora_rs-0.2.5-cp37-abi3-macosx_10_7_x86_64.whl",
+        "dora_rs-0.2.5-cp37-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "0.2.5@dora_rs-0.2.5-cp37-abi3-macosx_10_7_x86_64.whl",
+        "dora_rs-0.2.5-cp37-abi3-manylinux_2_17_i686.manylinux2014_i686.whl": "0.2.5@dora_rs-0.2.5-cp37-abi3-macosx_10_7_x86_64.whl",
+        "dora_rs-0.2.5-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.2.5@dora_rs-0.2.5-cp37-abi3-macosx_10_7_x86_64.whl",
+        "dora_rs-0.2.5-cp37-abi3-win32.whl": "0.2.5@dora_rs-0.2.5-cp37-abi3-macosx_10_7_x86_64.whl",
+        "dora_rs-0.2.5-cp37-abi3-win_amd64.whl": "0.2.5@dora_rs-0.2.5-cp37-abi3-macosx_10_7_x86_64.whl"
+      },
       "0.2.5a1": {
         "dora_rs-0.2.5a1-cp37-abi3-macosx_10_7_x86_64.whl": "0.1.0@dora_rs-0.1.0-cp37-abi3-macosx_10_7_x86_64.whl",
         "dora_rs-0.2.5a1-cp37-abi3-macosx_11_0_arm64.whl": "0.1.0@dora_rs-0.1.0-cp37-abi3-macosx_10_7_x86_64.whl",
@@ -31854,6 +32027,9 @@
             "numpy"
           ]
         }
+      },
+      "0.0.1": {
+        "earthkit_meteo-0.0.1-py3-none-any.whl": "0.0.0@earthkit_meteo-0.0.0-py3-none-any.whl"
       }
     }
   },
@@ -35777,6 +35953,9 @@
       },
       "0.3.1": {
         "gguf-0.3.1-py3-none-any.whl": "0.1.0@gguf-0.1.0-py3-none-any.whl"
+      },
+      "0.3.2": {
+        "gguf-0.3.2-py3-none-any.whl": "0.1.0@gguf-0.1.0-py3-none-any.whl"
       }
     }
   },
@@ -39294,6 +39473,14 @@
           ],
           "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
         }
+      },
+      "3.1.58": {
+        "huaweicloudsdkcodeartsartifact-3.1.58-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "huaweicloudsdkcore >=3.1.58"
+          ],
+          "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
+        }
       }
     }
   },
@@ -39917,6 +40104,14 @@
         "huaweicloudsdkvas-3.1.57-py2.py3-none-any.whl": {
           "requires_dist": [
             "huaweicloudsdkcore >=3.1.57"
+          ],
+          "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
+        }
+      },
+      "3.1.58": {
+        "huaweicloudsdkvas-3.1.58-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "huaweicloudsdkcore >=3.1.58"
           ],
           "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
         }
@@ -40650,6 +40845,30 @@
     "py3": {
       "2023.2.13.0": {
         "introduction_to_applied_linear_algebra_vectors_matrices_and_least_squares-2023.2.13.0-py3-none-any.whl": {
+          "requires_python": ">=3.6"
+        }
+      }
+    }
+  },
+  "inu": {
+    "py3": {
+      "0.0.0": {
+        "inu-0.0.0-py3-none-any.whl": {
+          "requires_dist": [
+            "numpy",
+            "r3f"
+          ],
+          "requires_python": ">=3.6"
+        }
+      },
+      "1.0.0": {
+        "inu-1.0.0-py3-none-any.whl": "0.0.0@inu-0.0.0-py3-none-any.whl"
+      },
+      "1.0.1": {
+        "inu-1.0.1-py3-none-any.whl": {
+          "requires_dist": [
+            "numpy"
+          ],
           "requires_python": ">=3.6"
         }
       }
@@ -58164,6 +58383,12 @@
       },
       "0.2.1": {
         "mizdb_inlines-0.2.1-py3-none-any.whl": "0.1.0@mizdb_inlines-0.1.0-py3-none-any.whl"
+      },
+      "0.2.2": {
+        "mizdb_inlines-0.2.2-py3-none-any.whl": "0.1.0@mizdb_inlines-0.1.0-py3-none-any.whl"
+      },
+      "0.2.3": {
+        "mizdb_inlines-0.2.3-py3-none-any.whl": "0.1.0@mizdb_inlines-0.1.0-py3-none-any.whl"
       }
     }
   },
@@ -61522,6 +61747,9 @@
           ],
           "requires_python": ">=3.10"
         }
+      },
+      "0.0.3": {
+        "mysql_compare-0.0.3-py3-none-any.whl": "0.0.2@mysql_compare-0.0.2-py3-none-any.whl"
       }
     }
   },
@@ -64234,6 +64462,20 @@
       },
       "0.1.5": {
         "oakx_oger-0.1.5-py3-none-any.whl": "0.1.3@oakx_oger-0.1.3-py3-none-any.whl"
+      },
+      "0.1.6": {
+        "oakx_oger-0.1.6-py3-none-any.whl": {
+          "provides_extras": [
+            "docs"
+          ],
+          "requires_dist": [
+            "OGER (>=1.5,<2.0)",
+            "click (>=8.1.7,<9.0.0)",
+            "importlib (>=1.0.4,<2.0.0)",
+            "oaklib (>=0.5.19)"
+          ],
+          "requires_python": ">=3.9,<4.0"
+        }
       }
     }
   },
@@ -69803,17 +70045,23 @@
       "14.0.1.0.3": {
         "odoo14_addon_maintenance_account-14.0.1.0.3-py3-none-any.whl": "14.0.1.0.1@odoo14_addon_maintenance_account-14.0.1.0.1-py3-none-any.whl"
       },
-      "14.0.1.0.4.dev1": {
-        "odoo14_addon_maintenance_account-14.0.1.0.4.dev1-py3-none-any.whl": "14.0.1.0.1@odoo14_addon_maintenance_account-14.0.1.0.1-py3-none-any.whl"
-      },
-      "14.0.1.0.4.dev2": {
-        "odoo14_addon_maintenance_account-14.0.1.0.4.dev2-py3-none-any.whl": {
+      "14.0.1.0.4": {
+        "odoo14_addon_maintenance_account-14.0.1.0.4-py3-none-any.whl": {
           "requires_dist": [
             "odoo14-addon-maintenance-product",
             "odoo <14.1dev,>=14.0a"
           ],
           "requires_python": ">=3.6"
         }
+      },
+      "14.0.1.0.4.dev1": {
+        "odoo14_addon_maintenance_account-14.0.1.0.4.dev1-py3-none-any.whl": "14.0.1.0.1@odoo14_addon_maintenance_account-14.0.1.0.1-py3-none-any.whl"
+      },
+      "14.0.1.0.4.dev2": {
+        "odoo14_addon_maintenance_account-14.0.1.0.4.dev2-py3-none-any.whl": "14.0.1.0.4@odoo14_addon_maintenance_account-14.0.1.0.4-py3-none-any.whl"
+      },
+      "14.0.1.0.5.dev1": {
+        "odoo14_addon_maintenance_account-14.0.1.0.5.dev1-py3-none-any.whl": "14.0.1.0.4@odoo14_addon_maintenance_account-14.0.1.0.4-py3-none-any.whl"
       }
     }
   },
@@ -70539,6 +70787,9 @@
       },
       "5.2.5": {
         "odxtools-5.2.5-py3-none-any.whl": "5.1.0@odxtools-5.1.0-py3-none-any.whl"
+      },
+      "5.2.6": {
+        "odxtools-5.2.6-py3-none-any.whl": "5.1.0@odxtools-5.1.0-py3-none-any.whl"
       }
     }
   },
@@ -83952,6 +84203,29 @@
       },
       "0.2.0": {
         "pyparcs-0.2.0-py3-none-any.whl": "0.1.1@pyparcs-0.1.1-py3-none-any.whl"
+      },
+      "1.0.0": {
+        "pyparcs-1.0.0-py3-none-any.whl": {
+          "provides_extras": [
+            "doc",
+            "test"
+          ],
+          "requires_dist": [
+            "numpy ~=1.22.2",
+            "pandas ~=1.3.3",
+            "scipy",
+            "scikit-learn ~=1.0.2",
+            "PyYAML ~=6.0",
+            "typeguard ~=2.13.3",
+            "cycler ~=0.11.0",
+            "typing ~=3.7.4.3",
+            "python-benedict ~=0.32.0",
+            "matplotlib ~=3.5.1",
+            "sphinx ; extra == 'doc'",
+            "pytest ; extra == 'test'"
+          ],
+          "requires_python": ">=3.8"
+        }
       }
     }
   },
@@ -85324,6 +85598,13 @@
         "pytensor-2.15.0-cp310-cp310-musllinux_1_1_x86_64.whl": "2.15.0@pytensor-2.15.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
         "pytensor-2.15.0-cp310-cp310-win_amd64.whl": "2.14.0@pytensor-2.14.0-cp310-cp310-macosx_10_9_x86_64.whl"
       },
+      "2.16.0": {
+        "pytensor-2.16.0-cp310-cp310-macosx_10_9_x86_64.whl": "2.14.0@pytensor-2.14.0-cp310-cp310-macosx_10_9_x86_64.whl",
+        "pytensor-2.16.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "2.15.0@pytensor-2.15.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "pytensor-2.16.0-cp310-cp310-musllinux_1_1_i686.whl": "2.15.0@pytensor-2.15.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "pytensor-2.16.0-cp310-cp310-musllinux_1_1_x86_64.whl": "2.15.0@pytensor-2.15.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "pytensor-2.16.0-cp310-cp310-win_amd64.whl": "2.14.0@pytensor-2.14.0-cp310-cp310-macosx_10_9_x86_64.whl"
+      },
       "2.9.1": {
         "pytensor-2.9.1-cp310-cp310-macosx_10_9_x86_64.whl": {
           "provides_extras": [
@@ -85606,6 +85887,13 @@
         "pytensor-2.15.0-cp311-cp311-musllinux_1_1_i686.whl": "2.15.0@pytensor-2.15.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
         "pytensor-2.15.0-cp311-cp311-musllinux_1_1_x86_64.whl": "2.15.0@pytensor-2.15.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
         "pytensor-2.15.0-cp311-cp311-win_amd64.whl": "2.14.0@pytensor-2.14.0-cp311-cp311-macosx_10_9_x86_64.whl"
+      },
+      "2.16.0": {
+        "pytensor-2.16.0-cp311-cp311-macosx_10_9_x86_64.whl": "2.14.0@pytensor-2.14.0-cp311-cp311-macosx_10_9_x86_64.whl",
+        "pytensor-2.16.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "2.15.0@pytensor-2.15.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "pytensor-2.16.0-cp311-cp311-musllinux_1_1_i686.whl": "2.15.0@pytensor-2.15.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "pytensor-2.16.0-cp311-cp311-musllinux_1_1_x86_64.whl": "2.15.0@pytensor-2.15.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "pytensor-2.16.0-cp311-cp311-win_amd64.whl": "2.14.0@pytensor-2.14.0-cp311-cp311-macosx_10_9_x86_64.whl"
       },
       "2.9.1": {
         "pytensor-2.9.1-cp311-cp311-macosx_10_9_x86_64.whl": {
@@ -86111,6 +86399,13 @@
         "pytensor-2.15.0-cp39-cp39-musllinux_1_1_i686.whl": "2.15.0@pytensor-2.15.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
         "pytensor-2.15.0-cp39-cp39-musllinux_1_1_x86_64.whl": "2.15.0@pytensor-2.15.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
         "pytensor-2.15.0-cp39-cp39-win_amd64.whl": "2.14.0@pytensor-2.14.0-cp39-cp39-macosx_10_9_x86_64.whl"
+      },
+      "2.16.0": {
+        "pytensor-2.16.0-cp39-cp39-macosx_10_9_x86_64.whl": "2.14.0@pytensor-2.14.0-cp39-cp39-macosx_10_9_x86_64.whl",
+        "pytensor-2.16.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "2.15.0@pytensor-2.15.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "pytensor-2.16.0-cp39-cp39-musllinux_1_1_i686.whl": "2.15.0@pytensor-2.15.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "pytensor-2.16.0-cp39-cp39-musllinux_1_1_x86_64.whl": "2.15.0@pytensor-2.15.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "pytensor-2.16.0-cp39-cp39-win_amd64.whl": "2.14.0@pytensor-2.14.0-cp39-cp39-macosx_10_9_x86_64.whl"
       },
       "2.9.1": {
         "pytensor-2.9.1-cp39-cp39-macosx_10_9_x86_64.whl": {
@@ -88656,6 +88951,39 @@
             "furo (==2023.5.20) ; (python_version >= \"3.8\") and extra == 'dev'",
             "pre-commit (==3.3.3) ; (python_version >= \"3.8\") and extra == 'dev'",
             "sphinx (==7.0.1) ; (python_version >= \"3.8\") and extra == 'dev'"
+          ]
+        }
+      },
+      "2023.9.53": {
+        "qbittorrent_api-2023.9.53-py2.py3-none-any.whl": {
+          "provides_extras": [
+            "dev"
+          ],
+          "requires_dist": [
+            "requests >=2.16.0",
+            "six",
+            "urllib3 >=1.24.2",
+            "packaging",
+            "enum34 ; python_version < \"3\"",
+            "backports.functools-lru-cache ; python_version < \"3.3\"",
+            "mock ; (python_version < \"3\") and extra == 'dev'",
+            "coverage[toml] ; (python_version < \"3.8\") and extra == 'dev'",
+            "pre-commit ; (python_version < \"3.8\") and extra == 'dev'",
+            "pytest ; (python_version < \"3.8\") and extra == 'dev'",
+            "types-requests ==2.31.0.2 ; (python_version > \"3\") and extra == 'dev'",
+            "types-six ==1.16.21.9 ; (python_version > \"3\") and extra == 'dev'",
+            "black ==23.7.0 ; (python_version >= \"3.8\") and extra == 'dev'",
+            "build ==1.0.0 ; (python_version >= \"3.8\") and extra == 'dev'",
+            "coverage[toml] ==7.3.0 ; (python_version >= \"3.8\") and extra == 'dev'",
+            "furo ==2023.8.19 ; (python_version >= \"3.8\") and extra == 'dev'",
+            "pre-commit ==3.3.3 ; (python_version >= \"3.8\") and extra == 'dev'",
+            "pytest ==7.4.0 ; (python_version >= \"3.8\") and extra == 'dev'",
+            "sphinx-copybutton ==0.5.2 ; (python_version >= \"3.8\") and extra == 'dev'",
+            "sphinxcontrib-spelling ==8.0.0 ; (python_version >= \"3.8\") and extra == 'dev'",
+            "tox ==4.11.1 ; (python_version >= \"3.8\") and extra == 'dev'",
+            "twine ==4.0.2 ; (python_version >= \"3.8\") and extra == 'dev'",
+            "mypy ==1.5.1 ; (python_version >= \"3.8\" and platform_python_implementation != \"PyPy\") and extra == 'dev'",
+            "sphinx ==7.2.5 ; (python_version >= \"3.9\") and extra == 'dev'"
           ]
         }
       }
@@ -106098,6 +106426,12 @@
       },
       "0.0.2": {
         "symbolica-0.0.2-cp311-cp311-manylinux_2_34_x86_64.whl": "0.0.1@symbolica-0.0.1-cp311-cp311-manylinux_2_34_x86_64.whl"
+      },
+      "0.1.0": {
+        "symbolica-0.1.0-cp311-cp311-manylinux_2_34_x86_64.whl": "0.0.1@symbolica-0.0.1-cp311-cp311-manylinux_2_34_x86_64.whl"
+      },
+      "0.1.0.post1": {
+        "symbolica-0.1.0.post1-cp311-cp311-manylinux_2_34_x86_64.whl": "0.0.1@symbolica-0.0.1-cp311-cp311-manylinux_2_34_x86_64.whl"
       }
     }
   },

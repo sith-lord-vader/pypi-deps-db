@@ -99,11 +99,11 @@
     "pypiIndex": {
       "flake": false,
       "locked": {
-        "lastModified": 1694105926,
-        "narHash": "sha256-OKD1yFUB65KC5K52Q5HAV5pBu5mMPuzx4vTfP3SKLUs=",
+        "lastModified": 1699338803,
+        "narHash": "sha256-G6WA0Kc1AHP5OfsRx71xFmbL8m36Lld5WklCj5wiGiA=",
         "owner": "davhau",
         "repo": "nix-pypi-fetcher-2",
-        "rev": "b7afbd6d9a6ad157b5b57afbf67fd46d563d5b95",
+        "rev": "253eb75ba310011d01179b52b51cb7f63566c28e",
         "type": "github"
       },
       "original": {

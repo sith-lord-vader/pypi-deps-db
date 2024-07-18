@@ -12861,6 +12861,15 @@
       "9.18.1": {
         "bimdata_api_client-9.18.1-py3-none-any.whl": "5.14.0@bimdata_api_client-5.14.0-py3-none-any.whl"
       },
+      "9.18.2": {
+        "bimdata_api_client-9.18.2-py3-none-any.whl": "5.14.0@bimdata_api_client-5.14.0-py3-none-any.whl"
+      },
+      "9.19.0": {
+        "bimdata_api_client-9.19.0-py3-none-any.whl": "5.14.0@bimdata_api_client-5.14.0-py3-none-any.whl"
+      },
+      "9.19.1": {
+        "bimdata_api_client-9.19.1-py3-none-any.whl": "5.14.0@bimdata_api_client-5.14.0-py3-none-any.whl"
+      },
       "9.2.0": {
         "bimdata_api_client-9.2.0-py3-none-any.whl": "5.14.0@bimdata_api_client-5.14.0-py3-none-any.whl"
       },
@@ -13046,6 +13055,14 @@
       },
       "4.0.3": {
         "biobb_flexserv-4.0.3-py3-none-any.whl": "4.0.0@biobb_flexserv-4.0.0-py3-none-any.whl"
+      },
+      "4.1.0": {
+        "biobb_flexserv-4.1.0-py3-none-any.whl": {
+          "requires_dist": [
+            "biobb-common (==4.1.0)"
+          ],
+          "requires_python": ">=3.8"
+        }
       }
     }
   },
@@ -14023,6 +14040,9 @@
       "1.31.41": {
         "botocore_a_la_carte_cognito_identity-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_cognito_identity-1.29.100-py3-none-any.whl"
       },
+      "1.31.42": {
+        "botocore_a_la_carte_cognito_identity-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_cognito_identity-1.29.100-py3-none-any.whl"
+      },
       "1.31.5": {
         "botocore_a_la_carte_cognito_identity-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_cognito_identity-1.29.100-py3-none-any.whl"
       },
@@ -14202,6 +14222,9 @@
       },
       "1.31.41": {
         "botocore_a_la_carte_payment_cryptography-1.31.41-py3-none-any.whl": "1.29.150@botocore_a_la_carte_payment_cryptography-1.29.150-py3-none-any.whl"
+      },
+      "1.31.42": {
+        "botocore_a_la_carte_payment_cryptography-1.31.42-py3-none-any.whl": "1.29.150@botocore_a_la_carte_payment_cryptography-1.29.150-py3-none-any.whl"
       },
       "1.31.5": {
         "botocore_a_la_carte_payment_cryptography-1.31.5-py3-none-any.whl": "1.29.150@botocore_a_la_carte_payment_cryptography-1.29.150-py3-none-any.whl"
@@ -14703,6 +14726,9 @@
       },
       "1.31.41": {
         "botocore_a_la_carte_sagemaker_geospatial-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_sagemaker_geospatial-1.29.100-py3-none-any.whl"
+      },
+      "1.31.42": {
+        "botocore_a_la_carte_sagemaker_geospatial-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_sagemaker_geospatial-1.29.100-py3-none-any.whl"
       },
       "1.31.5": {
         "botocore_a_la_carte_sagemaker_geospatial-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_sagemaker_geospatial-1.29.100-py3-none-any.whl"
@@ -19428,6 +19454,16 @@
       },
       "0.5.6.3": {
         "concurrent_plugin-0.5.6.3-py3-none-any.whl": "0.3.27@concurrent_plugin-0.3.27-py3-none-any.whl"
+      },
+      "0.5.7": {
+        "concurrent_plugin-0.5.7-py3-none-any.whl": {
+          "requires_dist": [
+            "mlflow >=1.21.0",
+            "jsons",
+            "kubernetes",
+            "dpath"
+          ]
+        }
       }
     }
   },
@@ -24990,6 +25026,47 @@
             "bokeh >=2.4.2 ; extra == 'diagnostics'",
             "jinja2 >=2.10.3 ; extra == 'diagnostics'",
             "distributed ==2023.9.0 ; extra == 'distributed'",
+            "pandas[test] ; extra == 'test'",
+            "pytest ; extra == 'test'",
+            "pytest-cov ; extra == 'test'",
+            "pytest-rerunfailures ; extra == 'test'",
+            "pytest-timeout ; extra == 'test'",
+            "pytest-xdist ; extra == 'test'",
+            "pre-commit ; extra == 'test'"
+          ],
+          "requires_python": ">=3.9"
+        }
+      },
+      "2023.9.1": {
+        "dask-2023.9.1-py3-none-any.whl": {
+          "provides_extras": [
+            "array",
+            "bag",
+            "complete",
+            "dataframe",
+            "delayed",
+            "diagnostics",
+            "distributed",
+            "test"
+          ],
+          "requires_dist": [
+            "click >=8.0",
+            "cloudpickle >=1.5.0",
+            "fsspec >=2021.09.0",
+            "packaging >=20.0",
+            "partd >=1.2.0",
+            "pyyaml >=5.3.1",
+            "toolz >=0.10.0",
+            "importlib-metadata >=4.13.0",
+            "numpy >=1.21 ; extra == 'array'",
+            "dask[array,dataframe,diagnostics,distributed] ; extra == 'complete'",
+            "pyarrow >=7.0 ; extra == 'complete'",
+            "lz4 >=4.3.2 ; extra == 'complete'",
+            "dask[array] ; extra == 'dataframe'",
+            "pandas >=1.3 ; extra == 'dataframe'",
+            "bokeh >=2.4.2 ; extra == 'diagnostics'",
+            "jinja2 >=2.10.3 ; extra == 'diagnostics'",
+            "distributed ==2023.9.1 ; extra == 'distributed'",
             "pandas[test] ; extra == 'test'",
             "pytest ; extra == 'test'",
             "pytest-cov ; extra == 'test'",
@@ -34137,6 +34214,16 @@
         "ezdxf-1.1.0b5-cp310-cp310-musllinux_1_1_aarch64.whl": "1.1.0b0@ezdxf-1.1.0b0-cp310-cp310-macosx_10_9_universal2.whl",
         "ezdxf-1.1.0b5-cp310-cp310-musllinux_1_1_x86_64.whl": "1.1.0b0@ezdxf-1.1.0b0-cp310-cp310-macosx_10_9_universal2.whl",
         "ezdxf-1.1.0b5-cp310-cp310-win_amd64.whl": "1.1.0b0@ezdxf-1.1.0b0-cp310-cp310-macosx_10_9_universal2.whl"
+      },
+      "1.1.0rc0": {
+        "ezdxf-1.1.0rc0-cp310-cp310-macosx_10_9_universal2.whl": "1.1.0b0@ezdxf-1.1.0b0-cp310-cp310-macosx_10_9_universal2.whl",
+        "ezdxf-1.1.0rc0-cp310-cp310-macosx_10_9_x86_64.whl": "1.1.0b0@ezdxf-1.1.0b0-cp310-cp310-macosx_10_9_universal2.whl",
+        "ezdxf-1.1.0rc0-cp310-cp310-macosx_11_0_arm64.whl": "1.1.0b0@ezdxf-1.1.0b0-cp310-cp310-macosx_10_9_universal2.whl",
+        "ezdxf-1.1.0rc0-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "1.1.0b0@ezdxf-1.1.0b0-cp310-cp310-macosx_10_9_universal2.whl",
+        "ezdxf-1.1.0rc0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "1.1.0b0@ezdxf-1.1.0b0-cp310-cp310-macosx_10_9_universal2.whl",
+        "ezdxf-1.1.0rc0-cp310-cp310-musllinux_1_1_aarch64.whl": "1.1.0b0@ezdxf-1.1.0b0-cp310-cp310-macosx_10_9_universal2.whl",
+        "ezdxf-1.1.0rc0-cp310-cp310-musllinux_1_1_x86_64.whl": "1.1.0b0@ezdxf-1.1.0b0-cp310-cp310-macosx_10_9_universal2.whl",
+        "ezdxf-1.1.0rc0-cp310-cp310-win_amd64.whl": "1.1.0b0@ezdxf-1.1.0b0-cp310-cp310-macosx_10_9_universal2.whl"
       }
     },
     "cp311": {
@@ -34454,6 +34541,16 @@
         "ezdxf-1.1.0b5-cp311-cp311-musllinux_1_1_aarch64.whl": "1.1.0b0@ezdxf-1.1.0b0-cp311-cp311-macosx_10_9_universal2.whl",
         "ezdxf-1.1.0b5-cp311-cp311-musllinux_1_1_x86_64.whl": "1.1.0b0@ezdxf-1.1.0b0-cp311-cp311-macosx_10_9_universal2.whl",
         "ezdxf-1.1.0b5-cp311-cp311-win_amd64.whl": "1.1.0b0@ezdxf-1.1.0b0-cp311-cp311-macosx_10_9_universal2.whl"
+      },
+      "1.1.0rc0": {
+        "ezdxf-1.1.0rc0-cp311-cp311-macosx_10_9_universal2.whl": "1.1.0b0@ezdxf-1.1.0b0-cp311-cp311-macosx_10_9_universal2.whl",
+        "ezdxf-1.1.0rc0-cp311-cp311-macosx_10_9_x86_64.whl": "1.1.0b0@ezdxf-1.1.0b0-cp311-cp311-macosx_10_9_universal2.whl",
+        "ezdxf-1.1.0rc0-cp311-cp311-macosx_11_0_arm64.whl": "1.1.0b0@ezdxf-1.1.0b0-cp311-cp311-macosx_10_9_universal2.whl",
+        "ezdxf-1.1.0rc0-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "1.1.0b0@ezdxf-1.1.0b0-cp311-cp311-macosx_10_9_universal2.whl",
+        "ezdxf-1.1.0rc0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "1.1.0b0@ezdxf-1.1.0b0-cp311-cp311-macosx_10_9_universal2.whl",
+        "ezdxf-1.1.0rc0-cp311-cp311-musllinux_1_1_aarch64.whl": "1.1.0b0@ezdxf-1.1.0b0-cp311-cp311-macosx_10_9_universal2.whl",
+        "ezdxf-1.1.0rc0-cp311-cp311-musllinux_1_1_x86_64.whl": "1.1.0b0@ezdxf-1.1.0b0-cp311-cp311-macosx_10_9_universal2.whl",
+        "ezdxf-1.1.0rc0-cp311-cp311-win_amd64.whl": "1.1.0b0@ezdxf-1.1.0b0-cp311-cp311-macosx_10_9_universal2.whl"
       }
     },
     "cp36": {
@@ -35988,6 +36085,16 @@
         "ezdxf-1.1.0b5-cp38-cp38-musllinux_1_1_aarch64.whl": "1.1.0b0@ezdxf-1.1.0b0-cp38-cp38-macosx_10_9_universal2.whl",
         "ezdxf-1.1.0b5-cp38-cp38-musllinux_1_1_x86_64.whl": "1.1.0b0@ezdxf-1.1.0b0-cp38-cp38-macosx_10_9_universal2.whl",
         "ezdxf-1.1.0b5-cp38-cp38-win_amd64.whl": "1.1.0b0@ezdxf-1.1.0b0-cp38-cp38-macosx_10_9_universal2.whl"
+      },
+      "1.1.0rc0": {
+        "ezdxf-1.1.0rc0-cp38-cp38-macosx_10_9_universal2.whl": "1.1.0b0@ezdxf-1.1.0b0-cp38-cp38-macosx_10_9_universal2.whl",
+        "ezdxf-1.1.0rc0-cp38-cp38-macosx_10_9_x86_64.whl": "1.1.0b0@ezdxf-1.1.0b0-cp38-cp38-macosx_10_9_universal2.whl",
+        "ezdxf-1.1.0rc0-cp38-cp38-macosx_11_0_arm64.whl": "1.1.0b0@ezdxf-1.1.0b0-cp38-cp38-macosx_10_9_universal2.whl",
+        "ezdxf-1.1.0rc0-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "1.1.0b0@ezdxf-1.1.0b0-cp38-cp38-macosx_10_9_universal2.whl",
+        "ezdxf-1.1.0rc0-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "1.1.0b0@ezdxf-1.1.0b0-cp38-cp38-macosx_10_9_universal2.whl",
+        "ezdxf-1.1.0rc0-cp38-cp38-musllinux_1_1_aarch64.whl": "1.1.0b0@ezdxf-1.1.0b0-cp38-cp38-macosx_10_9_universal2.whl",
+        "ezdxf-1.1.0rc0-cp38-cp38-musllinux_1_1_x86_64.whl": "1.1.0b0@ezdxf-1.1.0b0-cp38-cp38-macosx_10_9_universal2.whl",
+        "ezdxf-1.1.0rc0-cp38-cp38-win_amd64.whl": "1.1.0b0@ezdxf-1.1.0b0-cp38-cp38-macosx_10_9_universal2.whl"
       }
     },
     "cp39": {
@@ -36814,6 +36921,16 @@
         "ezdxf-1.1.0b5-cp39-cp39-musllinux_1_1_aarch64.whl": "1.1.0b0@ezdxf-1.1.0b0-cp39-cp39-macosx_10_9_universal2.whl",
         "ezdxf-1.1.0b5-cp39-cp39-musllinux_1_1_x86_64.whl": "1.1.0b0@ezdxf-1.1.0b0-cp39-cp39-macosx_10_9_universal2.whl",
         "ezdxf-1.1.0b5-cp39-cp39-win_amd64.whl": "1.1.0b0@ezdxf-1.1.0b0-cp39-cp39-macosx_10_9_universal2.whl"
+      },
+      "1.1.0rc0": {
+        "ezdxf-1.1.0rc0-cp39-cp39-macosx_10_9_universal2.whl": "1.1.0b0@ezdxf-1.1.0b0-cp39-cp39-macosx_10_9_universal2.whl",
+        "ezdxf-1.1.0rc0-cp39-cp39-macosx_10_9_x86_64.whl": "1.1.0b0@ezdxf-1.1.0b0-cp39-cp39-macosx_10_9_universal2.whl",
+        "ezdxf-1.1.0rc0-cp39-cp39-macosx_11_0_arm64.whl": "1.1.0b0@ezdxf-1.1.0b0-cp39-cp39-macosx_10_9_universal2.whl",
+        "ezdxf-1.1.0rc0-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "1.1.0b0@ezdxf-1.1.0b0-cp39-cp39-macosx_10_9_universal2.whl",
+        "ezdxf-1.1.0rc0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "1.1.0b0@ezdxf-1.1.0b0-cp39-cp39-macosx_10_9_universal2.whl",
+        "ezdxf-1.1.0rc0-cp39-cp39-musllinux_1_1_aarch64.whl": "1.1.0b0@ezdxf-1.1.0b0-cp39-cp39-macosx_10_9_universal2.whl",
+        "ezdxf-1.1.0rc0-cp39-cp39-musllinux_1_1_x86_64.whl": "1.1.0b0@ezdxf-1.1.0b0-cp39-cp39-macosx_10_9_universal2.whl",
+        "ezdxf-1.1.0rc0-cp39-cp39-win_amd64.whl": "1.1.0b0@ezdxf-1.1.0b0-cp39-cp39-macosx_10_9_universal2.whl"
       }
     },
     "py2.py3": {
@@ -37234,6 +37351,50 @@
       },
       "1.1.0b5": {
         "ezdxf-1.1.0b5-py3-none-any.whl": "1.1.0b0@ezdxf-1.1.0b0-py3-none-any.whl"
+      },
+      "1.1.0rc0": {
+        "ezdxf-1.1.0rc0-py3-none-any.whl": {
+          "provides_extras": [
+            "all",
+            "all5",
+            "dev",
+            "draw",
+            "draw5",
+            "test"
+          ],
+          "requires_dist": [
+            "pyparsing >=2.0.1",
+            "typing-extensions",
+            "numpy",
+            "fonttools",
+            "matplotlib ; extra == 'all'",
+            "PySide6 ; extra == 'all'",
+            "PyMuPDF ; extra == 'all'",
+            "setuptools ; extra == 'all'",
+            "wheel ; extra == 'all'",
+            "Cython ; extra == 'all'",
+            "pytest ; extra == 'all'",
+            "matplotlib ; extra == 'all5'",
+            "PyQt5 ; extra == 'all5'",
+            "PyMuPDF ; extra == 'all5'",
+            "setuptools ; extra == 'all5'",
+            "wheel ; extra == 'all5'",
+            "Cython ; extra == 'all5'",
+            "pytest ; extra == 'all5'",
+            "setuptools ; extra == 'dev'",
+            "wheel ; extra == 'dev'",
+            "Cython ; extra == 'dev'",
+            "pytest ; extra == 'dev'",
+            "matplotlib ; extra == 'draw'",
+            "PySide6 ; extra == 'draw'",
+            "PyMuPDF ; extra == 'draw'",
+            "matplotlib ; extra == 'draw5'",
+            "PyQt5 ; extra == 'draw5'",
+            "PyMuPDF ; extra == 'draw5'",
+            "pytest ; extra == 'test'"
+          ],
+          "requires_python": ">=3.8"
+        }
       }
     }
   },
@@ -39619,6 +39780,9 @@
       },
       "0.1.7": {
         "foxplainer-0.1.7-py3-none-any.whl": "0.1.5@foxplainer-0.1.5-py3-none-any.whl"
+      },
+      "0.2.0": {
+        "foxplainer-0.2.0-py3-none-any.whl": "0.1.5@foxplainer-0.1.5-py3-none-any.whl"
       }
     }
   },
@@ -50685,6 +50849,9 @@
       },
       "0.2.0.0": {
         "light_distribution_analysis-0.2.0.0-py3-none-any.whl": "0.1.0@light_distribution_analysis-0.1.0-py3-none-any.whl"
+      },
+      "0.2.0.1": {
+        "light_distribution_analysis-0.2.0.1-py3-none-any.whl": "0.1.0@light_distribution_analysis-0.1.0-py3-none-any.whl"
       }
     }
   },
@@ -60019,6 +60186,15 @@
       "1.4.1": {
         "nuvpy-1.4.1-py3-none-any.whl": "1.3.3@nuvpy-1.3.3-py3-none-any.whl"
       },
+      "1.4.10": {
+        "nuvpy-1.4.10-py3-none-any.whl": "1.3.3@nuvpy-1.3.3-py3-none-any.whl"
+      },
+      "1.4.11": {
+        "nuvpy-1.4.11-py3-none-any.whl": "1.3.3@nuvpy-1.3.3-py3-none-any.whl"
+      },
+      "1.4.12": {
+        "nuvpy-1.4.12-py3-none-any.whl": "1.3.3@nuvpy-1.3.3-py3-none-any.whl"
+      },
       "1.4.2": {
         "nuvpy-1.4.2-py3-none-any.whl": "1.3.3@nuvpy-1.3.3-py3-none-any.whl"
       },
@@ -60039,6 +60215,9 @@
       },
       "1.4.8": {
         "nuvpy-1.4.8-py3-none-any.whl": "1.3.3@nuvpy-1.3.3-py3-none-any.whl"
+      },
+      "1.4.9": {
+        "nuvpy-1.4.9-py3-none-any.whl": "1.3.3@nuvpy-1.3.3-py3-none-any.whl"
       }
     }
   },
@@ -83616,6 +83795,20 @@
           ],
           "requires_python": ">=3.11,<4.0"
         }
+      },
+      "3.1.0": {
+        "splitn-3.1.0-py3-none-any.whl": "3.0.0@splitn-3.0.0-py3-none-any.whl"
+      },
+      "3.2.0": {
+        "splitn-3.2.0-py3-none-any.whl": {
+          "requires_dist": [
+            "argparse (>=1.4.0,<2.0.0)",
+            "loguru (>=0.7.1,<0.8.0)",
+            "rich (>=13.5.2,<14.0.0)",
+            "rstr (>=3.2.1,<4.0.0)"
+          ],
+          "requires_python": ">=3.11,<4.0"
+        }
       }
     }
   },
@@ -84783,6 +84976,21 @@
       },
       "1.8.0": {
         "table_update_create_scenario-1.8.0-py3-none-any.whl": "1.0.0@table_update_create_scenario-1.0.0-py3-none-any.whl"
+      },
+      "1.9.0": {
+        "table_update_create_scenario-1.9.0-py3-none-any.whl": "1.0.0@table_update_create_scenario-1.0.0-py3-none-any.whl"
+      },
+      "2.0.0": {
+        "table_update_create_scenario-2.0.0-py3-none-any.whl": "1.0.0@table_update_create_scenario-1.0.0-py3-none-any.whl"
+      },
+      "2.1.0": {
+        "table_update_create_scenario-2.1.0-py3-none-any.whl": "1.0.0@table_update_create_scenario-1.0.0-py3-none-any.whl"
+      },
+      "2.2.0": {
+        "table_update_create_scenario-2.2.0-py3-none-any.whl": "1.0.0@table_update_create_scenario-1.0.0-py3-none-any.whl"
+      },
+      "2.3.0": {
+        "table_update_create_scenario-2.3.0-py3-none-any.whl": "1.0.0@table_update_create_scenario-1.0.0-py3-none-any.whl"
       }
     }
   },
@@ -87234,6 +87442,20 @@
             "tencentcloud-sdk-python-common (==3.0.974)"
           ]
         }
+      },
+      "3.0.975": {
+        "tencentcloud_sdk_python_bda-3.0.975-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.975)"
+          ]
+        }
+      },
+      "3.0.976": {
+        "tencentcloud_sdk_python_bda-3.0.976-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.976)"
+          ]
+        }
       }
     }
   },
@@ -89413,6 +89635,20 @@
             "tencentcloud-sdk-python-common (==3.0.974)"
           ]
         }
+      },
+      "3.0.975": {
+        "tencentcloud_sdk_python_tbp-3.0.975-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.975)"
+          ]
+        }
+      },
+      "3.0.976": {
+        "tencentcloud_sdk_python_tbp-3.0.976-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.976)"
+          ]
+        }
       }
     }
   },
@@ -90106,6 +90342,24 @@
       },
       "1.0.4": {
         "tiktok_hashtag_analysis-1.0.4-py3-none-any.whl": "1.0.1@tiktok_hashtag_analysis-1.0.1-py3-none-any.whl"
+      },
+      "2.0.0": {
+        "tiktok_hashtag_analysis-2.0.0-py3-none-any.whl": {
+          "provides_extras": [
+            "test"
+          ],
+          "requires_dist": [
+            "seaborn",
+            "matplotlib",
+            "TikTokApi",
+            "requests",
+            "yt-dlp",
+            "pytest ; extra == 'test'",
+            "pytest-cov ; extra == 'test'",
+            "pytest-html ; extra == 'test'",
+            "pytest-metadata ; extra == 'test'"
+          ]
+        }
       }
     }
   },
@@ -96102,6 +96356,15 @@
       },
       "0.3.36": {
         "wizata_dsapi-0.3.36-py3-none-any.whl": "0.3.10@wizata_dsapi-0.3.10-py3-none-any.whl"
+      },
+      "0.3.37": {
+        "wizata_dsapi-0.3.37-py3-none-any.whl": "0.3.10@wizata_dsapi-0.3.10-py3-none-any.whl"
+      },
+      "0.3.38": {
+        "wizata_dsapi-0.3.38-py3-none-any.whl": "0.3.10@wizata_dsapi-0.3.10-py3-none-any.whl"
+      },
+      "0.3.39": {
+        "wizata_dsapi-0.3.39-py3-none-any.whl": "0.3.10@wizata_dsapi-0.3.10-py3-none-any.whl"
       },
       "0.3.4": {
         "wizata_dsapi-0.3.4-py3-none-any.whl": "0.0.169@wizata_dsapi-0.0.169-py3-none-any.whl"

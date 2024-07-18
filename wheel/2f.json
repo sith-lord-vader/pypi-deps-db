@@ -8847,6 +8847,9 @@
       },
       "1.6.0": {
         "atriumsports_sdk-1.6.0-py3-none-any.whl": "1.4.4@atriumsports_sdk-1.4.4-py3-none-any.whl"
+      },
+      "1.7.0b1": {
+        "atriumsports_sdk-1.7.0b1-py3-none-any.whl": "1.4.4@atriumsports_sdk-1.4.4-py3-none-any.whl"
       }
     }
   },
@@ -15266,6 +15269,26 @@
           ],
           "requires_python": ">=3.8,<4.0"
         }
+      },
+      "0.1.2.dev10": {
+        "blind_llama-0.1.2.dev10-py3-none-any.whl": {
+          "requires_dist": [
+            "grpcio (==1.56.2)",
+            "grpcio-tools (==1.56.2)",
+            "protobuf (==4.24.0)",
+            "pydantic (>=2.2.0,<3.0.0)",
+            "pyjwt (>=2.7.0,<3.0.0)",
+            "pyopenssl (>=23.2.0,<24.0.0)",
+            "pyyaml (>=6.0,<7.0)",
+            "requests (>=2.28.2,<3.0.0)",
+            "rich (>=13.3.5,<14.0.0)",
+            "typer[all] (>=0.9.0,<0.10.0)"
+          ],
+          "requires_python": ">=3.8,<4.0"
+        }
+      },
+      "0.1.3": {
+        "blind_llama-0.1.3-py3-none-any.whl": "0.1.2.dev10@blind_llama-0.1.2.dev10-py3-none-any.whl"
       }
     }
   },
@@ -16276,6 +16299,23 @@
             "google-auth (>=2.17.3)",
             "black (==22.6.0) ; extra == 'dev'",
             "setuptools (>=21.0.0) ; extra == 'dev'",
+            "wheel ; extra == 'dev'",
+            "twine ; extra == 'dev'",
+            "pytest ; extra == 'dev'",
+            "pytest-cov ; extra == 'dev'"
+          ],
+          "requires_python": ">=3.7,<3.11"
+        }
+      },
+      "0.0.0.post7": {
+        "caraml_auth_google-0.0.0.post7-py3-none-any.whl": {
+          "provides_extras": [
+            "dev"
+          ],
+          "requires_dist": [
+            "google-auth >=2.18.0",
+            "black ==22.6.0 ; extra == 'dev'",
+            "setuptools >=21.0.0 ; extra == 'dev'",
             "wheel ; extra == 'dev'",
             "twine ; extra == 'dev'",
             "pytest ; extra == 'dev'",
@@ -17579,6 +17619,9 @@
       },
       "2.0.261": {
         "cdk_databrew_cicd-2.0.261-py3-none-any.whl": "2.0.250@cdk_databrew_cicd-2.0.250-py3-none-any.whl"
+      },
+      "2.0.262": {
+        "cdk_databrew_cicd-2.0.262-py3-none-any.whl": "2.0.250@cdk_databrew_cicd-2.0.250-py3-none-any.whl"
       },
       "2.0.27": {
         "cdk_databrew_cicd-2.0.27-py3-none-any.whl": "2.0.10@cdk_databrew_cicd-2.0.10-py3-none-any.whl"
@@ -25802,6 +25845,25 @@
       },
       "4.0.1": {
         "ddev-4.0.1-py3-none-any.whl": "3.4.0@ddev-3.4.0-py3-none-any.whl"
+      },
+      "5.0.0": {
+        "ddev-5.0.0-py3-none-any.whl": {
+          "requires_dist": [
+            "click~=8.1.6",
+            "coverage",
+            "datadog-checks-dev[cli]~=24.0",
+            "hatch>=1.6.3",
+            "httpx",
+            "jsonpointer",
+            "pluggy",
+            "rich>=12.5.1",
+            "tomli-w",
+            "tomli; python_version < '3.11'",
+            "tomlkit",
+            "tqdm"
+          ],
+          "requires_python": ">=3.9"
+        }
       }
     }
   },
@@ -26116,6 +26178,18 @@
             "pydantic (>1,<3)"
           ],
           "requires_python": ">=3.8.1,<4.0"
+        }
+      },
+      "1.1.2": {
+        "declarativex-1.1.2-py3-none-any.whl": "1.1.1@declarativex-1.1.1-py3-none-any.whl"
+      },
+      "1.2.0": {
+        "declarativex-1.2.0-py3-none-any.whl": {
+          "requires_dist": [
+            "httpx (>=0.24.1,<0.25.0)",
+            "pydantic (>1,<3)"
+          ],
+          "requires_python": ">=3.8.1,<4"
         }
       }
     }
@@ -29527,6 +29601,9 @@
       },
       "1.0.7": {
         "dvelopdmspy-1.0.7-py2.py3-none-any.whl": "1.0.5@dvelopdmspy-1.0.5-py2.py3-none-any.whl"
+      },
+      "1.0.8": {
+        "dvelopdmspy-1.0.8-py2.py3-none-any.whl": "1.0.5@dvelopdmspy-1.0.5-py2.py3-none-any.whl"
       }
     }
   },
@@ -38071,6 +38148,21 @@
       },
       "2.5.0": {
         "google_resumable_media-2.5.0-py2.py3-none-any.whl": "2.4.0@google_resumable_media-2.4.0-py2.py3-none-any.whl"
+      },
+      "2.6.0": {
+        "google_resumable_media-2.6.0-py2.py3-none-any.whl": {
+          "provides_extras": [
+            "aiohttp",
+            "requests"
+          ],
+          "requires_dist": [
+            "google-crc32c (<2.0dev,>=1.0)",
+            "aiohttp (<4.0.0dev,>=3.6.2) ; extra == 'aiohttp'",
+            "google-auth (<2.0dev,>=1.22.0) ; extra == 'aiohttp'",
+            "requests (<3.0.0dev,>=2.18.0) ; extra == 'requests'"
+          ],
+          "requires_python": ">= 3.7"
+        }
       }
     }
   },
@@ -39838,6 +39930,14 @@
           ],
           "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
         }
+      },
+      "3.1.58": {
+        "huaweicloudsdkdc-3.1.58-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "huaweicloudsdkcore >=3.1.58"
+          ],
+          "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
+        }
       }
     }
   },
@@ -40018,6 +40118,9 @@
       },
       "0.8.0a22": {
         "huscy.consents-0.8.0a22-py3-none-any.whl": "0.8.0a19@huscy.consents-0.8.0a19-py3-none-any.whl"
+      },
+      "0.9.0a23": {
+        "huscy.consents-0.9.0a23-py3-none-any.whl": "0.8.0a19@huscy.consents-0.8.0a19-py3-none-any.whl"
       }
     }
   },
@@ -43147,6 +43250,9 @@
       },
       "0.2.53": {
         "lazyops-0.2.53-py3-none-any.whl": "0.2.41@lazyops-0.2.41-py3-none-any.whl"
+      },
+      "0.2.54": {
+        "lazyops-0.2.54-py3-none-any.whl": "0.2.41@lazyops-0.2.41-py3-none-any.whl"
       },
       "0.2.6": {
         "lazyops-0.2.6-py3-none-any.whl": "0.2.0@lazyops-0.2.0-py3-none-any.whl"
@@ -51804,6 +51910,9 @@
       },
       "0.28.1": {
         "modelbit-0.28.1-py3-none-any.whl": "0.28.0@modelbit-0.28.0-py3-none-any.whl"
+      },
+      "0.28.2": {
+        "modelbit-0.28.2-py3-none-any.whl": "0.28.0@modelbit-0.28.0-py3-none-any.whl"
       },
       "0.3.0": {
         "modelbit-0.3.0-py3-none-any.whl": {
@@ -64312,6 +64421,15 @@
             "packaging"
           ]
         }
+      },
+      "0.0.7": {
+        "pyhgf-0.0.7-py3-none-any.whl": "0.0.6@pyhgf-0.0.6-py3-none-any.whl"
+      },
+      "0.0.8": {
+        "pyhgf-0.0.8-py3-none-any.whl": "0.0.6@pyhgf-0.0.6-py3-none-any.whl"
+      },
+      "0.0.9": {
+        "pyhgf-0.0.9-py3-none-any.whl": "0.0.6@pyhgf-0.0.6-py3-none-any.whl"
       }
     }
   },
@@ -74687,6 +74805,38 @@
       },
       "1.0.5": {
         "snraspi_lib-1.0.5-py3-none-any.whl": "1.0.3@snraspi_lib-1.0.3-py3-none-any.whl"
+      },
+      "1.0.6": {
+        "snraspi_lib-1.0.6-py3-none-any.whl": {
+          "provides_extras": [
+            "dev"
+          ],
+          "requires_dist": [
+            "adafruit-blinka (==8.20.1)",
+            "adafruit-circuitpython-bme280 (==2.6.22)",
+            "adafruit-circuitpython-busdevice (==5.2.6)",
+            "adafruit-circuitpython-dht (==4.0.2)",
+            "adafruit-circuitpython-requests (==2.0.1)",
+            "adafruit-circuitpython-typing (==1.9.4)",
+            "adafruit-platformdetect (==3.50.0)",
+            "distlib (==0.3.7)",
+            "logging-plus (==1.1.2)",
+            "pyserial (==3.5)",
+            "rpi.gpio (==0.7.1)",
+            "adafruit-pureio (==1.1.11) ; python_full_version >= \"3.5.0\"",
+            "pyusb (==1.2.1) ; python_full_version >= \"3.6.0\"",
+            "importlib-metadata (==6.7.0) ; python_version < \"3.8\"",
+            "certifi (==2023.7.22) ; python_version >= \"3.6\"",
+            "filelock (==3.12.2) ; python_version >= \"3.7\"",
+            "platformdirs (==3.10.0) ; python_version >= \"3.7\"",
+            "pyftdi (==0.54.0) ; python_version >= \"3.7\"",
+            "setuptools (==68.0.0) ; python_version >= \"3.7\"",
+            "typing-extensions (==4.7.1) ; python_version >= \"3.7\"",
+            "virtualenv (==20.24.4) ; python_version >= \"3.7\"",
+            "zipp (==3.15.0) ; python_version >= \"3.7\""
+          ],
+          "requires_python": ">=3.7"
+        }
       }
     }
   },
@@ -80234,6 +80384,20 @@
             "tencentcloud-sdk-python-common (==3.0.974)"
           ]
         }
+      },
+      "3.0.975": {
+        "tencentcloud_sdk_python_cvm-3.0.975-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.975)"
+          ]
+        }
+      },
+      "3.0.976": {
+        "tencentcloud_sdk_python_cvm-3.0.976-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.976)"
+          ]
+        }
       }
     }
   },
@@ -82191,6 +82355,20 @@
             "tencentcloud-sdk-python-common (==3.0.974)"
           ]
         }
+      },
+      "3.0.975": {
+        "tencentcloud_sdk_python_rce-3.0.975-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.975)"
+          ]
+        }
+      },
+      "3.0.976": {
+        "tencentcloud_sdk_python_rce-3.0.976-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.976)"
+          ]
+        }
       }
     }
   },
@@ -82612,6 +82790,15 @@
             "webbrowser",
             "wikipedia"
           ]
+        }
+      }
+    }
+  },
+  "theiamcr": {
+    "py3": {
+      "1.0.7": {
+        "TheiaMCR-1.0.7-py3-none-any.whl": {
+          "requires_python": ">=3.7"
         }
       }
     }
@@ -86780,6 +86967,12 @@
       },
       "2023.9.5": {
         "torchx_nightly-2023.9.5-py3-none-any.whl": "2023.8.10@torchx_nightly-2023.8.10-py3-none-any.whl"
+      },
+      "2023.9.6": {
+        "torchx_nightly-2023.9.6-py3-none-any.whl": "2023.8.10@torchx_nightly-2023.8.10-py3-none-any.whl"
+      },
+      "2023.9.7": {
+        "torchx_nightly-2023.9.7-py3-none-any.whl": "2023.8.10@torchx_nightly-2023.8.10-py3-none-any.whl"
       }
     }
   },

@@ -1040,6 +1040,15 @@
       "0.0.22": {
         "ambra_ts_tools-0.0.22-py3-none-any.whl": "0.0.10@ambra_ts_tools-0.0.10-py3-none-any.whl"
       },
+      "0.0.23": {
+        "ambra_ts_tools-0.0.23-py3-none-any.whl": "0.0.10@ambra_ts_tools-0.0.10-py3-none-any.whl"
+      },
+      "0.0.24": {
+        "ambra_ts_tools-0.0.24-py3-none-any.whl": "0.0.10@ambra_ts_tools-0.0.10-py3-none-any.whl"
+      },
+      "0.0.25": {
+        "ambra_ts_tools-0.0.25-py3-none-any.whl": "0.0.10@ambra_ts_tools-0.0.10-py3-none-any.whl"
+      },
       "0.0.5": {
         "ambra_ts_tools-0.0.5-py3-none-any.whl": "0.0.10@ambra_ts_tools-0.0.10-py3-none-any.whl"
       },
@@ -10647,6 +10656,15 @@
       },
       "0.31.0": {
         "bec_scihub-0.31.0-py3-none-any.whl": "0.14.7@bec_scihub-0.14.7-py3-none-any.whl"
+      },
+      "0.32.0": {
+        "bec_scihub-0.32.0-py3-none-any.whl": "0.14.7@bec_scihub-0.14.7-py3-none-any.whl"
+      },
+      "0.33.0": {
+        "bec_scihub-0.33.0-py3-none-any.whl": "0.14.7@bec_scihub-0.14.7-py3-none-any.whl"
+      },
+      "0.34.0": {
+        "bec_scihub-0.34.0-py3-none-any.whl": "0.14.7@bec_scihub-0.14.7-py3-none-any.whl"
       }
     }
   },
@@ -11120,8 +11138,43 @@
       "0.0.2": {
         "bitbridge-0.0.2-py3-none-any.whl": "0.0.1@bitbridge-0.0.1-py3-none-any.whl"
       },
+      "0.0.5": {
+        "bitbridge-0.0.5-py3-none-any.whl": {
+          "provides_extras": [
+            "lint",
+            "test"
+          ],
+          "requires_dist": [
+            "httpx>=0.24.1",
+            "rich>=13.5.2",
+            "black>=23.7.0; extra == 'lint'",
+            "ruff>=0.0.287; extra == 'lint'",
+            "coverage[toml]>=7.3.0; extra == 'test'",
+            "faker>=19.3.1; extra == 'test'",
+            "pytest-asyncio>=0.21.1; extra == 'test'",
+            "pytest-sugar>=0.9.7; extra == 'test'",
+            "pytest>=7.4.1; extra == 'test'"
+          ],
+          "requires_python": ">=3.10"
+        }
+      },
       "0.3.0": {
         "bitbridge-0.3.0-py3-none-any.whl": "0.0.1@bitbridge-0.0.1-py3-none-any.whl"
+      },
+      "0.3.1": {
+        "bitbridge-0.3.1-py3-none-any.whl": "0.0.5@bitbridge-0.0.5-py3-none-any.whl"
+      },
+      "0.3.2": {
+        "bitbridge-0.3.2-py3-none-any.whl": "0.0.5@bitbridge-0.0.5-py3-none-any.whl"
+      },
+      "0.3.3": {
+        "bitbridge-0.3.3-py3-none-any.whl": "0.0.5@bitbridge-0.0.5-py3-none-any.whl"
+      },
+      "0.3.4": {
+        "bitbridge-0.3.4-py3-none-any.whl": "0.0.5@bitbridge-0.0.5-py3-none-any.whl"
+      },
+      "0.3.5": {
+        "bitbridge-0.3.5-py3-none-any.whl": "0.0.5@bitbridge-0.0.5-py3-none-any.whl"
       }
     }
   },
@@ -11805,6 +11858,9 @@
       "1.31.41": {
         "botocore_a_la_carte_cloudhsmv2-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_cloudhsmv2-1.29.100-py3-none-any.whl"
       },
+      "1.31.42": {
+        "botocore_a_la_carte_cloudhsmv2-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_cloudhsmv2-1.29.100-py3-none-any.whl"
+      },
       "1.31.5": {
         "botocore_a_la_carte_cloudhsmv2-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_cloudhsmv2-1.29.100-py3-none-any.whl"
       },
@@ -12305,6 +12361,9 @@
       },
       "1.31.41": {
         "botocore_a_la_carte_elasticache-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_elasticache-1.29.100-py3-none-any.whl"
+      },
+      "1.31.42": {
+        "botocore_a_la_carte_elasticache-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_elasticache-1.29.100-py3-none-any.whl"
       },
       "1.31.5": {
         "botocore_a_la_carte_elasticache-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_elasticache-1.29.100-py3-none-any.whl"
@@ -12807,6 +12866,9 @@
       "1.31.41": {
         "botocore_a_la_carte_iot_data-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_iot_data-1.29.100-py3-none-any.whl"
       },
+      "1.31.42": {
+        "botocore_a_la_carte_iot_data-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_iot_data-1.29.100-py3-none-any.whl"
+      },
       "1.31.5": {
         "botocore_a_la_carte_iot_data-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_iot_data-1.29.100-py3-none-any.whl"
       },
@@ -13307,6 +13369,9 @@
       },
       "1.31.41": {
         "botocore_a_la_carte_iotsitewise-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_iotsitewise-1.29.100-py3-none-any.whl"
+      },
+      "1.31.42": {
+        "botocore_a_la_carte_iotsitewise-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_iotsitewise-1.29.100-py3-none-any.whl"
       },
       "1.31.5": {
         "botocore_a_la_carte_iotsitewise-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_iotsitewise-1.29.100-py3-none-any.whl"
@@ -16716,6 +16781,9 @@
       },
       "2.0.1a140": {
         "cdk_ecs_service_extensions-2.0.1a140-py3-none-any.whl": "2.0.1a129@cdk_ecs_service_extensions-2.0.1a129-py3-none-any.whl"
+      },
+      "2.0.1a141": {
+        "cdk_ecs_service_extensions-2.0.1a141-py3-none-any.whl": "2.0.1a129@cdk_ecs_service_extensions-2.0.1a129-py3-none-any.whl"
       },
       "2.0.1a15": {
         "cdk_ecs_service_extensions-2.0.1a15-py3-none-any.whl": "2.0.0a348@cdk_ecs_service_extensions-2.0.0a348-py3-none-any.whl"
@@ -26310,6 +26378,9 @@
       },
       "13.1.0.0": {
         "decode_config-13.1.0.0-py3-none-any.whl": "11.0@decode_config-11.0-py3-none-any.whl"
+      },
+      "13.1.0.2": {
+        "decode_config-13.1.0.2-py3-none-any.whl": "11.0@decode_config-11.0-py3-none-any.whl"
       }
     }
   },
@@ -38549,6 +38620,14 @@
         "huaweicloudsdkaom-3.1.57-py2.py3-none-any.whl": {
           "requires_dist": [
             "huaweicloudsdkcore >=3.1.57"
+          ],
+          "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
+        }
+      },
+      "3.1.58": {
+        "huaweicloudsdkaom-3.1.58-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "huaweicloudsdkcore >=3.1.58"
           ],
           "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
         }
@@ -56553,6 +56632,14 @@
             "odoo <15.1dev,>=15.0a"
           ],
           "requires_python": ">=3.8"
+        }
+      },
+      "16.0.1.0.0.2": {
+        "odoo_addon_account_invoice_fixed_discount-16.0.1.0.0.2-py3-none-any.whl": {
+          "requires_dist": [
+            "odoo <16.1dev,>=16.0a"
+          ],
+          "requires_python": ">=3.10"
         }
       }
     }
@@ -80882,6 +80969,9 @@
       },
       "0.2.0": {
         "sstools-0.2.0-py3-none-any.whl": "0.0.2@sstools-0.0.2-py3-none-any.whl"
+      },
+      "0.2.1": {
+        "sstools-0.2.1-py3-none-any.whl": "0.0.2@sstools-0.0.2-py3-none-any.whl"
       }
     }
   },
@@ -85593,6 +85683,20 @@
             "tencentcloud-sdk-python-common (==3.0.974)"
           ]
         }
+      },
+      "3.0.975": {
+        "tencentcloud_sdk_python_postgres-3.0.975-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.975)"
+          ]
+        }
+      },
+      "3.0.976": {
+        "tencentcloud_sdk_python_postgres-3.0.976-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.976)"
+          ]
+        }
       }
     }
   },
@@ -86023,6 +86127,20 @@
             "tencentcloud-sdk-python-common (==3.0.974)"
           ]
         }
+      },
+      "3.0.975": {
+        "tencentcloud_sdk_python_tourism-3.0.975-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.975)"
+          ]
+        }
+      },
+      "3.0.976": {
+        "tencentcloud_sdk_python_tourism-3.0.976-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.976)"
+          ]
+        }
       }
     }
   },
@@ -86175,6 +86293,9 @@
       },
       "2.2.0": {
         "tensorizer-2.2.0-py3-none-any.whl": "2.1.0@tensorizer-2.1.0-py3-none-any.whl"
+      },
+      "2.3.0": {
+        "tensorizer-2.3.0-py3-none-any.whl": "2.1.0@tensorizer-2.1.0-py3-none-any.whl"
       }
     }
   },
@@ -89341,6 +89462,17 @@
       },
       "1.0.6": {
         "vysion-1.0.6-py3-none-any.whl": "1.0.2@vysion-1.0.2-py3-none-any.whl"
+      },
+      "1.0.7": {
+        "vysion-1.0.7-py3-none-any.whl": {
+          "requires_dist": [
+            "pydantic (>=2.0.1,<3.0.0)",
+            "pymisp (==2.4.159)",
+            "requests (>=2.28.1,<3.0.0)",
+            "softenum (==1.0.1)"
+          ],
+          "requires_python": ">=3.7.0,<4.0.0"
+        }
       }
     }
   },
@@ -93596,6 +93728,18 @@
             "zaber-motion-bindings-darwin ==4.3.0 ; platform_system == \"Darwin\"",
             "zaber-motion-bindings-linux ==4.3.0 ; platform_system == \"Linux\"",
             "zaber-motion-bindings-windows ==4.3.0 ; platform_system == \"Windows\""
+          ],
+          "requires_python": ">=3.8"
+        }
+      },
+      "4.4.0": {
+        "zaber_motion-4.4.0-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "protobuf <4.22.0,>=3.20.0",
+            "rx >=3.0.0",
+            "zaber-motion-bindings-darwin ==4.4.0 ; platform_system == \"Darwin\"",
+            "zaber-motion-bindings-linux ==4.4.0 ; platform_system == \"Linux\"",
+            "zaber-motion-bindings-windows ==4.4.0 ; platform_system == \"Windows\""
           ],
           "requires_python": ">=3.8"
         }

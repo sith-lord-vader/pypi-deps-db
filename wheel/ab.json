@@ -19231,6 +19231,68 @@
           ],
           "requires_python": ">=3.11,<3.12"
         }
+      },
+      "23.9.0a2": {
+        "backend.ai_storage_proxy-23.9.0a2-py3-none-any.whl": {
+          "requires_dist": [
+            "PyJWT (~=2.0)",
+            "aiofiles (~=0.8.0)",
+            "aiohttp-cors (~=0.7)",
+            "aiohttp (~=3.8.1)",
+            "aiomonitor (~=0.6.0)",
+            "aiotools (~=1.7.0)",
+            "asyncpg (>=0.27.0)",
+            "attrs (>=20.3)",
+            "backend.ai-common (==23.09.0a2)",
+            "backend.ai-plugin (==23.09.0a2)",
+            "click (>=7.1.2)",
+            "dataclasses-json (~=0.5.7)",
+            "janus (~=1.0.0)",
+            "more-itertools (~=8.13.0)",
+            "pyzmq (~=24.0.1)",
+            "setproctitle (~=1.3.2)",
+            "tenacity (>=8.0)",
+            "tqdm (>=4.61)",
+            "trafaret (~=2.1)",
+            "types-aiofiles",
+            "types-click",
+            "yarl (~=1.8.2)",
+            "zipstream-new (~=1.1.8)",
+            "uvloop (>=0.17) ; sys_platform != \"Windows\""
+          ],
+          "requires_python": ">=3.11,<3.12"
+        }
+      },
+      "23.9.0a3": {
+        "backend.ai_storage_proxy-23.9.0a3-py3-none-any.whl": {
+          "requires_dist": [
+            "PyJWT (~=2.0)",
+            "aiofiles (~=0.8.0)",
+            "aiohttp-cors (~=0.7)",
+            "aiohttp (~=3.8.1)",
+            "aiomonitor (~=0.6.0)",
+            "aiotools (~=1.7.0)",
+            "asyncpg (>=0.27.0)",
+            "attrs (>=20.3)",
+            "backend.ai-common (==23.09.0a3)",
+            "backend.ai-plugin (==23.09.0a3)",
+            "click (>=7.1.2)",
+            "dataclasses-json (~=0.5.7)",
+            "janus (~=1.0.0)",
+            "more-itertools (~=8.13.0)",
+            "pyzmq (~=24.0.1)",
+            "setproctitle (~=1.3.2)",
+            "tenacity (>=8.0)",
+            "tqdm (>=4.61)",
+            "trafaret (~=2.1)",
+            "types-aiofiles",
+            "types-click",
+            "yarl (~=1.8.2)",
+            "zipstream-new (~=1.1.8)",
+            "uvloop (>=0.17) ; sys_platform != \"Windows\""
+          ],
+          "requires_python": ">=3.11,<3.12"
+        }
       }
     }
   },
@@ -32244,6 +32306,12 @@
       },
       "6.2.2": {
         "cognite_sdk-6.2.2-py3-none-any.whl": "5.11.0@cognite_sdk-5.11.0-py3-none-any.whl"
+      },
+      "6.20.0": {
+        "cognite_sdk-6.20.0-py3-none-any.whl": "6.15.0@cognite_sdk-6.15.0-py3-none-any.whl"
+      },
+      "6.21.0": {
+        "cognite_sdk-6.21.0-py3-none-any.whl": "6.15.0@cognite_sdk-6.15.0-py3-none-any.whl"
       },
       "6.3.1": {
         "cognite_sdk-6.3.1-py3-none-any.whl": "5.11.0@cognite_sdk-5.11.0-py3-none-any.whl"
@@ -46909,6 +46977,10 @@
         },
         "ert-5.0.10-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "5.0.10@ert-5.0.10-cp310-cp310-macosx_10_15_x86_64.whl"
       },
+      "5.0.11": {
+        "ert-5.0.11-cp310-cp310-macosx_10_15_x86_64.whl": "5.0.10@ert-5.0.10-cp310-cp310-macosx_10_15_x86_64.whl",
+        "ert-5.0.11-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "5.0.10@ert-5.0.10-cp310-cp310-macosx_10_15_x86_64.whl"
+      },
       "5.0.2": {
         "ert-5.0.2-cp310-cp310-macosx_10_15_x86_64.whl": "5.0.0@ert-5.0.0-cp310-cp310-macosx_10_15_x86_64.whl",
         "ert-5.0.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "5.0.0@ert-5.0.0-cp310-cp310-macosx_10_15_x86_64.whl"
@@ -53287,6 +53359,10 @@
         },
         "ert-5.0.10-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "5.0.10@ert-5.0.10-cp38-cp38-macosx_10_15_x86_64.whl"
       },
+      "5.0.11": {
+        "ert-5.0.11-cp38-cp38-macosx_10_15_x86_64.whl": "5.0.10@ert-5.0.10-cp38-cp38-macosx_10_15_x86_64.whl",
+        "ert-5.0.11-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "5.0.10@ert-5.0.10-cp38-cp38-macosx_10_15_x86_64.whl"
+      },
       "5.0.2": {
         "ert-5.0.2-cp38-cp38-macosx_10_15_x86_64.whl": "5.0.0@ert-5.0.0-cp38-cp38-macosx_10_15_x86_64.whl",
         "ert-5.0.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "5.0.0@ert-5.0.0-cp38-cp38-macosx_10_15_x86_64.whl"
@@ -56607,6 +56683,10 @@
           "requires_python": ">=3.8"
         },
         "ert-5.0.10-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "5.0.10@ert-5.0.10-cp39-cp39-macosx_10_15_x86_64.whl"
+      },
+      "5.0.11": {
+        "ert-5.0.11-cp39-cp39-macosx_10_15_x86_64.whl": "5.0.10@ert-5.0.10-cp39-cp39-macosx_10_15_x86_64.whl",
+        "ert-5.0.11-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "5.0.10@ert-5.0.10-cp39-cp39-macosx_10_15_x86_64.whl"
       },
       "5.0.2": {
         "ert-5.0.2-cp39-cp39-macosx_10_15_x86_64.whl": "5.0.0@ert-5.0.0-cp39-cp39-macosx_10_15_x86_64.whl",
@@ -65869,6 +65949,46 @@
       "0.17.0": {
         "glue_jupyter-0.17.0-py3-none-any.whl": "0.16.3@glue_jupyter-0.16.3-py3-none-any.whl"
       },
+      "0.18.0": {
+        "glue_jupyter-0.18.0-py3-none-any.whl": {
+          "provides_extras": [
+            "docs",
+            "test",
+            "visualtest"
+          ],
+          "requires_dist": [
+            "glue-core >=1.7.0",
+            "glue-vispy-viewers >=1.0",
+            "notebook >=4.0",
+            "ipympl >=0.3.0",
+            "ipyvolume >=0.5.0",
+            "ipywidgets >=7.4.0",
+            "ipyvue <2,>=1.2.0",
+            "ipyvuetify <2,>=1.2.0",
+            "bqplot-image-gl >=1.4.3",
+            "bqplot >=0.12.17",
+            "bqplot-gl",
+            "scikit-image",
+            "ipyvolume >=0.6.0a10 ; python_version >= \"3.8\"",
+            "sphinx ; extra == 'docs'",
+            "sphinx-automodapi ; extra == 'docs'",
+            "numpydoc ; extra == 'docs'",
+            "nbconvert >=6.4.5 ; extra == 'docs'",
+            "nbsphinx ; extra == 'docs'",
+            "sphinx-book-theme ; extra == 'docs'",
+            "pytest ; extra == 'test'",
+            "pytest-cov ; extra == 'test'",
+            "runipy ; extra == 'test'",
+            "nbconvert >=6.4.5 ; extra == 'test'",
+            "glue-core !=1.2.4 ; (python_version == \"3.10\") and extra == 'test'",
+            "playwright ; extra == 'visualtest'",
+            "pytest-playwright ; extra == 'visualtest'",
+            "pytest-mpl ; extra == 'visualtest'",
+            "solara[pytest] ; extra == 'visualtest'"
+          ],
+          "requires_python": ">=3.8"
+        }
+      },
       "0.2": {
         "glue_jupyter-0.2-py3-none-any.whl": {
           "provides_extras": [
@@ -70783,6 +70903,14 @@
           "requires_python": ">=3.11,<4.0"
         }
       },
+      "2023.9.0": {
+        "homeassistant_stubs-2023.9.0-py3-none-any.whl": {
+          "requires_dist": [
+            "homeassistant (==2023.9.0)"
+          ],
+          "requires_python": ">=3.11,<4.0"
+        }
+      },
       "2023.9.0b0": {
         "homeassistant_stubs-2023.9.0b0-py3-none-any.whl": {
           "requires_dist": [
@@ -70827,6 +70955,14 @@
         "homeassistant_stubs-2023.9.0b5-py3-none-any.whl": {
           "requires_dist": [
             "homeassistant (==2023.9.0b5)"
+          ],
+          "requires_python": ">=3.11,<4.0"
+        }
+      },
+      "2023.9.0b6": {
+        "homeassistant_stubs-2023.9.0b6-py3-none-any.whl": {
+          "requires_dist": [
+            "homeassistant (==2023.9.0b6)"
           ],
           "requires_python": ">=3.11,<4.0"
         }
@@ -72281,6 +72417,14 @@
         "huaweicloudsdkeps-3.1.57-py2.py3-none-any.whl": {
           "requires_dist": [
             "huaweicloudsdkcore >=3.1.57"
+          ],
+          "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
+        }
+      },
+      "3.1.58": {
+        "huaweicloudsdkeps-3.1.58-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "huaweicloudsdkcore >=3.1.58"
           ],
           "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
         }
@@ -81828,6 +81972,9 @@
           "requires_python": ">=3.6"
         }
       },
+      "0.27.48": {
+        "nci_cidc_api_modules-0.27.48-py3-none-any.whl": "0.27.47@nci_cidc_api_modules-0.27.47-py3-none-any.whl"
+      },
       "1.0.0rc0": {
         "nci_cidc_api_modules-1.0.0rc0-py3-none-any.whl": {
           "requires_dist": [
@@ -88753,6 +88900,9 @@
           ],
           "requires_python": ">=3.7.8,<4.0.0"
         }
+      },
+      "2023.8.2": {
+        "palom-2023.8.2-py3-none-any.whl": "2023.8.1@palom-2023.8.1-py3-none-any.whl"
       }
     }
   },
@@ -93348,6 +93498,9 @@
       },
       "1.0.3": {
         "pykernelpatch-1.0.3-py3-none-any.whl": "1@pykernelpatch-1-py3-none-any.whl"
+      },
+      "1.0.4": {
+        "pykernelpatch-1.0.4-py3-none-any.whl": "1@pykernelpatch-1-py3-none-any.whl"
       }
     }
   },
@@ -94303,6 +94456,40 @@
       },
       "0.0.1.dev1": {
         "pyProcessingPipeline-0.0.1.dev1-py3-none-any.whl": "0.0.1@pyProcessingPipeline-0.0.1-py3-none-any.whl"
+      },
+      "0.1.0": {
+        "pyProcessingPipeline-0.1.0-py3-none-any.whl": {
+          "provides_extras": [
+            "build",
+            "dev",
+            "dev-jupyter",
+            "docs",
+            "testing"
+          ],
+          "requires_dist": [
+            "numpy ==1.24.*",
+            "scipy ==1.10.*",
+            "wfdb ==4.1.*",
+            "mysql-connector-python ==8.0.*",
+            "matplotlib ==3.7.*",
+            "twine ==4.0.* ; extra == 'build'",
+            "pip-tools ==6.13.* ; extra == 'dev'",
+            "black ==23.3.* ; extra == 'dev'",
+            "mypy ==1.3.* ; extra == 'dev'",
+            "ruff >=0.0.277 ; extra == 'dev'",
+            "bandit ==1.7.* ; extra == 'dev'",
+            "commitizen ==3.2.* ; extra == 'dev'",
+            "ipykernel ==6.23.* ; extra == 'dev-jupyter'",
+            "plotly ==5.15.* ; extra == 'dev-jupyter'",
+            "nbformat ==5.9.* ; extra == 'dev-jupyter'",
+            "pandas ==2.0.* ; extra == 'dev-jupyter'",
+            "sphinx ==6.2.* ; extra == 'docs'",
+            "sphinx-rtd-theme ==1.2.* ; extra == 'docs'",
+            "coverage ==7.2.* ; extra == 'testing'",
+            "pytest ==7.3.* ; extra == 'testing'"
+          ],
+          "requires_python": ">=3.10"
+        }
       }
     }
   },
@@ -95798,6 +95985,9 @@
           ],
           "requires_python": ">=3.8"
         }
+      },
+      "0.0.7": {
+        "python_qa-0.0.7-py3-none-any.whl": "0.0.6@python_qa-0.0.6-py3-none-any.whl"
       }
     }
   },
@@ -111364,6 +111554,20 @@
             "tencentcloud-sdk-python-common (==3.0.974)"
           ]
         }
+      },
+      "3.0.975": {
+        "tencentcloud_sdk_python_ecc-3.0.975-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.975)"
+          ]
+        }
+      },
+      "3.0.976": {
+        "tencentcloud_sdk_python_ecc-3.0.976-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.976)"
+          ]
+        }
       }
     }
   },
@@ -113568,6 +113772,20 @@
         "tencentcloud_sdk_python_hcm-3.0.974-py2.py3-none-any.whl": {
           "requires_dist": [
             "tencentcloud-sdk-python-common (==3.0.974)"
+          ]
+        }
+      },
+      "3.0.975": {
+        "tencentcloud_sdk_python_hcm-3.0.975-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.975)"
+          ]
+        }
+      },
+      "3.0.976": {
+        "tencentcloud_sdk_python_hcm-3.0.976-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.976)"
           ]
         }
       }

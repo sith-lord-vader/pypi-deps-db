@@ -3347,6 +3347,12 @@
         "aspose_words-23.8.0-py3-none-manylinux1_x86_64.whl": "23.1.0@aspose_words-23.1.0-py3-none-manylinux1_x86_64.whl",
         "aspose_words-23.8.0-py3-none-win32.whl": "23.1.0@aspose_words-23.1.0-py3-none-manylinux1_x86_64.whl",
         "aspose_words-23.8.0-py3-none-win_amd64.whl": "23.1.0@aspose_words-23.1.0-py3-none-manylinux1_x86_64.whl"
+      },
+      "23.9.0": {
+        "aspose_words-23.9.0-py3-none-macosx_10_14_x86_64.whl": "23.1.0@aspose_words-23.1.0-py3-none-manylinux1_x86_64.whl",
+        "aspose_words-23.9.0-py3-none-manylinux1_x86_64.whl": "23.1.0@aspose_words-23.1.0-py3-none-manylinux1_x86_64.whl",
+        "aspose_words-23.9.0-py3-none-win32.whl": "23.1.0@aspose_words-23.1.0-py3-none-manylinux1_x86_64.whl",
+        "aspose_words-23.9.0-py3-none-win_amd64.whl": "23.1.0@aspose_words-23.1.0-py3-none-manylinux1_x86_64.whl"
       }
     }
   },
@@ -9419,6 +9425,24 @@
       "0.62.2": {
         "bagbag-0.62.2-py3-none-any.whl": "0.61.36@bagbag-0.61.36-py3-none-any.whl"
       },
+      "0.62.20": {
+        "bagbag-0.62.20-py3-none-any.whl": "0.62.12@bagbag-0.62.12-py3-none-any.whl"
+      },
+      "0.62.21": {
+        "bagbag-0.62.21-py3-none-any.whl": "0.62.12@bagbag-0.62.12-py3-none-any.whl"
+      },
+      "0.62.22": {
+        "bagbag-0.62.22-py3-none-any.whl": "0.62.12@bagbag-0.62.12-py3-none-any.whl"
+      },
+      "0.62.23": {
+        "bagbag-0.62.23-py3-none-any.whl": "0.62.12@bagbag-0.62.12-py3-none-any.whl"
+      },
+      "0.62.24": {
+        "bagbag-0.62.24-py3-none-any.whl": "0.62.12@bagbag-0.62.12-py3-none-any.whl"
+      },
+      "0.62.25": {
+        "bagbag-0.62.25-py3-none-any.whl": "0.62.12@bagbag-0.62.12-py3-none-any.whl"
+      },
       "0.62.3": {
         "bagbag-0.62.3-py3-none-any.whl": "0.61.36@bagbag-0.61.36-py3-none-any.whl"
       },
@@ -9537,6 +9561,9 @@
       },
       "1.0.2": {
         "baseline_builder-1.0.2-py3-none-any.whl": "1.0.0@baseline_builder-1.0.0-py3-none-any.whl"
+      },
+      "1.0.4": {
+        "baseline_builder-1.0.4-py3-none-any.whl": "1.0.0@baseline_builder-1.0.0-py3-none-any.whl"
       }
     }
   },
@@ -10287,6 +10314,9 @@
       },
       "0.36.2": {
         "bellows-0.36.2-py3-none-any.whl": "0.35.9@bellows-0.35.9-py3-none-any.whl"
+      },
+      "0.36.3": {
+        "bellows-0.36.3-py3-none-any.whl": "0.35.9@bellows-0.35.9-py3-none-any.whl"
       }
     }
   },
@@ -11970,6 +12000,12 @@
       "1.31.40": {
         "botocore_a_la_carte_apigatewaymanagementapi-1.31.40-py3-none-any.whl": "1.29.100@botocore_a_la_carte_apigatewaymanagementapi-1.29.100-py3-none-any.whl"
       },
+      "1.31.41": {
+        "botocore_a_la_carte_apigatewaymanagementapi-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_apigatewaymanagementapi-1.29.100-py3-none-any.whl"
+      },
+      "1.31.42": {
+        "botocore_a_la_carte_apigatewaymanagementapi-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_apigatewaymanagementapi-1.29.100-py3-none-any.whl"
+      },
       "1.31.5": {
         "botocore_a_la_carte_apigatewaymanagementapi-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_apigatewaymanagementapi-1.29.100-py3-none-any.whl"
       },
@@ -12467,6 +12503,12 @@
       },
       "1.31.40": {
         "botocore_a_la_carte_cloudwatch-1.31.40-py3-none-any.whl": "1.29.100@botocore_a_la_carte_cloudwatch-1.29.100-py3-none-any.whl"
+      },
+      "1.31.41": {
+        "botocore_a_la_carte_cloudwatch-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_cloudwatch-1.29.100-py3-none-any.whl"
+      },
+      "1.31.42": {
+        "botocore_a_la_carte_cloudwatch-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_cloudwatch-1.29.100-py3-none-any.whl"
       },
       "1.31.5": {
         "botocore_a_la_carte_cloudwatch-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_cloudwatch-1.29.100-py3-none-any.whl"
@@ -22700,6 +22742,50 @@
           "requires_python": ">=3.9"
         }
       },
+      "0.0.13": {
+        "dascore-0.0.13-py3-none-any.whl": {
+          "provides_extras": [
+            "all",
+            "dev",
+            "docs",
+            "extras",
+            "profile",
+            "test"
+          ],
+          "requires_dist": [
+            "matplotlib >=3.5",
+            "numpy >=1.24",
+            "packaging",
+            "pandas >=2.0",
+            "pooch >=1.2",
+            "pydantic >2.1",
+            "rich",
+            "scipy >=1.10.0",
+            "tables >=3.7",
+            "typing-extensions",
+            "pint",
+            "dascore[extras] ; extra == 'all'",
+            "dascore[test] ; extra == 'dev'",
+            "dascore[docs] ; extra == 'dev'",
+            "dascore[profile] ; extra == 'dev'",
+            "dascore[extras] ; extra == 'dev'",
+            "jinja2 ; extra == 'docs'",
+            "ipywidgets ; extra == 'docs'",
+            "xarray ; extra == 'extras'",
+            "findiff ; extra == 'extras'",
+            "asv ; extra == 'profile'",
+            "typer ; extra == 'profile'",
+            "coverage ; extra == 'test'",
+            "coveralls ; extra == 'test'",
+            "pre-commit ; extra == 'test'",
+            "pytest ; extra == 'test'",
+            "pytest-codeblocks ; extra == 'test'",
+            "pytest-cov ; extra == 'test'",
+            "twine ; extra == 'test'"
+          ],
+          "requires_python": ">=3.10"
+        }
+      },
       "0.0.3": {
         "dascore-0.0.3-py3-none-any.whl": "0.0.0@dascore-0.0.0-py3-none-any.whl"
       },
@@ -27779,6 +27865,9 @@
       "2.13.1": {
         "datasets-2.13.1-py3-none-any.whl": "2.13.0@datasets-2.13.0-py3-none-any.whl"
       },
+      "2.13.2": {
+        "datasets-2.13.2-py3-none-any.whl": "2.13.0@datasets-2.13.0-py3-none-any.whl"
+      },
       "2.14.0": {
         "datasets-2.14.0-py3-none-any.whl": {
           "provides_extras": [
@@ -28050,6 +28139,140 @@
       },
       "2.14.4": {
         "datasets-2.14.4-py3-none-any.whl": "2.14.1@datasets-2.14.1-py3-none-any.whl"
+      },
+      "2.14.5": {
+        "datasets-2.14.5-py3-none-any.whl": {
+          "provides_extras": [
+            "apache-beam",
+            "audio",
+            "benchmarks",
+            "dev",
+            "docs",
+            "jax",
+            "metrics-tests",
+            "quality",
+            "s3",
+            "streaming",
+            "tensorflow",
+            "tensorflow_gpu",
+            "tests",
+            "torch",
+            "vision"
+          ],
+          "requires_dist": [
+            "numpy (>=1.17)",
+            "pyarrow (>=8.0.0)",
+            "dill (<0.3.8,>=0.3.0)",
+            "pandas",
+            "requests (>=2.19.0)",
+            "tqdm (>=4.62.1)",
+            "xxhash",
+            "multiprocess",
+            "fsspec[http] (<2023.9.0,>=2023.1.0)",
+            "aiohttp",
+            "huggingface-hub (<1.0.0,>=0.14.0)",
+            "packaging",
+            "pyyaml (>=5.1)",
+            "apache-beam (<2.44.0,>=2.26.0) ; extra == 'apache-beam'",
+            "soundfile (>=0.12.1) ; extra == 'audio'",
+            "librosa ; extra == 'audio'",
+            "tensorflow (==2.12.0) ; extra == 'benchmarks'",
+            "torch (==2.0.1) ; extra == 'benchmarks'",
+            "transformers (==4.30.1) ; extra == 'benchmarks'",
+            "absl-py ; extra == 'dev'",
+            "joblib (<1.3.0) ; extra == 'dev'",
+            "joblibspark ; extra == 'dev'",
+            "pytest ; extra == 'dev'",
+            "pytest-datadir ; extra == 'dev'",
+            "pytest-xdist ; extra == 'dev'",
+            "elasticsearch (<8.0.0) ; extra == 'dev'",
+            "faiss-cpu (>=1.6.4) ; extra == 'dev'",
+            "lz4 ; extra == 'dev'",
+            "pyspark (>=3.4) ; extra == 'dev'",
+            "py7zr ; extra == 'dev'",
+            "rarfile (>=4.0) ; extra == 'dev'",
+            "sqlalchemy (<2.0.0) ; extra == 'dev'",
+            "s3fs (>=2021.11.1) ; extra == 'dev'",
+            "tiktoken ; extra == 'dev'",
+            "torch ; extra == 'dev'",
+            "soundfile (>=0.12.1) ; extra == 'dev'",
+            "transformers ; extra == 'dev'",
+            "zstandard ; extra == 'dev'",
+            "Pillow (>=6.2.1) ; extra == 'dev'",
+            "librosa ; extra == 'dev'",
+            "black (~=23.1) ; extra == 'dev'",
+            "ruff (>=0.0.241) ; extra == 'dev'",
+            "pyyaml (>=5.3.1) ; extra == 'dev'",
+            "s3fs ; extra == 'dev'",
+            "apache-beam (<2.44.0,>=2.26.0) ; (python_version < \"3.10\") and extra == 'dev'",
+            "tensorflow (!=2.6.0,!=2.6.1,>=2.3) ; (sys_platform != \"darwin\" or platform_machine != \"arm64\") and extra == 'dev'",
+            "tensorflow (!=2.6.0,!=2.6.1,>=2.2.0) ; (sys_platform != \"darwin\" or platform_machine != \"arm64\") and extra == 'dev'",
+            "tensorflow-macos ; (sys_platform == \"darwin\" and platform_machine == \"arm64\") and extra == 'dev'",
+            "s3fs ; extra == 'docs'",
+            "transformers ; extra == 'docs'",
+            "torch ; extra == 'docs'",
+            "tensorflow (!=2.6.0,!=2.6.1,>=2.2.0) ; (sys_platform != \"darwin\" or platform_machine != \"arm64\") and extra == 'docs'",
+            "tensorflow-macos ; (sys_platform == \"darwin\" and platform_machine == \"arm64\") and extra == 'docs'",
+            "jax (!=0.3.2,<=0.3.25,>=0.2.8) ; extra == 'jax'",
+            "jaxlib (<=0.3.25,>=0.1.65) ; extra == 'jax'",
+            "accelerate ; extra == 'metrics-tests'",
+            "bert-score (>=0.3.6) ; extra == 'metrics-tests'",
+            "jiwer ; extra == 'metrics-tests'",
+            "langdetect ; extra == 'metrics-tests'",
+            "mauve-text ; extra == 'metrics-tests'",
+            "nltk ; extra == 'metrics-tests'",
+            "rouge-score ; extra == 'metrics-tests'",
+            "sacrebleu ; extra == 'metrics-tests'",
+            "sacremoses ; extra == 'metrics-tests'",
+            "scikit-learn ; extra == 'metrics-tests'",
+            "scipy ; extra == 'metrics-tests'",
+            "sentencepiece ; extra == 'metrics-tests'",
+            "seqeval ; extra == 'metrics-tests'",
+            "spacy (>=3.0.0) ; extra == 'metrics-tests'",
+            "tldextract ; extra == 'metrics-tests'",
+            "toml (>=0.10.1) ; extra == 'metrics-tests'",
+            "typer (<0.5.0) ; extra == 'metrics-tests'",
+            "requests-file (>=1.5.1) ; extra == 'metrics-tests'",
+            "tldextract (>=3.1.0) ; extra == 'metrics-tests'",
+            "texttable (>=1.6.3) ; extra == 'metrics-tests'",
+            "Werkzeug (>=1.0.1) ; extra == 'metrics-tests'",
+            "six (~=1.15.0) ; extra == 'metrics-tests'",
+            "black (~=23.1) ; extra == 'quality'",
+            "ruff (>=0.0.241) ; extra == 'quality'",
+            "pyyaml (>=5.3.1) ; extra == 'quality'",
+            "s3fs ; extra == 's3'",
+            "tensorflow (!=2.6.0,!=2.6.1,>=2.2.0) ; (sys_platform != \"darwin\" or platform_machine != \"arm64\") and extra == 'tensorflow'",
+            "tensorflow-macos ; (sys_platform == \"darwin\" and platform_machine == \"arm64\") and extra == 'tensorflow'",
+            "tensorflow-gpu (!=2.6.0,!=2.6.1,>=2.2.0) ; extra == 'tensorflow_gpu'",
+            "absl-py ; extra == 'tests'",
+            "joblib (<1.3.0) ; extra == 'tests'",
+            "joblibspark ; extra == 'tests'",
+            "pytest ; extra == 'tests'",
+            "pytest-datadir ; extra == 'tests'",
+            "pytest-xdist ; extra == 'tests'",
+            "elasticsearch (<8.0.0) ; extra == 'tests'",
+            "faiss-cpu (>=1.6.4) ; extra == 'tests'",
+            "lz4 ; extra == 'tests'",
+            "pyspark (>=3.4) ; extra == 'tests'",
+            "py7zr ; extra == 'tests'",
+            "rarfile (>=4.0) ; extra == 'tests'",
+            "sqlalchemy (<2.0.0) ; extra == 'tests'",
+            "s3fs (>=2021.11.1) ; extra == 'tests'",
+            "tiktoken ; extra == 'tests'",
+            "torch ; extra == 'tests'",
+            "soundfile (>=0.12.1) ; extra == 'tests'",
+            "transformers ; extra == 'tests'",
+            "zstandard ; extra == 'tests'",
+            "Pillow (>=6.2.1) ; extra == 'tests'",
+            "librosa ; extra == 'tests'",
+            "apache-beam (<2.44.0,>=2.26.0) ; (python_version < \"3.10\") and extra == 'tests'",
+            "tensorflow (!=2.6.0,!=2.6.1,>=2.3) ; (sys_platform != \"darwin\" or platform_machine != \"arm64\") and extra == 'tests'",
+            "tensorflow-macos ; (sys_platform == \"darwin\" and platform_machine == \"arm64\") and extra == 'tests'",
+            "torch ; extra == 'torch'",
+            "Pillow (>=6.2.1) ; extra == 'vision'"
+          ],
+          "requires_python": ">=3.8.0"
+        }
       },
       "2.2.0": {
         "datasets-2.2.0-py3-none-any.whl": {
@@ -50022,6 +50245,15 @@
       },
       "0.0.6": {
         "huntflow_webhook_models-0.0.6-py3-none-any.whl": "0.0.1@huntflow_webhook_models-0.0.1-py3-none-any.whl"
+      },
+      "0.1.0": {
+        "huntflow_webhook_models-0.1.0-py3-none-any.whl": {
+          "requires_dist": [
+            "pydantic>=2.3.0",
+            "openapi-schema-pydantic>=1.2.4"
+          ],
+          "requires_python": ">=3.7"
+        }
       }
     }
   },
@@ -52366,6 +52598,21 @@
       "0.0.153": {
         "je_editor_dev-0.0.153-py3-none-any.whl": "0.0.142@je_editor_dev-0.0.142-py3-none-any.whl"
       },
+      "0.0.154": {
+        "je_editor_dev-0.0.154-py3-none-any.whl": "0.0.142@je_editor_dev-0.0.142-py3-none-any.whl"
+      },
+      "0.0.155": {
+        "je_editor_dev-0.0.155-py3-none-any.whl": "0.0.142@je_editor_dev-0.0.142-py3-none-any.whl"
+      },
+      "0.0.156": {
+        "je_editor_dev-0.0.156-py3-none-any.whl": "0.0.142@je_editor_dev-0.0.142-py3-none-any.whl"
+      },
+      "0.0.157": {
+        "je_editor_dev-0.0.157-py3-none-any.whl": "0.0.142@je_editor_dev-0.0.142-py3-none-any.whl"
+      },
+      "0.0.158": {
+        "je_editor_dev-0.0.158-py3-none-any.whl": "0.0.142@je_editor_dev-0.0.142-py3-none-any.whl"
+      },
       "0.0.16": {
         "je_editor_dev-0.0.16-py3-none-any.whl": "0.0.1@je_editor_dev-0.0.1-py3-none-any.whl"
       },
@@ -54305,6 +54552,13 @@
           ],
           "requires_python": ">=3.8"
         }
+      }
+    }
+  },
+  "langdb": {
+    "py3": {
+      "0.0.1": {
+        "langdb-0.0.1-py3-none-any.whl": {}
       }
     }
   },
@@ -62882,6 +63136,12 @@
             "scikit-image"
           ]
         }
+      },
+      "0.0.4": {
+        "napari_hough_circle_detector-0.0.4-py3-none-any.whl": "0.0.3@napari_hough_circle_detector-0.0.3-py3-none-any.whl"
+      },
+      "0.0.5": {
+        "napari_hough_circle_detector-0.0.5-py3-none-any.whl": "0.0.3@napari_hough_circle_detector-0.0.3-py3-none-any.whl"
       }
     }
   },
@@ -64371,6 +64631,9 @@
       },
       "0.41.0": {
         "numina_data_client-0.41.0-py3-none-any.whl": "0.29.0@numina_data_client-0.29.0-py3-none-any.whl"
+      },
+      "0.42.0": {
+        "numina_data_client-0.42.0-py3-none-any.whl": "0.29.0@numina_data_client-0.29.0-py3-none-any.whl"
       },
       "0.5.0": {
         "numina_data_client-0.5.0-py3-none-any.whl": {
@@ -69242,6 +69505,15 @@
           "requires_dist": [
             "odoo13-addon-product-assortment",
             "odoo (<13.1dev,>=13.0a)"
+          ],
+          "requires_python": ">=3.5"
+        }
+      },
+      "13.0.1.0.1.dev3": {
+        "odoo13_addon_stock_picking_product_assortment-13.0.1.0.1.dev3-py3-none-any.whl": {
+          "requires_dist": [
+            "odoo13-addon-product-assortment",
+            "odoo <13.1dev,>=13.0a"
           ],
           "requires_python": ">=3.5"
         }
@@ -82861,6 +83133,20 @@
           ],
           "requires_python": ">=3.8,<4.0"
         }
+      },
+      "1.0.0": {
+        "pubq-1.0.0-py3-none-any.whl": {
+          "requires_dist": [
+            "pyee (>=11.0.0,<12.0.0)",
+            "pyjwt (>=2.8.0,<3.0.0)",
+            "requests (>=2.31.0,<3.0.0)",
+            "socketclusterclient (>=1.3.6,<2.0.0)"
+          ],
+          "requires_python": ">=3.8,<4.0"
+        }
+      },
+      "1.1.0": {
+        "pubq-1.1.0-py3-none-any.whl": "1.0.0@pubq-1.0.0-py3-none-any.whl"
       }
     }
   },
@@ -99889,6 +100175,11 @@
       },
       "0.1.9": {
         "richset-0.1.9-py3-none-any.whl": "0.1.8@richset-0.1.8-py3-none-any.whl"
+      },
+      "0.2.0": {
+        "richset-0.2.0-py3-none-any.whl": {
+          "requires_python": ">=3.8"
+        }
       }
     }
   },
@@ -109503,6 +109794,20 @@
             "tencentcloud-sdk-python-common (==3.0.974)"
           ]
         }
+      },
+      "3.0.975": {
+        "tencentcloud_sdk_python_mgobe-3.0.975-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.975)"
+          ]
+        }
+      },
+      "3.0.976": {
+        "tencentcloud_sdk_python_mgobe-3.0.976-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.976)"
+          ]
+        }
       }
     }
   },
@@ -113405,6 +113710,9 @@
       },
       "2.0.6": {
         "unigui-2.0.6-py3-none-any.whl": "2.0.1@unigui-2.0.1-py3-none-any.whl"
+      },
+      "2.0.7": {
+        "unigui-2.0.7-py3-none-any.whl": "2.0.1@unigui-2.0.1-py3-none-any.whl"
       }
     }
   },

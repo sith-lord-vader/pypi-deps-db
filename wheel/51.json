@@ -15524,6 +15524,9 @@
       },
       "0.0.1b4": {
         "dafni_cli-0.0.1b4-py3-none-any.whl": "0.0.1b1@dafni_cli-0.0.1b1-py3-none-any.whl"
+      },
+      "0.0.1b5": {
+        "dafni_cli-0.0.1b5-py3-none-any.whl": "0.0.1b1@dafni_cli-0.0.1b1-py3-none-any.whl"
       }
     }
   },
@@ -18622,6 +18625,26 @@
     "2.7": {
       "0.1.0": {
         "deadgargoyle-0.1.0-py2.py3-none-any.whl": {}
+      }
+    }
+  },
+  "debrandom": {
+    "py3": {
+      "0.0.1": {
+        "debrandom-0.0.1-py3-none-any.whl": {
+          "provides_extras": [
+            "dev"
+          ],
+          "requires_dist": [
+            "typer",
+            "black ; extra == 'dev'",
+            "mypy ; extra == 'dev'",
+            "pytest ; extra == 'dev'",
+            "pytest-cov ; extra == 'dev'",
+            "tox ; extra == 'dev'"
+          ],
+          "requires_python": ">=3.7"
+        }
       }
     }
   },
@@ -22651,6 +22674,14 @@
           ]
         }
       },
+      "0.2.103": {
+        "dragonfly_radiance-0.2.103-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "dragonfly-core (==1.41.55)",
+            "honeybee-radiance (==1.65.35)"
+          ]
+        }
+      },
       "0.2.11": {
         "dragonfly_radiance-0.2.11-py2.py3-none-any.whl": {
           "requires_dist": [
@@ -24322,6 +24353,45 @@
       },
       "3.3.9": {
         "duffy-3.3.9-py3-none-any.whl": "3.3.8@duffy-3.3.8-py3-none-any.whl"
+      },
+      "3.4.0rc1": {
+        "duffy-3.4.0rc1-py3-none-any.whl": {
+          "provides_extras": [
+            "admin",
+            "app",
+            "client",
+            "database",
+            "dev-shell",
+            "legacy",
+            "postgresql",
+            "sqlite",
+            "tasks"
+          ],
+          "requires_dist": [
+            "Jinja2 (>=3.0.3,<4.0.0) ; extra == \"app\" or extra == \"tasks\" or extra == \"legacy\"",
+            "PyYAML (>=6,<7)",
+            "SQLAlchemy[asyncio] (>=2.0.5,<3.0.0) ; extra == \"app\" or extra == \"admin\" or extra == \"database\" or extra == \"dev-shell\"",
+            "aiodns (>=3.0.0,<4.0.0) ; extra == \"app\" or extra == \"tasks\"",
+            "aiosqlite (>=0.17,<0.20) ; extra == \"sqlite\"",
+            "alembic (>=1.7.5,<2.0.0) ; extra == \"app\" or extra == \"database\" or extra == \"dev-shell\"",
+            "ansible-runner (>=2.1.1,<3.0.0) ; extra == \"app\" or extra == \"tasks\"",
+            "asyncpg (>=0.25,<0.29) ; extra == \"postgresql\"",
+            "bcrypt (>=3.2,<5) ; extra == \"app\" or extra == \"admin\" or extra == \"database\" or extra == \"dev-shell\"",
+            "celery[redis] (>=5.2.1,<6.0.0) ; extra == \"app\" or extra == \"tasks\"",
+            "click (>=8.0.3,<9.0.0)",
+            "fastapi (>=0.70,<0.104.0) ; extra == \"app\" or extra == \"admin\"",
+            "httpx (>=0.18.2,<0.25) ; extra == \"legacy\" or extra == \"client\"",
+            "ipython (>=7.29,<9) ; extra == \"dev-shell\"",
+            "jmespath (>=0.10,<2) ; extra == \"app\" or extra == \"tasks\"",
+            "pottery (>=3,<4) ; extra == \"app\" or extra == \"tasks\"",
+            "psycopg2 (>=2.9.2,<3.0.0) ; extra == \"postgresql\"",
+            "pydantic (>=2.0.3,<3.0.0)",
+            "pyxdg (>=0.27,<0.29)",
+            "typing-extensions (>=4.6.1,<5.0.0)",
+            "uvicorn (>=0.15,<0.24.0) ; extra == \"app\""
+          ],
+          "requires_python": ">=3.8,<4.0"
+        }
       }
     }
   },
@@ -32989,6 +33059,9 @@
       "5.11.0": {
         "gspread-5.11.0-py3-none-any.whl": "5.10.0@gspread-5.10.0-py3-none-any.whl"
       },
+      "5.11.1": {
+        "gspread-5.11.1-py3-none-any.whl": "5.10.0@gspread-5.10.0-py3-none-any.whl"
+      },
       "5.2.0": {
         "gspread-5.2.0-py3-none-any.whl": "5.0.0@gspread-5.0.0-py3-none-any.whl"
       },
@@ -37566,6 +37639,33 @@
             "snowflake-connector-python ; extra == 'snowflake'"
           ]
         }
+      },
+      "0.0.4": {
+        "import_a-0.0.4-py3-none-any.whl": {
+          "provides_extras": [
+            "all",
+            "kafka",
+            "redis",
+            "snowflake",
+            "whisper"
+          ],
+          "requires_dist": [
+            "forgebox",
+            "gallop",
+            "python-dotenv",
+            "pyyaml",
+            "redis ; extra == 'all'",
+            "confluent-kafka ==2.2.0 ; extra == 'all'",
+            "snowflake-connector-python ; extra == 'all'",
+            "openai ; extra == 'all'",
+            "pydub ==0.25.1 ; extra == 'all'",
+            "confluent-kafka ==2.2.0 ; extra == 'kafka'",
+            "redis ; extra == 'redis'",
+            "snowflake-connector-python ; extra == 'snowflake'",
+            "openai ; extra == 'whisper'",
+            "pydub ==0.25.1 ; extra == 'whisper'"
+          ]
+        }
       }
     }
   },
@@ -40018,6 +40118,22 @@
       },
       "0.13.0a5": {
         "jarbas_hive_mind-0.13.0a5-py3-none-any.whl": "0.13.0a4@jarbas_hive_mind-0.13.0a4-py3-none-any.whl"
+      },
+      "0.13.0a6": {
+        "jarbas_hive_mind-0.13.0a6-py3-none-any.whl": {
+          "requires_dist": [
+            "tornado",
+            "ovos-utils >=0.0.33",
+            "pycryptodomex",
+            "HiveMind-presence >=0.0.2a3",
+            "ovos-bus-client",
+            "poorman-handshake >=0.1.0",
+            "click",
+            "click-default-group",
+            "rich",
+            "pyOpenSSL"
+          ]
+        }
       }
     }
   },
@@ -47802,6 +47918,9 @@
           ],
           "requires_python": ">=3.11,<4.0"
         }
+      },
+      "0.6.6": {
+        "kyujipy-0.6.6-py3-none-any.whl": "0.6.5@kyujipy-0.6.5-py3-none-any.whl"
       }
     }
   },
@@ -51687,6 +51806,9 @@
       },
       "1.4.0": {
         "MetAromatic-1.4.0-py3-none-any.whl": "1.1.0@MetAromatic-1.1.0-py3-none-any.whl"
+      },
+      "1.5.0": {
+        "MetAromatic-1.5.0-py3-none-any.whl": "1.1.0@MetAromatic-1.1.0-py3-none-any.whl"
       }
     }
   },
@@ -85493,6 +85615,9 @@
           ],
           "requires_python": ">=3.9"
         }
+      },
+      "3.5.1": {
+        "reactpy_django-3.5.1-py2.py3-none-any.whl": "3.5.0@reactpy_django-3.5.0-py2.py3-none-any.whl"
       }
     }
   },
@@ -93148,6 +93273,9 @@
       },
       "6.2.0.dev122": {
         "stix_shifter_modules_aws_guardduty-6.2.0.dev122-py2.py3-none-any.whl": "5.3.0.dev93@stix_shifter_modules_aws_guardduty-5.3.0.dev93-py2.py3-none-any.whl"
+      },
+      "6.2.1": {
+        "stix_shifter_modules_aws_guardduty-6.2.1-py2.py3-none-any.whl": "5.3.0.dev93@stix_shifter_modules_aws_guardduty-5.3.0.dev93-py2.py3-none-any.whl"
       }
     }
   },
@@ -93584,6 +93712,9 @@
       },
       "6.2.0.dev122": {
         "stix_shifter_modules_qradar_perf_test-6.2.0.dev122-py2.py3-none-any.whl": "1.0.0.dev782@stix_shifter_modules_qradar_perf_test-1.0.0.dev782-py2.py3-none-any.whl"
+      },
+      "6.2.1": {
+        "stix_shifter_modules_qradar_perf_test-6.2.1-py2.py3-none-any.whl": "1.0.0.dev782@stix_shifter_modules_qradar_perf_test-1.0.0.dev782-py2.py3-none-any.whl"
       }
     }
   },
@@ -94754,6 +94885,12 @@
       },
       "0.7": {
         "tableau_builder-0.7-py3-none-any.whl": "0.2@tableau_builder-0.2-py3-none-any.whl"
+      },
+      "0.8": {
+        "tableau_builder-0.8-py3-none-any.whl": "0.2@tableau_builder-0.2-py3-none-any.whl"
+      },
+      "0.9": {
+        "tableau_builder-0.9-py3-none-any.whl": "0.2@tableau_builder-0.2-py3-none-any.whl"
       },
       "1.0": {
         "tableau_builder-1.0-py3-none-any.whl": "0.2@tableau_builder-0.2-py3-none-any.whl"
@@ -97177,6 +97314,68 @@
       },
       "1.26.1": {
         "tmt-1.26.1-py3-none-any.whl": "1.26.0@tmt-1.26.0-py3-none-any.whl"
+      },
+      "1.27.0": {
+        "tmt-1.27.0-py3-none-any.whl": {
+          "provides_extras": [
+            "all",
+            "convert",
+            "docs",
+            "export-polarion",
+            "provision",
+            "report-junit",
+            "report-polarion",
+            "tests"
+          ],
+          "requires_dist": [
+            "fmf (>=1.2.1)",
+            "click (!=8.1.4)",
+            "pint",
+            "requests",
+            "urllib3",
+            "ruamel.yaml",
+            "jinja2",
+            "setuptools",
+            "sphinx (>=3) ; extra == 'all'",
+            "sphinx-rtd-theme (==1.3.0rc1) ; extra == 'all'",
+            "flake8 ; extra == 'all'",
+            "pytest ; extra == 'all'",
+            "python-coveralls ; extra == 'all'",
+            "requre ; extra == 'all'",
+            "pre-commit ; extra == 'all'",
+            "mypy ; extra == 'all'",
+            "yq (==3.1.1) ; extra == 'all'",
+            "testcloud (>=0.9.10) ; extra == 'all'",
+            "mrack (>=1.12.1) ; extra == 'all'",
+            "nitrate ; extra == 'all'",
+            "markdown ; extra == 'all'",
+            "python-bugzilla ; extra == 'all'",
+            "html2text ; extra == 'all'",
+            "junit-xml ; extra == 'all'",
+            "pylero ; extra == 'all'",
+            "typing-extensions (>=3.7.4.3) ; (python_version < \"3.10\") and extra == 'all'",
+            "nitrate ; extra == 'convert'",
+            "markdown ; extra == 'convert'",
+            "python-bugzilla ; extra == 'convert'",
+            "html2text ; extra == 'convert'",
+            "sphinx (>=3) ; extra == 'docs'",
+            "sphinx-rtd-theme (==1.3.0rc1) ; extra == 'docs'",
+            "pylero ; extra == 'export-polarion'",
+            "testcloud (>=0.9.10) ; extra == 'provision'",
+            "mrack (>=1.12.1) ; extra == 'provision'",
+            "junit-xml ; extra == 'report-junit'",
+            "junit-xml ; extra == 'report-polarion'",
+            "pylero ; extra == 'report-polarion'",
+            "flake8 ; extra == 'tests'",
+            "pytest ; extra == 'tests'",
+            "python-coveralls ; extra == 'tests'",
+            "requre ; extra == 'tests'",
+            "pre-commit ; extra == 'tests'",
+            "mypy ; extra == 'tests'",
+            "yq (==3.1.1) ; extra == 'tests'",
+            "typing-extensions (>=3.7.4.3) ; (python_version < \"3.10\") and extra == 'tests'"
+          ]
+        }
       },
       "1.3.1.1": {
         "tmt-1.3.1.1-py3-none-any.whl": {

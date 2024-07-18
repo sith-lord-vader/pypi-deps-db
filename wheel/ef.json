@@ -6513,6 +6513,9 @@
       },
       "1.0.2": {
         "bidcell-1.0.2-py3-none-any.whl": "1.0.0@bidcell-1.0.0-py3-none-any.whl"
+      },
+      "1.0.3": {
+        "bidcell-1.0.3-py3-none-any.whl": "1.0.0@bidcell-1.0.0-py3-none-any.whl"
       }
     }
   },
@@ -7804,6 +7807,9 @@
       },
       "1.31.41": {
         "botocore_a_la_carte_acm-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_acm-1.29.100-py3-none-any.whl"
+      },
+      "1.31.42": {
+        "botocore_a_la_carte_acm-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_acm-1.29.100-py3-none-any.whl"
       },
       "1.31.5": {
         "botocore_a_la_carte_acm-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_acm-1.29.100-py3-none-any.whl"
@@ -10214,6 +10220,9 @@
           ],
           "requires_python": ">=3.8.0"
         }
+      },
+      "0.4.0": {
+        "cappr-0.4.0-py3-none-any.whl": "0.3.0@cappr-0.3.0-py3-none-any.whl"
       }
     }
   },
@@ -22057,6 +22066,9 @@
           "requires_python": ">=3.7,<4.0"
         }
       },
+      "0.21.5": {
+        "datamodel_code_generator-0.21.5-py3-none-any.whl": "0.21.4@datamodel_code_generator-0.21.4-py3-none-any.whl"
+      },
       "0.3.0": {
         "datamodel_code_generator-0.3.0-py3-none-any.whl": {
           "provides_extras": [
@@ -27720,6 +27732,47 @@
             "pyopenssl ; extra == 'openssl'",
             "cryptography >=39.0.1 ; extra == 'openssl'",
             "setuptools ==68.0.0 ; extra == 'publish'",
+            "build ==0.10.0 ; extra == 'publish'",
+            "twine ==4.0.2 ; extra == 'publish'"
+          ]
+        }
+      },
+      "0.24.1": {
+        "edk2_pytool_extensions-0.24.1-py3-none-any.whl": {
+          "provides_extras": [
+            "dev",
+            "docs",
+            "openssl",
+            "publish"
+          ],
+          "requires_dist": [
+            "edk2-pytool-library >=0.16.1",
+            "pyyaml >=6.0.0",
+            "pefile >=2023.2.7",
+            "semantic-version >=2.10.0",
+            "GitPython >=3.1.30",
+            "openpyxl >=3.1.2",
+            "XlsxWriter >=3.0.9",
+            "pywin32 >=305 ; sys_platform == \"win32\"",
+            "edk2-pytool-extensions[openssl] ; extra == 'dev'",
+            "ruff ==0.0.286 ; extra == 'dev'",
+            "pytest ==7.4.0 ; extra == 'dev'",
+            "coverage ==7.3.0 ; extra == 'dev'",
+            "robotframework ==6.1.1 ; extra == 'dev'",
+            "regex ==2023.8.8 ; extra == 'dev'",
+            "pre-commit ==3.3.3 ; extra == 'dev'",
+            "black ==23.7.0 ; extra == 'docs'",
+            "mkdocs ==1.5.2 ; extra == 'docs'",
+            "mkdocs-material ==9.2.5 ; extra == 'docs'",
+            "mkdocstrings[python] ==0.22.0 ; extra == 'docs'",
+            "mkdocstrings-python ==1.6.0 ; extra == 'docs'",
+            "markdown-include ==0.8.1 ; extra == 'docs'",
+            "mkdocs-gen-files ==0.5.0 ; extra == 'docs'",
+            "mkdocs-exclude ==1.0.2 ; extra == 'docs'",
+            "mkdocs-awesome-pages-plugin ==2.9.2 ; extra == 'docs'",
+            "pyopenssl ; extra == 'openssl'",
+            "cryptography >=39.0.1 ; extra == 'openssl'",
+            "setuptools ==68.1.2 ; extra == 'publish'",
             "build ==0.10.0 ; extra == 'publish'",
             "twine ==4.0.2 ; extra == 'publish'"
           ]
@@ -48384,6 +48437,9 @@
       },
       "1.1.7rc3": {
         "mpcrl-1.1.7rc3-py3-none-any.whl": "1.1.7rc1@mpcrl-1.1.7rc1-py3-none-any.whl"
+      },
+      "1.1.7rc4": {
+        "mpcrl-1.1.7rc4-py3-none-any.whl": "1.1.7rc1@mpcrl-1.1.7rc1-py3-none-any.whl"
       }
     }
   },
@@ -57416,6 +57472,21 @@
         "ogs-6.4.4-cp310-cp310-macosx_12_0_x86_64.whl": "6.4.4@ogs-6.4.4-cp310-cp310-macosx_12_0_arm64.whl",
         "ogs-6.4.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "6.4.4@ogs-6.4.4-cp310-cp310-macosx_12_0_arm64.whl",
         "ogs-6.4.4-cp310-cp310-win_amd64.whl": "6.4.4@ogs-6.4.4-cp310-cp310-macosx_12_0_arm64.whl"
+      },
+      "6.4.5.dev1171": {
+        "ogs-6.4.5.dev1171-cp310-cp310-macosx_12_0_arm64.whl": {
+          "provides_extras": [
+            "test"
+          ],
+          "requires_dist": [
+            "pytest; extra == \"test\"",
+            "numpy; extra == \"test\""
+          ],
+          "requires_python": ">=3.8"
+        },
+        "ogs-6.4.5.dev1171-cp310-cp310-macosx_12_0_x86_64.whl": "6.4.5.dev1171@ogs-6.4.5.dev1171-cp310-cp310-macosx_12_0_arm64.whl",
+        "ogs-6.4.5.dev1171-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "6.4.5.dev1171@ogs-6.4.5.dev1171-cp310-cp310-macosx_12_0_arm64.whl",
+        "ogs-6.4.5.dev1171-cp310-cp310-win_amd64.whl": "6.4.5.dev1171@ogs-6.4.5.dev1171-cp310-cp310-macosx_12_0_arm64.whl"
       }
     },
     "cp311": {
@@ -57447,6 +57518,21 @@
         "ogs-6.4.4-cp311-cp311-macosx_12_0_x86_64.whl": "6.4.4@ogs-6.4.4-cp311-cp311-macosx_12_0_arm64.whl",
         "ogs-6.4.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "6.4.4@ogs-6.4.4-cp311-cp311-macosx_12_0_arm64.whl",
         "ogs-6.4.4-cp311-cp311-win_amd64.whl": "6.4.4@ogs-6.4.4-cp311-cp311-macosx_12_0_arm64.whl"
+      },
+      "6.4.5.dev1171": {
+        "ogs-6.4.5.dev1171-cp311-cp311-macosx_12_0_arm64.whl": {
+          "provides_extras": [
+            "test"
+          ],
+          "requires_dist": [
+            "pytest; extra == \"test\"",
+            "numpy; extra == \"test\""
+          ],
+          "requires_python": ">=3.8"
+        },
+        "ogs-6.4.5.dev1171-cp311-cp311-macosx_12_0_x86_64.whl": "6.4.5.dev1171@ogs-6.4.5.dev1171-cp311-cp311-macosx_12_0_arm64.whl",
+        "ogs-6.4.5.dev1171-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "6.4.5.dev1171@ogs-6.4.5.dev1171-cp311-cp311-macosx_12_0_arm64.whl",
+        "ogs-6.4.5.dev1171-cp311-cp311-win_amd64.whl": "6.4.5.dev1171@ogs-6.4.5.dev1171-cp311-cp311-macosx_12_0_arm64.whl"
       }
     },
     "cp37": {
@@ -57501,6 +57587,20 @@
         },
         "ogs-6.4.4-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "6.4.4@ogs-6.4.4-cp38-cp38-macosx_12_0_arm64.whl",
         "ogs-6.4.4-cp38-cp38-win_amd64.whl": "6.4.4@ogs-6.4.4-cp38-cp38-macosx_12_0_arm64.whl"
+      },
+      "6.4.5.dev1171": {
+        "ogs-6.4.5.dev1171-cp38-cp38-macosx_12_0_arm64.whl": {
+          "provides_extras": [
+            "test"
+          ],
+          "requires_dist": [
+            "pytest; extra == \"test\"",
+            "numpy; extra == \"test\""
+          ],
+          "requires_python": ">=3.8"
+        },
+        "ogs-6.4.5.dev1171-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "6.4.5.dev1171@ogs-6.4.5.dev1171-cp38-cp38-macosx_12_0_arm64.whl",
+        "ogs-6.4.5.dev1171-cp38-cp38-win_amd64.whl": "6.4.5.dev1171@ogs-6.4.5.dev1171-cp38-cp38-macosx_12_0_arm64.whl"
       }
     },
     "cp39": {
@@ -57532,6 +57632,21 @@
         "ogs-6.4.4-cp39-cp39-macosx_12_0_x86_64.whl": "6.4.4@ogs-6.4.4-cp39-cp39-macosx_12_0_arm64.whl",
         "ogs-6.4.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "6.4.4@ogs-6.4.4-cp39-cp39-macosx_12_0_arm64.whl",
         "ogs-6.4.4-cp39-cp39-win_amd64.whl": "6.4.4@ogs-6.4.4-cp39-cp39-macosx_12_0_arm64.whl"
+      },
+      "6.4.5.dev1171": {
+        "ogs-6.4.5.dev1171-cp39-cp39-macosx_12_0_arm64.whl": {
+          "provides_extras": [
+            "test"
+          ],
+          "requires_dist": [
+            "pytest; extra == \"test\"",
+            "numpy; extra == \"test\""
+          ],
+          "requires_python": ">=3.8"
+        },
+        "ogs-6.4.5.dev1171-cp39-cp39-macosx_12_0_x86_64.whl": "6.4.5.dev1171@ogs-6.4.5.dev1171-cp39-cp39-macosx_12_0_arm64.whl",
+        "ogs-6.4.5.dev1171-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "6.4.5.dev1171@ogs-6.4.5.dev1171-cp39-cp39-macosx_12_0_arm64.whl",
+        "ogs-6.4.5.dev1171-cp39-cp39-win_amd64.whl": "6.4.5.dev1171@ogs-6.4.5.dev1171-cp39-cp39-macosx_12_0_arm64.whl"
       }
     }
   },
@@ -91049,6 +91164,20 @@
             "tencentcloud-sdk-python-common (==3.0.974)"
           ]
         }
+      },
+      "3.0.975": {
+        "tencentcloud_sdk_python_live-3.0.975-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.975)"
+          ]
+        }
+      },
+      "3.0.976": {
+        "tencentcloud_sdk_python_live-3.0.976-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.976)"
+          ]
+        }
       }
     }
   },
@@ -92731,6 +92860,20 @@
         "tencentcloud_sdk_python_market-3.0.974-py2.py3-none-any.whl": {
           "requires_dist": [
             "tencentcloud-sdk-python-common (==3.0.974)"
+          ]
+        }
+      },
+      "3.0.975": {
+        "tencentcloud_sdk_python_market-3.0.975-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.975)"
+          ]
+        }
+      },
+      "3.0.976": {
+        "tencentcloud_sdk_python_market-3.0.976-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.976)"
           ]
         }
       }
@@ -99616,6 +99759,36 @@
       },
       "0.1.7": {
         "xturing-0.1.7-py3-none-any.whl": "0.1.3@xturing-0.1.3-py3-none-any.whl"
+      },
+      "0.1.8": {
+        "xturing-0.1.8-py3-none-any.whl": {
+          "provides_extras": [
+            "int4"
+          ],
+          "requires_dist": [
+            "torch >=1.9.0",
+            "pytorch-lightning",
+            "transformers ==4.31.0",
+            "datasets ==2.14.5",
+            "evaluate ==0.4.0",
+            "bitsandbytes ==0.41.1",
+            "sentencepiece",
+            "deepspeed ==0.9.5",
+            "gradio",
+            "click",
+            "wget",
+            "ai21",
+            "cohere",
+            "ipywidgets",
+            "openai >=0.27.0",
+            "pydantic >=1.10.0",
+            "rouge-score >=0.1.2",
+            "accelerate ==0.22.0",
+            "wandb",
+            "torch >=2.0 ; extra == 'int4'"
+          ],
+          "requires_python": ">=3.7"
+        }
       }
     }
   },

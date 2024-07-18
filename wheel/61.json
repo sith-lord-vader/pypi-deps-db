@@ -16532,6 +16532,9 @@
       "1.31.41": {
         "botocore_a_la_carte_connectparticipant-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_connectparticipant-1.29.100-py3-none-any.whl"
       },
+      "1.31.42": {
+        "botocore_a_la_carte_connectparticipant-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_connectparticipant-1.29.100-py3-none-any.whl"
+      },
       "1.31.5": {
         "botocore_a_la_carte_connectparticipant-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_connectparticipant-1.29.100-py3-none-any.whl"
       },
@@ -17032,6 +17035,9 @@
       },
       "1.31.41": {
         "botocore_a_la_carte_lakeformation-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_lakeformation-1.29.100-py3-none-any.whl"
+      },
+      "1.31.42": {
+        "botocore_a_la_carte_lakeformation-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_lakeformation-1.29.100-py3-none-any.whl"
       },
       "1.31.5": {
         "botocore_a_la_carte_lakeformation-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_lakeformation-1.29.100-py3-none-any.whl"
@@ -18154,6 +18160,36 @@
             "zipp (<4.0.0,>=3.1.0)"
           ],
           "requires_python": ">=3.6,<4.0"
+        }
+      },
+      "0.6.30": {
+        "c7n_org-0.6.30-py3-none-any.whl": {
+          "requires_dist": [
+            "c7n (==0.9.31) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "click (==8.1.7) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "argcomplete (==3.1.1) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "boto3 (==1.28.41) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "docutils (==0.18.1) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "importlib-metadata (==5.2.0) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "jsonschema (==4.19.0) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "python-dateutil (==2.8.2) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "pyyaml (==6.0.1) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "tabulate (==0.9.0) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "urllib3 (==1.26.16) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "colorama (==0.4.6) ; python_version >= \"3.8\" and python_version < \"4.0\" and platform_system == \"Windows\"",
+            "botocore (==1.31.41) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "jmespath (==1.0.1) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "s3transfer (==0.6.2) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "zipp (==3.16.2) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "attrs (==23.1.0) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "importlib-resources (==6.0.1) ; python_version >= \"3.8\" and python_version < \"3.9\"",
+            "jsonschema-specifications (==2023.7.1) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "pkgutil-resolve-name (==1.3.10) ; python_version >= \"3.8\" and python_version < \"3.9\"",
+            "referencing (==0.30.2) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "rpds-py (==0.10.2) ; python_version >= \"3.8\" and python_version < \"4.0\"",
+            "six (==1.16.0) ; python_version >= \"3.8\" and python_version < \"4.0\""
+          ],
+          "requires_python": ">=3.8,<4.0"
         }
       },
       "0.6.4": {
@@ -29391,6 +29427,20 @@
       "19": {
         "esrp_release_test-19-py3-none-any.whl": "0.0.9@esrp_release_test-0.0.9-py3-none-any.whl"
       },
+      "20": {
+        "esrp_release_test-20-py3-none-any.whl": {
+          "provides_extras": [
+            "pdf"
+          ],
+          "requires_dist": [
+            "azure-storage-blob ==12.12.0",
+            "requests >=2.23.0",
+            "ReportLab >=1.2 ; extra == 'pdf'",
+            "RXP ; extra == 'pdf'"
+          ],
+          "requires_python": ">=3.6"
+        }
+      },
       "8": {
         "esrp_release_test-8-py3-none-any.whl": "0.0.9@esrp_release_test-0.0.9-py3-none-any.whl"
       }
@@ -38733,6 +38783,14 @@
           "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
         }
       },
+      "3.1.58": {
+        "huaweicloudsdkclassroom-3.1.58-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "huaweicloudsdkcore >=3.1.58"
+          ],
+          "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
+        }
+      },
       "3.1.6": {
         "huaweicloudsdkclassroom-3.1.6-py2.py3-none-any.whl": {
           "requires_dist": [
@@ -44602,6 +44660,9 @@
       },
       "0.0.14": {
         "langchain_experimental-0.0.14-py3-none-any.whl": "0.0.13@langchain_experimental-0.0.13-py3-none-any.whl"
+      },
+      "0.0.15": {
+        "langchain_experimental-0.0.15-py3-none-any.whl": "0.0.13@langchain_experimental-0.0.13-py3-none-any.whl"
       },
       "0.0.1rc1": {
         "langchain_experimental-0.0.1rc1-py3-none-any.whl": "0.0.1@langchain_experimental-0.0.1-py3-none-any.whl"
@@ -54819,6 +54880,12 @@
           ],
           "requires_python": ">=3.8"
         }
+      },
+      "3.2.8": {
+        "nonebot_plugin_osubot-3.2.8-py3-none-any.whl": "3.2.7@nonebot_plugin_osubot-3.2.7-py3-none-any.whl"
+      },
+      "3.2.9": {
+        "nonebot_plugin_osubot-3.2.9-py3-none-any.whl": "3.2.7@nonebot_plugin_osubot-3.2.7-py3-none-any.whl"
       }
     }
   },
@@ -62725,6 +62792,35 @@
       }
     }
   },
+  "pimms-learn": {
+    "py3": {
+      "0.1.0": {
+        "pimms_learn-0.1.0-py3-none-any.whl": {
+          "provides_extras": [
+            "docs"
+          ],
+          "requires_dist": [
+            "numpy",
+            "matplotlib",
+            "pandas <2",
+            "plotly",
+            "torch <2",
+            "scikit-learn >=1.0",
+            "scipy",
+            "seaborn",
+            "fastai",
+            "omegaconf",
+            "tqdm",
+            "mrmr-selection",
+            "pingouin",
+            "sphinx ; extra == 'docs'",
+            "sphinx-book-theme ; extra == 'docs'",
+            "myst-parser ; extra == 'docs'"
+          ]
+        }
+      }
+    }
+  },
   "pipupdater": {
     "py3": {
       "0.0.1": {
@@ -66375,6 +66471,14 @@
       },
       "0.0.3": {
         "pyepc-0.0.3-py2.py3-none-any.whl": "0.0.2@pyepc-0.0.2-py2.py3-none-any.whl"
+      },
+      "0.5.0": {
+        "pyepc-0.5.0-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "requests"
+          ],
+          "requires_python": ">=3.9"
+        }
       }
     }
   },
@@ -67871,6 +67975,53 @@
       },
       "0.35.1": {
         "pyocd-0.35.1-py3-none-any.whl": "0.35.0@pyocd-0.35.0-py3-none-any.whl"
+      }
+    }
+  },
+  "pypck-dummy": {
+    "py3": {
+      "0.0.0": {
+        "pypck_dummy-0.0.0-py3-none-any.whl": {
+          "requires_dist": [
+            "random"
+          ]
+        }
+      },
+      "0.0.1": {
+        "pypck_dummy-0.0.1-py3-none-any.whl": {}
+      },
+      "0.0.10": {
+        "pypck_dummy-0.0.10-py3-none-any.whl": "0.0.1@pypck_dummy-0.0.1-py3-none-any.whl"
+      },
+      "0.0.11": {
+        "pypck_dummy-0.0.11-py3-none-any.whl": "0.0.1@pypck_dummy-0.0.1-py3-none-any.whl"
+      },
+      "0.0.12": {
+        "pypck_dummy-0.0.12-py3-none-any.whl": "0.0.1@pypck_dummy-0.0.1-py3-none-any.whl"
+      },
+      "0.0.2": {
+        "pypck_dummy-0.0.2-py3-none-any.whl": "0.0.1@pypck_dummy-0.0.1-py3-none-any.whl"
+      },
+      "0.0.3": {
+        "pypck_dummy-0.0.3-py3-none-any.whl": "0.0.1@pypck_dummy-0.0.1-py3-none-any.whl"
+      },
+      "0.0.4": {
+        "pypck_dummy-0.0.4-py3-none-any.whl": "0.0.1@pypck_dummy-0.0.1-py3-none-any.whl"
+      },
+      "0.0.5": {
+        "pypck_dummy-0.0.5-py3-none-any.whl": "0.0.1@pypck_dummy-0.0.1-py3-none-any.whl"
+      },
+      "0.0.6": {
+        "pypck_dummy-0.0.6-py3-none-any.whl": "0.0.1@pypck_dummy-0.0.1-py3-none-any.whl"
+      },
+      "0.0.7": {
+        "pypck_dummy-0.0.7-py3-none-any.whl": "0.0.1@pypck_dummy-0.0.1-py3-none-any.whl"
+      },
+      "0.0.8": {
+        "pypck_dummy-0.0.8-py3-none-any.whl": "0.0.1@pypck_dummy-0.0.1-py3-none-any.whl"
+      },
+      "0.0.9": {
+        "pypck_dummy-0.0.9-py3-none-any.whl": "0.0.1@pypck_dummy-0.0.1-py3-none-any.whl"
       }
     }
   },
@@ -73598,6 +73749,9 @@
       },
       "0.55.0": {
         "robotcode_plugin-0.55.0-py3-none-any.whl": "0.47.2@robotcode_plugin-0.47.2-py3-none-any.whl"
+      },
+      "0.55.1": {
+        "robotcode_plugin-0.55.1-py3-none-any.whl": "0.47.2@robotcode_plugin-0.47.2-py3-none-any.whl"
       }
     }
   },
@@ -75381,6 +75535,12 @@
       },
       "2.1.0": {
         "scinumtools-2.1.0-py3-none-any.whl": "1.10.0@scinumtools-1.10.0-py3-none-any.whl"
+      },
+      "2.2.0": {
+        "scinumtools-2.2.0-py3-none-any.whl": "1.10.0@scinumtools-1.10.0-py3-none-any.whl"
+      },
+      "2.2.1": {
+        "scinumtools-2.2.1-py3-none-any.whl": "1.10.0@scinumtools-1.10.0-py3-none-any.whl"
       }
     }
   },
@@ -85523,6 +85683,14 @@
       },
       "0.2.3.3": {
         "torchy_nn-0.2.3.3-py3-none-any.whl": "0.0.1.1@torchy_nn-0.0.1.1-py3-none-any.whl"
+      },
+      "0.3.4.3": {
+        "torchy_nn-0.3.4.3-py3-none-any.whl": {
+          "requires_dist": [
+            "numpy",
+            "pytest"
+          ]
+        }
       }
     }
   },

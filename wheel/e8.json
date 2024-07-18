@@ -33734,6 +33734,14 @@
           ],
           "requires_python": ">=3.7,<3.10"
         }
+      },
+      "4.1.0": {
+        "biobb_io-4.1.0-py3-none-any.whl": {
+          "requires_dist": [
+            "biobb-common (==4.1.0)"
+          ],
+          "requires_python": ">=3.8"
+        }
       }
     }
   },
@@ -35452,6 +35460,9 @@
       },
       "1.31.41": {
         "botocore_a_la_carte_privatenetworks-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_privatenetworks-1.29.100-py3-none-any.whl"
+      },
+      "1.31.42": {
+        "botocore_a_la_carte_privatenetworks-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_privatenetworks-1.29.100-py3-none-any.whl"
       },
       "1.31.5": {
         "botocore_a_la_carte_privatenetworks-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_privatenetworks-1.29.100-py3-none-any.whl"
@@ -41750,6 +41761,9 @@
       },
       "0.0.13": {
         "comgen-0.0.13-py3-none-any.whl": "0.0.10@comgen-0.0.10-py3-none-any.whl"
+      },
+      "0.0.14": {
+        "comgen-0.0.14-py3-none-any.whl": "0.0.10@comgen-0.0.10-py3-none-any.whl"
       }
     }
   },
@@ -53838,6 +53852,9 @@
             "numpy"
           ]
         }
+      },
+      "1.1": {
+        "flowmindercolors-1.1-py3-none-any.whl": "1.0@flowmindercolors-1.0-py3-none-any.whl"
       }
     }
   },
@@ -56583,6 +56600,9 @@
       },
       "2023.9.1174535": {
         "gologin-2023.9.1174535-py3-none-any.whl": "2023.8.31142853@gologin-2023.8.31142853-py3-none-any.whl"
+      },
+      "2023.9.6134110": {
+        "gologin-2023.9.6134110-py3-none-any.whl": "2023.8.31142853@gologin-2023.8.31142853-py3-none-any.whl"
       }
     }
   },
@@ -73747,6 +73767,26 @@
             "odoo-addon-maintenance-team-hierarchy (<16.1dev,>=16.0dev)"
           ]
         }
+      },
+      "16.0.20230906.0": {
+        "odoo_addons_oca_maintenance-16.0.20230906.0-py3-none-any.whl": {
+          "requires_dist": [
+            "odoo-addon-base-maintenance <16.1dev,>=16.0dev",
+            "odoo-addon-base-maintenance-group <16.1dev,>=16.0dev",
+            "odoo-addon-maintenance-equipment-contract <16.1dev,>=16.0dev",
+            "odoo-addon-maintenance-equipment-hierarchy <16.1dev,>=16.0dev",
+            "odoo-addon-maintenance-equipment-image <16.1dev,>=16.0dev",
+            "odoo-addon-maintenance-equipment-status <16.1dev,>=16.0dev",
+            "odoo-addon-maintenance-equipment-tags <16.1dev,>=16.0dev",
+            "odoo-addon-maintenance-product <16.1dev,>=16.0dev",
+            "odoo-addon-maintenance-project <16.1dev,>=16.0dev",
+            "odoo-addon-maintenance-request-repair <16.1dev,>=16.0dev",
+            "odoo-addon-maintenance-request-sequence <16.1dev,>=16.0dev",
+            "odoo-addon-maintenance-request-stage-transition <16.1dev,>=16.0dev",
+            "odoo-addon-maintenance-team-hierarchy <16.1dev,>=16.0dev",
+            "odoo-addon-maintenance-timesheet <16.1dev,>=16.0dev"
+          ]
+        }
       }
     }
   },
@@ -83316,6 +83356,9 @@
       "8.13.2": {
         "phonenumbers-8.13.2-py2.py3-none-any.whl": "8.10.12@phonenumbers-8.10.12-py2.py3-none-any.whl"
       },
+      "8.13.20": {
+        "phonenumbers-8.13.20-py2.py3-none-any.whl": "8.10.12@phonenumbers-8.10.12-py2.py3-none-any.whl"
+      },
       "8.13.3": {
         "phonenumbers-8.13.3-py2.py3-none-any.whl": "8.10.12@phonenumbers-8.10.12-py2.py3-none-any.whl"
       },
@@ -86410,6 +86453,28 @@
     "py3": {
       "1.1": {
         "pyglmnet-1.1-py3-none-any.whl": {}
+      }
+    }
+  },
+  "pygraft": {
+    "py3": {
+      "0.0.1": {
+        "pygraft-0.0.1-py3-none-any.whl": {
+          "requires_dist": [
+            "numpy >=1.24.0",
+            "matplotlib >=3.7.0",
+            "Owlready2 >=0.41",
+            "rdflib >=6.2.0",
+            "pyyaml",
+            "tabulate",
+            "art",
+            "tqdm"
+          ],
+          "requires_python": ">=3.7"
+        }
+      },
+      "0.0.2": {
+        "pygraft-0.0.2-py3-none-any.whl": "0.0.1@pygraft-0.0.1-py3-none-any.whl"
       }
     }
   },
@@ -98401,6 +98466,18 @@
             "pyjwt"
           ]
         }
+      },
+      "1.12.5": {
+        "simple_salesforce-1.12.5-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "requests (>=2.22.0)",
+            "cryptography",
+            "zeep",
+            "pyjwt",
+            "more-itertools",
+            "pendulum"
+          ]
+        }
       }
     }
   },
@@ -103136,6 +103213,20 @@
             "tencentcloud-sdk-python-common (==3.0.974)"
           ]
         }
+      },
+      "3.0.975": {
+        "tencentcloud_sdk_python_csip-3.0.975-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.975)"
+          ]
+        }
+      },
+      "3.0.976": {
+        "tencentcloud_sdk_python_csip-3.0.976-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.976)"
+          ]
+        }
       }
     }
   },
@@ -105333,6 +105424,20 @@
             "tencentcloud-sdk-python-common (==3.0.974)"
           ]
         }
+      },
+      "3.0.975": {
+        "tencentcloud_sdk_python_gaap-3.0.975-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.975)"
+          ]
+        }
+      },
+      "3.0.976": {
+        "tencentcloud_sdk_python_gaap-3.0.976-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.976)"
+          ]
+        }
       }
     }
   },
@@ -107519,6 +107624,20 @@
         "tencentcloud_sdk_python_vpc-3.0.974-py2.py3-none-any.whl": {
           "requires_dist": [
             "tencentcloud-sdk-python-common (==3.0.974)"
+          ]
+        }
+      },
+      "3.0.975": {
+        "tencentcloud_sdk_python_vpc-3.0.975-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.975)"
+          ]
+        }
+      },
+      "3.0.976": {
+        "tencentcloud_sdk_python_vpc-3.0.976-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.976)"
           ]
         }
       }
@@ -110461,6 +110580,12 @@
       },
       "2023.9.5": {
         "torcheval_nightly-2023.9.5-py3-none-any.whl": "2023.8.25@torcheval_nightly-2023.8.25-py3-none-any.whl"
+      },
+      "2023.9.6": {
+        "torcheval_nightly-2023.9.6-py3-none-any.whl": "2023.8.25@torcheval_nightly-2023.8.25-py3-none-any.whl"
+      },
+      "2023.9.7": {
+        "torcheval_nightly-2023.9.7-py3-none-any.whl": "2023.8.25@torcheval_nightly-2023.8.25-py3-none-any.whl"
       }
     }
   },

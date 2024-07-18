@@ -1368,6 +1368,34 @@
           ],
           "requires_python": ">=3.8,<4.0"
         }
+      },
+      "0.1.9": {
+        "agilerl-0.1.9-py3-none-any.whl": {
+          "requires_dist": [
+            "SuperSuit (>=3.9.0,<4.0.0)",
+            "accelerate (>=0.18.0,<0.19.0)",
+            "dill (>=0.3.7,<0.4.0)",
+            "fastrand (>=1.3.0,<2.0.0)",
+            "flatten_dict (>=0.4.2,<0.5.0)",
+            "gymnasium (>=0.28.1,<0.29.0)",
+            "h5py (>=3.8.0,<4.0.0)",
+            "hydra-core (>=1.3.2,<2.0.0)",
+            "importlib (>=1.0.4,<2.0.0)",
+            "matplotlib (>=3.4.3,<4.0.0)",
+            "minari (>=0.4.1,<0.5.0)",
+            "numpy (>=1.24.2,<2.0.0)",
+            "omegaconf (>=2.3.0,<3.0.0)",
+            "pettingzoo (>=1.23.1,<2.0.0)",
+            "pre-commit (>=3.4.0,<4.0.0)",
+            "redis (>=4.4.4,<5.0.0)",
+            "termcolor (>=1.1.0,<2.0.0)",
+            "torch (>=2.0.1,<3.0.0)",
+            "tqdm (>=4.65.0,<5.0.0)",
+            "transformers (>=4.30.0,<5.0.0)",
+            "wandb (>=0.13.10,<0.14.0)"
+          ],
+          "requires_python": ">=3.8,<4.0"
+        }
       }
     }
   },
@@ -17779,6 +17807,12 @@
       },
       "0.4.6": {
         "burla-0.4.6-py3-none-any.whl": "0.4.1@burla-0.4.1-py3-none-any.whl"
+      },
+      "0.4.7": {
+        "burla-0.4.7-py3-none-any.whl": "0.4.1@burla-0.4.1-py3-none-any.whl"
+      },
+      "0.4.8": {
+        "burla-0.4.8-py3-none-any.whl": "0.4.1@burla-0.4.1-py3-none-any.whl"
       }
     }
   },
@@ -20497,6 +20531,9 @@
       "0.0.365": {
         "cdk_docker_image_deployment-0.0.365-py3-none-any.whl": "0.0.354@cdk_docker_image_deployment-0.0.354-py3-none-any.whl"
       },
+      "0.0.366": {
+        "cdk_docker_image_deployment-0.0.366-py3-none-any.whl": "0.0.354@cdk_docker_image_deployment-0.0.354-py3-none-any.whl"
+      },
       "0.0.37": {
         "cdk_docker_image_deployment-0.0.37-py3-none-any.whl": "0.0.27@cdk_docker_image_deployment-0.0.27-py3-none-any.whl"
       },
@@ -22315,6 +22352,9 @@
             "scikit-image"
           ]
         }
+      },
+      "4.0.1": {
+        "climada_petals-4.0.1-py3-none-any.whl": "4.0.0@climada_petals-4.0.0-py3-none-any.whl"
       }
     }
   },
@@ -35407,6 +35447,9 @@
         "filescli-0.0.1-py3-none-any.whl": {
           "requires_python": ">=3.8"
         }
+      },
+      "0.0.2": {
+        "filescli-0.0.2-py3-none-any.whl": "0.0.1@filescli-0.0.1-py3-none-any.whl"
       }
     }
   },
@@ -42861,6 +42904,9 @@
       },
       "0.1.3": {
         "grug_test-0.1.3-py3-none-any.whl": "0.0.1@grug_test-0.0.1-py3-none-any.whl"
+      },
+      "0.2.0": {
+        "grug_test-0.2.0-py3-none-any.whl": "0.0.1@grug_test-0.0.1-py3-none-any.whl"
       }
     }
   },
@@ -45414,6 +45460,14 @@
           "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
         }
       },
+      "3.1.58": {
+        "huaweicloudsdkdsc-3.1.58-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "huaweicloudsdkcore >=3.1.58"
+          ],
+          "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
+        }
+      },
       "3.1.6": {
         "huaweicloudsdkdsc-3.1.6-py2.py3-none-any.whl": {
           "requires_dist": [
@@ -46059,6 +46113,14 @@
         "huaweicloudsdkres-3.1.57-py2.py3-none-any.whl": {
           "requires_dist": [
             "huaweicloudsdkcore >=3.1.57"
+          ],
+          "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
+        }
+      },
+      "3.1.58": {
+        "huaweicloudsdkres-3.1.58-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "huaweicloudsdkcore >=3.1.58"
           ],
           "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
         }
@@ -47363,6 +47425,16 @@
             "docopt (==0.6.2)",
             "pydantic (<2,>=1.9.0)",
             "infusevideo-sdk (>=0.2.3)"
+          ],
+          "requires_python": ">=3.9"
+        }
+      },
+      "0.3.0": {
+        "infusevideo_cli-0.3.0-py3-none-any.whl": {
+          "requires_dist": [
+            "docopt ==0.6.2",
+            "pydantic <2,>=1.9.0",
+            "infusevideo-sdk >=0.3.0"
           ],
           "requires_python": ">=3.9"
         }
@@ -64921,6 +64993,18 @@
       },
       "0.0.2.45": {
         "metar2bufr-0.0.2.45-py3-none-any.whl": "0.0.2.20@metar2bufr-0.0.2.20-py3-none-any.whl"
+      },
+      "0.0.2.46": {
+        "metar2bufr-0.0.2.46-py3-none-any.whl": "0.0.2.20@metar2bufr-0.0.2.20-py3-none-any.whl"
+      },
+      "0.0.2.47": {
+        "metar2bufr-0.0.2.47-py3-none-any.whl": "0.0.2.20@metar2bufr-0.0.2.20-py3-none-any.whl"
+      },
+      "0.0.2.48": {
+        "metar2bufr-0.0.2.48-py3-none-any.whl": "0.0.2.20@metar2bufr-0.0.2.20-py3-none-any.whl"
+      },
+      "0.0.2.49": {
+        "metar2bufr-0.0.2.49-py3-none-any.whl": "0.0.2.20@metar2bufr-0.0.2.20-py3-none-any.whl"
       }
     }
   },
@@ -65141,6 +65225,12 @@
       },
       "0.0.22": {
         "miniagent-0.0.22-py3-none-any.whl": "0.0.14@miniagent-0.0.14-py3-none-any.whl"
+      },
+      "0.0.23": {
+        "miniagent-0.0.23-py3-none-any.whl": "0.0.14@miniagent-0.0.14-py3-none-any.whl"
+      },
+      "0.0.24": {
+        "miniagent-0.0.24-py3-none-any.whl": "0.0.14@miniagent-0.0.14-py3-none-any.whl"
       },
       "0.0.3": {
         "miniagent-0.0.3-py3-none-any.whl": "0.0.1@miniagent-0.0.1-py3-none-any.whl"
@@ -71265,6 +71355,29 @@
       },
       "0.4.0": {
         "neurotechdevkit-0.4.0-py3-none-any.whl": "0.3.0@neurotechdevkit-0.3.0-py3-none-any.whl"
+      },
+      "0.5.0": {
+        "neurotechdevkit-0.5.0-py3-none-any.whl": {
+          "requires_dist": [
+            "devito (==4.7.1)",
+            "hdf5storage (>=0.1.18,<0.2.0)",
+            "imageio (>=2.21.2,<3.0.0)",
+            "ipywidgets",
+            "jupyter",
+            "jupyterlab (>=3.4.6,<4.0.0)",
+            "matplotlib (>=3.5.3,<4.0.0)",
+            "mkdocs-gallery (==0.7.6)",
+            "nest-asyncio (>=1.5.6,<2.0.0)",
+            "numpy (>=1.23.3,<2.0.0)",
+            "psutil (>=5.9.0,<6.0.0)",
+            "scipy (>=1.9.1,<2.0.0)",
+            "xarray (>=2022.3.0)"
+          ],
+          "requires_python": ">=3.9,<3.12"
+        }
+      },
+      "0.5.1": {
+        "neurotechdevkit-0.5.1-py3-none-any.whl": "0.5.0@neurotechdevkit-0.5.0-py3-none-any.whl"
       }
     }
   },
@@ -72697,6 +72810,29 @@
             "pytz"
           ]
         }
+      }
+    }
+  },
+  "nyt-scraper": {
+    "py3": {
+      "1.0.0": {
+        "nyt_scraper-1.0.0-py3-none-any.whl": {
+          "requires_dist": [
+            "beautifulsoup4 (==4.11.2)",
+            "requests",
+            "m3u8 (==3.5.0)",
+            "Pillow (==10.0.0)"
+          ]
+        }
+      },
+      "1.0.1": {
+        "nyt_scraper-1.0.1-py3-none-any.whl": "1.0.0@nyt_scraper-1.0.0-py3-none-any.whl"
+      },
+      "1.0.2": {
+        "nyt_scraper-1.0.2-py3-none-any.whl": "1.0.0@nyt_scraper-1.0.0-py3-none-any.whl"
+      },
+      "1.0.3": {
+        "nyt_scraper-1.0.3-py3-none-any.whl": "1.0.0@nyt_scraper-1.0.0-py3-none-any.whl"
       }
     }
   },
@@ -74441,6 +74577,57 @@
             "odoo-addon-purchase-product-template-tags (<15.1dev,>=15.0dev)",
             "odoo-addon-sale-product-template-tags (<15.1dev,>=15.0dev)",
             "odoo-addon-stock-product-template-tags (<15.1dev,>=15.0dev)"
+          ]
+        }
+      },
+      "15.0.20230906.0": {
+        "odoo_addons_oca_product_attribute-15.0.20230906.0-py3-none-any.whl": {
+          "requires_dist": [
+            "odoo-addon-base-product-mass-addition <15.1dev,>=15.0dev",
+            "odoo-addon-product-abc-classification <15.1dev,>=15.0dev",
+            "odoo-addon-product-abc-classification-sale <15.1dev,>=15.0dev",
+            "odoo-addon-product-assortment <15.1dev,>=15.0dev",
+            "odoo-addon-product-attribute-archive <15.1dev,>=15.0dev",
+            "odoo-addon-product-attribute-value-menu <15.1dev,>=15.0dev",
+            "odoo-addon-product-category-active <15.1dev,>=15.0dev",
+            "odoo-addon-product-category-code <15.1dev,>=15.0dev",
+            "odoo-addon-product-category-code-unique <15.1dev,>=15.0dev",
+            "odoo-addon-product-category-product-link <15.1dev,>=15.0dev",
+            "odoo-addon-product-code-mandatory <15.1dev,>=15.0dev",
+            "odoo-addon-product-code-unique <15.1dev,>=15.0dev",
+            "odoo-addon-product-cost-security <15.1dev,>=15.0dev",
+            "odoo-addon-product-dimension <15.1dev,>=15.0dev",
+            "odoo-addon-product-drained-weight <15.1dev,>=15.0dev",
+            "odoo-addon-product-logistics-uom <15.1dev,>=15.0dev",
+            "odoo-addon-product-lot-sequence <15.1dev,>=15.0dev",
+            "odoo-addon-product-manufacturer <15.1dev,>=15.0dev",
+            "odoo-addon-product-multi-image <15.1dev,>=15.0dev",
+            "odoo-addon-product-multi-price <15.1dev,>=15.0dev",
+            "odoo-addon-product-net-weight <15.1dev,>=15.0dev",
+            "odoo-addon-product-order-noname <15.1dev,>=15.0dev",
+            "odoo-addon-product-packaging-type <15.1dev,>=15.0dev",
+            "odoo-addon-product-pricelist-by-contact <15.1dev,>=15.0dev",
+            "odoo-addon-product-pricelist-direct-print <15.1dev,>=15.0dev",
+            "odoo-addon-product-pricelist-direct-print-company-group <15.1dev,>=15.0dev",
+            "odoo-addon-product-pricelist-direct-print-website-sale <15.1dev,>=15.0dev",
+            "odoo-addon-product-pricelist-revision <15.1dev,>=15.0dev",
+            "odoo-addon-product-pricelist-simulation <15.1dev,>=15.0dev",
+            "odoo-addon-product-pricelist-supplierinfo <15.1dev,>=15.0dev",
+            "odoo-addon-product-profile <15.1dev,>=15.0dev",
+            "odoo-addon-product-restricted-type <15.1dev,>=15.0dev",
+            "odoo-addon-product-secondary-unit <15.1dev,>=15.0dev",
+            "odoo-addon-product-sequence <15.1dev,>=15.0dev",
+            "odoo-addon-product-state <15.1dev,>=15.0dev",
+            "odoo-addon-product-status <15.1dev,>=15.0dev",
+            "odoo-addon-product-sticker <15.1dev,>=15.0dev",
+            "odoo-addon-product-supplierinfo-archive <15.1dev,>=15.0dev",
+            "odoo-addon-product-supplierinfo-for-customer <15.1dev,>=15.0dev",
+            "odoo-addon-product-supplierinfo-revision <15.1dev,>=15.0dev",
+            "odoo-addon-product-template-tags <15.1dev,>=15.0dev",
+            "odoo-addon-product-variant-attribute-name-manager <15.1dev,>=15.0dev",
+            "odoo-addon-purchase-product-template-tags <15.1dev,>=15.0dev",
+            "odoo-addon-sale-product-template-tags <15.1dev,>=15.0dev",
+            "odoo-addon-stock-product-template-tags <15.1dev,>=15.0dev"
           ]
         }
       },
@@ -78314,6 +78501,9 @@
       },
       "8.7.1": {
         "onefuzztypes-8.7.1-py3-none-any.whl": "8.7.0@onefuzztypes-8.7.0-py3-none-any.whl"
+      },
+      "8.8.0": {
+        "onefuzztypes-8.8.0-py3-none-any.whl": "8.7.0@onefuzztypes-8.7.0-py3-none-any.whl"
       }
     }
   },
@@ -91561,6 +91751,16 @@
           ],
           "requires_python": ">=3.7"
         }
+      },
+      "2.8.2": {
+        "pysymbolcheck-2.8.2-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "jsonmerge ~=1.9",
+            "pyelftools ==0.30",
+            "wheel ~=0.41"
+          ],
+          "requires_python": ">=3.7"
+        }
       }
     }
   },
@@ -95324,6 +95524,9 @@
           ],
           "requires_python": ">=3.9"
         }
+      },
+      "0.5.1": {
+        "seisbench-0.5.1-py3-none-any.whl": "0.5.0@seisbench-0.5.0-py3-none-any.whl"
       }
     }
   },
@@ -105318,6 +105521,20 @@
             "tencentcloud-sdk-python-common (==3.0.974)"
           ]
         }
+      },
+      "3.0.975": {
+        "tencentcloud_sdk_python_tcss-3.0.975-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.975)"
+          ]
+        }
+      },
+      "3.0.976": {
+        "tencentcloud_sdk_python_tcss-3.0.976-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.976)"
+          ]
+        }
       }
     }
   },
@@ -106246,6 +106463,22 @@
       },
       "0.4.4": {
         "timeseer-0.4.4-py3-none-any.whl": "0.4.3@timeseer-0.4.3-py3-none-any.whl"
+      },
+      "0.4.5": {
+        "timeseer-0.4.5-py3-none-any.whl": "0.4.3@timeseer-0.4.3-py3-none-any.whl"
+      }
+    }
+  },
+  "timeskorch": {
+    "py3": {
+      "0.0.1": {
+        "timeskorch-0.0.1-py3-none-any.whl": {
+          "requires_dist": [
+            "scikit-learn",
+            "skorch"
+          ],
+          "requires_python": ">=3.6"
+        }
       }
     }
   },
@@ -107163,6 +107396,19 @@
           ],
           "requires_python": ">=3.10.11,<4.0.0"
         }
+      },
+      "2.0.0": {
+        "tonie_podcast_sync-2.0.0-py3-none-any.whl": {
+          "requires_dist": [
+            "feedparser (>=6.0.10,<7.0.0)",
+            "rich (>=13.5.2,<14.0.0)",
+            "tonie-api (>=0.1.1,<0.2.0)"
+          ],
+          "requires_python": ">=3.10.11,<4.0.0"
+        }
+      },
+      "2.0.1": {
+        "tonie_podcast_sync-2.0.1-py3-none-any.whl": "2.0.0@tonie_podcast_sync-2.0.0-py3-none-any.whl"
       }
     }
   },
@@ -110657,6 +110903,9 @@
       },
       "0.0.1.5981314795": {
         "vsc_dm-0.0.1.5981314795-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.0.1.4339702720@vsc_dm-0.0.1.4339702720-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+      },
+      "0.0.1.6104216013": {
+        "vsc_dm-0.0.1.6104216013-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.0.1.4339702720@vsc_dm-0.0.1.4339702720-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
       }
     },
     "cp37": {
@@ -110698,6 +110947,9 @@
       },
       "0.0.1.5981314795": {
         "vsc_dm-0.0.1.5981314795-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.0.1.4339702720@vsc_dm-0.0.1.4339702720-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+      },
+      "0.0.1.6104216013": {
+        "vsc_dm-0.0.1.6104216013-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.0.1.4339702720@vsc_dm-0.0.1.4339702720-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
       }
     },
     "cp38": {
@@ -110739,6 +110991,9 @@
       },
       "0.0.1.5981314795": {
         "vsc_dm-0.0.1.5981314795-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.0.1.4339702720@vsc_dm-0.0.1.4339702720-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+      },
+      "0.0.1.6104216013": {
+        "vsc_dm-0.0.1.6104216013-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.0.1.4339702720@vsc_dm-0.0.1.4339702720-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
       }
     },
     "cp39": {
@@ -110780,6 +111035,9 @@
       },
       "0.0.1.5981314795": {
         "vsc_dm-0.0.1.5981314795-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.0.1.4339702720@vsc_dm-0.0.1.4339702720-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+      },
+      "0.0.1.6104216013": {
+        "vsc_dm-0.0.1.6104216013-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.0.1.4339702720@vsc_dm-0.0.1.4339702720-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
       }
     }
   },
@@ -114375,6 +114633,9 @@
       },
       "0.2.3": {
         "zalo_sdk-0.2.3-py3-none-any.whl": "0.1.0@zalo_sdk-0.1.0-py3-none-any.whl"
+      },
+      "0.2.4": {
+        "zalo_sdk-0.2.4-py3-none-any.whl": "0.1.0@zalo_sdk-0.1.0-py3-none-any.whl"
       }
     }
   },

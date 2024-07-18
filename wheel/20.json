@@ -333,6 +333,19 @@
           ],
           "requires_python": ">=3.7"
         }
+      },
+      "2020.5.7": {
+        "abqpy2020-2020.5.7-py3-none-any.whl": {
+          "provides_extras": [
+            "jupyter"
+          ],
+          "requires_dist": [
+            "abqpy ==2020.5.7",
+            "ipynbname ; extra == 'jupyter'",
+            "nbconvert ; extra == 'jupyter'"
+          ],
+          "requires_python": ">=3.7"
+        }
       }
     }
   },
@@ -14219,6 +14232,9 @@
       },
       "1.31.41": {
         "botocore_a_la_carte_dataexchange-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_dataexchange-1.29.100-py3-none-any.whl"
+      },
+      "1.31.42": {
+        "botocore_a_la_carte_dataexchange-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_dataexchange-1.29.100-py3-none-any.whl"
       },
       "1.31.5": {
         "botocore_a_la_carte_dataexchange-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_dataexchange-1.29.100-py3-none-any.whl"
@@ -29085,6 +29101,12 @@
             "geopandas"
           ]
         }
+      },
+      "0.0.7": {
+        "earthkit_climate-0.0.7-py3-none-any.whl": "0.0.5@earthkit_climate-0.0.5-py3-none-any.whl"
+      },
+      "0.0.8": {
+        "earthkit_climate-0.0.8-py3-none-any.whl": "0.0.5@earthkit_climate-0.0.5-py3-none-any.whl"
       }
     }
   },
@@ -37640,6 +37662,9 @@
           "requires_python": "~=3.7"
         }
       },
+      "0.10.1": {
+        "gammarer.aws_daily_cost_usage_reporter-0.10.1-py3-none-any.whl": "0.10.0@gammarer.aws_daily_cost_usage_reporter-0.10.0-py3-none-any.whl"
+      },
       "0.9.0": {
         "gammarer.aws_daily_cost_usage_reporter-0.9.0-py3-none-any.whl": {
           "requires_dist": [
@@ -37933,6 +37958,19 @@
       },
       "1.12.0": {
         "gaussian_suite-1.12.0-py3-none-any.whl": "1.10.2@gaussian_suite-1.10.2-py3-none-any.whl"
+      },
+      "1.12.1": {
+        "gaussian_suite-1.12.1-py3-none-any.whl": {
+          "requires_dist": [
+            "numpy",
+            "scipy",
+            "xyz-py >=5.0.0",
+            "requests",
+            "hpc-suite >=1.8.0",
+            "deprecation"
+          ],
+          "requires_python": ">=3.10"
+        }
       },
       "1.4.4": {
         "gaussian_suite-1.4.4-py3-none-any.whl": {
@@ -39713,6 +39751,9 @@
       },
       "0.7.0": {
         "gpt_image-0.7.0-py3-none-any.whl": "0.2.0@gpt_image-0.2.0-py3-none-any.whl"
+      },
+      "0.8.1": {
+        "gpt_image-0.8.1-py3-none-any.whl": "0.2.0@gpt_image-0.2.0-py3-none-any.whl"
       }
     }
   },
@@ -40133,6 +40174,21 @@
             "meshio ; extra == 'all'",
             "napf (>=0.0.5) ; extra == 'all'",
             "funi (>=0.0.1) ; extra == 'all'"
+          ]
+        }
+      },
+      "0.0.15": {
+        "gustaf-0.0.15-py3-none-any.whl": {
+          "provides_extras": [
+            "all"
+          ],
+          "requires_dist": [
+            "numpy",
+            "vedo >=2023.4.3 ; extra == 'all'",
+            "scipy ; extra == 'all'",
+            "meshio ; extra == 'all'",
+            "napf >=0.0.5 ; extra == 'all'",
+            "funi >=0.0.1 ; extra == 'all'"
           ]
         }
       },
@@ -59410,6 +59466,12 @@
           "requires_python": ">=3.8"
         }
       },
+      "15.0.4.4.0": {
+        "odoo_addon_l10n_ro_stock_account_notice-15.0.4.4.0-py3-none-any.whl": "15.0.4.3.0.1@odoo_addon_l10n_ro_stock_account_notice-15.0.4.3.0.1-py3-none-any.whl"
+      },
+      "15.0.4.4.0.1": {
+        "odoo_addon_l10n_ro_stock_account_notice-15.0.4.4.0.1-py3-none-any.whl": "15.0.4.3.0.1@odoo_addon_l10n_ro_stock_account_notice-15.0.4.3.0.1-py3-none-any.whl"
+      },
       "16.0.4.3.0": {
         "odoo_addon_l10n_ro_stock_account_notice-16.0.4.3.0-py3-none-any.whl": {
           "requires_dist": [
@@ -72569,6 +72631,31 @@
       }
     }
   },
+  "pvsvg": {
+    "py3": {
+      "0.1.0": {
+        "pvsvg-0.1.0-py3-none-any.whl": {
+          "requires_dist": [
+            "jinja2 (>=3.1.2,<4.0.0)",
+            "networkx (>=3.1,<4.0)"
+          ],
+          "requires_python": ">=3.9,<4.0"
+        }
+      },
+      "0.1.1": {
+        "pvsvg-0.1.1-py3-none-any.whl": {
+          "requires_dist": [
+            "jinja2 (>=3.1.2,<4.0.0)",
+            "networkx (>=3.1,<4.0)"
+          ],
+          "requires_python": ">=3.8,<4.0"
+        }
+      },
+      "0.1.2": {
+        "pvsvg-0.1.2-py3-none-any.whl": "0.1.1@pvsvg-0.1.1-py3-none-any.whl"
+      }
+    }
+  },
   "py-ai-zh": {
     "py3": {
       "2022.8.19.0": {
@@ -82316,6 +82403,24 @@
       }
     }
   },
+  "regsyn": {
+    "py3": {
+      "0.0.1": {
+        "regsyn-0.0.1-py3-none-any.whl": {
+          "provides_extras": [
+            "dev"
+          ],
+          "requires_python": ">=3.11"
+        }
+      },
+      "0.0.2": {
+        "regsyn-0.0.2-py3-none-any.whl": "0.0.1@regsyn-0.0.1-py3-none-any.whl"
+      },
+      "0.0.3": {
+        "regsyn-0.0.3-py3-none-any.whl": "0.0.1@regsyn-0.0.1-py3-none-any.whl"
+      }
+    }
+  },
   "reify": {
     "py3": {
       "0.1": {
@@ -83932,6 +84037,9 @@
       },
       "1.0.0": {
         "run_configurations-1.0.0-py3-none-any.whl": "0.1.3@run_configurations-0.1.3-py3-none-any.whl"
+      },
+      "1.1.0": {
+        "run_configurations-1.1.0-py3-none-any.whl": "0.1.3@run_configurations-0.1.3-py3-none-any.whl"
       }
     }
   },
@@ -115602,6 +115710,9 @@
           ],
           "requires_python": ">=3.7"
         }
+      },
+      "1.1.0": {
+        "yaytarch-1.1.0-py3-none-any.whl": "1.0.0@yaytarch-1.0.0-py3-none-any.whl"
       }
     }
   },

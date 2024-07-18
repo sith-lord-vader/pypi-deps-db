@@ -84601,6 +84601,9 @@
       },
       "1.0.1": {
         "spew-1.0.1-py3-none-any.whl": "1.0.0@spew-1.0.0-py3-none-any.whl"
+      },
+      "1.0.2": {
+        "spew-1.0.2-py3-none-any.whl": "1.0.0@spew-1.0.0-py3-none-any.whl"
       }
     }
   },
@@ -90397,6 +90400,9 @@
       },
       "6.2.0.dev122": {
         "stix_shifter_modules_crowdstrike-6.2.0.dev122-py2.py3-none-any.whl": "1.0.0.dev782@stix_shifter_modules_crowdstrike-1.0.0.dev782-py2.py3-none-any.whl"
+      },
+      "6.2.1": {
+        "stix_shifter_modules_crowdstrike-6.2.1-py2.py3-none-any.whl": "1.0.0.dev782@stix_shifter_modules_crowdstrike-1.0.0.dev782-py2.py3-none-any.whl"
       }
     }
   },
@@ -90759,6 +90765,9 @@
       },
       "6.2.0.dev122": {
         "stix_shifter_modules_reversinglabs-6.2.0.dev122-py2.py3-none-any.whl": "5.1.1.dev825@stix_shifter_modules_reversinglabs-5.1.1.dev825-py2.py3-none-any.whl"
+      },
+      "6.2.1": {
+        "stix_shifter_modules_reversinglabs-6.2.1-py2.py3-none-any.whl": "5.1.1.dev825@stix_shifter_modules_reversinglabs-5.1.1.dev825-py2.py3-none-any.whl"
       }
     }
   },
@@ -92582,6 +92591,24 @@
             "pytest ; extra == 'dev'",
             "pytest-cov[all] ; extra == 'dev'",
             "pytest-mock ; extra == 'dev'"
+          ],
+          "requires_python": ">=3.8"
+        }
+      },
+      "0.0.7": {
+        "tally_counter-0.0.7-py3-none-any.whl": {
+          "provides_extras": [
+            "dev"
+          ],
+          "requires_dist": [
+            "pre-commit ; extra == 'dev'",
+            "black ; extra == 'dev'",
+            "ruff ; extra == 'dev'",
+            "mypy ; extra == 'dev'",
+            "pytest ; extra == 'dev'",
+            "pytest-cov ; extra == 'dev'",
+            "pytest-mock ; extra == 'dev'",
+            "twine ; extra == 'dev'"
           ],
           "requires_python": ">=3.8"
         }
@@ -97919,6 +97946,9 @@
       },
       "2.15.0a20230906": {
         "tb_nightly-2.15.0a20230906-py3-none-any.whl": "2.15.0a20230810@tb_nightly-2.15.0a20230810-py3-none-any.whl"
+      },
+      "2.15.0a20230907": {
+        "tb_nightly-2.15.0a20230907-py3-none-any.whl": "2.15.0a20230810@tb_nightly-2.15.0a20230810-py3-none-any.whl"
       },
       "2.2.0a20191207": {
         "tb_nightly-2.2.0a20191207-py3-none-any.whl": "2.1.0a20191111@tb_nightly-2.1.0a20191111-py3-none-any.whl"
@@ -109808,6 +109838,23 @@
     }
   },
   "yaxp": {
+    "py2.py3": {
+      "0.2.1": {
+        "yaxp-0.2.1-py2.py3-none-any.whl": {}
+      },
+      "0.2.2": {
+        "yaxp-0.2.2-py2.py3-none-any.whl": "0.2.1@yaxp-0.2.1-py2.py3-none-any.whl"
+      },
+      "0.2.3": {
+        "yaxp-0.2.3-py2.py3-none-any.whl": "0.2.1@yaxp-0.2.1-py2.py3-none-any.whl"
+      },
+      "0.2.4": {
+        "yaxp-0.2.4-py2.py3-none-any.whl": "0.2.1@yaxp-0.2.1-py2.py3-none-any.whl"
+      },
+      "0.2.5": {
+        "yaxp-0.2.5-py2.py3-none-any.whl": "0.2.1@yaxp-0.2.1-py2.py3-none-any.whl"
+      }
+    },
     "py3": {
       "0.0.1": {
         "yaxp-0.0.1-py3-none-any.whl": {

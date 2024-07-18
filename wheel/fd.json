@@ -167,6 +167,24 @@
       }
     }
   },
+  "acme-python-sdk": {
+    "py3": {
+      "1.0.0": {
+        "acme_python_sdk-1.0.0-py3-none-any.whl": {
+          "requires_dist": [
+            "aiohttp (>=3.8.4,<4.0.0)",
+            "certifi (>=2022.12.7,<2023.0.0)",
+            "frozendict (>=2.3.4,<3.0.0)",
+            "python-dateutil (>=2.8.2,<3.0.0)",
+            "typing_extensions (>=4.3.0,<5.0.0)",
+            "urllib3 (>=1.26.7,<2.0.0)",
+            "validators (>=0.20.0,<0.21.0)"
+          ],
+          "requires_python": ">=3.7,<4.0"
+        }
+      }
+    }
+  },
   "acs-examine-student-assignment": {
     "2.7": {
       "1.0.0": {
@@ -10723,6 +10741,9 @@
       "1.31.41": {
         "botocore_a_la_carte_route53_recovery_readiness-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_route53_recovery_readiness-1.29.100-py3-none-any.whl"
       },
+      "1.31.42": {
+        "botocore_a_la_carte_route53_recovery_readiness-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_route53_recovery_readiness-1.29.100-py3-none-any.whl"
+      },
       "1.31.5": {
         "botocore_a_la_carte_route53_recovery_readiness-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_route53_recovery_readiness-1.29.100-py3-none-any.whl"
       },
@@ -11223,6 +11244,9 @@
       },
       "1.31.41": {
         "botocore_a_la_carte_transfer-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_transfer-1.29.100-py3-none-any.whl"
+      },
+      "1.31.42": {
+        "botocore_a_la_carte_transfer-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_transfer-1.29.100-py3-none-any.whl"
       },
       "1.31.5": {
         "botocore_a_la_carte_transfer-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_transfer-1.29.100-py3-none-any.whl"
@@ -14303,6 +14327,12 @@
       },
       "0.25.3": {
         "cognite_neat-0.25.3-py3-none-any.whl": "0.21.3@cognite_neat-0.21.3-py3-none-any.whl"
+      },
+      "0.25.4": {
+        "cognite_neat-0.25.4-py3-none-any.whl": "0.21.3@cognite_neat-0.21.3-py3-none-any.whl"
+      },
+      "0.25.5": {
+        "cognite_neat-0.25.5-py3-none-any.whl": "0.21.3@cognite_neat-0.21.3-py3-none-any.whl"
       }
     }
   },
@@ -42976,6 +43006,19 @@
           ],
           "requires_python": ">=3.9,<4.0"
         }
+      },
+      "3.2.0": {
+        "jsonrpc2_pyclient-3.2.0-py3-none-any.whl": {
+          "requires_dist": [
+            "httpx (>=0.24.1,<0.25.0)",
+            "jsonrpc2-objects (>=3.0.0,<4.0.0)",
+            "websockets (>=11.0.3,<12.0.0)"
+          ],
+          "requires_python": ">=3.9,<4.0"
+        }
+      },
+      "4.0.0": {
+        "jsonrpc2_pyclient-4.0.0-py3-none-any.whl": "3.2.0@jsonrpc2_pyclient-3.2.0-py3-none-any.whl"
       }
     }
   },
@@ -54943,6 +54986,12 @@
       },
       "2023.9.5": {
         "notification_service_nightly-2023.9.5-py3-none-any.whl": "2023.8.10@notification_service_nightly-2023.8.10-py3-none-any.whl"
+      },
+      "2023.9.6": {
+        "notification_service_nightly-2023.9.6-py3-none-any.whl": "2023.8.10@notification_service_nightly-2023.8.10-py3-none-any.whl"
+      },
+      "2023.9.7": {
+        "notification_service_nightly-2023.9.7-py3-none-any.whl": "2023.8.10@notification_service_nightly-2023.8.10-py3-none-any.whl"
       }
     }
   },
@@ -59631,6 +59680,12 @@
       "12.1.5rc3": {
         "openmodule-12.1.5rc3-py2.py3-none-any.whl": "12.0.0rc5@openmodule-12.0.0rc5-py2.py3-none-any.whl"
       },
+      "12.1.5rc4": {
+        "openmodule-12.1.5rc4-py2.py3-none-any.whl": "12.0.0rc5@openmodule-12.0.0rc5-py2.py3-none-any.whl"
+      },
+      "12.1.5rc5": {
+        "openmodule-12.1.5rc5-py2.py3-none-any.whl": "12.0.0rc5@openmodule-12.0.0rc5-py2.py3-none-any.whl"
+      },
       "2.0.0": {
         "openmodule-2.0.0-py2.py3-none-any.whl": {
           "requires_dist": [
@@ -62436,6 +62491,12 @@
       },
       "1.1.7": {
         "ory_client-1.1.7-py3-none-any.whl": "0.0.1a10@ory_client-0.0.1a10-py3-none-any.whl"
+      },
+      "1.2.0": {
+        "ory_client-1.2.0-py3-none-any.whl": "0.0.1a10@ory_client-0.0.1a10-py3-none-any.whl"
+      },
+      "1.2.1": {
+        "ory_client-1.2.1-py3-none-any.whl": "0.0.1a10@ory_client-0.0.1a10-py3-none-any.whl"
       }
     }
   },
@@ -76044,6 +76105,9 @@
       },
       "6.0.2": {
         "PyExpUtils_andnp-6.0.2-py3-none-any.whl": "4.0.1@PyExpUtils_andnp-4.0.1-py3-none-any.whl"
+      },
+      "6.0.3": {
+        "PyExpUtils_andnp-6.0.3-py3-none-any.whl": "4.0.1@PyExpUtils_andnp-4.0.1-py3-none-any.whl"
       }
     }
   },
@@ -94504,6 +94568,51 @@
           ],
           "requires_python": ">=3.7"
         }
+      },
+      "0.4.4": {
+        "socs-0.4.4-py3-none-any.whl": {
+          "provides_extras": [
+            "all",
+            "labjack",
+            "magpie",
+            "pfeiffer",
+            "smurf_sim",
+            "synacc",
+            "timing_master"
+          ],
+          "requires_dist": [
+            "autobahn[serialization]",
+            "numpy",
+            "ocs",
+            "pyModbusTCP",
+            "pyserial",
+            "pysnmp",
+            "pysmi",
+            "pyyaml",
+            "sqlalchemy >=1.4",
+            "twisted",
+            "pyasn1 ==0.4.8",
+            "so3g ; extra == 'all'",
+            "numexpr ; extra == 'all'",
+            "pfeiffer-vacuum-protocol ==0.4 ; extra == 'all'",
+            "pyepics ; extra == 'all'",
+            "scipy ; extra == 'all'",
+            "labjack-ljm ; extra == 'all'",
+            "pandas ; extra == 'all'",
+            "requests ; extra == 'all'",
+            "labjack-ljm ; extra == 'labjack'",
+            "numexpr ; extra == 'labjack'",
+            "scipy ; extra == 'labjack'",
+            "pandas ; extra == 'magpie'",
+            "scipy ; extra == 'magpie'",
+            "so3g ; extra == 'magpie'",
+            "pfeiffer-vacuum-protocol ==0.4 ; extra == 'pfeiffer'",
+            "so3g ; extra == 'smurf_sim'",
+            "requests ; extra == 'synacc'",
+            "pyepics ; extra == 'timing_master'"
+          ],
+          "requires_python": ">=3.7"
+        }
       }
     }
   },
@@ -101139,6 +101248,20 @@
         "tencentcloud_sdk_python_sslpod-3.0.974-py2.py3-none-any.whl": {
           "requires_dist": [
             "tencentcloud-sdk-python-common (==3.0.974)"
+          ]
+        }
+      },
+      "3.0.975": {
+        "tencentcloud_sdk_python_sslpod-3.0.975-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.975)"
+          ]
+        }
+      },
+      "3.0.976": {
+        "tencentcloud_sdk_python_sslpod-3.0.976-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.976)"
           ]
         }
       }

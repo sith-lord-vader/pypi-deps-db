@@ -6343,6 +6343,9 @@
       "0.11.0": {
         "authzed-0.11.0-py3-none-any.whl": "0.10.0@authzed-0.10.0-py3-none-any.whl"
       },
+      "0.12.0": {
+        "authzed-0.12.0-py3-none-any.whl": "0.10.0@authzed-0.10.0-py3-none-any.whl"
+      },
       "0.2.0": {
         "authzed-0.2.0-py3-none-any.whl": {
           "requires_dist": [
@@ -14162,6 +14165,12 @@
       "1.31.40": {
         "botocore_a_la_carte_dms-1.31.40-py3-none-any.whl": "1.29.100@botocore_a_la_carte_dms-1.29.100-py3-none-any.whl"
       },
+      "1.31.41": {
+        "botocore_a_la_carte_dms-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_dms-1.29.100-py3-none-any.whl"
+      },
+      "1.31.42": {
+        "botocore_a_la_carte_dms-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_dms-1.29.100-py3-none-any.whl"
+      },
       "1.31.5": {
         "botocore_a_la_carte_dms-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_dms-1.29.100-py3-none-any.whl"
       },
@@ -14659,6 +14668,12 @@
       },
       "1.31.40": {
         "botocore_a_la_carte_efs-1.31.40-py3-none-any.whl": "1.29.100@botocore_a_la_carte_efs-1.29.100-py3-none-any.whl"
+      },
+      "1.31.41": {
+        "botocore_a_la_carte_efs-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_efs-1.29.100-py3-none-any.whl"
+      },
+      "1.31.42": {
+        "botocore_a_la_carte_efs-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_efs-1.29.100-py3-none-any.whl"
       },
       "1.31.5": {
         "botocore_a_la_carte_efs-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_efs-1.29.100-py3-none-any.whl"
@@ -21059,6 +21074,17 @@
           ],
           "requires_python": ">=3.7"
         }
+      },
+      "0.1.2": {
+        "coiled_venv-0.1.2-py3-none-any.whl": {
+          "provides_extras": [
+            "dev"
+          ],
+          "requires_dist": [
+            "black ==23.1.0 ; extra == 'dev'"
+          ],
+          "requires_python": ">=3.7"
+        }
       }
     }
   },
@@ -24370,6 +24396,18 @@
           "requires_python": ">=3.8"
         }
       },
+      "0.0.30": {
+        "deepset_cloud_sdk-0.0.30-py3-none-any.whl": "0.0.29@deepset_cloud_sdk-0.0.29-py3-none-any.whl"
+      },
+      "0.0.31": {
+        "deepset_cloud_sdk-0.0.31-py3-none-any.whl": "0.0.29@deepset_cloud_sdk-0.0.29-py3-none-any.whl"
+      },
+      "0.0.32": {
+        "deepset_cloud_sdk-0.0.32-py3-none-any.whl": "0.0.29@deepset_cloud_sdk-0.0.29-py3-none-any.whl"
+      },
+      "0.0.33": {
+        "deepset_cloud_sdk-0.0.33-py3-none-any.whl": "0.0.29@deepset_cloud_sdk-0.0.29-py3-none-any.whl"
+      },
       "0.0.6": {
         "deepset_cloud_sdk-0.0.6-py3-none-any.whl": {
           "requires_dist": [
@@ -27473,6 +27511,18 @@
       "2.10.0": {
         "easy_events-2.10.0-py3-none-any.whl": "1.3.1@easy_events-1.3.1-py3-none-any.whl"
       },
+      "2.11.0": {
+        "easy_events-2.11.0-py3-none-any.whl": "1.3.1@easy_events-1.3.1-py3-none-any.whl"
+      },
+      "2.11.1": {
+        "easy_events-2.11.1-py3-none-any.whl": "1.3.1@easy_events-1.3.1-py3-none-any.whl"
+      },
+      "2.11.2": {
+        "easy_events-2.11.2-py3-none-any.whl": "1.3.1@easy_events-1.3.1-py3-none-any.whl"
+      },
+      "2.11.3": {
+        "easy_events-2.11.3-py3-none-any.whl": "1.3.1@easy_events-1.3.1-py3-none-any.whl"
+      },
       "2.2.0": {
         "easy_events-2.2.0-py3-none-any.whl": "1.3.1@easy_events-1.3.1-py3-none-any.whl"
       },
@@ -27843,6 +27893,9 @@
       },
       "0.6.3": {
         "edat_utils-0.6.3-py3-none-any.whl": "0.3.2@edat_utils-0.3.2-py3-none-any.whl"
+      },
+      "0.6.4": {
+        "edat_utils-0.6.4-py3-none-any.whl": "0.6.0@edat_utils-0.6.0-py3-none-any.whl"
       }
     }
   },
@@ -30239,6 +30292,12 @@
       },
       "1.2.0": {
         "ffbot-1.2.0-py3-none-any.whl": "1.1.1@ffbot-1.1.1-py3-none-any.whl"
+      },
+      "1.2.1": {
+        "ffbot-1.2.1-py3-none-any.whl": "1.1.1@ffbot-1.1.1-py3-none-any.whl"
+      },
+      "1.2.2": {
+        "ffbot-1.2.2-py3-none-any.whl": "1.1.1@ffbot-1.1.1-py3-none-any.whl"
       }
     }
   },
@@ -39743,6 +39802,26 @@
           "requires_python": ">=3.7,<4.0"
         }
       },
+      "1.0.0b11": {
+        "forestadmin_agent_toolkit-1.0.0b11-py3-none-any.whl": {
+          "requires_dist": [
+            "aiohttp (>=3.8,<4.0)",
+            "backports.zoneinfo[tzdata] (>=0.2.1,<0.3.0) ; python_version < \"3.9\"",
+            "cachetools (>=5.2,<6.0)",
+            "forestadmin-datasource-toolkit (>=1.0.0-beta.11,<2.0.0)",
+            "marshmallow-jsonapi (>=0.24.0,<1.0)",
+            "oic (>=1.4,<2.0)",
+            "pandas (<=1.1.5) ; python_full_version < \"3.7.1\"",
+            "pandas (>=1.3.4,<=1.3.5) ; python_full_version >= \"3.7.1\" and python_version < \"3.8\"",
+            "pandas (>=1.4.0) ; python_version >= \"3.8\"",
+            "python-jose (>=3.3,<4.0)",
+            "sseclient-py (>=1.5,<2.0)",
+            "typing-extensions (>=4.2.0,<5.0)",
+            "tzdata (>=2022.6,<2022.7)"
+          ],
+          "requires_python": ">=3.7,<4.0"
+        }
+      },
       "1.0.0b2": {
         "forestadmin_agent_toolkit-1.0.0b2-py3-none-any.whl": {
           "requires_dist": [
@@ -40660,6 +40739,9 @@
       },
       "0.6.1": {
         "gammarer.aws_ec2_instance_running_scheduler-0.6.1-py3-none-any.whl": "0.6.0@gammarer.aws_ec2_instance_running_scheduler-0.6.0-py3-none-any.whl"
+      },
+      "0.6.2": {
+        "gammarer.aws_ec2_instance_running_scheduler-0.6.2-py3-none-any.whl": "0.6.0@gammarer.aws_ec2_instance_running_scheduler-0.6.0-py3-none-any.whl"
       }
     }
   },
@@ -43164,6 +43246,26 @@
       },
       "0.6.2": {
         "gwdc_python-0.6.2-py3-none-any.whl": "0.6.0@gwdc_python-0.6.0-py3-none-any.whl"
+      },
+      "0.7.0": {
+        "gwdc_python-0.7.0-py3-none-any.whl": {
+          "provides_extras": [
+            "docs"
+          ],
+          "requires_dist": [
+            "Sphinx (>=4.0.2,<5.0.0); extra == \"docs\"",
+            "appdirs (>=1.4.4,<2.0.0)",
+            "importlib-metadata (>=4.5.0,<5.0.0)",
+            "jwt (>=1.2.0,<2.0.0)",
+            "pyhumps (>=3.7.1,<4.0.0)",
+            "requests (>=2.25.1,<3.0.0)",
+            "requests-toolbelt (>=0.9.1,<0.10.0)",
+            "sphinx-rtd-theme (>=0.5.2,<0.6.0); extra == \"docs\"",
+            "tqdm (>=4.61.2,<5.0.0)",
+            "urllib3 (>=1,<2)"
+          ],
+          "requires_python": ">=3.7,<4.0"
+        }
       }
     }
   },
@@ -44554,6 +44656,14 @@
           "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
         }
       },
+      "3.1.58": {
+        "huaweicloudsdkecs-3.1.58-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "huaweicloudsdkcore >=3.1.58"
+          ],
+          "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
+        }
+      },
       "3.1.6": {
         "huaweicloudsdkecs-3.1.6-py2.py3-none-any.whl": {
           "requires_dist": [
@@ -45328,6 +45438,14 @@
         "huaweicloudsdkief-3.1.57-py2.py3-none-any.whl": {
           "requires_dist": [
             "huaweicloudsdkcore >=3.1.57"
+          ],
+          "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
+        }
+      },
+      "3.1.58": {
+        "huaweicloudsdkief-3.1.58-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "huaweicloudsdkcore >=3.1.58"
           ],
           "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
         }
@@ -47320,6 +47438,38 @@
         "kaldifst-1.7.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "1.6@kaldifst-1.6-cp310-cp310-macosx_10_9_x86_64.whl",
         "kaldifst-1.7.0-cp310-cp310-win32.whl": "1.6@kaldifst-1.6-cp310-cp310-macosx_10_9_x86_64.whl",
         "kaldifst-1.7.0-cp310-cp310-win_amd64.whl": "1.6@kaldifst-1.6-cp310-cp310-macosx_10_9_x86_64.whl"
+      },
+      "1.7.1": {
+        "kaldifst-1.7.1-cp310-cp310-macosx_10_9_universal2.whl": "1.6@kaldifst-1.6-cp310-cp310-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.1-cp310-cp310-manylinux_2_17_i686.manylinux2014_i686.whl": "1.6@kaldifst-1.6-cp310-cp310-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "1.6@kaldifst-1.6-cp310-cp310-macosx_10_9_x86_64.whl"
+      },
+      "1.7.2": {
+        "kaldifst-1.7.2-cp310-cp310-win_amd64.whl": "1.6@kaldifst-1.6-cp310-cp310-macosx_10_9_x86_64.whl"
+      },
+      "1.7.3": {
+        "kaldifst-1.7.3-cp310-cp310-macosx_10_9_universal2.whl": "1.6@kaldifst-1.6-cp310-cp310-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.3-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "1.6@kaldifst-1.6-cp310-cp310-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.3-cp310-cp310-manylinux_2_17_i686.manylinux2014_i686.whl": "1.6@kaldifst-1.6-cp310-cp310-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "1.6@kaldifst-1.6-cp310-cp310-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.3-cp310-cp310-win32.whl": "1.6@kaldifst-1.6-cp310-cp310-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.3-cp310-cp310-win_amd64.whl": "1.6@kaldifst-1.6-cp310-cp310-macosx_10_9_x86_64.whl"
+      },
+      "1.7.4": {
+        "kaldifst-1.7.4-cp310-cp310-macosx_10_9_universal2.whl": "1.6@kaldifst-1.6-cp310-cp310-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.4-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "1.6@kaldifst-1.6-cp310-cp310-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.4-cp310-cp310-manylinux_2_17_i686.manylinux2014_i686.whl": "1.6@kaldifst-1.6-cp310-cp310-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "1.6@kaldifst-1.6-cp310-cp310-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.4-cp310-cp310-win32.whl": "1.6@kaldifst-1.6-cp310-cp310-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.4-cp310-cp310-win_amd64.whl": "1.6@kaldifst-1.6-cp310-cp310-macosx_10_9_x86_64.whl"
+      },
+      "1.7.5": {
+        "kaldifst-1.7.5-cp310-cp310-macosx_10_9_universal2.whl": "1.6@kaldifst-1.6-cp310-cp310-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.5-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "1.6@kaldifst-1.6-cp310-cp310-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.5-cp310-cp310-manylinux_2_17_i686.manylinux2014_i686.whl": "1.6@kaldifst-1.6-cp310-cp310-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.5-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "1.6@kaldifst-1.6-cp310-cp310-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.5-cp310-cp310-win32.whl": "1.6@kaldifst-1.6-cp310-cp310-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.5-cp310-cp310-win_amd64.whl": "1.6@kaldifst-1.6-cp310-cp310-macosx_10_9_x86_64.whl"
       }
     },
     "cp311": {
@@ -47336,6 +47486,67 @@
         "kaldifst-1.7.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "1.6@kaldifst-1.6-cp311-cp311-macosx_10_9_x86_64.whl",
         "kaldifst-1.7.0-cp311-cp311-win32.whl": "1.6@kaldifst-1.6-cp311-cp311-macosx_10_9_x86_64.whl",
         "kaldifst-1.7.0-cp311-cp311-win_amd64.whl": "1.6@kaldifst-1.6-cp311-cp311-macosx_10_9_x86_64.whl"
+      },
+      "1.7.1": {
+        "kaldifst-1.7.1-cp311-cp311-macosx_10_9_universal2.whl": "1.6@kaldifst-1.6-cp311-cp311-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.1-cp311-cp311-manylinux_2_17_i686.manylinux2014_i686.whl": "1.6@kaldifst-1.6-cp311-cp311-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "1.6@kaldifst-1.6-cp311-cp311-macosx_10_9_x86_64.whl"
+      },
+      "1.7.2": {
+        "kaldifst-1.7.2-cp311-cp311-win_amd64.whl": "1.6@kaldifst-1.6-cp311-cp311-macosx_10_9_x86_64.whl"
+      },
+      "1.7.3": {
+        "kaldifst-1.7.3-cp311-cp311-macosx_10_9_universal2.whl": "1.6@kaldifst-1.6-cp311-cp311-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.3-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "1.6@kaldifst-1.6-cp311-cp311-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.3-cp311-cp311-manylinux_2_17_i686.manylinux2014_i686.whl": "1.6@kaldifst-1.6-cp311-cp311-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "1.6@kaldifst-1.6-cp311-cp311-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.3-cp311-cp311-win32.whl": "1.6@kaldifst-1.6-cp311-cp311-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.3-cp311-cp311-win_amd64.whl": "1.6@kaldifst-1.6-cp311-cp311-macosx_10_9_x86_64.whl"
+      },
+      "1.7.4": {
+        "kaldifst-1.7.4-cp311-cp311-macosx_10_9_universal2.whl": "1.6@kaldifst-1.6-cp311-cp311-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.4-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "1.6@kaldifst-1.6-cp311-cp311-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.4-cp311-cp311-manylinux_2_17_i686.manylinux2014_i686.whl": "1.6@kaldifst-1.6-cp311-cp311-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "1.6@kaldifst-1.6-cp311-cp311-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.4-cp311-cp311-win32.whl": "1.6@kaldifst-1.6-cp311-cp311-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.4-cp311-cp311-win_amd64.whl": "1.6@kaldifst-1.6-cp311-cp311-macosx_10_9_x86_64.whl"
+      },
+      "1.7.5": {
+        "kaldifst-1.7.5-cp311-cp311-macosx_10_9_universal2.whl": "1.6@kaldifst-1.6-cp311-cp311-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.5-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "1.6@kaldifst-1.6-cp311-cp311-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.5-cp311-cp311-manylinux_2_17_i686.manylinux2014_i686.whl": "1.6@kaldifst-1.6-cp311-cp311-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "1.6@kaldifst-1.6-cp311-cp311-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.5-cp311-cp311-win32.whl": "1.6@kaldifst-1.6-cp311-cp311-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.5-cp311-cp311-win_amd64.whl": "1.6@kaldifst-1.6-cp311-cp311-macosx_10_9_x86_64.whl"
+      }
+    },
+    "cp312": {
+      "1.7.2": {
+        "kaldifst-1.7.2-cp312-cp312-win_amd64.whl": {}
+      },
+      "1.7.3": {
+        "kaldifst-1.7.3-cp312-cp312-macosx_10_9_universal2.whl": "1.7.2@kaldifst-1.7.2-cp312-cp312-win_amd64.whl",
+        "kaldifst-1.7.3-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "1.7.2@kaldifst-1.7.2-cp312-cp312-win_amd64.whl",
+        "kaldifst-1.7.3-cp312-cp312-manylinux_2_17_i686.manylinux2014_i686.whl": "1.7.2@kaldifst-1.7.2-cp312-cp312-win_amd64.whl",
+        "kaldifst-1.7.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "1.7.2@kaldifst-1.7.2-cp312-cp312-win_amd64.whl",
+        "kaldifst-1.7.3-cp312-cp312-win32.whl": "1.7.2@kaldifst-1.7.2-cp312-cp312-win_amd64.whl",
+        "kaldifst-1.7.3-cp312-cp312-win_amd64.whl": "1.7.2@kaldifst-1.7.2-cp312-cp312-win_amd64.whl"
+      },
+      "1.7.4": {
+        "kaldifst-1.7.4-cp312-cp312-macosx_10_9_universal2.whl": "1.7.2@kaldifst-1.7.2-cp312-cp312-win_amd64.whl",
+        "kaldifst-1.7.4-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "1.7.2@kaldifst-1.7.2-cp312-cp312-win_amd64.whl",
+        "kaldifst-1.7.4-cp312-cp312-manylinux_2_17_i686.manylinux2014_i686.whl": "1.7.2@kaldifst-1.7.2-cp312-cp312-win_amd64.whl",
+        "kaldifst-1.7.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "1.7.2@kaldifst-1.7.2-cp312-cp312-win_amd64.whl",
+        "kaldifst-1.7.4-cp312-cp312-win32.whl": "1.7.2@kaldifst-1.7.2-cp312-cp312-win_amd64.whl",
+        "kaldifst-1.7.4-cp312-cp312-win_amd64.whl": "1.7.2@kaldifst-1.7.2-cp312-cp312-win_amd64.whl"
+      },
+      "1.7.5": {
+        "kaldifst-1.7.5-cp312-cp312-macosx_10_9_universal2.whl": "1.7.2@kaldifst-1.7.2-cp312-cp312-win_amd64.whl",
+        "kaldifst-1.7.5-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "1.7.2@kaldifst-1.7.2-cp312-cp312-win_amd64.whl",
+        "kaldifst-1.7.5-cp312-cp312-manylinux_2_17_i686.manylinux2014_i686.whl": "1.7.2@kaldifst-1.7.2-cp312-cp312-win_amd64.whl",
+        "kaldifst-1.7.5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "1.7.2@kaldifst-1.7.2-cp312-cp312-win_amd64.whl",
+        "kaldifst-1.7.5-cp312-cp312-win32.whl": "1.7.2@kaldifst-1.7.2-cp312-cp312-win_amd64.whl",
+        "kaldifst-1.7.5-cp312-cp312-win_amd64.whl": "1.7.2@kaldifst-1.7.2-cp312-cp312-win_amd64.whl"
       }
     },
     "cp36": {
@@ -47364,6 +47575,33 @@
         "kaldifst-1.7.0-cp37-cp37m-manylinux_2_17_i686.manylinux2014_i686.whl": "1.6@kaldifst-1.6-cp37-cp37m-macosx_10_9_x86_64.whl",
         "kaldifst-1.7.0-cp37-cp37m-win32.whl": "1.6@kaldifst-1.6-cp37-cp37m-macosx_10_9_x86_64.whl",
         "kaldifst-1.7.0-cp37-cp37m-win_amd64.whl": "1.6@kaldifst-1.6-cp37-cp37m-macosx_10_9_x86_64.whl"
+      },
+      "1.7.1": {
+        "kaldifst-1.7.1-cp37-cp37m-manylinux_2_17_i686.manylinux2014_i686.whl": "1.6@kaldifst-1.6-cp37-cp37m-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.1-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "1.6@kaldifst-1.6-cp37-cp37m-macosx_10_9_x86_64.whl"
+      },
+      "1.7.2": {
+        "kaldifst-1.7.2-cp37-cp37m-win_amd64.whl": "1.6@kaldifst-1.6-cp37-cp37m-macosx_10_9_x86_64.whl"
+      },
+      "1.7.3": {
+        "kaldifst-1.7.3-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "1.6@kaldifst-1.6-cp37-cp37m-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.3-cp37-cp37m-manylinux_2_17_i686.manylinux2014_i686.whl": "1.6@kaldifst-1.6-cp37-cp37m-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.3-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "1.6@kaldifst-1.6-cp37-cp37m-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.3-cp37-cp37m-win32.whl": "1.6@kaldifst-1.6-cp37-cp37m-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.3-cp37-cp37m-win_amd64.whl": "1.6@kaldifst-1.6-cp37-cp37m-macosx_10_9_x86_64.whl"
+      },
+      "1.7.4": {
+        "kaldifst-1.7.4-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "1.6@kaldifst-1.6-cp37-cp37m-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.4-cp37-cp37m-manylinux_2_17_i686.manylinux2014_i686.whl": "1.6@kaldifst-1.6-cp37-cp37m-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.4-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "1.6@kaldifst-1.6-cp37-cp37m-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.4-cp37-cp37m-win32.whl": "1.6@kaldifst-1.6-cp37-cp37m-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.4-cp37-cp37m-win_amd64.whl": "1.6@kaldifst-1.6-cp37-cp37m-macosx_10_9_x86_64.whl"
+      },
+      "1.7.5": {
+        "kaldifst-1.7.5-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "1.6@kaldifst-1.6-cp37-cp37m-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.5-cp37-cp37m-manylinux_2_17_i686.manylinux2014_i686.whl": "1.6@kaldifst-1.6-cp37-cp37m-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.5-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "1.6@kaldifst-1.6-cp37-cp37m-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.5-cp37-cp37m-win_amd64.whl": "1.6@kaldifst-1.6-cp37-cp37m-macosx_10_9_x86_64.whl"
       }
     },
     "cp38": {
@@ -47380,6 +47618,38 @@
         "kaldifst-1.7.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "1.6@kaldifst-1.6-cp38-cp38-macosx_10_9_x86_64.whl",
         "kaldifst-1.7.0-cp38-cp38-win32.whl": "1.6@kaldifst-1.6-cp38-cp38-macosx_10_9_x86_64.whl",
         "kaldifst-1.7.0-cp38-cp38-win_amd64.whl": "1.6@kaldifst-1.6-cp38-cp38-macosx_10_9_x86_64.whl"
+      },
+      "1.7.1": {
+        "kaldifst-1.7.1-cp38-cp38-macosx_10_9_universal2.whl": "1.6@kaldifst-1.6-cp38-cp38-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.1-cp38-cp38-manylinux_2_17_i686.manylinux2014_i686.whl": "1.6@kaldifst-1.6-cp38-cp38-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "1.6@kaldifst-1.6-cp38-cp38-macosx_10_9_x86_64.whl"
+      },
+      "1.7.2": {
+        "kaldifst-1.7.2-cp38-cp38-win_amd64.whl": "1.6@kaldifst-1.6-cp38-cp38-macosx_10_9_x86_64.whl"
+      },
+      "1.7.3": {
+        "kaldifst-1.7.3-cp38-cp38-macosx_10_9_universal2.whl": "1.6@kaldifst-1.6-cp38-cp38-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.3-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "1.6@kaldifst-1.6-cp38-cp38-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.3-cp38-cp38-manylinux_2_17_i686.manylinux2014_i686.whl": "1.6@kaldifst-1.6-cp38-cp38-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "1.6@kaldifst-1.6-cp38-cp38-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.3-cp38-cp38-win32.whl": "1.6@kaldifst-1.6-cp38-cp38-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.3-cp38-cp38-win_amd64.whl": "1.6@kaldifst-1.6-cp38-cp38-macosx_10_9_x86_64.whl"
+      },
+      "1.7.4": {
+        "kaldifst-1.7.4-cp38-cp38-macosx_10_9_universal2.whl": "1.6@kaldifst-1.6-cp38-cp38-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.4-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "1.6@kaldifst-1.6-cp38-cp38-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.4-cp38-cp38-manylinux_2_17_i686.manylinux2014_i686.whl": "1.6@kaldifst-1.6-cp38-cp38-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.4-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "1.6@kaldifst-1.6-cp38-cp38-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.4-cp38-cp38-win32.whl": "1.6@kaldifst-1.6-cp38-cp38-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.4-cp38-cp38-win_amd64.whl": "1.6@kaldifst-1.6-cp38-cp38-macosx_10_9_x86_64.whl"
+      },
+      "1.7.5": {
+        "kaldifst-1.7.5-cp38-cp38-macosx_10_9_universal2.whl": "1.6@kaldifst-1.6-cp38-cp38-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.5-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "1.6@kaldifst-1.6-cp38-cp38-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.5-cp38-cp38-manylinux_2_17_i686.manylinux2014_i686.whl": "1.6@kaldifst-1.6-cp38-cp38-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.5-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "1.6@kaldifst-1.6-cp38-cp38-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.5-cp38-cp38-win32.whl": "1.6@kaldifst-1.6-cp38-cp38-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.5-cp38-cp38-win_amd64.whl": "1.6@kaldifst-1.6-cp38-cp38-macosx_10_9_x86_64.whl"
       }
     },
     "cp39": {
@@ -47396,6 +47666,38 @@
         "kaldifst-1.7.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "1.6@kaldifst-1.6-cp39-cp39-macosx_10_9_x86_64.whl",
         "kaldifst-1.7.0-cp39-cp39-win32.whl": "1.6@kaldifst-1.6-cp39-cp39-macosx_10_9_x86_64.whl",
         "kaldifst-1.7.0-cp39-cp39-win_amd64.whl": "1.6@kaldifst-1.6-cp39-cp39-macosx_10_9_x86_64.whl"
+      },
+      "1.7.1": {
+        "kaldifst-1.7.1-cp39-cp39-macosx_10_9_universal2.whl": "1.6@kaldifst-1.6-cp39-cp39-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.1-cp39-cp39-manylinux_2_17_i686.manylinux2014_i686.whl": "1.6@kaldifst-1.6-cp39-cp39-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "1.6@kaldifst-1.6-cp39-cp39-macosx_10_9_x86_64.whl"
+      },
+      "1.7.2": {
+        "kaldifst-1.7.2-cp39-cp39-win_amd64.whl": "1.6@kaldifst-1.6-cp39-cp39-macosx_10_9_x86_64.whl"
+      },
+      "1.7.3": {
+        "kaldifst-1.7.3-cp39-cp39-macosx_10_9_universal2.whl": "1.6@kaldifst-1.6-cp39-cp39-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.3-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "1.6@kaldifst-1.6-cp39-cp39-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.3-cp39-cp39-manylinux_2_17_i686.manylinux2014_i686.whl": "1.6@kaldifst-1.6-cp39-cp39-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "1.6@kaldifst-1.6-cp39-cp39-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.3-cp39-cp39-win32.whl": "1.6@kaldifst-1.6-cp39-cp39-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.3-cp39-cp39-win_amd64.whl": "1.6@kaldifst-1.6-cp39-cp39-macosx_10_9_x86_64.whl"
+      },
+      "1.7.4": {
+        "kaldifst-1.7.4-cp39-cp39-macosx_10_9_universal2.whl": "1.6@kaldifst-1.6-cp39-cp39-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.4-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "1.6@kaldifst-1.6-cp39-cp39-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.4-cp39-cp39-manylinux_2_17_i686.manylinux2014_i686.whl": "1.6@kaldifst-1.6-cp39-cp39-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "1.6@kaldifst-1.6-cp39-cp39-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.4-cp39-cp39-win32.whl": "1.6@kaldifst-1.6-cp39-cp39-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.4-cp39-cp39-win_amd64.whl": "1.6@kaldifst-1.6-cp39-cp39-macosx_10_9_x86_64.whl"
+      },
+      "1.7.5": {
+        "kaldifst-1.7.5-cp39-cp39-macosx_10_9_universal2.whl": "1.6@kaldifst-1.6-cp39-cp39-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.5-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "1.6@kaldifst-1.6-cp39-cp39-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.5-cp39-cp39-manylinux_2_17_i686.manylinux2014_i686.whl": "1.6@kaldifst-1.6-cp39-cp39-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "1.6@kaldifst-1.6-cp39-cp39-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.5-cp39-cp39-win32.whl": "1.6@kaldifst-1.6-cp39-cp39-macosx_10_9_x86_64.whl",
+        "kaldifst-1.7.5-cp39-cp39-win_amd64.whl": "1.6@kaldifst-1.6-cp39-cp39-macosx_10_9_x86_64.whl"
       }
     }
   },
@@ -47935,6 +48237,17 @@
   },
   "kdelikelihood": {
     "cp311": {
+      "0.1": {
+        "kdelikelihood-0.1-cp311-cp311-win_amd64.whl": {
+          "requires_dist": [
+            "numpy >=1.23",
+            "scipy",
+            "matplotlib",
+            "py-bobyqa",
+            "objectproxypool"
+          ]
+        }
+      },
       "0.1.0b1": {
         "kdelikelihood-0.1.0b1-cp311-cp311-win_amd64.whl": {
           "requires_dist": [
@@ -47944,6 +48257,9 @@
             "objectproxypool"
           ]
         }
+      },
+      "0.1.1": {
+        "kdelikelihood-0.1.1-cp311-cp311-win_amd64.whl": "0.1@kdelikelihood-0.1-cp311-cp311-win_amd64.whl"
       }
     }
   },
@@ -54033,6 +54349,9 @@
       },
       "2.8.0": {
         "mistral_lib-2.8.0-py3-none-any.whl": "2.2.0@mistral_lib-2.2.0-py3-none-any.whl"
+      },
+      "2.9.0": {
+        "mistral_lib-2.9.0-py3-none-any.whl": "2.2.0@mistral_lib-2.2.0-py3-none-any.whl"
       }
     }
   },
@@ -57615,6 +57934,15 @@
       },
       "0.2.7": {
         "nr_openai_observability-0.2.7-py3-none-any.whl": "0.2.1@nr_openai_observability-0.2.1-py3-none-any.whl"
+      },
+      "0.3.0": {
+        "nr_openai_observability-0.3.0-py3-none-any.whl": {
+          "requires_dist": [
+            "newrelic-telemetry-sdk (>=0.4.0,<0.5.0)",
+            "openai (>=0.8,<0.30)"
+          ],
+          "requires_python": ">=3.8.1,<4.0.0"
+        }
       }
     }
   },
@@ -57953,6 +58281,9 @@
           ],
           "requires_python": ">=3.8"
         }
+      },
+      "15.0.1.2.0": {
+        "odoo_addon_l10n_ro_account_anaf_sync-15.0.1.2.0-py3-none-any.whl": "15.0.1.1.0.3@odoo_addon_l10n_ro_account_anaf_sync-15.0.1.1.0.3-py3-none-any.whl"
       },
       "16.0.1.2.0": {
         "odoo_addon_l10n_ro_account_anaf_sync-16.0.1.2.0-py3-none-any.whl": {
@@ -63450,6 +63781,9 @@
             "SpeechRecognition ~=3.9"
           ]
         }
+      },
+      "0.0.3a6": {
+        "ovos_dinkum_listener-0.0.3a6-py3-none-any.whl": "0.0.3a5@ovos_dinkum_listener-0.0.3a5-py3-none-any.whl"
       }
     }
   },
@@ -65539,6 +65873,9 @@
       },
       "0.5.0": {
         "pinotdb-0.5.0-py3-none-any.whl": "0.4.14@pinotdb-0.4.14-py3-none-any.whl"
+      },
+      "5.1.0": {
+        "pinotdb-5.1.0-py3-none-any.whl": "0.4.14@pinotdb-0.4.14-py3-none-any.whl"
       }
     }
   },
@@ -68506,6 +68843,48 @@
       },
       "0.19.1": {
         "polars_lts_cpu-0.19.1-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.18.10@polars_lts_cpu-0.18.10-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+      },
+      "0.19.2": {
+        "polars_lts_cpu-0.19.2-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": {
+          "provides_extras": [
+            "pyarrow",
+            "pandas",
+            "numpy",
+            "fsspec",
+            "connectorx",
+            "xlsx2csv",
+            "deltalake",
+            "timezone",
+            "matplotlib",
+            "pydantic",
+            "sqlalchemy",
+            "xlsxwriter",
+            "adbc",
+            "cloudpickle",
+            "all"
+          ],
+          "requires_dist": [
+            "pyarrow >=7.0.0 ; extra == 'pyarrow'",
+            "pyarrow >=7.0.0 ; extra == 'pandas'",
+            "pandas ; extra == 'pandas'",
+            "numpy >=1.16.0 ; extra == 'numpy'",
+            "fsspec ; extra == 'fsspec'",
+            "connectorx ; extra == 'connectorx'",
+            "xlsx2csv >=0.8.0 ; extra == 'xlsx2csv'",
+            "deltalake >=0.10.0 ; extra == 'deltalake'",
+            "backports.zoneinfo ; python_version < '3.9' and extra == 'timezone'",
+            "tzdata ; platform_system == 'Windows' and extra == 'timezone'",
+            "matplotlib ; extra == 'matplotlib'",
+            "pydantic >=2.0.0 ; extra == 'pydantic'",
+            "sqlalchemy ; extra == 'sqlalchemy'",
+            "pandas ; extra == 'sqlalchemy'",
+            "xlsxwriter ; extra == 'xlsxwriter'",
+            "adbc_driver_sqlite ; extra == 'adbc'",
+            "cloudpickle ; extra == 'cloudpickle'",
+            "polars[pyarrow,pandas,numpy,fsspec,connectorx,xlsx2csv,deltalake,timezone,matplotlib,pydantic,sqlalchemy,xlsxwriter,adbc,cloudpickle] ; extra == 'all'"
+          ],
+          "requires_python": ">=3.8"
+        }
       }
     }
   },
@@ -69711,6 +70090,9 @@
           ],
           "requires_python": ">=3.7"
         }
+      },
+      "0.7.0": {
+        "prismacloud_cli-0.7.0-py3-none-any.whl": "0.6.35@prismacloud_cli-0.6.35-py3-none-any.whl"
       }
     }
   },
@@ -91809,6 +92191,16 @@
       }
     }
   },
+  "tnsaltk": {
+    "py3": {
+      "0.1.0": {
+        "TNSALTK-0.1.0-py3-none-any.whl": {}
+      },
+      "0.1.3": {
+        "TNSALTK-0.1.3-py3-none-any.whl": "0.1.0@TNSALTK-0.1.0-py3-none-any.whl"
+      }
+    }
+  },
   "tomfoolery": {
     "py3": {
       "0.0.0": {
@@ -97707,6 +98099,19 @@
         "wsaccel-0.6.4-cp310-cp310-musllinux_1_1_x86_64.whl": "0.6.4@wsaccel-0.6.4-cp310-cp310-macosx_10_9_universal2.whl",
         "wsaccel-0.6.4-cp310-cp310-win32.whl": "0.6.4@wsaccel-0.6.4-cp310-cp310-macosx_10_9_universal2.whl",
         "wsaccel-0.6.4-cp310-cp310-win_amd64.whl": "0.6.4@wsaccel-0.6.4-cp310-cp310-macosx_10_9_universal2.whl"
+      },
+      "0.6.6": {
+        "wsaccel-0.6.6-cp310-cp310-macosx_10_9_universal2.whl": "0.6.4@wsaccel-0.6.4-cp310-cp310-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp310-cp310-macosx_10_9_x86_64.whl": "0.6.4@wsaccel-0.6.4-cp310-cp310-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp310-cp310-macosx_11_0_arm64.whl": "0.6.4@wsaccel-0.6.4-cp310-cp310-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "0.6.4@wsaccel-0.6.4-cp310-cp310-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.6.4@wsaccel-0.6.4-cp310-cp310-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp310-cp310-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl": "0.6.4@wsaccel-0.6.4-cp310-cp310-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp310-cp310-musllinux_1_1_aarch64.whl": "0.6.4@wsaccel-0.6.4-cp310-cp310-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp310-cp310-musllinux_1_1_i686.whl": "0.6.4@wsaccel-0.6.4-cp310-cp310-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp310-cp310-musllinux_1_1_x86_64.whl": "0.6.4@wsaccel-0.6.4-cp310-cp310-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp310-cp310-win32.whl": "0.6.4@wsaccel-0.6.4-cp310-cp310-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp310-cp310-win_amd64.whl": "0.6.4@wsaccel-0.6.4-cp310-cp310-macosx_10_9_universal2.whl"
       }
     },
     "cp311": {
@@ -97722,6 +98127,34 @@
         "wsaccel-0.6.4-cp311-cp311-musllinux_1_1_x86_64.whl": "0.6.4@wsaccel-0.6.4-cp311-cp311-macosx_10_9_universal2.whl",
         "wsaccel-0.6.4-cp311-cp311-win32.whl": "0.6.4@wsaccel-0.6.4-cp311-cp311-macosx_10_9_universal2.whl",
         "wsaccel-0.6.4-cp311-cp311-win_amd64.whl": "0.6.4@wsaccel-0.6.4-cp311-cp311-macosx_10_9_universal2.whl"
+      },
+      "0.6.6": {
+        "wsaccel-0.6.6-cp311-cp311-macosx_10_9_universal2.whl": "0.6.4@wsaccel-0.6.4-cp311-cp311-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp311-cp311-macosx_10_9_x86_64.whl": "0.6.4@wsaccel-0.6.4-cp311-cp311-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp311-cp311-macosx_11_0_arm64.whl": "0.6.4@wsaccel-0.6.4-cp311-cp311-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "0.6.4@wsaccel-0.6.4-cp311-cp311-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.6.4@wsaccel-0.6.4-cp311-cp311-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp311-cp311-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl": "0.6.4@wsaccel-0.6.4-cp311-cp311-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp311-cp311-musllinux_1_1_aarch64.whl": "0.6.4@wsaccel-0.6.4-cp311-cp311-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp311-cp311-musllinux_1_1_i686.whl": "0.6.4@wsaccel-0.6.4-cp311-cp311-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp311-cp311-musllinux_1_1_x86_64.whl": "0.6.4@wsaccel-0.6.4-cp311-cp311-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp311-cp311-win32.whl": "0.6.4@wsaccel-0.6.4-cp311-cp311-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp311-cp311-win_amd64.whl": "0.6.4@wsaccel-0.6.4-cp311-cp311-macosx_10_9_universal2.whl"
+      }
+    },
+    "cp312": {
+      "0.6.6": {
+        "wsaccel-0.6.6-cp312-cp312-macosx_10_9_universal2.whl": {},
+        "wsaccel-0.6.6-cp312-cp312-macosx_10_9_x86_64.whl": "0.6.6@wsaccel-0.6.6-cp312-cp312-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp312-cp312-macosx_11_0_arm64.whl": "0.6.6@wsaccel-0.6.6-cp312-cp312-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "0.6.6@wsaccel-0.6.6-cp312-cp312-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.6.6@wsaccel-0.6.6-cp312-cp312-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp312-cp312-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl": "0.6.6@wsaccel-0.6.6-cp312-cp312-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp312-cp312-musllinux_1_1_aarch64.whl": "0.6.6@wsaccel-0.6.6-cp312-cp312-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp312-cp312-musllinux_1_1_i686.whl": "0.6.6@wsaccel-0.6.6-cp312-cp312-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp312-cp312-musllinux_1_1_x86_64.whl": "0.6.6@wsaccel-0.6.6-cp312-cp312-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp312-cp312-win32.whl": "0.6.6@wsaccel-0.6.6-cp312-cp312-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp312-cp312-win_amd64.whl": "0.6.6@wsaccel-0.6.6-cp312-cp312-macosx_10_9_universal2.whl"
       }
     },
     "cp36": {
@@ -97763,6 +98196,19 @@
         "wsaccel-0.6.4-cp38-cp38-musllinux_1_1_x86_64.whl": "0.6.4@wsaccel-0.6.4-cp38-cp38-macosx_10_9_universal2.whl",
         "wsaccel-0.6.4-cp38-cp38-win32.whl": "0.6.4@wsaccel-0.6.4-cp38-cp38-macosx_10_9_universal2.whl",
         "wsaccel-0.6.4-cp38-cp38-win_amd64.whl": "0.6.4@wsaccel-0.6.4-cp38-cp38-macosx_10_9_universal2.whl"
+      },
+      "0.6.6": {
+        "wsaccel-0.6.6-cp38-cp38-macosx_10_9_universal2.whl": "0.6.4@wsaccel-0.6.4-cp38-cp38-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp38-cp38-macosx_10_9_x86_64.whl": "0.6.4@wsaccel-0.6.4-cp38-cp38-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp38-cp38-macosx_11_0_arm64.whl": "0.6.4@wsaccel-0.6.4-cp38-cp38-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "0.6.4@wsaccel-0.6.4-cp38-cp38-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.6.4@wsaccel-0.6.4-cp38-cp38-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp38-cp38-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl": "0.6.4@wsaccel-0.6.4-cp38-cp38-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp38-cp38-musllinux_1_1_aarch64.whl": "0.6.4@wsaccel-0.6.4-cp38-cp38-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp38-cp38-musllinux_1_1_i686.whl": "0.6.4@wsaccel-0.6.4-cp38-cp38-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp38-cp38-musllinux_1_1_x86_64.whl": "0.6.4@wsaccel-0.6.4-cp38-cp38-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp38-cp38-win32.whl": "0.6.4@wsaccel-0.6.4-cp38-cp38-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp38-cp38-win_amd64.whl": "0.6.4@wsaccel-0.6.4-cp38-cp38-macosx_10_9_universal2.whl"
       }
     },
     "cp39": {
@@ -97778,6 +98224,19 @@
         "wsaccel-0.6.4-cp39-cp39-musllinux_1_1_x86_64.whl": "0.6.4@wsaccel-0.6.4-cp39-cp39-macosx_10_9_universal2.whl",
         "wsaccel-0.6.4-cp39-cp39-win32.whl": "0.6.4@wsaccel-0.6.4-cp39-cp39-macosx_10_9_universal2.whl",
         "wsaccel-0.6.4-cp39-cp39-win_amd64.whl": "0.6.4@wsaccel-0.6.4-cp39-cp39-macosx_10_9_universal2.whl"
+      },
+      "0.6.6": {
+        "wsaccel-0.6.6-cp39-cp39-macosx_10_9_universal2.whl": "0.6.4@wsaccel-0.6.4-cp39-cp39-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp39-cp39-macosx_10_9_x86_64.whl": "0.6.4@wsaccel-0.6.4-cp39-cp39-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp39-cp39-macosx_11_0_arm64.whl": "0.6.4@wsaccel-0.6.4-cp39-cp39-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "0.6.4@wsaccel-0.6.4-cp39-cp39-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "0.6.4@wsaccel-0.6.4-cp39-cp39-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp39-cp39-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl": "0.6.4@wsaccel-0.6.4-cp39-cp39-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp39-cp39-musllinux_1_1_aarch64.whl": "0.6.4@wsaccel-0.6.4-cp39-cp39-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp39-cp39-musllinux_1_1_i686.whl": "0.6.4@wsaccel-0.6.4-cp39-cp39-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp39-cp39-musllinux_1_1_x86_64.whl": "0.6.4@wsaccel-0.6.4-cp39-cp39-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp39-cp39-win32.whl": "0.6.4@wsaccel-0.6.4-cp39-cp39-macosx_10_9_universal2.whl",
+        "wsaccel-0.6.6-cp39-cp39-win_amd64.whl": "0.6.4@wsaccel-0.6.4-cp39-cp39-macosx_10_9_universal2.whl"
       }
     }
   },
@@ -97926,6 +98385,9 @@
       },
       "0.0.14": {
         "wyvern_ai-0.0.14-py3-none-any.whl": "0.0.12@wyvern_ai-0.0.12-py3-none-any.whl"
+      },
+      "0.0.15": {
+        "wyvern_ai-0.0.15-py3-none-any.whl": "0.0.12@wyvern_ai-0.0.12-py3-none-any.whl"
       },
       "0.0.2": {
         "wyvern_ai-0.0.2-py3-none-any.whl": "0.0.1@wyvern_ai-0.0.1-py3-none-any.whl"

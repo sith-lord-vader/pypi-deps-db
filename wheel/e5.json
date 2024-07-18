@@ -4964,6 +4964,9 @@
       "1.31.41": {
         "botocore_a_la_carte_opsworks-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_opsworks-1.29.100-py3-none-any.whl"
       },
+      "1.31.42": {
+        "botocore_a_la_carte_opsworks-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_opsworks-1.29.100-py3-none-any.whl"
+      },
       "1.31.5": {
         "botocore_a_la_carte_opsworks-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_opsworks-1.29.100-py3-none-any.whl"
       },
@@ -5465,6 +5468,9 @@
       "1.31.41": {
         "botocore_a_la_carte_sagemaker_a2i_runtime-1.31.41-py3-none-any.whl": "1.29.100@botocore_a_la_carte_sagemaker_a2i_runtime-1.29.100-py3-none-any.whl"
       },
+      "1.31.42": {
+        "botocore_a_la_carte_sagemaker_a2i_runtime-1.31.42-py3-none-any.whl": "1.29.100@botocore_a_la_carte_sagemaker_a2i_runtime-1.29.100-py3-none-any.whl"
+      },
       "1.31.5": {
         "botocore_a_la_carte_sagemaker_a2i_runtime-1.31.5-py3-none-any.whl": "1.29.100@botocore_a_la_carte_sagemaker_a2i_runtime-1.29.100-py3-none-any.whl"
       },
@@ -5514,6 +5520,14 @@
         "broad_babel-0.1.0-py3-none-any.whl": {
           "requires_python": ">=3.7,<4.0"
         }
+      },
+      "0.1.1": {
+        "broad_babel-0.1.1-py3-none-any.whl": {
+          "requires_python": ">=3.8,<4.0"
+        }
+      },
+      "0.1.2": {
+        "broad_babel-0.1.2-py3-none-any.whl": "0.1.1@broad_babel-0.1.1-py3-none-any.whl"
       }
     }
   },
@@ -7447,6 +7461,21 @@
           ],
           "requires_python": "~=3.7"
         }
+      },
+      "2.22.4": {
+        "cdk8s_plus_25-2.22.4-py3-none-any.whl": {
+          "requires_dist": [
+            "cdk8s <3.0.0,>=2.64.5",
+            "constructs <11.0.0,>=10.2.70",
+            "jsii <2.0.0,>=1.88.0",
+            "publication >=0.0.3",
+            "typeguard ~=2.13.3"
+          ],
+          "requires_python": "~=3.7"
+        }
+      },
+      "2.22.5": {
+        "cdk8s_plus_25-2.22.5-py3-none-any.whl": "2.22.4@cdk8s_plus_25-2.22.4-py3-none-any.whl"
       },
       "2.3.0": {
         "cdk8s_plus_25-2.3.0-py3-none-any.whl": "2.2.5@cdk8s_plus_25-2.2.5-py3-none-any.whl"
@@ -10540,6 +10569,9 @@
           ],
           "requires_python": ">=3.9"
         }
+      },
+      "0.1.9": {
+        "chift-0.1.9-py3-none-any.whl": "0.1.8@chift-0.1.8-py3-none-any.whl"
       }
     }
   },
@@ -18651,6 +18683,9 @@
       },
       "2.4.0": {
         "django_typomatic-2.4.0-py3-none-any.whl": "1.0.0@django_typomatic-1.0.0-py3-none-any.whl"
+      },
+      "2.4.1": {
+        "django_typomatic-2.4.1-py3-none-any.whl": "1.0.0@django_typomatic-1.0.0-py3-none-any.whl"
       }
     }
   },
@@ -22681,6 +22716,29 @@
           ],
           "requires_python": ">=3.8"
         }
+      },
+      "0.5.0": {
+        "fcw_core-0.5.0-py3-none-any.whl": {
+          "requires_dist": [
+            "fcw-core-utils (>=0.5.0)",
+            "filterpy (>=1.4.5)",
+            "gitpython (>=3.1.30)",
+            "more-itertools (>=9.1.0)",
+            "opencv-python (>=4.6)",
+            "pandas (>=2.0.0)",
+            "psutil (>=5.9.4)",
+            "pyyaml (>=6.0)",
+            "requests (>=2.28.2)",
+            "seaborn (>=0.12.2)",
+            "shapely (>=2.0.1)",
+            "torch (==2.0.0)",
+            "torchaudio (>=2.0.1,<3.0.0)",
+            "torchvision (>=0.15.1,<0.16.0)",
+            "tqdm (>=4.65.0)",
+            "ultralytics (>=8.0.136)"
+          ],
+          "requires_python": ">=3.8"
+        }
       }
     }
   },
@@ -25814,6 +25872,23 @@
       }
     }
   },
+  "focdf": {
+    "py3": {
+      "0.2.0": {
+        "focdf-0.2.0-py3-none-any.whl": {
+          "provides_extras": [
+            "testing"
+          ],
+          "requires_dist": [
+            "importlib-metadata ; python_version < \"3.8\"",
+            "setuptools ; extra == 'testing'",
+            "pytest ; extra == 'testing'",
+            "pytest-cov ; extra == 'testing'"
+          ]
+        }
+      }
+    }
+  },
   "focus-cfe": {
     "py3": {
       "0.0.dev0": {
@@ -28453,6 +28528,9 @@
       },
       "1.26.0": {
         "google_cloud_dialogflow_cx-1.26.0-py2.py3-none-any.whl": "1.15.0@google_cloud_dialogflow_cx-1.15.0-py2.py3-none-any.whl"
+      },
+      "1.27.0": {
+        "google_cloud_dialogflow_cx-1.27.0-py2.py3-none-any.whl": "1.15.0@google_cloud_dialogflow_cx-1.15.0-py2.py3-none-any.whl"
       },
       "1.3.0": {
         "google_cloud_dialogflow_cx-1.3.0-py2.py3-none-any.whl": "1.1.0@google_cloud_dialogflow_cx-1.1.0-py2.py3-none-any.whl"
@@ -41651,6 +41729,162 @@
           "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
         }
       },
+      "3.1.58": {
+        "huaweicloudsdkall-3.1.58-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "huaweicloudsdkcore ==3.1.58",
+            "huaweicloudsdkantiddos ==3.1.58",
+            "huaweicloudsdkaom ==3.1.58",
+            "huaweicloudsdkaos ==3.1.58",
+            "huaweicloudsdkapig ==3.1.58",
+            "huaweicloudsdkapm ==3.1.58",
+            "huaweicloudsdkas ==3.1.58",
+            "huaweicloudsdkbcs ==3.1.58",
+            "huaweicloudsdkbms ==3.1.58",
+            "huaweicloudsdkbss ==3.1.58",
+            "huaweicloudsdkbssintl ==3.1.58",
+            "huaweicloudsdkcae ==3.1.58",
+            "huaweicloudsdkcampusgo ==3.1.58",
+            "huaweicloudsdkcbh ==3.1.58",
+            "huaweicloudsdkcbr ==3.1.58",
+            "huaweicloudsdkcbs ==3.1.58",
+            "huaweicloudsdkcc ==3.1.58",
+            "huaweicloudsdkcce ==3.1.58",
+            "huaweicloudsdkccm ==3.1.58",
+            "huaweicloudsdkcdm ==3.1.58",
+            "huaweicloudsdkcdn ==3.1.58",
+            "huaweicloudsdkces ==3.1.58",
+            "huaweicloudsdkcfw ==3.1.58",
+            "huaweicloudsdkcgs ==3.1.58",
+            "huaweicloudsdkclassroom ==3.1.58",
+            "huaweicloudsdkcloudide ==3.1.58",
+            "huaweicloudsdkcloudpipeline ==3.1.58",
+            "huaweicloudsdkcloudrtc ==3.1.58",
+            "huaweicloudsdkcloudtable ==3.1.58",
+            "huaweicloudsdkcloudtest ==3.1.58",
+            "huaweicloudsdkcodeartsartifact ==3.1.58",
+            "huaweicloudsdkcodeartsbuild ==3.1.58",
+            "huaweicloudsdkcodeartscheck ==3.1.58",
+            "huaweicloudsdkcodeartsdeploy ==3.1.58",
+            "huaweicloudsdkcodecraft ==3.1.58",
+            "huaweicloudsdkcodehub ==3.1.58",
+            "huaweicloudsdkconfig ==3.1.58",
+            "huaweicloudsdkcph ==3.1.58",
+            "huaweicloudsdkcpts ==3.1.58",
+            "huaweicloudsdkcse ==3.1.58",
+            "huaweicloudsdkcsms ==3.1.58",
+            "huaweicloudsdkcss ==3.1.58",
+            "huaweicloudsdkcts ==3.1.58",
+            "huaweicloudsdkdas ==3.1.58",
+            "huaweicloudsdkdataartsstudio ==3.1.58",
+            "huaweicloudsdkdbss ==3.1.58",
+            "huaweicloudsdkdc ==3.1.58",
+            "huaweicloudsdkdcs ==3.1.58",
+            "huaweicloudsdkddm ==3.1.58",
+            "huaweicloudsdkdds ==3.1.58",
+            "huaweicloudsdkdeh ==3.1.58",
+            "huaweicloudsdkdevsecurity ==3.1.58",
+            "huaweicloudsdkdevstar ==3.1.58",
+            "huaweicloudsdkdgc ==3.1.58",
+            "huaweicloudsdkdlf ==3.1.58",
+            "huaweicloudsdkdli ==3.1.58",
+            "huaweicloudsdkdns ==3.1.58",
+            "huaweicloudsdkdris ==3.1.58",
+            "huaweicloudsdkdrs ==3.1.58",
+            "huaweicloudsdkdsc ==3.1.58",
+            "huaweicloudsdkdwr ==3.1.58",
+            "huaweicloudsdkdws ==3.1.58",
+            "huaweicloudsdkec ==3.1.58",
+            "huaweicloudsdkecs ==3.1.58",
+            "huaweicloudsdkedgesec ==3.1.58",
+            "huaweicloudsdkeg ==3.1.58",
+            "huaweicloudsdkeihealth ==3.1.58",
+            "huaweicloudsdkeip ==3.1.58",
+            "huaweicloudsdkelb ==3.1.58",
+            "huaweicloudsdkeps ==3.1.58",
+            "huaweicloudsdker ==3.1.58",
+            "huaweicloudsdkevs ==3.1.58",
+            "huaweicloudsdkfrs ==3.1.58",
+            "huaweicloudsdkfunctiongraph ==3.1.58",
+            "huaweicloudsdkga ==3.1.58",
+            "huaweicloudsdkgaussdb ==3.1.58",
+            "huaweicloudsdkgaussdbfornosql ==3.1.58",
+            "huaweicloudsdkgaussdbforopengauss ==3.1.58",
+            "huaweicloudsdkges ==3.1.58",
+            "huaweicloudsdkgsl ==3.1.58",
+            "huaweicloudsdkhilens ==3.1.58",
+            "huaweicloudsdkhss ==3.1.58",
+            "huaweicloudsdkiam ==3.1.58",
+            "huaweicloudsdkidentitycenter ==3.1.58",
+            "huaweicloudsdkidme ==3.1.58",
+            "huaweicloudsdkiec ==3.1.58",
+            "huaweicloudsdkief ==3.1.58",
+            "huaweicloudsdkies ==3.1.58",
+            "huaweicloudsdkimage ==3.1.58",
+            "huaweicloudsdkimagesearch ==3.1.58",
+            "huaweicloudsdkims ==3.1.58",
+            "huaweicloudsdkiotanalytics ==3.1.58",
+            "huaweicloudsdkiotda ==3.1.58",
+            "huaweicloudsdkiotedge ==3.1.58",
+            "huaweicloudsdkivs ==3.1.58",
+            "huaweicloudsdkkafka ==3.1.58",
+            "huaweicloudsdkkms ==3.1.58",
+            "huaweicloudsdkkoomessage ==3.1.58",
+            "huaweicloudsdkkps ==3.1.58",
+            "huaweicloudsdklakeformation ==3.1.58",
+            "huaweicloudsdklive ==3.1.58",
+            "huaweicloudsdklts ==3.1.58",
+            "huaweicloudsdkmapds ==3.1.58",
+            "huaweicloudsdkmas ==3.1.58",
+            "huaweicloudsdkmeeting ==3.1.58",
+            "huaweicloudsdkmetastudio ==3.1.58",
+            "huaweicloudsdkmoderation ==3.1.58",
+            "huaweicloudsdkmpc ==3.1.58",
+            "huaweicloudsdkmrs ==3.1.58",
+            "huaweicloudsdkmsgsms ==3.1.58",
+            "huaweicloudsdkmssi ==3.1.58",
+            "huaweicloudsdknat ==3.1.58",
+            "huaweicloudsdknlp ==3.1.58",
+            "huaweicloudsdkocr ==3.1.58",
+            "huaweicloudsdkoms ==3.1.58",
+            "huaweicloudsdkoptverse ==3.1.58",
+            "huaweicloudsdkorganizations ==3.1.58",
+            "huaweicloudsdkoroas ==3.1.58",
+            "huaweicloudsdkosm ==3.1.58",
+            "huaweicloudsdkpangulargemodels ==3.1.58",
+            "huaweicloudsdkprojectman ==3.1.58",
+            "huaweicloudsdkrabbitmq ==3.1.58",
+            "huaweicloudsdkram ==3.1.58",
+            "huaweicloudsdkrds ==3.1.58",
+            "huaweicloudsdkres ==3.1.58",
+            "huaweicloudsdkrms ==3.1.58",
+            "huaweicloudsdkrocketmq ==3.1.58",
+            "huaweicloudsdkroma ==3.1.58",
+            "huaweicloudsdksa ==3.1.58",
+            "huaweicloudsdkscm ==3.1.58",
+            "huaweicloudsdksdrs ==3.1.58",
+            "huaweicloudsdksecmaster ==3.1.58",
+            "huaweicloudsdkservicestage ==3.1.58",
+            "huaweicloudsdksfsturbo ==3.1.58",
+            "huaweicloudsdksis ==3.1.58",
+            "huaweicloudsdksmn ==3.1.58",
+            "huaweicloudsdksms ==3.1.58",
+            "huaweicloudsdkswr ==3.1.58",
+            "huaweicloudsdktms ==3.1.58",
+            "huaweicloudsdkugo ==3.1.58",
+            "huaweicloudsdkvas ==3.1.58",
+            "huaweicloudsdkvcm ==3.1.58",
+            "huaweicloudsdkvod ==3.1.58",
+            "huaweicloudsdkvpc ==3.1.58",
+            "huaweicloudsdkvpcep ==3.1.58",
+            "huaweicloudsdkvss ==3.1.58",
+            "huaweicloudsdkwaf ==3.1.58",
+            "huaweicloudsdkworkspace ==3.1.58",
+            "huaweicloudsdkworkspaceapp ==3.1.58"
+          ],
+          "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
+        }
+      },
       "3.1.6": {
         "huaweicloudsdkall-3.1.6-py2.py3-none-any.whl": {
           "requires_dist": [
@@ -42788,6 +43022,14 @@
           "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
         }
       },
+      "3.1.58": {
+        "huaweicloudsdkhilens-3.1.58-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "huaweicloudsdkcore >=3.1.58"
+          ],
+          "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
+        }
+      },
       "3.1.6": {
         "huaweicloudsdkhilens-3.1.6-py2.py3-none-any.whl": {
           "requires_dist": [
@@ -43499,6 +43741,14 @@
         "huaweicloudsdkwaf-3.1.57-py2.py3-none-any.whl": {
           "requires_dist": [
             "huaweicloudsdkcore >=3.1.57"
+          ],
+          "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
+        }
+      },
+      "3.1.58": {
+        "huaweicloudsdkwaf-3.1.58-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "huaweicloudsdkcore >=3.1.58"
           ],
           "requires_python": ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
         }
@@ -48656,6 +48906,9 @@
       "0.1.51": {
         "lazysdk-0.1.51-py3-none-any.whl": "0.1.42@lazysdk-0.1.42-py3-none-any.whl"
       },
+      "0.1.52": {
+        "lazysdk-0.1.52-py3-none-any.whl": "0.1.42@lazysdk-0.1.42-py3-none-any.whl"
+      },
       "0.1.6": {
         "lazysdk-0.1.6-py3-none-any.whl": "0.1.10@lazysdk-0.1.10-py3-none-any.whl"
       },
@@ -50253,6 +50506,24 @@
       },
       "0.10.6a1": {
         "mapillary_tools-0.10.6a1-py3-none-any.whl": "0.10.5@mapillary_tools-0.10.5-py3-none-any.whl"
+      },
+      "0.11.0b1": {
+        "mapillary_tools-0.11.0b1-py3-none-any.whl": {
+          "requires_dist": [
+            "appdirs <2.0.0,>=1.4.4",
+            "construct <3.0.0,>=2.10.0",
+            "exifread ==2.3.2",
+            "piexif ==1.1.3",
+            "gpxpy <1.6.0,>=1.5.0",
+            "pynmea2 ==1.12.0",
+            "requests <3.0.0,>=2.20.0",
+            "tqdm <5.0,>=4.0",
+            "typing-extensions",
+            "jsonschema ~=4.17.3",
+            "dataclasses ; python_version <= \"3.6\""
+          ],
+          "requires_python": ">=3.8"
+        }
       },
       "0.9.3": {
         "mapillary_tools-0.9.3-py3-none-any.whl": "0.10.0@mapillary_tools-0.10.0-py3-none-any.whl"
@@ -52337,6 +52608,9 @@
             "pymongo"
           ]
         }
+      },
+      "2.0.0": {
+        "mongo_prasanth-2.0.0-py3-none-any.whl": "1.0.0@mongo_prasanth-1.0.0-py3-none-any.whl"
       }
     }
   },
@@ -87901,6 +88175,54 @@
       }
     }
   },
+  "simple-falcon": {
+    "py3": {
+      "0.0.1": {
+        "simple_falcon-0.0.1-py3-none-any.whl": {
+          "requires_python": ">=3.6,<4.0"
+        }
+      },
+      "0.0.2": {
+        "simple_falcon-0.0.2-py3-none-any.whl": "0.0.1@simple_falcon-0.0.1-py3-none-any.whl"
+      },
+      "0.0.3": {
+        "simple_falcon-0.0.3-py3-none-any.whl": "0.0.1@simple_falcon-0.0.1-py3-none-any.whl"
+      },
+      "0.0.4": {
+        "simple_falcon-0.0.4-py3-none-any.whl": {
+          "requires_dist": [
+            "torch",
+            "transformers"
+          ],
+          "requires_python": ">=3.6,<4.0"
+        }
+      },
+      "0.0.5": {
+        "simple_falcon-0.0.5-py3-none-any.whl": {
+          "requires_dist": [
+            "accelerate",
+            "torch",
+            "transformers"
+          ],
+          "requires_python": ">=3.6,<4.0"
+        }
+      },
+      "0.0.6": {
+        "simple_falcon-0.0.6-py3-none-any.whl": {
+          "requires_dist": [
+            "accelerate",
+            "bitsandbytes",
+            "torch",
+            "transformers"
+          ],
+          "requires_python": ">=3.6,<4.0"
+        }
+      },
+      "0.0.7": {
+        "simple_falcon-0.0.7-py3-none-any.whl": "0.0.6@simple_falcon-0.0.6-py3-none-any.whl"
+      }
+    }
+  },
   "simple-hexdump": {
     "py2.py3": {
       "0.0.1": {
@@ -89599,6 +89921,12 @@
       },
       "0.3.6": {
         "snapshot_dbg_cli-0.3.6-py3-none-any.whl": "0.1.0@snapshot_dbg_cli-0.1.0-py3-none-any.whl"
+      },
+      "0.3.7": {
+        "snapshot_dbg_cli-0.3.7-py3-none-any.whl": "0.1.0@snapshot_dbg_cli-0.1.0-py3-none-any.whl"
+      },
+      "0.3.8": {
+        "snapshot_dbg_cli-0.3.8-py3-none-any.whl": "0.1.0@snapshot_dbg_cli-0.1.0-py3-none-any.whl"
       }
     }
   },
@@ -92739,6 +93067,23 @@
       }
     }
   },
+  "tap-ibm-db2": {
+    "py3": {
+      "0.1.0": {
+        "tap_ibm_db2-0.1.0-py3-none-any.whl": {
+          "requires_dist": [
+            "ibm-db-sa (>=0.4.0,<0.5.0)",
+            "singer-sdk (>=0.31.1,<0.32.0)",
+            "sqlalchemy (>=2.0.20,<3.0.0)"
+          ],
+          "requires_python": ">=3.8,<3.12"
+        }
+      },
+      "0.1.1": {
+        "tap_ibm_db2-0.1.1-py3-none-any.whl": "0.1.0@tap_ibm_db2-0.1.0-py3-none-any.whl"
+      }
+    }
+  },
   "tasked": {
     "py3": {
       "0.0.1": {
@@ -95255,6 +95600,20 @@
             "tencentcloud-sdk-python-common (==3.0.974)"
           ]
         }
+      },
+      "3.0.975": {
+        "tencentcloud_sdk_python_dc-3.0.975-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.975)"
+          ]
+        }
+      },
+      "3.0.976": {
+        "tencentcloud_sdk_python_dc-3.0.976-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.976)"
+          ]
+        }
       }
     }
   },
@@ -95854,6 +96213,20 @@
         "tencentcloud_sdk_python_hasim-3.0.974-py2.py3-none-any.whl": {
           "requires_dist": [
             "tencentcloud-sdk-python-common (==3.0.974)"
+          ]
+        }
+      },
+      "3.0.975": {
+        "tencentcloud_sdk_python_hasim-3.0.975-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.975)"
+          ]
+        }
+      },
+      "3.0.976": {
+        "tencentcloud_sdk_python_hasim-3.0.976-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.976)"
           ]
         }
       }
@@ -96886,6 +97259,20 @@
             "tencentcloud-sdk-python-common (==3.0.974)"
           ]
         }
+      },
+      "3.0.975": {
+        "tencentcloud_sdk_python_trp-3.0.975-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.975)"
+          ]
+        }
+      },
+      "3.0.976": {
+        "tencentcloud_sdk_python_trp-3.0.976-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.976)"
+          ]
+        }
       }
     }
   },
@@ -97821,6 +98208,20 @@
         "tencentcloud_sdk_python_yinsuda-3.0.974-py2.py3-none-any.whl": {
           "requires_dist": [
             "tencentcloud-sdk-python-common (==3.0.974)"
+          ]
+        }
+      },
+      "3.0.975": {
+        "tencentcloud_sdk_python_yinsuda-3.0.975-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.975)"
+          ]
+        }
+      },
+      "3.0.976": {
+        "tencentcloud_sdk_python_yinsuda-3.0.976-py2.py3-none-any.whl": {
+          "requires_dist": [
+            "tencentcloud-sdk-python-common (==3.0.976)"
           ]
         }
       }
